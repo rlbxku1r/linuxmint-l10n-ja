@@ -1,0 +1,967 @@
+# Japanese translation for linuxmint
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
+"japanese\n"
+"POT-Creation-Date: 2025-07-28 13:01+0200\n"
+"PO-Revision-Date: 2025-07-30 04:15+0000\n"
+"Last-Translator: kmyyfz8q <Unknown>\n"
+"Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
+"japanese>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2025-08-29 13:36+0000\n"
+"X-Generator: Launchpad (build 919009172d854f2b8e4e8262db447f12f11d25eb)\n"
+"Language: ja\n"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:84
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:86
+msgid "Multimedia Codecs"
+msgstr "マルチメディアコーデック"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:85
+msgid "Multimedia Codecs for KDE"
+msgstr "KDE 向けマルチメディアコーデック"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:206
+msgid "Add"
+msgstr "追加"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:212
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3025
+msgid "Remove"
+msgstr "削除"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:228
+msgid "Unavailable"
+msgstr "利用不可"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:471
+msgid "This package is a Flatpak"
+msgstr "このパッケージは Flatpak です"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:575
+msgid "All"
+msgstr "すべて"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:737
+msgid ""
+"Cannot process this file while there are active operations.\n"
+"Please try again after they finish."
+msgstr ""
+"実行している作業がある間は、ファイルを処理できません。\n"
+"作業の完了後にもう一度試してください。"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:757
+msgid "The Flatpak repo you are trying to add already exists."
+msgstr "追加しようとしている Flatpak リポジトリがすでに存在します。"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:765
+msgid "An error occurred attempting to add the Flatpak repo."
+msgstr "Flatpak リポジトリの追加中にエラーが発生しました。"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:773
+msgid "Flatpak support is not currently available. Try installing flatpak."
+msgstr "現在、Flatpak のサポートは利用できません。flatpak をインストールしてみてください。"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:792
+msgid ""
+"Flatpak support is not currently available. Try installing flatpak and "
+"gir1.2-flatpak-1.0."
+msgstr ""
+"現在、Flatpak のサポートは利用できません。flatpak と gir1.2-flatpak-1.0 をインストールしてみてください。"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:828
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:829
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1901 generate_desktop_files:25
+#: generate_desktop_files:36
+msgid "Software Manager"
+msgstr "ソフトウェアマネージャー"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:868
+msgid "Show installed applications"
+msgstr "インストール済みのアプリを表示"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:877
+msgid "Refresh the list of packages"
+msgstr "パッケージの一覧を再読み込み"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:883
+msgid "Software sources"
+msgstr "ソフトウェアソース"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:888
+msgid "Preferences"
+msgstr "設定"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:903
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1899
+msgid "About"
+msgstr "このアプリケーションについて"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1363
+#: resources/mintinstall.glade.h:15
+msgid "Top Rated"
+msgstr "高評価"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1411
+#: resources/mintinstall.glade.h:13
+msgid "Featured"
+msgstr "おすすめ"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1472
+#: resources/mintinstall.glade.h:14
+msgid "Categories"
+msgstr "カテゴリ"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1549
+#, python-format
+msgid "%d task running"
+msgid_plural "%d tasks running"
+msgstr[0] "%d 件のタスクを実行しています"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1691
+msgid "No screenshots available"
+msgstr "スクリーンショットはありません"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1986
+msgid ""
+"There are currently active operations.\n"
+"Are you sure you want to quit?"
+msgstr ""
+"現在実行している作業があります。\n"
+"終了してもよろしいですか？"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2044
+msgid "Installed Applications"
+msgstr "インストール済みのアプリ"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2047
+msgid "Currently working on the following packages"
+msgstr "現在、これらのパッケージを処理しています"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2052
+msgid "Internet"
+msgstr "インターネット"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2054
+msgid "Web"
+msgstr "ウェブ"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2059
+msgid "Email"
+msgstr "電子メール"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2063
+msgid "Chat"
+msgstr "チャット"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2066
+msgid "File sharing"
+msgstr "ファイル共有"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2072
+msgid "Sound and video"
+msgstr "音楽と動画"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2074
+msgid "Sound"
+msgstr "音楽"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2076
+msgid "Video"
+msgstr "動画"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2081
+msgid "Graphics"
+msgstr "グラフィックス"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2085
+msgid "3D"
+msgstr "3D"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2087
+msgid "Drawing"
+msgstr "描画"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2089
+msgid "Photography"
+msgstr "写真"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2091
+msgid "Publishing"
+msgstr "出版"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2093
+msgid "Scanning"
+msgstr "スキャナー"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2095
+msgid "Viewers"
+msgstr "ビューアー"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2100
+msgid "Office"
+msgstr "オフィス"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2106
+msgid "Games"
+msgstr "ゲーム"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2110
+msgid "Board games"
+msgstr "ボードゲーム"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2112
+msgid "First-person"
+msgstr "一人称視点"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2114
+msgid "Real-time strategy"
+msgstr "リアルタイムストラテジー"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2116
+msgid "Turn-based strategy"
+msgstr "ターン制ストラテジー"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2118
+msgid "Emulators"
+msgstr "エミュレーター"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2120
+msgid "Simulation and racing"
+msgstr "シミュレーションとレーシング"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2125
+msgid "Accessories"
+msgstr "アクセサリ"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2131
+msgid "System tools"
+msgstr "システムツール"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2138
+msgid "Fonts"
+msgstr "フォント"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2144
+msgid "Science and Education"
+msgstr "科学と教育"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2145
+msgid "Science"
+msgstr "科学"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2147
+msgid "Maths"
+msgstr "数学"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2149
+msgid "Education"
+msgstr "教育"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2151
+msgid "Electronics"
+msgstr "電子工学"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2157
+msgid "Programming"
+msgstr "プログラミング"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2159
+msgid "Java"
+msgstr "Java"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2161
+msgid "PHP"
+msgstr "PHP"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2163
+msgid "Python"
+msgstr "Python"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2165
+msgid "Essentials"
+msgstr "基本"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2170
+msgid "All Applications"
+msgstr "すべてのアプリケーション"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2621
+msgid "All operations complete"
+msgstr "すべての作業が完了しました"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2625
+#: resources/mintinstall.glade.h:16
+msgid "No matching packages found"
+msgstr "一致するパッケージがありません"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2628
+msgid ""
+"No packages to show.\n"
+"This may indicate a problem - try refreshing the cache."
+msgstr ""
+"表示できるパッケージがありません。\n"
+"問題が発生している可能性があります。キャッシュを再読み込みしてみてください。"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2761
+#: resources/mintinstall.glade.h:21
+msgid "System Package"
+msgstr "システムのパッケージ"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2761
+msgid "Your system's package manager"
+msgstr "システムのパッケージマネージャー"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2773
+#, python-format
+msgid "Flatpak (%s)"
+msgstr "Flatpak (%s)"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2804
+#, python-format
+msgid "by %s"
+msgstr "- %s"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2806
+msgid "Unknown maintainer"
+msgstr "不明なメンテナー"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2830
+#: resources/mintinstall.glade.h:27
+msgid "Homepage"
+msgstr "ホームページ"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2839
+#: resources/mintinstall.glade.h:28
+msgid "Documentation"
+msgstr "ドキュメント"
+
+#. TRANSLATORS: showing specific number of reviews in the list view and the header of the package details.
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2878
+#, python-format
+msgid "%d Review"
+msgid_plural "%d Reviews"
+msgstr[0] "%d 件のレビュー"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2941
+#, python-format
+msgid "Click <a href='%s'>here</a> to add your own review."
+msgstr "<a href='%s'>ここ</a>をクリックするとレビューを追加できます。"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2996
+msgid ""
+"Unable to communicate with servers. Check your Internet connection and try "
+"again."
+msgstr "サーバーと通信できませんでした。インターネット接続を確認し、もう一度試してください。"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3029
+msgid "Installed"
+msgstr "インストール済み"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3031
+msgid "Removing"
+msgstr "削除しています"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3033
+msgid "Install"
+msgstr "インストール"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3041
+msgid "Not installed"
+msgstr "未インストール"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3043
+msgid "Installing"
+msgstr "インストールしています"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3047
+msgid "Cannot remove"
+msgstr "削除不可"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3048
+msgid "Removing this package could cause irreparable damage to your system."
+msgstr "このパッケージを削除すると、システムに修復不可能な問題が発生する可能性があります。"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3050
+msgid "Cannot install"
+msgstr "インストール不可"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3051
+msgid ""
+"Installing this package could cause irreparable damage to your system."
+msgstr "このパッケージをインストールすると、システムに修復不可能な問題が発生する可能性があります。"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3059
+msgid "Not available"
+msgstr "利用不可"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3063
+msgid "Please use apt-get to install this package."
+msgstr "このパッケージは apt-get でインストールしてください。"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3065
+msgid "Use apt-get to remove this package."
+msgstr "このパッケージは apt-get で削除してください。"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3069
+msgid "Try again"
+msgstr "再試行"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3072
+msgid "Something went wrong. Click to try again."
+msgstr "何か問題が発生しました。クリックで再試行します。"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3098
+#, python-format
+msgid "%(localSize)s of disk space required"
+msgstr "%(localSize)s のディスク領域が使用されます"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3102
+#, python-format
+msgid "%(downloadSize)s to download, %(localSize)s of disk space freed"
+msgstr "%(downloadSize)s をダウンロードし、%(localSize)s のディスク領域が解放されます"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3105
+#, python-format
+msgid "%(downloadSize)s to download, %(localSize)s of disk space required"
+msgstr "%(downloadSize)s をダウンロードし、%(localSize)s のディスク領域が使用されます"
+
+#: usr/lib/linuxmint/mintinstall/prefs.py:39
+msgid "General search options"
+msgstr "全般的な検索の設定"
+
+#: usr/lib/linuxmint/mintinstall/prefs.py:41
+msgid "Search in packages summary (slower search)"
+msgstr "パッケージの概要から検索 (時間がかかります)"
+
+#: usr/lib/linuxmint/mintinstall/prefs.py:43
+msgid "Search in packages description (even slower search)"
+msgstr "パッケージの説明から検索 (さらに時間がかかります)"
+
+#: usr/lib/linuxmint/mintinstall/prefs.py:46
+msgid "Flatpaks"
+msgstr "Flatpak"
+
+#: usr/lib/linuxmint/mintinstall/prefs.py:49
+msgid "Show unverified Flatpaks (not recommended)"
+msgstr "未検証の Flatpak を表示 (非推奨)"
+
+#: usr/lib/linuxmint/mintinstall/prefs.py:55
+msgid "List all types"
+msgstr "すべての種類を表示"
+
+#: usr/lib/linuxmint/mintinstall/prefs.py:56
+msgid "Only list the Flatpak"
+msgstr "Flatpak のみを表示"
+
+#: usr/lib/linuxmint/mintinstall/prefs.py:57
+msgid "Only list the system package"
+msgstr "システムのパッケージのみを表示"
+
+#: usr/lib/linuxmint/mintinstall/prefs.py:61
+msgid "When an app has multiple formats:"
+msgstr "アプリが複数の形式で提供されている場合:"
+
+#: generate_desktop_files:25 generate_desktop_files:36
+msgid "Install new applications"
+msgstr "新しいアプリケーションをインストールします"
+
+#: resources/mintinstall.glade.h:1
+msgid "Unverified Flatpaks represent a huge security risk"
+msgstr "未検証の Flatpak には、重大なセキュリティリスクが伴います"
+
+#: resources/mintinstall.glade.h:2
+msgid ""
+"They are not officially approved by the developer of the application and "
+"could be maintained by anyone."
+msgstr "アプリケーションの開発者から正式な承認を受けていない Flatpak は、誰が管理しているのか分かりません。"
+
+#: resources/mintinstall.glade.h:3
+msgid ""
+"To avoid potential malware, it is strongly recommended not to use unverified "
+"Flatpaks."
+msgstr "マルウェアが混ざっている可能性もあるため、検証されていない Flatpak は使用しないことを強くおすすめします。"
+
+#: resources/mintinstall.glade.h:4
+msgid "Package types"
+msgstr "パッケージの種類"
+
+#: resources/mintinstall.glade.h:5
+msgid "System"
+msgstr "システム"
+
+#: resources/mintinstall.glade.h:6
+msgid ""
+"System packages are managed by your Linux distribution and use shared "
+"libraries and resources."
+msgstr ""
+"システムのパッケージとは、お使いの Linux ディストリビューションによって管理されているもので、共通のライブラリとリソースを使用しています。"
+
+#: resources/mintinstall.glade.h:7
+msgid ""
+"They are safe, small and stable. They receive bug fixes and security updates "
+"but no newer versions."
+msgstr ""
+"安全性・安定性があり、パッケージも軽量で、バグの修正やセキュリティアップデートの配信も行われます。ただし、新しい機能が追加されるアップデートの配信はありま"
+"せん。"
+
+#: resources/mintinstall.glade.h:8
+msgid "Flatpak"
+msgstr "Flatpak"
+
+#: resources/mintinstall.glade.h:9
+msgid ""
+"Flatpaks are maintained and updated directly by their owner, with no control "
+"from your Linux distribution. They usually provide the most up to date "
+"version."
+msgstr ""
+"Flatpak とは、そのパッケージの製作者自らによって管理・更新されているもので、お使いの Linux "
+"ディストリビューションが提供するパッケージとはまったくの別物ですが、最新版のソフトウェアが含まれていることがほとんどです。"
+
+#: resources/mintinstall.glade.h:10
+msgid ""
+"They take more disk space. Their security is not guaranteed by your Linux "
+"distribution, but by the Flatpak maintainer. It's essential you trust the "
+"maintainer before installing a Flatpak."
+msgstr ""
+"ただし、ディスク領域の消費は多くなりがちです。また、お使いの Linux ディストリビューションによるセキュリティの保証もなく、すべてはその "
+"Flatpak の製作者次第となるため、出どころが信頼できる Flatpak のみをインストールするようにしてください。"
+
+#: resources/mintinstall.glade.h:11
+msgid "Loading, please wait"
+msgstr "読み込んでいます、お待ちください"
+
+#: resources/mintinstall.glade.h:12
+msgid "Generating cache, one moment"
+msgstr "キャッシュを生成しています、お待ちください"
+
+#: resources/mintinstall.glade.h:17
+msgid "Refresh"
+msgstr "再読み込み"
+
+#: resources/mintinstall.glade.h:18
+msgid "Unverified Flatpak"
+msgstr "未検証の Flatpak"
+
+#: resources/mintinstall.glade.h:19
+msgid "Launch"
+msgstr "起動"
+
+#: resources/mintinstall.glade.h:20
+msgid "Please be patient. This can take some time..."
+msgstr "お待ちください。少し時間がかかります..."
+
+#: resources/mintinstall.glade.h:22
+msgid "Name:"
+msgstr "名前:"
+
+#: resources/mintinstall.glade.h:23
+msgid "Version:"
+msgstr "バージョン:"
+
+#: resources/mintinstall.glade.h:24
+msgid "Size:"
+msgstr "サイズ:"
+
+#: resources/mintinstall.glade.h:25
+msgid "Branch:"
+msgstr "ブランチ:"
+
+#: resources/mintinstall.glade.h:26
+msgid "Remote:"
+msgstr "リモート:"
+
+#: resources/mintinstall.glade.h:29
+msgid "Details"
+msgstr "詳細"
+
+#: resources/mintinstall.glade.h:30
+msgid "Reviews"
+msgstr "レビュー"
+
+#: resources/mintinstall.glade.h:31
+msgid "Optional components"
+msgstr "任意のコンポーネント"
+
+#: resources/mintinstall.glade.h:32
+msgid "Searching software repositories, one moment"
+msgstr "ソフトウェアリポジトリを検索しています、お待ちください"
+
+#: resources/mintinstall.glade.h:33
+msgid "Limit search to current listing"
+msgstr "現在表示中の一覧のみに、検索範囲を限定します"
+
+#~ msgid "Description:"
+#~ msgstr "説明:"
+
+#~ msgid "Close"
+#~ msgstr "閉じる"
+
+#~ msgid "Finished"
+#~ msgstr "完了"
+
+#~ msgid "Your APT sources were corrupted."
+#~ msgstr "APT ソースファイルが壊れています。"
+
+#~ msgid "Size"
+#~ msgstr "サイズ"
+
+#~ msgid "License:"
+#~ msgstr "ライセンス:"
+
+#~ msgid "Website"
+#~ msgstr "ウェブサイト"
+
+#~ msgid "Using the following repositories:"
+#~ msgstr "以下のリポジトリを使用しています:"
+
+#~ msgid "The following packages will be installed:"
+#~ msgstr "以下のパッケージがインストールされます:"
+
+#~ msgid "Find Software"
+#~ msgstr "ソフトウェアを検索"
+
+#~ msgid "Search"
+#~ msgstr "検索"
+
+#~ msgid "Upgrade"
+#~ msgstr "アップグレード"
+
+#~ msgid "Default repositories"
+#~ msgstr "デフォルトのリポジトリ"
+
+#~ msgid "MB"
+#~ msgstr "MB"
+
+#~ msgid "Show"
+#~ msgstr "表示"
+
+#~ msgid "Cancel change"
+#~ msgstr "変更を中止"
+
+#~ msgid "Icon"
+#~ msgstr "アイコン"
+
+#~ msgid "Description"
+#~ msgstr "説明"
+
+#~ msgid "These popular applications can be installed on your system:"
+#~ msgstr "これらの一般的なアプリケーションをシステムにインストールすることができます:"
+
+#~ msgid "Application"
+#~ msgstr "アプリケーション"
+
+#~ msgid "KB"
+#~ msgstr "KB"
+
+#~ msgid "Cancel removal"
+#~ msgstr "削除を中止"
+
+#~ msgid "Cancel installation"
+#~ msgstr "インストールを中止"
+
+#~ msgid "Portal URL"
+#~ msgstr "ポータル URL"
+
+#~ msgid "Available version"
+#~ msgstr "利用可能なバージョン"
+
+#~ msgid "Installed version"
+#~ msgstr "インストール済みのバージョン"
+
+#~ msgid "Package"
+#~ msgstr "パッケージ"
+
+#~ msgid "Repository"
+#~ msgstr "リポジトリ"
+
+#~ msgid "GB"
+#~ msgstr "GB"
+
+#~ msgid "The changes are complete"
+#~ msgstr "変更が完了しました"
+
+#~ msgid "Show:"
+#~ msgstr "表示:"
+
+#~ msgid "Quick search:"
+#~ msgstr "クイックサーチ:"
+
+#~ msgid "Category"
+#~ msgstr "カテゴリ"
+
+#~ msgid "Installed software"
+#~ msgstr "インストール済みのソフトウェア"
+
+#~ msgid "All software"
+#~ msgstr "全てのソフトウェア"
+
+#~ msgid "Available software"
+#~ msgstr "利用可能なソフトウェア"
+
+#~ msgid "Views"
+#~ msgstr "ビュー"
+
+#~ msgid "Added"
+#~ msgstr "追加済み"
+
+#~ msgid "Score"
+#~ msgstr "スコア"
+
+#~ msgid "Reviewer"
+#~ msgstr "レビューワー"
+
+#~ msgid "Review"
+#~ msgstr "レビュー"
+
+#~ msgid "Average rating"
+#~ msgstr "平均評価"
+
+#~ msgid "Rating"
+#~ msgstr "評価"
+
+#~ msgid "Status"
+#~ msgstr "ステータス"
+
+#~ msgid "Software manager"
+#~ msgstr "ソフトウェアマネージャ"
+
+#, python-format
+#~ msgid "%d categories loaded"
+#~ msgstr "%d のカテゴリをロード済み"
+
+#, python-format
+#~ msgid "Downloading data for %s"
+#~ msgstr "%s のデータをダウンロード中"
+
+#~ msgid "Quit"
+#~ msgstr "終了"
+
+#~ msgid "Cancel all changes"
+#~ msgstr "全ての変更をキャンセル"
+
+#, python-format
+#~ msgid "%d screenshots loaded"
+#~ msgstr "%d のスクリーンショットをロード済み"
+
+#, python-format
+#~ msgid "%d reviews loaded"
+#~ msgstr "%d のレビューをロード済み"
+
+#, python-format
+#~ msgid "%d applications loaded"
+#~ msgstr "%d のアプリケーションをロード済み"
+
+#~ msgid "Text editors"
+#~ msgstr "テキストエディタ"
+
+#~ msgid "Sound & Video"
+#~ msgstr "サウンドとビデオ"
+
+#~ msgid "Simulation & racing"
+#~ msgstr "シミュレーションとレース"
+
+#~ msgid "Video players"
+#~ msgstr "ビデオプレーヤー"
+
+#~ msgid "Audio players"
+#~ msgstr "オーディオプレーヤー"
+
+#~ msgid "Burning tools"
+#~ msgstr "書き込みツール"
+
+#~ msgid "Office suites"
+#~ msgstr "オフィススイート"
+
+#~ msgid "Scanning tools"
+#~ msgstr "スキャンツール"
+
+#~ msgid "Tools"
+#~ msgstr "ツール"
+
+#~ msgid "Image viewers"
+#~ msgstr "画像ビューア"
+
+#~ msgid "Photo"
+#~ msgstr "写真"
+
+#~ msgid "Collection managers"
+#~ msgstr "コレクションの管理"
+
+#~ msgid "Finance"
+#~ msgstr "ファイナンス"
+
+#~ msgid "Document viewers"
+#~ msgstr "ドキュメントビューア"
+
+#~ msgid "2D"
+#~ msgstr "2D"
+
+#~ msgid "Spreadsheets"
+#~ msgstr "スプレッドシート"
+
+#~ msgid "Word processors"
+#~ msgstr "ワードプロセッサー"
+
+#~ msgid "Graph and flowcharts"
+#~ msgstr "グラフとフローチャート"
+
+#~ msgid "Databases"
+#~ msgstr "データベース"
+
+#~ msgid "Internet Relay Chat"
+#~ msgstr "インターネットリレーチャット"
+
+#~ msgid "Instant messengers"
+#~ msgstr "インスタントメッセンジャー"
+
+#~ msgid "Firewall"
+#~ msgstr "ファイアウォール"
+
+#~ msgid "Drivers"
+#~ msgstr "ドライバ"
+
+#~ msgid "Upstream"
+#~ msgstr "アップストリーム"
+
+#~ msgid "Package management"
+#~ msgstr "パッケージ管理"
+
+#~ msgid "Desktop components"
+#~ msgstr "デスクトップコンポーネント"
+
+#~ msgid "FTP"
+#~ msgstr "FTP"
+
+#~ msgid "System Tools"
+#~ msgstr "システムツール"
+
+#~ msgid "Application removed successfully"
+#~ msgstr "アプリケーションの削除を完了しました"
+
+#~ msgid "The following packages will be removed:"
+#~ msgstr "以下のパッケージが削除されます:"
+
+#, python-format
+#~ msgid "Could not find package: %s"
+#~ msgstr "パッケージを見つけることができませんでした: %s"
+
+#~ msgid "No results"
+#~ msgstr "該当なし"
+
+#~ msgid "First person shooters"
+#~ msgstr "ファーストパーソン・シューティング"
+
+#~ msgid "Real time strategy"
+#~ msgstr "リアルタイム・ストラテジー"
+
+#~ msgid "B"
+#~ msgstr "B"
+
+#~ msgid "Featured applications"
+#~ msgstr "注目のアプリケーション"
+
+#~ msgid "All applications"
+#~ msgstr "すべてのアプリケーション"
+
+#~ msgid "Mind mapping"
+#~ msgstr "マインドマップ"
+
+#, python-format
+#~ msgid ""
+#~ "%(applications)d applications listed, %(install)d to install, %(remove)d to "
+#~ "remove"
+#~ msgstr "%(applications)d 個のアプリケーション, %(install)d 個をインストール, %(remove)d 個を削除"
+
+#~ msgid "More info"
+#~ msgstr "詳細情報"
+
+#~ msgid "Your changes"
+#~ msgstr "変更"
+
+#~ msgid "Backing up your APT sources"
+#~ msgstr "APT ソースをバックアップしています"
+
+#~ msgid "Restoring your APT sources"
+#~ msgstr "APT ソースを再構築しています"
+
+#~ msgid "Go to the Linux Mint Software Portal"
+#~ msgstr "Linux Mint のソフトウェアポータルへ"
+
+#~ msgid ""
+#~ "Your APT sources were not correctly restored after you last ran mintInstall. "
+#~ "They now have been restored."
+#~ msgstr "前回の mintInstall 実行時に APT ソースファイルが正しく復元されませんでしたが、今回は復元に成功しました。"
+
+#~ msgid "Go to the Linux Mint repository"
+#~ msgstr "Linux Mint のリポジトリへ"
+
+#~ msgid "Go to the Ubuntu repository"
+#~ msgstr "Ubuntu のリポジトリへ"
+
+#~ msgid "Go to the GetDeb Portal"
+#~ msgstr "GetDeb のソフトウェアポータルへ"
+
+#~ msgid "Search for a .mint application"
+#~ msgstr ".mint アプリケーションを検索"
+
+#~ msgid "Search for a .deb package"
+#~ msgstr ".deb パッケージを検索"
+
+#~ msgid "_File"
+#~ msgstr "ファイル (_F)"
+
+#~ msgid "_Edit"
+#~ msgstr "編集 (_E)"
+
+#~ msgid "_Help"
+#~ msgstr "ヘルプ (_H)"
+
+#~ msgid "Please wait, this can take some time"
+#~ msgstr "しばらくお待ち下さい、この処理には時間が掛かることがあります"
+
+#~ msgid "Installation is complete"
+#~ msgstr "インストールが完了しました"
+
+#, python-format
+#~ msgid "Install %s?"
+#~ msgstr "%s をインストールしますか?"
+
+#, python-format
+#~ msgid "Upgrade %s?"
+#~ msgstr "%s をアップグレードしますか?"
+
+#~ msgid "The following packages will be upgraded:"
+#~ msgstr "以下のパッケージがアップグレードされます:"
+
+#, python-format
+#~ msgid "Remove %s?"
+#~ msgstr "%s を削除しますか?"
+
+#~ msgid ""
+#~ "The mint file for this application was not successfully downloaded. Click on "
+#~ "refresh to fix the problem."
+#~ msgstr "このアプリケーション用の mint ファイルが正常にダウンロードされませんでした。リフレッシュをクリックして、問題を修正します。"
+
+#~ msgid ""
+#~ "The data used by mintInstall is corrupted or out of date. Click on refresh "
+#~ "to fix the problem :"
+#~ msgstr "mintInstall によって使用されたデータは、期限切れまたは破損しています。リフレッシュをクリックして、問題を修正します :"
+
+#~ msgid "Please refresh mintInstall by clicking on the Refresh button"
+#~ msgstr "更新ボタンをクリックして、mintInstall を更新して下さい"
+
+#~ msgid "Web browsers"
+#~ msgstr "Web ブラウザ"
+
+#~ msgid "P2P and torrent"
+#~ msgstr "P2P と Torrent"

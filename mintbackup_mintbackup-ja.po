@@ -1,0 +1,399 @@
+# Japanese translation for linuxmint
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
+"japanese\n"
+"POT-Creation-Date: 2023-11-27 14:27+0000\n"
+"PO-Revision-Date: 2023-12-02 11:01+0000\n"
+"Last-Translator: kmyyfz8q <Unknown>\n"
+"Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
+"japanese>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2025-08-29 13:36+0000\n"
+"X-Generator: Launchpad (build 919009172d854f2b8e4e8262db447f12f11d25eb)\n"
+"Language: ja\n"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:41
+msgid "Backups"
+msgstr "バックアップ"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:173
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:239 generate_desktop_files:24
+#: generate_desktop_files:39 usr/share/linuxmint/mintbackup/mintbackup.ui.h:34
+msgid "Backup Tool"
+msgstr "バックアップツール"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:217
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:898
+msgid "About"
+msgstr "このアプリケーションについて"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:222
+msgid "Quit"
+msgstr "終了"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:263
+#, python-format
+msgid "%s is not located in your home directory."
+msgstr "%s はホームディレクトリにありません。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:303
+msgid "Please choose a directory."
+msgstr "ディレクトリを選択してください。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:306
+msgid "You do not have the permission to write in the selected directory."
+msgstr "選択したディレクトリに書き込む権限がありません。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:366
+msgid "Please choose a backup file."
+msgstr "バックアップファイルを選択してください。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:374
+msgid ""
+"This backup file is either too old or it was created with a different tool. "
+"Please extract it manually."
+msgstr "このバックアップファイルは古すぎるか、別のツールで作成されました。手動で展開してください。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:383
+#, python-format
+msgid "An error occurred while opening the backup file: %s."
+msgstr "バックアップファイルを開く際にエラーが発生しました: %s。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:397
+msgid "No packages need to be installed."
+msgstr "パッケージをインストールする必要はありません。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:404
+msgid "Please select packages to install."
+msgstr "インストールするパッケージを選択してください。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:458
+#, python-format
+msgid "Skipping %s because named pipes are not supported."
+msgstr "名前付きパイプはサポートしていないため、ファイル %s をスキップします。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:483
+msgid "Backing up:"
+msgstr "バックアップしています:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:491
+msgid "Calculating..."
+msgstr "計算しています..."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:495
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:599
+msgid "The following errors occurred:"
+msgstr "これらのエラーが発生しました:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:501
+msgid "The backup was aborted."
+msgstr "バックアップが中止されました。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:505
+#, python-format
+msgid "Your files were successfully saved in %s."
+msgstr "ファイルが %s に正常に保存されました。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:546
+msgid ""
+"Warning: The meta file could not be saved. This backup will not be accepted "
+"for restoration."
+msgstr "警告: メタファイルを保存できませんでした。このバックアップから復元することはできません。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:573
+#, python-format
+msgid ""
+"Warning: Some files were not saved. Only %(archived)d files were backed up "
+"out of %(total)d."
+msgstr ""
+"警告: 保存されなかったファイルがあります。%(total)d 個のファイルのうち %(archived)d 個のみがバックアップされました。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:588
+msgid "Restoring:"
+msgstr "復元しています:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:605
+msgid "The restoration was aborted."
+msgstr "復元が中止されました。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:609
+msgid "Your files were successfully restored."
+msgstr "ファイルが正常に復元されました。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:697
+#, python-format
+msgid "Warning: Only %(number)d files were restored out of %(total)d."
+msgstr "警告: %(total)d 個のファイルのうち %(number)d 個のみが復元されました。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:722
+msgid "The list below shows the applications you installed."
+msgstr "現在、これらのアプリケーションがインストールされています。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:766
+#, python-format
+msgid "Your software selection was saved in %s"
+msgstr "選択したソフトウェアのリストが %s に保存されました"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:782
+msgid "The selected file is not a valid software selection."
+msgstr "選択したファイルには、ソフトウェアのリストが正しく記載されていません。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:787
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:830
+msgid "An error occurred while reading the file."
+msgstr "ファイルの読み取り中にエラーが発生しました。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:812
+msgid "Could not locate the package."
+msgstr "パッケージが見つかりませんでした。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:900 generate_desktop_files:24
+#: generate_desktop_files:39 usr/share/linuxmint/mintbackup/mintbackup.ui.h:35
+msgid "Backup apps and files"
+msgstr "アプリとファイルをバックアップ"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
+msgid "Personal data"
+msgstr "個人用データ"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:2
+msgid "Your files, settings and the content of your home directory"
+msgstr "ファイル、設定、ホームディレクトリの内容"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:3
+msgid "Restore..."
+msgstr "復元..."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:4
+msgid "Back Up Now..."
+msgstr "バックアップ..."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:5
+msgid "Software selection"
+msgstr "ソフトウェアのリスト"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:6
+msgid "The list of applications installed on your computer"
+msgstr "コンピューターにインストールされているアプリケーションのリスト"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:7
+msgid "Please select where you want to save the backup file:"
+msgstr "バックアップファイルを保存する場所を選択してください:"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:8
+msgid ""
+"Please add files or directories to the list below to exclude them from the "
+"backup."
+msgstr "バックアップから除外したいファイル、またはディレクトリを選択してください。"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:9
+msgid "Exclude files"
+msgstr "ファイルを除外"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:10
+msgid "Exclude directories"
+msgstr "ディレクトリを除外"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:11
+msgid "Remove"
+msgstr "削除"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:12
+msgid ""
+"Hidden files and hidden folders located at the root of your home directory "
+"are not included by default."
+msgstr "既定の状態では、ホームディレクトリのルートに存在する隠しファイルとフォルダーは含まれません。"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:13
+msgid ""
+"If you want to include some of them in the backup, please add them to the "
+"list below."
+msgstr "それらもバックアップに含めたい場合は、下の一覧に追加してください。"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
+msgid "Include files"
+msgstr "ファイルを追加"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:15
+msgid "Include directories"
+msgstr "ディレクトリを追加"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:16
+msgid ""
+"These files and folders usually contain temporary data or preferences for "
+"your applications."
+msgstr "これらのファイルとフォルダーには通常、アプリケーションの個人設定や、一時データが含まれています。"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:17
+msgid "Please wait while your files are being backed up."
+msgstr "ファイルをバックアップしています。しばらくお待ちください。"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:18
+msgid "Please select the backup to restore:"
+msgstr "復元するバックアップを選択してください:"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
+msgid "Overwrite existing files?"
+msgstr "既存のファイルに上書きしますか？"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:20
+msgid ""
+"No, only restore missing files.\n"
+"<small>This option is safe and does not affect your existing files.</small>"
+msgstr ""
+"いいえ、存在しないファイルのみを復元します。\n"
+"<small>すでにあるファイルには手を加えないため、安全に復元ができます。</small>"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:22
+msgid ""
+"Yes, overwrite changes and restore the content of any existing files.\n"
+"<small>Use this option with caution. The changes you made to the files since "
+"the backup will be lost.</small>"
+msgstr ""
+"はい、バックアップからのファイルで全部置き換えます。\n"
+"<small>バックアップ以降のファイルへの変更が失われるため、注意してください。</small>"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:24
+msgid "Please wait while your files are being restored."
+msgstr "ファイルを復元しています。しばらくお待ちください。"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:25
+msgid ""
+"The list below shows the applications you installed with the Software "
+"Manager."
+msgstr "これらは、ソフトウェアマネージャーからインストールしたアプリケーションです。"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
+msgid "Please select the applications you want to save."
+msgstr "保存するアプリケーションを選択してください。"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
+msgid "Select all"
+msgstr "すべて選択"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:28
+msgid "Deselect all"
+msgstr "すべて選択を解除"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:29
+msgid ""
+"Note: If you want to save the complete list of all installed packages on the "
+"system, please use the command 'dpkg --get-selections > mylist.list' in a "
+"terminal."
+msgstr ""
+"注: システムにインストールされているソフトウェアの完全なリストを生成するには、端末で 'dpkg --get-selections > "
+"mylist.list' コマンドを実行してください。"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
+msgid "Please select a saved software selection (.list file):"
+msgstr "保存したソフトウェアのリストを選択してください (.list ファイル):"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
+msgid "Select the packages you want to install."
+msgstr "インストールするパッケージを選択します。"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:32
+msgid "Refresh"
+msgstr "更新"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:33
+msgid "All the packages in your software selection are installed."
+msgstr "ソフトウェアのリストに記載された、すべてのパッケージがインストールされました。"
+
+#~ msgid "Archiving your home directory..."
+#~ msgstr "ホームディレクトリをアーカイブしています..."
+
+#~ msgid "Your home directory was successfully backed-up into"
+#~ msgstr "ホームディレクトリの次の場所へのバックアップに成功しました"
+
+#~ msgid "Backup successful"
+#~ msgstr "バックアップが完了しました"
+
+#~ msgid "An error occurred during the backup:"
+#~ msgstr "バックアップ中にエラーが発生しました"
+
+#~ msgid "Backup failed"
+#~ msgstr "バックアップ失敗"
+
+#~ msgid "Extracting the content of the backup into your home directory..."
+#~ msgstr "ホームディレクトリにバックアップの内容を解凍しています..."
+
+#~ msgid "Copying the backup file into your home directory..."
+#~ msgstr "ホームディレクトリにバックアップファイルをコピーしています..."
+
+#~ msgid "Your backup was successfully restored"
+#~ msgstr "バックアップの復元に成功しました"
+
+#~ msgid "Backup"
+#~ msgstr "バックアップ"
+
+#~ msgid "Hidden paths"
+#~ msgstr "表示しないパス"
+
+#~ msgid "Exclude folders"
+#~ msgstr "除外するフォルダ"
+
+#~ msgid "Restoration failed"
+#~ msgstr "復元に失敗しました"
+
+#~ msgid "An error occurred while restoring the backup archive:"
+#~ msgstr "バックアップアーカイブからの復元中にエラーが発生しました"
+
+#~ msgid "Opening the backup archive..."
+#~ msgstr "バックアップアーカイブを開いています..."
+
+#~ msgid "Read error"
+#~ msgstr "読み取りエラー"
+
+#~ msgid "An error occurred while opening the backup:"
+#~ msgstr "バックアップ開く際にエラーが発生しました:"
+
+#~ msgid "Excluded paths"
+#~ msgstr "除外するパス"
+
+#~ msgid "<big><b>Load data into your home directory</b></big>"
+#~ msgstr "<big><b>ホームディレクトリにデータをロードしています</b></big>"
+
+#~ msgid "is not located within your home directory. Not added."
+#~ msgstr "はあなたのホームディレクトリではありません。追加されませんでした。"
+
+#~ msgid "Invalid path"
+#~ msgstr "無効なパス"
+
+#~ msgid "Included hidden directories"
+#~ msgstr "隠しディレクトリを含める"
+
+#~ msgid "Included"
+#~ msgstr "含める"
+
+#~ msgid "Excluded Files and Directories"
+#~ msgstr "除外されるファイル及びディレクトリ"
+
+#~ msgid "Restore"
+#~ msgstr "復元"
+
+#~ msgid "Overwrite existing files"
+#~ msgstr "既存ファイルの上書き"
+
+#~ msgid "View content"
+#~ msgstr "内容を表示"
+
+#~ msgid "Restore your personal data from this backup"
+#~ msgstr "このバックアップからパーソナルデータを復元する"
+
+#~ msgid "Cleaning up..."
+#~ msgstr "クリーンアップ中..."
+
+#~ msgid "Restoration successful"
+#~ msgstr "復元を完了しました"
+
+#~ msgid "Make a backup of your home directory"
+#~ msgstr "ホームディレクトリのバックアップを作成します"
