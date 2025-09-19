@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
 "japanese\n"
 "POT-Creation-Date: 2024-12-02 16:37+0000\n"
-"PO-Revision-Date: 2025-09-17 21:38+0900\n"
+"PO-Revision-Date: 2025-09-19 22:42+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
@@ -7473,7 +7473,7 @@ msgstr "%s %s のパスを特定できません"
 
 #. xrandr@cinnamon.org->metadata.json->description
 msgid "XRandR monitor control applet"
-msgstr "XRandR モニター制御アプレット"
+msgstr "XRandR モニター操作アプレット"
 
 #. windows-quick-list@cinnamon.org->metadata.json->name
 msgid "Windows Quick List"
@@ -7540,7 +7540,7 @@ msgstr "すべてのシステムトレイアイコンをホストするアプレ
 
 #. trash@cinnamon.org->metadata.json->description
 msgid "Control the trash from the panel"
-msgstr "パネルからのゴミ箱操作"
+msgstr "パネルからゴミ箱を操作"
 
 #. separator@cinnamon.org->metadata.json->name
 msgid "Separator"
@@ -7560,7 +7560,7 @@ msgid ""
 "desklets, the workspace selector or the window selector."
 msgstr ""
 "画面端に置くことを想定したバーで、デスクトップやデスクレット、ワークスペース/"
-"ウィンドウの選択画面を表示するのに使用します。"
+"ウィンドウの選択画面を表示するために使用します。"
 
 #. cornerbar@cinnamon.org->settings-schema.json->click-action->description
 msgid "Click action"
@@ -8200,11 +8200,11 @@ msgstr "メニューを元の大きさに戻す"
 
 #. slideshow@cinnamon.org->metadata.json->name
 msgid "Slideshow Controls"
-msgstr "スライドショーの制御"
+msgstr "スライドショーの操作"
 
 #. slideshow@cinnamon.org->metadata.json->description
 msgid "Basic controls for the Cinnamon slideshow"
-msgstr "Cinnamon スライドショーの基本的な制御"
+msgstr "Cinnamon スライドショーの基本的な操作"
 
 #. removable-drives@cinnamon.org->metadata.json->description
 msgid "Access removable drives"
@@ -8615,7 +8615,7 @@ msgstr "ワークスペーススイッチャー"
 
 #. workspace-switcher@cinnamon.org->metadata.json->description
 msgid "Select the workspace from the panel"
-msgstr "パネルからワークスペースを切り替える"
+msgstr "パネルからワークスペースを切り替え"
 
 #. workspace-switcher@cinnamon.org->settings-schema.json->display-
 #. type->description
@@ -8777,7 +8777,7 @@ msgid ""
 "An applet to access your account details, switch users and quickly logout or "
 "power off the computer"
 msgstr ""
-"現在のアカウント情報へのアクセス、ユーザーの切り替え、ログアウト、コンピュー"
+"現在のアカウント情報へのアクセス・ユーザーの切り替え・ログアウト・コンピュー"
 "ターのシャットダウンを行うアプレット"
 
 #. user@cinnamon.org->metadata.json->name
