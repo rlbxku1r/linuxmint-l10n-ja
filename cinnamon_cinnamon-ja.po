@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
 "japanese\n"
 "POT-Creation-Date: 2024-12-02 16:37+0000\n"
-"PO-Revision-Date: 2025-09-19 22:42+0900\n"
+"PO-Revision-Date: 2025-09-21 23:33+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
@@ -3585,7 +3585,7 @@ msgstr "マウスキー"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_accessibility.py:340
 msgid "Control the pointer using the keypad"
-msgstr "キーパッドでポインターを制御"
+msgstr "キーパッドでポインターを操作"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_accessibility.py:347
 msgid "Initial delay"
