@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-12-15 14:48+0000\n"
-"PO-Revision-Date: 2025-06-15 10:57+0000\n"
+"PO-Revision-Date: 2025-09-25 23:12+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Launchpad-Export-Date: 2025-08-29 13:36+0000\n"
-"X-Generator: Launchpad (build 919009172d854f2b8e4e8262db447f12f11d25eb)\n"
-"Language: ja\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: nemo-audio-tab/nemo-extension/nemo-audio-tab.py:41
 msgid "Audio"
@@ -340,7 +340,8 @@ msgstr "ダイジェストを保存"
 
 #: nemo-gtkhash/src/callbacks.c:236
 msgid "A GTK+ utility for computing message digests or checksums."
-msgstr "メッセージのダイジェストや、チェックサムを計算する GTK+ ユーティリティです。"
+msgstr ""
+"メッセージのダイジェストや、チェックサムを計算する GTK+ ユーティリティです。"
 
 #: nemo-gtkhash/src/callbacks.c:240
 msgid "translator-credits"
@@ -808,21 +809,25 @@ msgid ""
 "<span size=\"larger\" weight=\"bold\">There was an error renaming the file "
 "to \"%s\"</span>"
 msgstr ""
-"<span size=\"larger\" weight=\"bold\">ファイル名を \"%s\" に変更できませんでした</span>"
+"<span size=\"larger\" weight=\"bold\">ファイル名を \"%s\" に変更できませんで"
+"した</span>"
 
 #: nemo-repairer/src/nemo-filename-repairer.c:157
 #, c-format
 msgid ""
-"<span size=\"larger\" weight=\"bold\">A file named \"%s\" already "
-"exists.</span>"
+"<span size=\"larger\" weight=\"bold\">A file named \"%s\" already exists.</"
+"span>"
 msgstr ""
-"<span size=\"larger\" weight=\"bold\">すでに同じ名前のファイル \"%s\" があります。</span>"
+"<span size=\"larger\" weight=\"bold\">すでに同じ名前のファイル \"%s\" があり"
+"ます。</span>"
 
 #: nemo-repairer/src/nemo-filename-repairer.c:160
 #, c-format
 msgid ""
 "If you want to rename the selected file, please move or rename \"%s\" first."
-msgstr "選択したファイルの名前を変更する前に、まず \"%s\" の名前を変更するか、どこかに移動してください。"
+msgstr ""
+"選択したファイルの名前を変更する前に、まず \"%s\" の名前を変更するか、どこか"
+"に移動してください。"
 
 #: nemo-repairer/src/nemo-filename-repairer.c:217
 msgid "Repair filename ..."
@@ -916,8 +921,8 @@ msgid ""
 "<span size=\"larger\" weight=\"bold\">There was an error renaming \"%s\" to "
 "\"%s\"</span>"
 msgstr ""
-"<span size=\"larger\" weight=\"bold\">アイテム名 \"%s\" を \"%s\" "
-"に変更できませんでした</span>"
+"<span size=\"larger\" weight=\"bold\">アイテム名 \"%s\" を \"%s\" に変更でき"
+"ませんでした</span>"
 
 #: nemo-repairer/src/repair-dialog.c:316
 msgid "Other ..."
@@ -1438,7 +1443,9 @@ msgstr[0] "選択したファイルに署名します"
 #, c-format
 msgid ""
 "Nemo needs to add some permissions to your folder \"%s\" in order to share it"
-msgstr "フォルダーを正常に共有するため、Nemo はいくつかの権限を対象のフォルダー \"%s\" に追加します"
+msgstr ""
+"フォルダーを正常に共有するため、Nemo はいくつかの権限を対象のフォルダー "
+"\"%s\" に追加します"
 
 #: nemo-share/src/nemo-share.c:129
 #, c-format
@@ -1491,16 +1498,18 @@ msgstr "すでに同じ名前で共有されている場所があります"
 #: nemo-share/src/nemo-share.c:505
 msgid ""
 "This folder is located in an encrypted directory. It will not be accessible "
-"by other users unless the option 'force user' is specified in "
-"/etc/samba/smb.conf."
+"by other users unless the option 'force user' is specified in /etc/samba/smb."
+"conf."
 msgstr ""
-"このフォルダーは暗号化されたディレクトリ内に存在します。/etc/samba/smb.conf に 'force user' "
-"オプションを指定しない限り、他の人がアクセスすることはできません。"
+"このフォルダーは暗号化されたディレクトリ内に存在します。/etc/samba/smb.conf "
+"に 'force user' オプションを指定しない限り、他の人がアクセスすることはできま"
+"せん。"
 
 #: nemo-share/src/nemo-share.c:529
 #, c-format
 msgid "The permissions for %s prevent other users from accessing this share"
-msgstr "%s のパーミッションが、この共有に他の人をアクセスできないようにしています"
+msgstr ""
+"%s のパーミッションが、この共有に他の人をアクセスできないようにしています"
 
 #: nemo-share/src/nemo-share.c:577 nemo-share/src/nemo-share.c:881
 msgid "Modify _Share"
@@ -1518,7 +1527,9 @@ msgstr "変更を確定するには、再起動してください"
 msgid ""
 "Something went wrong.  You may need to install samba and add your user to "
 "the 'sambashare' group manually."
-msgstr "何か問題が発生しました。samba をインストールし、自分のユーザーを手動で 'sambashare' グループに追加してください。"
+msgstr ""
+"何か問題が発生しました。手動で Samba をインストールし、自分のユーザーを "
+"'sambashare' グループに追加してください。"
 
 #: nemo-share/src/nemo-share.c:769
 msgid "There was an error while getting the sharing information"
@@ -1591,13 +1602,17 @@ msgstr "Samba の testparm がエラー %d を返しました"
 #: nemo-share/src/shares.c:684
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr "パス %s の共有を解除できません: そもそも共有されていないか、すでに解除されています"
+msgstr ""
+"パス %s の共有を解除できません: そもそも共有されていないか、すでに解除されて"
+"います"
 
 #: nemo-share/src/shares.c:730
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "共有中のパスは変更できません: 今の共有をいったん解除し、新しく共有し直してください"
+msgstr ""
+"共有中のパスは変更できません: 今の共有をいったん解除し、新しく共有し直してく"
+"ださい"
 
 #: nemo-share/interfaces/share-dialog.ui.h:2
 msgid "Share this _folder"
@@ -1617,7 +1632,9 @@ msgstr "このフォルダーに他の人がファイルを作成・削除でき
 
 #: nemo-share/interfaces/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
-msgstr "ゲストアクセスを有効にし、ユーザーアカウントを持たない人からも操作できるようにする (_G)"
+msgstr ""
+"ゲストアクセスを有効にし、ユーザーアカウントを持たない人からも操作できるよう"
+"にする (_G)"
 
 #: nemo-share/interfaces/share-dialog.ui.h:7
 msgid "Install"
@@ -1628,7 +1645,8 @@ msgid ""
 "Samba needs to be installed, appropriate firewall rules need to be added and "
 "your user account needs to join the 'sambashare' group."
 msgstr ""
-"Samba のインストール、適切なファイアウォール設定、自分のユーザーアカウントの 'sambashare' グループ参加を行ってください。"
+"Samba のインストール・適切なファイアウォール設定・自分のユーザーアカウントの "
+"'sambashare' グループ参加を行ってください。"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:44
 msgid "Nemo-Terminal Preferences"
@@ -1742,20 +1760,24 @@ msgstr "フォルダーやファイルのエンブレムを変更します"
 
 #: nemo-dropbox/src/nemo-dropbox.c:462 nemo-dropbox/src/nemo-dropbox.c:463
 msgid "Allows managing of Dropbox web service from the context menu"
-msgstr "コンテキストメニューから Dropbox ウェブサービスを管理できるようにします"
+msgstr ""
+"コンテキストメニューから Dropbox ウェブサービスを管理できるようにします"
 
 #: nemo-image-converter/src/nemo-image-converter.c:153
 msgid "Allows image resizing and rotation from the context menu"
-msgstr "コンテキストメニューから画像のサイズを変更したり、回転したりできるようにします"
+msgstr ""
+"コンテキストメニューから画像のサイズを変更したり、回転したりできるようにしま"
+"す"
 
 #: nemo-repairer/src/nemo-filename-repairer.c:523
 msgid "Allows filename encoding repair from the context menu"
-msgstr "コンテキストメニューからファイル名のエンコーディングを修復できるようにします"
+msgstr ""
+"コンテキストメニューからファイル名のエンコーディングを修復できるようにします"
 
 #: nemo-seahorse/nemo-ext/nemo-seahorse.c:181
-msgid ""
-"Allows encryption and decryption of OpenPGP files from the context menu"
-msgstr "コンテキストメニューから OpenPGP ファイルを暗号化・復号化できるようにします"
+msgid "Allows encryption and decryption of OpenPGP files from the context menu"
+msgstr ""
+"コンテキストメニューから OpenPGP ファイルを暗号化・復号化できるようにします"
 
 #: nemo-audio-tab/nemo-extension/nemo-audio-tab.py:195
 msgid "View audio tag information from the properties tab"
@@ -1779,7 +1801,9 @@ msgstr "結果ページを読み取り、または解析できません。"
 
 #: nemo-pastebin/src/nemo-pastebin.py:112
 msgid "It could be a server timeout or a change server side. Try later."
-msgstr "サーバーがタイムアウトになったか、サーバー側に何らかの変更があったのかもしれません。あとで試してください。"
+msgstr ""
+"サーバーがタイムアウトになったか、サーバー側に何らかの変更があったのかもしれ"
+"ません。あとで試してください。"
 
 #: nemo-pastebin/src/nemo-pastebin.py:169
 #, python-format
