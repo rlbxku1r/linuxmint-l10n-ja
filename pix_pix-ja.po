@@ -7,20 +7,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pix master\n"
-"Report-Msgid-Bugs-To: "
-"http://bugzilla.gnome.org/enter_bug.cgi?product=pix&keywords=I18N+L10N&compon"
-"ent=general\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=pix&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2023-12-12 10:17+0000\n"
-"PO-Revision-Date: 2025-06-15 08:34+0000\n"
+"PO-Revision-Date: 2025-10-01 15:44+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Launchpad-Export-Date: 2025-08-29 13:37+0000\n"
-"X-Generator: Launchpad (build 919009172d854f2b8e4e8262db447f12f11d25eb)\n"
-"Language: ja\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: data/ui/browser-preferences.ui:20
 #: extensions/image_print/data/ui/print-layout.ui:651
@@ -596,8 +595,10 @@ msgid ""
 "Foundation; either version 2 of the License, or (at your option) any later "
 "version."
 msgstr ""
-"Pix はフリーソフトウェアです。あなたはこれを、フリーソフトウェア財団によって発行された GNU 一般公衆利用許諾契約書 (バージョン 2 "
-"か、希望によってはそれ以降のバージョンのうちどれか) の定める条件の下で再頒布または改変することができます。"
+"Pix はフリーソフトウェアです。あなたはこれを、フリーソフトウェア財団によって"
+"発行された GNU 一般公衆利用許諾契約書 (バージョン 2 か、希望によってはそれ以"
+"降のバージョンのうちどれか) の定める条件の下で再頒布または改変することができ"
+"ます。"
 
 #: pix/gth-browser-actions-callbacks.c:105
 msgid ""
@@ -606,18 +607,17 @@ msgid ""
 "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
 "details."
 msgstr ""
-"Pix "
-"は有用であることを願って頒布されますが、全くの無保証です。商業可能性の保証や特定の目的への適合性は、言外に示されたものも含め全く存在しません。詳しくは "
-"GNU 一般公衆利用許諾契約書をご覧ください。"
+"Pix は有用であることを願って頒布されますが、全くの無保証です。商業可能性の保"
+"証や特定の目的への適合性は、言外に示されたものも含め全く存在しません。詳しく"
+"は GNU 一般公衆利用許諾契約書をご覧ください。"
 
 #: pix/gth-browser-actions-callbacks.c:109
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
 "Pix.  If not, see http://www.gnu.org/licenses/."
 msgstr ""
-"あなたは Pix と共に、GNU "
-"一般公衆利用許諾契約書の複製物を一部受け取ったはずです。もし受け取っていなければ、http://www.gnu.org/licenses/ "
-"をご覧ください。"
+"あなたは Pix と共に、GNU 一般公衆利用許諾契約書の複製物を一部受け取ったはずで"
+"す。もし受け取っていなければ、http://www.gnu.org/licenses/ をご覧ください。"
 
 #: pix/gth-browser-actions-callbacks.c:127
 msgid "An image viewer and browser."
@@ -1512,7 +1512,9 @@ msgstr "回転"
 msgid ""
 "The key combination «%s» is already assigned to the action «%s».  Do you "
 "want to reassign it to this action instead?"
-msgstr "キーの組み合わせ «%s» はすでにアクション «%s» に割り当てられています。  このアクションに割り当て直しますか？"
+msgstr ""
+"キーの組み合わせ «%s» はすでにアクション «%s» に割り当てられています。  この"
+"アクションに割り当て直しますか？"
 
 #: pix/gth-window.c:1081
 msgid "Reassign"
@@ -1523,12 +1525,15 @@ msgstr "再割り当て"
 msgid ""
 "The key combination «%s» is already assigned to the action «%s» and cannot "
 "be changed."
-msgstr "キーの組み合わせ «%s» はすでにアクション «%s» に割り当てられており、変更することはできません。"
+msgstr ""
+"キーの組み合わせ «%s» はすでにアクション «%s» に割り当てられており、変更する"
+"ことはできません。"
 
 #: pix/gth-window.c:1103
 #, c-format
 msgid "The key combination «%s» is already assigned and cannot be changed."
-msgstr "キーの組み合わせ «%s» はすでに割り当てられており、変更することはできません。"
+msgstr ""
+"キーの組み合わせ «%s» はすでに割り当てられており、変更することはできません。"
 
 #: pix/gtk-utils.c:370
 msgid "Could not display help"
@@ -1623,8 +1628,7 @@ msgid "Contact Sheet"
 msgstr "コンタクトシート"
 
 #: extensions/contact_sheet/contact_sheet.extension.desktop.in.in:4
-msgid ""
-"Create an index image displaying the thumbnails of the selected files."
+msgid "Create an index image displaying the thumbnails of the selected files."
 msgstr "選択したファイルのサムネイルを陳列し、目次画像を作成します。"
 
 #: extensions/convert_format/convert_format.extension.desktop.in.in:3
@@ -2117,7 +2121,7 @@ msgstr "単色 (_S)"
 
 #: extensions/contact_sheet/data/ui/contact-sheet-theme-properties.ui:140
 msgid "_Gradient"
-msgstr "グラディエーション (_G)"
+msgstr "グラデーション (_G)"
 
 #: extensions/contact_sheet/data/ui/contact-sheet-theme-properties.ui:281
 #: extensions/contact_sheet/data/ui/contact-sheet-theme-properties.ui:297
@@ -3430,7 +3434,9 @@ msgstr "ファイルを整理"
 
 #: extensions/catalogs/dlg-organize-files.c:126
 msgid "Files will be organized in catalogs. No file will be moved on disk."
-msgstr "ファイルはカタログに登録されますが、ディスク上のファイルそのものは移動されません。"
+msgstr ""
+"ファイルはカタログに登録されますが、ディスク上のファイルそのものは移動されま"
+"せん。"
 
 #: extensions/catalogs/dlg-organize-files.c:152 extensions/comments/main.c:186
 msgid "Tag"
@@ -3737,7 +3743,8 @@ msgstr "ファイルを移動できませんでした"
 msgid ""
 "Files cannot be moved to the current location, as alternative you can choose "
 "to copy them."
-msgstr "この場所にファイルを移動することはできませんが、コピーすることならできます。"
+msgstr ""
+"この場所にファイルを移動することはできませんが、コピーすることならできます。"
 
 #: extensions/file_manager/actions.c:739
 msgid "Move To"
@@ -4277,8 +4284,9 @@ msgid ""
 "photos to %s. When you’re finished, return to this window to complete the "
 "authorization."
 msgstr ""
-"“認証” をクリックしてウェブブラウザーを開き、Pix が写真を %s "
-"にアップロードするための認証をしてください。終わったらこのウィンドウに戻り、認証を完了させてください。"
+"“認証” をクリックしてウェブブラウザーを開き、Pix が写真を %s にアップロードす"
+"るための認証をしてください。終わったらこのウィンドウに戻り、認証を完了させて"
+"ください。"
 
 #: extensions/flicker_utils/flickr-service.c:849
 msgid "Getting the album list"
@@ -4472,12 +4480,15 @@ msgid ""
 "For practical use, this mode gives the best looking results, but the "
 "transformation is not strictly lossless anymore."
 msgstr ""
-"画像の寸法が 8 の倍数になっていません。この変換を行うと、画像の端に沿って、ひとつ以上の小さな歪みが発生するかもしれません。\n"
+"画像の寸法が 8 の倍数になっていません。この変換を行うと、画像の端に沿って、ひ"
+"とつ以上の小さな歪みが発生するかもしれません。\n"
 "\n"
-"ただし、その歪みは反転させることもできます。変換したあとの画像の出来に問題があったとしても、逆変換を施すことにより、元の画像に戻せます。\n"
+"ただし、その歪みは反転させることもできます。変換したあとの画像の出来に問題が"
+"あったとしても、逆変換を施すことにより、元の画像に戻せます。\n"
 "\n"
-"さらに、変換できない端のピクセルを切り取ることもできます。大抵の場合、このモードは最良の結果をもたらしてくれますが、完全な可逆変換ではなくなってしまいます"
-"。"
+"さらに、変換できない端のピクセルを切り取ることもできます。大抵の場合、この"
+"モードは最良の結果をもたらしてくれますが、完全な可逆変換ではなくなってしまい"
+"ます。"
 
 #: extensions/image_rotation/rotation-utils.c:116
 msgid "_Trim"
@@ -4975,8 +4986,8 @@ msgid ""
 "Use Alt-%d to add files to this selection, Ctrl-%d to view this selection, "
 "Alt+Shift+%d to remove files from this selection"
 msgstr ""
-"Alt-%d でこのセレクションにファイルを追加、Ctrl-%d でこのセレクションを表示、Alt+Shift+%d "
-"でこのセレクションからファイルを削除します"
+"Alt-%d でこのセレクションにファイルを追加、Ctrl-%d でこのセレクションを表示、"
+"Alt+Shift+%d でこのセレクションからファイルを削除します"
 
 #: extensions/selections/gth-selections-manager.c:228
 #, c-format
