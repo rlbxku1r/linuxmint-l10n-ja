@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
 "japanese\n"
 "POT-Creation-Date: 2024-12-02 16:37+0000\n"
-"PO-Revision-Date: 2025-09-21 23:33+0900\n"
+"PO-Revision-Date: 2025-11-04 04:31+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Launchpad-Export-Date: 2025-08-29 13:36+0000\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.6\n"
 
 #: src/cinnamon-app.c:374 src/cinnamon-app.c:383 js/ui/endSessionDialog.js:283
 #: js/ui/notificationDaemon.js:583
@@ -2176,7 +2176,7 @@ msgstr "連続再生"
 #: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:616
 #: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:866
 msgid "No Shuffle"
-msgstr "シャッフルなし"
+msgstr "シャッフルしない"
 
 #: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:663
 msgid "Open Player"
