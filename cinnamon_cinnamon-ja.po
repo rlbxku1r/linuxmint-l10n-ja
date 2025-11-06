@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
 "japanese\n"
 "POT-Creation-Date: 2024-12-02 16:37+0000\n"
-"PO-Revision-Date: 2025-11-04 04:31+0900\n"
+"PO-Revision-Date: 2025-11-07 04:55+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
@@ -7495,7 +7495,7 @@ msgstr "一時的な通知を無視"
 #. notifications@cinnamon.org->settings-
 #. schema.json->ignoreTransientNotifications->tooltip
 msgid "Check this to ignore transient notifications."
-msgstr "これをチェックすると、一時的な通知を無視します。"
+msgstr "これにチェックすると、一時的な通知を無視します。"
 
 #. notifications@cinnamon.org->settings-
 #. schema.json->showEmptyTray->description
@@ -7504,7 +7504,7 @@ msgstr "空のトレイを表示"
 
 #. notifications@cinnamon.org->settings-schema.json->showEmptyTray->tooltip
 msgid "Check this to show the tray even when there are no new notifications."
-msgstr "これをチェックすると、通知がないときでもトレイを表示します。"
+msgstr "これにチェックすると、通知がないときでもトレイを表示します。"
 
 #. notifications@cinnamon.org->settings-
 #. schema.json->showNotificationCount->description
@@ -7808,7 +7808,7 @@ msgstr ""
 #. settings-example@cinnamon.org->settings-schema.json->use-custom-
 #. label->description
 msgid "Check this to use a custom label"
-msgstr "これをチェックすると、ラベルをカスタマイズできます"
+msgstr "これにチェックすると、ラベルをカスタマイズできます"
 
 #. settings-example@cinnamon.org->settings-schema.json->use-custom-
 #. label->tooltip
@@ -8042,7 +8042,7 @@ msgstr "アイコンとラベルのカスタマイズ"
 
 #. menu@cinnamon.org->settings-schema.json->menu-custom->tooltip
 msgid "Check this to specify a custom icon and label"
-msgstr "別のアイコンとラベルを使用したい場合はチェックしてください"
+msgstr "これにチェックすると、任意のアイコンとラベルを指定できます"
 
 #. menu@cinnamon.org->settings-schema.json->menu-icon->tooltip
 msgid "Select an icon to show in the panel."
@@ -8861,8 +8861,8 @@ msgid ""
 "Check this to always show multiple batteries in the panel, regardless of "
 "whether one of them is marked primary."
 msgstr ""
-"これをチェックすると、プライマリとマークされたバッテリー以外もすべて表示しま"
-"す。"
+"これにチェックすると、プライマリとしてマークされたバッテリー以外もすべて表示"
+"します。"
 
 #. favorites@cinnamon.org->metadata.json->description
 msgid "Access your favorite files"
@@ -8902,7 +8902,7 @@ msgstr "カレンダーにイベントを表示"
 
 #. calendar@cinnamon.org->settings-schema.json->show-events->tooltip
 msgid "Check this to display events in the calendar."
-msgstr "これをチェックすると、カレンダーにイベントを表示します。"
+msgstr "これにチェックすると、カレンダーにイベントを表示します。"
 
 #. calendar@cinnamon.org->settings-schema.json->show-week-numbers->description
 msgid "Show week numbers in calendar"
@@ -8910,7 +8910,7 @@ msgstr "カレンダーに週番号を表示"
 
 #. calendar@cinnamon.org->settings-schema.json->show-week-numbers->tooltip
 msgid "Check this to show week numbers in the calendar."
-msgstr "これをチェックすると、カレンダーに週番号を表示します。"
+msgstr "これにチェックすると、カレンダーに週番号を表示します。"
 
 #. calendar@cinnamon.org->settings-schema.json->use-custom-format->description
 #. clock@cinnamon.org->settings-schema.json->use-custom-format->description
@@ -8921,7 +8921,7 @@ msgstr "日付書式のカスタマイズ"
 msgid ""
 "Check this to define a custom format for the date in the calendar applet."
 msgstr ""
-"これをチェックすると、カレンダーアプレットに表示する日付書式をカスタマイズで"
+"これにチェックすると、カレンダーアプレットに表示する日付書式をカスタマイズで"
 "きます。"
 
 #. calendar@cinnamon.org->settings-schema.json->custom-format->description
@@ -9014,7 +9014,7 @@ msgstr "新しいテキストの色を選択するにはクリックします"
 #. clock@cinnamon.org->settings-schema.json->use-custom-format->tooltip
 msgid "Check this to define a custom format for the time in the clock desklet."
 msgstr ""
-"これをチェックすると、時計デスクレットに表示する時刻書式をカスタマイズできま"
+"これにチェックすると、時計デスクレットに表示する時刻書式をカスタマイズできま"
 "す。"
 
 #. launcher@cinnamon.org->metadata.json->name
