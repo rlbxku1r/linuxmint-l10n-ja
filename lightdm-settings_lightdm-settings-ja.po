@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-11-28 17:06+0000\n"
-"PO-Revision-Date: 2025-11-12 16:28+0900\n"
+"PO-Revision-Date: 2025-11-12 16:59+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "Language: ja\n"
@@ -212,7 +212,7 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:223
 msgid "These settings require a computer reboot to take effect."
-msgstr "これらの設定を反映させるには、コンピューターの再起動が必要です。"
+msgstr "これらの設定を適用するには、コンピューターの再起動が必要です。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:228
 #: usr/lib/lightdm-settings/lightdm-settings:229
