@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2025-11-11 14:02+0000\n"
-"PO-Revision-Date: 2025-11-12 17:47+0900\n"
+"PO-Revision-Date: 2025-11-12 20:09+0900\n"
 "Last-Translator: \n"
 "Language-Team: Japanese <ja@li.org>\n"
 "Language: ja\n"
@@ -104,7 +104,8 @@ msgstr "システムの構成に加えて、下の一覧で任意のパラメー
 #: usr/share/mintsysadm/mintsysadm.ui.h:8
 msgid "Note: Press Save and reboot the computer for changes to take effect."
 msgstr ""
-"注: 変更を適用するには、保存を押してコンピューターを再起動してください。"
+"注: 変更を適用するには、保存ボタンを押してから、コンピューターを再起動して"
+"ください。"
 
 #: usr/share/mintsysadm/mintsysadm.ui.h:9
 msgid "Save"
