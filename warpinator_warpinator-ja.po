@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2024-06-12 13:59+0100\n"
-"PO-Revision-Date: 2025-07-21 07:11+0000\n"
+"PO-Revision-Date: 2025-11-12 16:43+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Launchpad-Export-Date: 2025-08-29 13:37+0000\n"
-"X-Generator: Launchpad (build 919009172d854f2b8e4e8262db447f12f11d25eb)\n"
-"Language: ja\n"
+"X-Generator: Poedit 3.6\n"
 
 #: resources/group-code.ui:16 src/prefs.py:345
 msgid "Group Code"
@@ -88,7 +88,9 @@ msgstr "ネットワークへの接続が正常であるかを確認してくだ
 msgid ""
 "Check your firewall rules.  The port numbers can be changed.  See "
 "preferences for more details."
-msgstr "ファイアウォールのルールを確認してください。ポート番号は変更できます。詳細については設定を参照してください。"
+msgstr ""
+"ファイアウォールのルールを確認してください。ポート番号は変更できます。詳細に"
+"ついては設定を参照してください。"
 
 #. Do not translate 'Warpinator'
 #: resources/main-window.ui:847
@@ -96,8 +98,9 @@ msgid ""
 "Is Warpinator running on any other computers on this network?  If so, make "
 "sure they are all using the same group code in preferences."
 msgstr ""
-"Warpinator "
-"がネットワーク上の他のコンピューターでも実行されていますか？もしそうなら、グループコードの設定値がすべてのマシンで同じになっていることを確認してください。"
+"Warpinator がネットワーク上の他のコンピューターでも実行されていますか？もしそ"
+"うなら、グループコードの設定値がすべてのマシンで同じになっていることを確認し"
+"てください。"
 
 #: resources/main-window.ui:865
 msgid "Possible solutions:"
@@ -133,7 +136,8 @@ msgid ""
 "This folder is either inaccessible or forbidden to save files to.  Please "
 "select a new location in Preferences and ensure that it is accessible."
 msgstr ""
-"このフォルダーにはアクセスできないか、ファイルを保存する許可がありません。  設定から新しい場所を選択し、アクセスできるかどうかを確認してください。"
+"このフォルダーにはアクセスできないか、ファイルを保存する許可がありません。  "
+"設定から新しい場所を選択し、アクセスできるかどうかを確認してください。"
 
 #: resources/main-window.ui:1262
 msgid "Searching for other computers"
@@ -149,7 +153,8 @@ msgstr "再起動が必要です"
 
 #: resources/main-window.ui:1410
 msgid "Warpinator needs to restart before the new save directory can be used"
-msgstr "新しい保存先のフォルダーを使用する前に Warpinator を再起動する必要があります"
+msgstr ""
+"新しい保存先のフォルダーを使用する前に Warpinator を再起動する必要があります"
 
 #: resources/main-window.ui:1420
 msgid "Restart"
@@ -165,7 +170,8 @@ msgid ""
 "delete some files, decrease the minimum free space in preferences or choose "
 "a new location."
 msgstr ""
-"保存先となる場所に十分な空き容量がありません。何かファイルを削除するか、設定で確保している最小の容量を減らすか、新しい保存先を指定してください。"
+"保存先となる場所に十分な空き容量がありません。何かファイルを削除するか、設定"
+"で確保している最小の容量を減らすか、新しい保存先を指定してください。"
 
 #: resources/main-window.ui:1544
 msgid "Empty trash"
@@ -280,7 +286,8 @@ msgstr "新しい着信ファイル"
 msgid ""
 "%(sender_name)s would like to send you %(file_count)d file (%(file_name)s)."
 msgstr ""
-"%(sender_name)s が %(file_count)d 個のファイル (%(file_name)s) を送信しようとしています。"
+"%(sender_name)s が %(file_count)d 個のファイル (%(file_name)s) を送信しようと"
+"しています。"
 
 #: src/notifications.py:31
 #, python-format
@@ -298,7 +305,9 @@ msgstr "拒否"
 #: src/notifications.py:56
 #, python-format
 msgid "%(sender_name)s is sending you %(file_count)d file (%(file_name)s)."
-msgstr "%(sender_name)s が %(file_count)d 個のファイル (%(file_name)s) を送信しています。"
+msgstr ""
+"%(sender_name)s が %(file_count)d 個のファイル (%(file_name)s) を送信していま"
+"す。"
 
 #: src/notifications.py:57
 #, python-format
@@ -416,13 +425,15 @@ msgstr "自動的に開始"
 
 #: src/prefs.py:313
 msgid "Use compression when possible."
-msgstr "可能であれば圧縮。"
+msgstr "圧縮できればそうする"
 
 #: src/prefs.py:315
 msgid ""
 "Warning: This may have a negative impact on performance on some faster "
 "networks."
-msgstr "注: これは､高速ネットワークでパフォーマンスに悪影響をもたらすかもしれません。"
+msgstr ""
+"警告: これを高速なネットワークで使用すると、パフォーマンスに悪影響を及ぼすか"
+"もしれません。"
 
 #: src/prefs.py:318
 msgid "Location for received files"
@@ -441,8 +452,7 @@ msgid "Require approval when files would be overwritten"
 msgstr "ファイルが上書きされるときに承認を要求"
 
 #: src/prefs.py:338
-msgid ""
-"Display a notification when someone sends (or tries to send) you files"
+msgid "Display a notification when someone sends (or tries to send) you files"
 msgstr "このマシンにファイルが送信されたり、送信されようとしたら通知を表示"
 
 #: src/prefs.py:343
@@ -488,7 +498,8 @@ msgid ""
 "Any port numbers will work for the application, but using the same ports for "
 "all computers can make it simpler to add firewall exceptions if necessary."
 msgstr ""
-"どのポート番号でもアプリケーションは機能しますが、すべてのコンピューターで同じポート番号を使用すると、ファイアウォールの例外が設定しやすくなります。"
+"どのポート番号でもアプリケーションは機能しますが、すべてのコンピューターで同"
+"じポート番号を使用すると、ファイアウォールの例外が設定しやすくなります。"
 
 #: src/prefs.py:564
 msgid "Only available in secure mode."
@@ -514,7 +525,9 @@ msgstr "すべてのオプションが開放されました。"
 msgid ""
 "You must set a custom group code to run in secure mode. Some options are "
 "currently disabled."
-msgstr "安全モードで実行するには、任意のグループコードを設定してください。いくつかのオプションは無効になっています。"
+msgstr ""
+"安全モードで実行するには、任意のグループコードを設定してください。いくつかの"
+"オプションは無効になっています。"
 
 #: src/remote.py:643 src/remote.py:647
 msgid "Connection has been lost"
@@ -690,7 +703,8 @@ msgid ""
 "Warpinator is running with limited functionality, and will exit in %d "
 "minute. To enable Secure Mode, set a unique group code."
 msgstr ""
-"Warpinator は機能制限付きで実行されており、あと %d 分で終了します。安全モードを有効にするには、一意なグループコードを設定してください。"
+"Warpinator は機能制限付きで実行されており、あと %d 分で終了します。安全モード"
+"を有効にするには、一意なグループコードを設定してください。"
 
 #: src/warpinator.py:802
 #, python-format
@@ -698,12 +712,14 @@ msgid ""
 "Warpinator is running with limited functionality, and will exit in %d "
 "minutes. To enable Secure Mode, set a unique group code."
 msgstr ""
-"Warpinator は機能制限付きで実行されており、あと %d 分で終了します。安全モードを有効にするには、一意なグループコードを設定してください。"
+"Warpinator は機能制限付きで実行されており、あと %d 分で終了します。安全モード"
+"を有効にするには、一意なグループコードを設定してください。"
 
 #: src/warpinator.py:857
 #, python-format
 msgid "Not enough disk space remaining to receive files (%s is reserved)."
-msgstr "ファイルを受信するために十分な空き容量がありません (%s を確保しています)。"
+msgstr ""
+"ファイルを受信するために十分な空き容量がありません (%s を確保しています)。"
 
 #: src/warpinator.py:938
 #, python-format
@@ -768,7 +784,9 @@ msgstr "ネットワーク上でファイルを共有します"
 msgid ""
 "Warpinator allows you to easily connect multiple computers on a local area "
 "network and exchange files quickly and securely."
-msgstr "Warpinator でローカルエリアネットワーク上の複数のコンピューターを簡単に接続し、ファイルを素早く安全に交換できます。"
+msgstr ""
+"Warpinator でローカルエリアネットワーク上の複数のコンピューターを簡単に接続"
+"し、ファイルを素早く安全に交換できます。"
 
 #: data/org.x.Warpinator.appdata.xml.in.in:14
 msgid "Features:"
@@ -798,7 +816,9 @@ msgstr "必要に応じてデータは圧縮させられます。"
 msgid ""
 "Grouping of devices using a shared key, with multiple groups possible on the "
 "same network."
-msgstr "共有鍵でデバイスをグループごとに別けると、同一のネットワーク上で複数のグループを混在させられます。"
+msgstr ""
+"共有鍵でデバイスをグループごとに別けると、同一のネットワーク上で複数のグルー"
+"プを混在させられます。"
 
 #: data/org.x.Warpinator.appdata.xml.in.in:22
 msgid "Manual connections for restricted network environments."
