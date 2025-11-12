@@ -10,17 +10,17 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-05 12:46+0100\n"
-"PO-Revision-Date: 2025-06-15 11:04+0000\n"
+"PO-Revision-Date: 2025-11-12 21:02+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
-"Language-Team: Japanese "
-"(http://www.transifex.com/projects/p/MATE/language/ja/)\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/MATE/language/"
+"ja/)\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Launchpad-Export-Date: 2025-08-29 13:37+0000\n"
-"X-Generator: Launchpad (build 919009172d854f2b8e4e8262db447f12f11d25eb)\n"
-"Language: ja\n"
+"X-Generator: Poedit 3.6\n"
 
 #: ../data/xed.appdata.xml.in.h:1
 msgid "A Text Editor"
@@ -36,10 +36,13 @@ msgid ""
 "spell checking, comparing files, viewing CVS ChangeLogs, and adjusting "
 "indentation levels. </p>"
 msgstr ""
-"<p> Xed は小型ながらも強力なテキストエディターです。標準のテキストエディターに求められる機能を一通り備えており、Unicode "
-"での国際テキストを完全にサポートしています。また、構文の強調表示・ソースコードの自動インデント・単一ウィンドウでの複数ドキュメントの表示と編集などの高度な"
-"機能もあります。</p> <p> Xed はプラグインシステムによる拡張が可能であり、今のところスペルチェック・ファイルの比較・CVS "
-"変更履歴の閲覧・インデントレベルの調整などのサポートが含まれています。</p>"
+"<p> Xed は小型ながらも強力なテキストエディターです。標準のテキストエディター"
+"に求められる機能を一通り備えており、Unicode での国際テキストを完全にサポート"
+"しています。また、構文の強調表示・ソースコードの自動インデント・単一ウィンド"
+"ウでの複数ドキュメントの表示と編集などの高度な機能もあります。</p> <p> Xed は"
+"プラグインシステムによる拡張が可能であり、今のところスペルチェック・ファイル"
+"の比較・CVS 変更履歴の閲覧・インデントレベルの調整などのサポートが含まれてい"
+"ます。</p>"
 
 #: ../data/xed.desktop.in.in.h:1 ../xed/xed-print-job.c:700
 msgid "Text Editor"
@@ -61,7 +64,8 @@ msgstr "エンコーディングの選択肢として有効な値の一覧を表
 msgid ""
 "Set the character encoding to be used to open the files listed on the "
 "command line"
-msgstr "文字エンコーディングを設定して、コマンドラインに並べられたファイルを開きます"
+msgstr ""
+"文字エンコーディングを設定して、コマンドラインに並べられたファイルを開きます"
 
 #: ../xed/xed-app.c:114
 msgid "ENCODING"
@@ -174,8 +178,7 @@ msgid_plural ""
 msgstr[0] "ここで保存しないと、%ld 分前からの変更が完全に失われます。"
 
 #: ../xed/xed-close-confirmation-dialog.c:417
-msgid ""
-"If you don't save, changes from the last hour will be permanently lost."
+msgid "If you don't save, changes from the last hour will be permanently lost."
 msgstr "ここで保存しないと、1 時間前からの変更が完全に失われます。"
 
 #: ../xed/xed-close-confirmation-dialog.c:422
@@ -203,11 +206,12 @@ msgstr "ドキュメント \"%s\" を閉じる前に、変更した内容を保�
 
 #: ../xed/xed-close-confirmation-dialog.c:642
 #, c-format
-msgid ""
-"There is %d document with unsaved changes. Save changes before closing?"
+msgid "There is %d document with unsaved changes. Save changes before closing?"
 msgid_plural ""
 "There are %d documents with unsaved changes. Save changes before closing?"
-msgstr[0] "変更が保存されていない %d 個のドキュメントがあります。閉じる前に内容を保存しますか？"
+msgstr[0] ""
+"変更が保存されていない %d 個のドキュメントがあります。閉じる前に内容を保存し"
+"ますか？"
 
 #: ../xed/xed-close-confirmation-dialog.c:659
 msgid "S_elect the documents you want to save:"
@@ -306,8 +310,7 @@ msgid_plural ""
 msgstr[0] "%ld 分前からのドキュメントへの変更が完全に失われます。"
 
 #: ../xed/xed-commands-file.c:1294
-msgid ""
-"Changes made to the document in the last hour will be permanently lost."
+msgid "Changes made to the document in the last hour will be permanently lost."
 msgstr "1 時間前からのドキュメントへの変更が完全に失われます。"
 
 #: ../xed/xed-commands-file.c:1299
@@ -446,8 +449,7 @@ msgid "The location of the file cannot be mounted."
 msgstr "ファイルの場所をマウントできません。"
 
 #: ../xed/xed-io-error-info-bar.c:204
-msgid ""
-"The location of the file cannot be accessed because it is not mounted."
+msgid "The location of the file cannot be accessed because it is not mounted."
 msgstr "ファイルの場所がマウントされていないため、アクセスできません。"
 
 #: ../xed/xed-io-error-info-bar.c:207
@@ -466,7 +468,9 @@ msgstr "%s は有効な場所ではありません。"
 msgid ""
 "Host %s could not be found. Please check that your proxy settings are "
 "correct and try again."
-msgstr "ホスト %s が見つかりませんでした。プロキシの設定が正しいかを確認し、もう一度試してください。"
+msgstr ""
+"ホスト %s が見つかりませんでした。プロキシの設定が正しいかを確認し、もう一度"
+"試してください。"
 
 #. use the same string as INVALID_HOST
 #: ../xed/xed-io-error-info-bar.c:256
@@ -474,7 +478,8 @@ msgstr "ホスト %s が見つかりませんでした。プロキシの設定�
 msgid ""
 "Hostname was invalid. Please check that you typed the location correctly and "
 "try again."
-msgstr "ホスト名が無効です。入力した場所が正しいかを確認し、もう一度試してください。"
+msgstr ""
+"ホスト名が無効です。入力した場所が正しいかを確認し、もう一度試してください。"
 
 #: ../xed/xed-io-error-info-bar.c:263
 #, c-format
@@ -513,7 +518,9 @@ msgstr "強制的に編集 (_W)"
 msgid ""
 "The number of followed links is limited and the actual file could not be "
 "found within this limit."
-msgstr "リンクを上限の回数になるまで辿りましたが、その回数以内で実際のファイルを見つけられませんでした。"
+msgstr ""
+"リンクを上限の回数になるまで辿りましたが、その回数以内で実際のファイルを見つ"
+"けられませんでした。"
 
 #: ../xed/xed-io-error-info-bar.c:493
 msgid "You do not have the permissions necessary to open the file."
@@ -540,7 +547,9 @@ msgstr "ファイル %s を開く際に問題がありました。"
 msgid ""
 "The file you opened has some invalid characters. If you continue editing "
 "this file you could corrupt this document."
-msgstr "開いたファイルに無効な文字が含まれています。このまま編集を続けると、ドキュメントが破損する可能性があります。"
+msgstr ""
+"開いたファイルに無効な文字が含まれています。このまま編集を続けると、ドキュメ"
+"ントが破損する可能性があります。"
 
 #: ../xed/xed-io-error-info-bar.c:512
 msgid "You can also choose another character encoding and try again."
@@ -569,7 +578,9 @@ msgstr "ファイル %s を文字エンコーディング %s で保存できま�
 msgid ""
 "The document contains one or more characters that cannot be encoded using "
 "the specified character encoding."
-msgstr "ドキュメントに含まれている文字の中に、指定された文字エンコーディングでは表現できないものが存在します。"
+msgstr ""
+"ドキュメントに含まれている文字の中に、指定された文字エンコーディングでは表現"
+"できないものが存在します。"
 
 #. Translators: the access key chosen for this string should be
 #. different from other main menu access keys (Open, Edit, View...)
@@ -586,7 +597,9 @@ msgstr "このファイル (%s) はすでに別の xed ウィンドウで開か�
 msgid ""
 "xed opened this instance of the file in a non-editable way. Do you want to "
 "edit it anyway?"
-msgstr "この xed インスタンスは現在、対象のファイルを誤って編集できない状態にして開いています。それでも編集できるようにしますか？"
+msgstr ""
+"この xed インスタンスは現在、対象のファイルを誤って編集できない状態にして開い"
+"ています。それでも編集できるようにしますか？"
 
 #: ../xed/xed-io-error-info-bar.c:742 ../xed/xed-io-error-info-bar.c:830
 #: ../xed/xed-io-error-info-bar.c:1092
@@ -601,16 +614,17 @@ msgstr "保存しない (_O)"
 #. FIXME: review this message, it's not clear since for the user the "modification"
 #. * could be interpreted as the changes he made in the document. beside "reading" is
 #. * not accurate (since last load/save)
-#. 
+#.
 #: ../xed/xed-io-error-info-bar.c:760
 #, c-format
 msgid "The file %s has been modified since reading it."
 msgstr "ファイル %s を読み取った時点から変更がありました。"
 
 #: ../xed/xed-io-error-info-bar.c:774
-msgid ""
-"If you save it, all the external changes could be lost. Save it anyway?"
-msgstr "このまま保存すると、外部からの変更がすべて失われます。それでもよろしいですか？"
+msgid "If you save it, all the external changes could be lost. Save it anyway?"
+msgstr ""
+"このまま保存すると、外部からの変更がすべて失われます。それでもよろしいです"
+"か？"
 
 #: ../xed/xed-io-error-info-bar.c:851
 #, c-format
@@ -628,8 +642,10 @@ msgid ""
 "You can ignore this warning and save the file anyway, but if an error occurs "
 "while saving, you could lose the old copy of the file. Save anyway?"
 msgstr ""
-"新しいファイルを保存する前に、古いファイルのコピーをバックアップできませんでした。この警告を無視してファイルを保存することもできますが、保存中に何らかのエ"
-"ラーが発生した場合、古いファイルのコピーが失われるかもしれません。それでもよろしいですか？"
+"新しいファイルを保存する前に、古いファイルのコピーをバックアップできませんで"
+"した。この警告を無視してファイルを保存することもできますが、保存中に何らかの"
+"エラーが発生した場合、古いファイルのコピーが失われるかもしれません。それでも"
+"よろしいですか？"
 
 #. Translators: %s is a URI scheme (like for example http:, ftp:, etc.)
 #: ../xed/xed-io-error-info-bar.c:928
@@ -637,56 +653,71 @@ msgstr ""
 msgid ""
 "xed cannot handle %s locations in write mode. Please check that you typed "
 "the location correctly and try again."
-msgstr "書き込みモードでは %s の場所を扱えません。入力した場所が正しいかを確認し、もう一度試してください。"
+msgstr ""
+"書き込みモードでは %s の場所を扱えません。入力した場所が正しいかを確認し、も"
+"う一度試してください。"
 
 #: ../xed/xed-io-error-info-bar.c:936
 msgid ""
 "xed cannot handle this location in write mode. Please check that you typed "
 "the location correctly and try again."
-msgstr "書き込みモードでは、この場所を扱えません。入力した場所が正しいかを確認し、もう一度試してください。"
+msgstr ""
+"書き込みモードでは、この場所を扱えません。入力した場所が正しいかを確認し、も"
+"う一度試してください。"
 
 #: ../xed/xed-io-error-info-bar.c:945
 #, c-format
 msgid ""
 "%s is not a valid location. Please check that you typed the location "
 "correctly and try again."
-msgstr "%s は有効な場所ではありません。入力した場所が正しいかを確認し、もう一度試してください。"
+msgstr ""
+"%s は有効な場所ではありません。入力した場所が正しいかを確認し、もう一度試して"
+"ください。"
 
 #: ../xed/xed-io-error-info-bar.c:951
 msgid ""
 "You do not have the permissions necessary to save the file. Please check "
 "that you typed the location correctly and try again."
-msgstr "ファイルを保存するために必要な権限がありません。入力した場所が正しいかを確認し、もう一度試してください。"
+msgstr ""
+"ファイルを保存するために必要な権限がありません。入力した場所が正しいかを確認"
+"し、もう一度試してください。"
 
 #: ../xed/xed-io-error-info-bar.c:957
 msgid ""
 "There is not enough disk space to save the file. Please free some disk space "
 "and try again."
-msgstr "ファイルを保存するためのディスク容量が残っていません。ディスクに空きを作ってから、もう一度試してください。"
+msgstr ""
+"ファイルを保存するためのディスク容量が残っていません。ディスクに空きを作って"
+"から、もう一度試してください。"
 
 #: ../xed/xed-io-error-info-bar.c:962
 msgid ""
 "You are trying to save the file on a read-only disk. Please check that you "
 "typed the location correctly and try again."
-msgstr "読み取り専用のディスクにファイルを保存しようとしています。入力した場所が正しいかを確認し、もう一度試してください。"
+msgstr ""
+"読み取り専用のディスクにファイルを保存しようとしています。入力した場所が正し"
+"いかを確認し、もう一度試してください。"
 
 #: ../xed/xed-io-error-info-bar.c:968
-msgid ""
-"A file with the same name already exists. Please use a different name."
+msgid "A file with the same name already exists. Please use a different name."
 msgstr "すでに同名のファイルが存在します。別の名前を付けてください。"
 
 #: ../xed/xed-io-error-info-bar.c:973
 msgid ""
 "The disk where you are trying to save the file has a limitation on length of "
 "the file names. Please use a shorter name."
-msgstr "保存先のディスクには、指定できるファイル名の長さに上限があります。もっと短い名前を付けてください。"
+msgstr ""
+"保存先のディスクには、指定できるファイル名の長さに上限があります。もっと短い"
+"名前を付けてください。"
 
 #: ../xed/xed-io-error-info-bar.c:983
 msgid ""
 "The disk where you are trying to save the file has a limitation on file "
 "sizes. Please try saving a smaller file or saving it to a disk that does not "
 "have this limitation."
-msgstr "保存先のディスクには、ファイルのサイズに上限があります。もっとファイルを小さくするか、サイズの上限がないディスクに保存してください。"
+msgstr ""
+"保存先のディスクには、ファイルのサイズに上限があります。もっとファイルを小さ"
+"くするか、サイズの上限がないディスクに保存してください。"
 
 #: ../xed/xed-io-error-info-bar.c:996
 #, c-format
@@ -721,7 +752,9 @@ msgstr "%s の保存中に、いくつかの無効な文字が検出されまし
 #: ../xed/xed-io-error-info-bar.c:1122
 msgid ""
 "If you continue saving this file you can corrupt the document.  Save anyway?"
-msgstr "このままファイルを保存すると、ドキュメントが破損する可能性があります。それでもよろしいですか？"
+msgstr ""
+"このままファイルを保存すると、ドキュメントが破損する可能性があります。それで"
+"もよろしいですか？"
 
 #: ../xed/xed-preferences-dialog.c:284
 #: ../xed/resources/ui/xed-preferences-dialog.ui.h:3
@@ -739,9 +772,10 @@ msgstr "保存"
 
 #: ../xed/xed-preferences-dialog.c:598
 #, c-format
-msgid ""
-"Directory '%s' could not be created: g_mkdir_with_parents() failed: %s"
-msgstr "ディレクトリ '%s' を作成できませんでした: g_mkdir_with_parents() が失敗しました: %s"
+msgid "Directory '%s' could not be created: g_mkdir_with_parents() failed: %s"
+msgstr ""
+"ディレクトリ '%s' を作成できませんでした: g_mkdir_with_parents() が失敗しまし"
+"た: %s"
 
 #: ../xed/xed-preferences-dialog.c:752
 msgid "The selected color scheme cannot be installed."
@@ -1050,12 +1084,12 @@ msgstr "行番号"
 msgid "Print line nu_mbers"
 msgstr "行番号を印刷 (_M)"
 
-#. 
+#.
 #: ../xed/resources/ui/xed-print-preferences.ui.h:6
 msgid "_Number every"
 msgstr "行番号を (_N)"
 
-#. 
+#.
 #: ../xed/resources/ui/xed-print-preferences.ui.h:8
 msgid "lines"
 msgstr "行ごとに付ける"
@@ -1700,7 +1734,7 @@ msgstr "同じ文字列を後方へ検索します"
 
 #: ../xed/xed-ui.h:127
 msgid "Search for and replace text"
-msgstr "文字列を検索し、置換します"
+msgstr "文字列を検索し、置き換えます"
 
 #: ../xed/xed-ui.h:128
 msgid "Go to _Line..."
@@ -1898,7 +1932,9 @@ msgstr "ドキュメントの統計"
 msgid ""
 "Analyzes the current document and reports the number of words, lines, "
 "characters and non-space characters in it."
-msgstr "現在のドキュメントを解析し、単語・行・文字・非空白文字がいくつ含まれているかを表示します。"
+msgstr ""
+"現在のドキュメントを解析し、単語・行・文字・非空白文字がいくつ含まれているか"
+"を表示します。"
 
 #: ../plugins/docinfo/docinfo.ui.h:2
 msgid "_Update"
@@ -1964,9 +2000,10 @@ msgid ""
 "generally applies to opening a document from the command line or opening it "
 "with Caja, etc.)"
 msgstr ""
-"TRUE "
-"にすると、最初のドキュメントを開いたときに、まだ未使用のファイルブラウザーの初回参照先として、そのドキュメントが存在する場所を表示させます。(なので、この"
-"設定の影響があるのは主に、コマンドラインや Caja などからドキュメントを開いた場合です。)"
+"TRUE にすると、最初のドキュメントを開いたときに、まだ未使用のファイルブラウ"
+"ザーの初回参照先として、そのドキュメントが存在する場所を表示させます。(なの"
+"で、この設定の影響があるのは主に、コマンドラインや Caja などからドキュメント"
+"を開いた場合です。)"
 
 #: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:3
 msgid "File Browser Filter Mode"
@@ -1979,9 +2016,10 @@ msgid ""
 "(filter binary files) and hidden_and_binary (filter both hidden and binary "
 "files)."
 msgstr ""
-"この値により、ファイルブラウザーの表示から除外されるファイルの種類が決まります。指定できる値は: none (何も除外しない), hidden "
-"(隠しファイルを除外), binary (バイナリファイルを除外), hidden_and_binary "
-"(隠しファイルとバイナリファイルのどちらも除外) です。"
+"この値により、ファイルブラウザーの表示から除外されるファイルの種類が決まりま"
+"す。指定できる値は: none (何も除外しない), hidden (隠しファイルを除外), "
+"binary (バイナリファイルを除外), hidden_and_binary (隠しファイルとバイナリ"
+"ファイルのどちらも除外) です。"
 
 #: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:5
 msgid "File Browser Filter Pattern"
@@ -1992,7 +2030,8 @@ msgid ""
 "The filter pattern to filter the file browser with. This filter works on top "
 "of the filter_mode."
 msgstr ""
-"ファイルブラウザーの内容を、ここで指定されたパターンに沿って絞り込みます。この絞り込みは filter_mode を適用したあとに行われます。"
+"ファイルブラウザーの内容を、ここで指定されたパターンに沿って絞り込みます。こ"
+"の絞り込みは filter_mode を適用したあとに行われます。"
 
 #: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:7
 msgid "Terminal Command"
@@ -2010,7 +2049,9 @@ msgstr "ツリー表示で開く"
 msgid ""
 "Open the tree view when the file browser plugin gets loaded instead of the "
 "bookmarks view"
-msgstr "ファイルブラウザープラグインが読み込まれたとき、ブックマーク表示ではなくツリー表示で開きます"
+msgstr ""
+"ファイルブラウザープラグインが読み込まれたとき、ブックマーク表示ではなくツ"
+"リー表示で開きます"
 
 #: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:11
 msgid "File Browser Root Directory"
@@ -2021,8 +2062,8 @@ msgid ""
 "The file browser root directory to use when loading the file browser plugin "
 "and onload/tree_view is TRUE."
 msgstr ""
-"ファイルブラウザープラグインが読み込まれ、かつ onload/tree_view が TRUE "
-"のときに使用される、ファイルブラウザーのルートディレクトリです。"
+"ファイルブラウザープラグインが読み込まれ、かつ onload/tree_view が TRUE のと"
+"きに使用される、ファイルブラウザーのルートディレクトリです。"
 
 #: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:13
 msgid "File Browser Virtual Root Directory"
@@ -2034,8 +2075,9 @@ msgid ""
 "plugin when onload/tree_view is TRUE. The virtual root must always be below "
 "the actual root."
 msgstr ""
-"ファイルブラウザープラグインが読み込まれ、かつ onload/tree_view が TRUE "
-"のときに使用される、ファイルブラウザーの仮想ルートディレクトリです。仮想ルートディレクトリには必ず、実際のルートディレクトリよりも下層に位置するものを指定"
+"ファイルブラウザープラグインが読み込まれ、かつ onload/tree_view が TRUE のと"
+"きに使用される、ファイルブラウザーの仮想ルートディレクトリです。仮想ルート"
+"ディレクトリには必ず、実際のルートディレクトリよりも下層に位置するものを指定"
 "してください。"
 
 #: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:15
@@ -2141,7 +2183,8 @@ msgid ""
 "The renamed file is currently filtered out. You need to adjust your filter "
 "settings to make the file visible"
 msgstr ""
-"名前が変更されたファイルは現在、フィルター機能により非表示となっている状態です。このファイルを表示させるには、フィルターの設定を調整する必要があります"
+"名前が変更されたファイルは現在、フィルター機能により非表示となっている状態で"
+"す。このファイルを表示させるには、フィルターの設定を調整する必要があります"
 
 #. Translators: This is the default name of new files created by the file browser pane.
 #: ../plugins/filebrowser/xed-file-browser-store.c:3766
@@ -2153,7 +2196,8 @@ msgid ""
 "The new file is currently filtered out. You need to adjust your filter "
 "settings to make the file visible"
 msgstr ""
-"新しいファイルは現在、フィルター機能により非表示となっている状態です。このファイルを表示させるには、フィルターの設定を調整する必要があります"
+"新しいファイルは現在、フィルター機能により非表示となっている状態です。この"
+"ファイルを表示させるには、フィルターの設定を調整する必要があります"
 
 #. Translators: This is the default name of new directories created by the file browser pane.
 #: ../plugins/filebrowser/xed-file-browser-store.c:3821
@@ -2165,7 +2209,8 @@ msgid ""
 "The new directory is currently filtered out. You need to adjust your filter "
 "settings to make the directory visible"
 msgstr ""
-"新しいディレクトリは現在、フィルター機能により非表示となっている状態です。このディレクトリを表示させるには、フィルターの設定を調整する必要があります"
+"新しいディレクトリは現在、フィルター機能により非表示となっている状態です。こ"
+"のディレクトリを表示させるには、フィルターの設定を調整する必要があります"
 
 #: ../plugins/filebrowser/xed-file-browser-widget.c:714
 msgid "Bookmarks"
@@ -3865,7 +3910,9 @@ msgstr "タグの一覧"
 msgid ""
 "Provides a method to easily insert commonly used tags/strings into a "
 "document without having to type them."
-msgstr "よく使用されるタグや文字列を手入力せずに、簡単にドキュメントに挿入できる機能を提供します。"
+msgstr ""
+"よく使用されるタグや文字列を手入力せずに、簡単にドキュメントに挿入できる機能"
+"を提供します。"
 
 #: ../plugins/taglist/xed-taglist-plugin-panel.c:605
 msgid "Select the group of tags you want to use"

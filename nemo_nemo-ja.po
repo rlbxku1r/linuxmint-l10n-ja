@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
 "japanese\n"
 "POT-Creation-Date: 2024-11-27 11:21+0000\n"
-"PO-Revision-Date: 2025-11-12 20:00+0900\n"
+"PO-Revision-Date: 2025-11-12 21:02+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
@@ -4257,7 +4257,7 @@ msgstr "最終更新日:"
 
 #: libnemo-private/nemo-file-conflict-dialog.c:300
 msgid "Replace with"
-msgstr "置換するファイル"
+msgstr "置き換えるファイル"
 
 #: libnemo-private/nemo-file-conflict-dialog.c:329
 msgid "Merge"

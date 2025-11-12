@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-12-15 14:48+0000\n"
-"PO-Revision-Date: 2025-09-25 23:12+0900\n"
+"PO-Revision-Date: 2025-11-12 21:02+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "Language: ja\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Launchpad-Export-Date: 2025-08-29 13:36+0000\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.6\n"
 
 #: nemo-audio-tab/nemo-extension/nemo-audio-tab.py:41
 msgid "Audio"
@@ -1498,8 +1498,8 @@ msgstr "すでに同じ名前で共有されている場所があります"
 #: nemo-share/src/nemo-share.c:505
 msgid ""
 "This folder is located in an encrypted directory. It will not be accessible "
-"by other users unless the option 'force user' is specified in /etc/samba/smb."
-"conf."
+"by other users unless the option 'force user' is specified in /etc/samba/"
+"smb.conf."
 msgstr ""
 "このフォルダーは暗号化されたディレクトリ内に存在します。/etc/samba/smb.conf "
 "に 'force user' オプションを指定しない限り、他の人がアクセスすることはできま"
@@ -1723,7 +1723,7 @@ msgstr "シーケンスは Python の記法に従ってエスケープしてく�
 #: nemo-terminal/src/nemo-terminal-prefs.py:218
 #, python-format
 msgid "'%s' is replaced by the quoted directory name."
-msgstr "'%s' はクォート文字で囲まれたディレクトリ名に置換されます。"
+msgstr "'%s' はクォート文字で囲まれたディレクトリ名に置き換えられます。"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:225
 msgid "Advanced"
