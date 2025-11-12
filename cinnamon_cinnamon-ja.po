@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
 "japanese\n"
 "POT-Creation-Date: 2024-12-02 16:37+0000\n"
-"PO-Revision-Date: 2025-11-07 04:55+0900\n"
+"PO-Revision-Date: 2025-11-12 20:33+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
@@ -8878,7 +8878,7 @@ msgstr "スペーサー"
 
 #. spacer@cinnamon.org->metadata.json->description
 msgid "Add some space between your other applets"
-msgstr "アプレットの間隔を調節するスペースを挿入"
+msgstr "アプレットの間隔を調節できる余白を挿入"
 
 #. spacer@cinnamon.org->settings-schema.json->width->description
 msgid "Amount of space in pixels"
