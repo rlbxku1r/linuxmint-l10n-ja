@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2025-11-11 14:02+0000\n"
-"PO-Revision-Date: 2025-11-12 14:10+0900\n"
+"PO-Revision-Date: 2025-11-12 17:47+0900\n"
 "Last-Translator: \n"
 "Language-Team: Japanese <ja@li.org>\n"
 "Language: ja\n"
@@ -93,7 +93,7 @@ msgstr "ブートパラメーター:"
 
 #: usr/share/mintsysadm/mintsysadm.ui.h:6
 msgid "The computer booted with the following parameters:"
-msgstr "このパラメーターでコンピューターが起動します:"
+msgstr "これらのパラメーターでコンピューターが起動します:"
 
 #: usr/share/mintsysadm/mintsysadm.ui.h:7
 msgid ""
