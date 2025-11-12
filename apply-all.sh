@@ -15,12 +15,14 @@ msgfmt hypnotix_hypnotix-ja.po -o /usr/share/locale/ja/LC_MESSAGES/hypnotix.mo
 msgfmt lightdm-settings_lightdm-settings-ja.po -o /usr/share/locale/ja/LC_MESSAGES/lightdm-settings.mo
 msgfmt mintdrivers_mintdrivers-ja.po -o /usr/share/locale/ja/LC_MESSAGES/mintdrivers.mo
 msgfmt mintreport_mintreport-ja.po -o /usr/share/locale/ja/LC_MESSAGES/mintreport.mo
+msgfmt mintsysadm_mintsysadm-ja.po -o /usr/share/locale/ja/LC_MESSAGES/mintsysadm.mo
 msgfmt mintupdate_mintupdate-ja.po -o /usr/share/locale/ja/LC_MESSAGES/mintupdate.mo
 msgfmt mintupgrade_mintupgrade-ja.po -o /usr/share/locale/ja/LC_MESSAGES/mintupgrade.mo
 msgfmt nemo_nemo-ja.po -o /usr/share/locale/ja/LC_MESSAGES/nemo.mo
 msgfmt nemo-extensions_nemo-extensions-ja.po -o /usr/share/locale/ja/LC_MESSAGES/nemo-extensions.mo
 msgfmt nvidia-prime-applet_nvidia-prime-applet-ja.po -o /usr/share/locale/ja/LC_MESSAGES/nvidia-prime-applet.mo
 msgfmt pix_pix-ja.po -o /usr/share/locale/ja/LC_MESSAGES/pix.mo
+msgfmt python-xapp_python-xapp-ja.po -o /usr/share/locale/ja/LC_MESSAGES/python-xapp.mo
 msgfmt slick-greeter_slick-greeter-ja.po -o /usr/share/locale/ja/LC_MESSAGES/slick-greeter.mo
 msgfmt sticky_sticky-ja.po -o /usr/share/locale/ja/LC_MESSAGES/sticky.mo
 msgfmt thingy_thingy-ja.po -o /usr/share/locale/ja/LC_MESSAGES/thingy.mo

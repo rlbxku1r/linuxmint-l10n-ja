@@ -1,0 +1,73 @@
+# Japanese translation for linuxmint
+# Copyright (c) 2025 Rosetta Contributors and Canonical Ltd 2025
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2025-11-11 13:45+0000\n"
+"PO-Revision-Date: 2025-11-12 04:41+0900\n"
+"Last-Translator: \n"
+"Language-Team: Japanese <ja@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2025-11-11 19:28+0000\n"
+"X-Generator: Poedit 3.6\n"
+
+#: xapp/widgets/ListEditor.py:161
+msgid "Move up"
+msgstr "上へ移動"
+
+#: xapp/widgets/ListEditor.py:167
+msgid "Move down"
+msgstr "下へ移動"
+
+#: xapp/widgets/ListEditor.py:231
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: xapp/widgets/ListEditor.py:234
+msgid "Save"
+msgstr "保存"
+
+#: xapp/widgets/ListEditor.py:354
+msgid "Add"
+msgstr "追加"
+
+#: xapp/widgets/ListEditor.py:362
+msgid "Remove"
+msgstr "削除"
+
+#: xapp/widgets/ListEditor.py:369
+msgid "Edit"
+msgstr "編集"
+
+#: xapp/widgets/ListEditor.py:377
+msgid "Remove all"
+msgstr "すべて削除"
+
+#: xapp/widgets/ListEditor.py:486
+#, python-format
+msgid "'%s' is already in the list."
+msgstr "すでに '%s' は一覧にあります。"
+
+#: xapp/widgets/ListEditor.py:571
+msgid "Remove?"
+msgstr "削除しますか？"
+
+#: xapp/widgets/ListEditor.py:573
+#, python-format
+msgid "Are you sure you want to remove '%s'?"
+msgstr "'%s' を削除しますか？"
+
+#: xapp/widgets/ListEditor.py:626
+msgid "Remove all?"
+msgstr "すべて削除しますか？"
+
+#: xapp/widgets/ListEditor.py:628
+msgid "This will remove all items from the list."
+msgstr "一覧からすべての項目を削除します。"
