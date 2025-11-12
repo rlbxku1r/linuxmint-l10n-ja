@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-11-28 17:06+0000\n"
-"PO-Revision-Date: 2023-12-02 11:01+0000\n"
+"PO-Revision-Date: 2025-11-12 16:00+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2025-08-29 13:36+0000\n"
-"X-Generator: Launchpad (build 919009172d854f2b8e4e8262db447f12f11d25eb)\n"
-"Language: ja\n"
+"X-Generator: Poedit 3.6\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:36
 #: usr/lib/lightdm-settings/lightdm-settings:68 generate_desktop_files:25
@@ -65,7 +65,9 @@ msgstr "背景画像"
 msgid ""
 "Note: Don't select a background from your home directory if it's encrypted "
 "or if its permissions are restricted."
-msgstr "注意: ホームディレクトリに暗号化やパーミッションの制限がかけられている場合、そこにある画像は選択しないでください。"
+msgstr ""
+"注意: ホームディレクトリに暗号化やパーミッションの制限がかけられている場合、"
+"そこにある画像は選択しないでください。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:142
 #: usr/lib/lightdm-settings/lightdm-settings:143
@@ -128,7 +130,9 @@ msgstr "他のモニター"
 msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
-msgstr "複数のモニターがある場合、ユーザーの一覧はアクティブなモニターに配置され、この画像は他のモニターに配置されます。"
+msgstr ""
+"複数のモニターがある場合、ユーザーの一覧はアクティブなモニターに配置され、こ"
+"の画像は他のモニターに配置されます。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:183
 msgid "Bottom left"
@@ -174,7 +178,9 @@ msgstr "ゲストセッションを許可"
 msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
-msgstr "ゲストがパスワードなしでコンピューターを使用できるようにします。一時的なゲストアカウントが、ログイン時に自動で作成されます。"
+msgstr ""
+"ゲストがパスワードなしでコンピューターを使用できるようにします。一時的なゲス"
+"トアカウントが、ログイン時に自動で作成されます。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:211
 msgid "Automatic login"
@@ -187,7 +193,9 @@ msgstr "ユーザー名"
 #: usr/lib/lightdm-settings/lightdm-settings:215
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
-msgstr "警告: ユーザーのホームディレクトリが暗号化されている場合、自動ログインは失敗します。"
+msgstr ""
+"警告: ユーザーのホームディレクトリが暗号化されている場合、自動ログインは失敗"
+"します。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:219
 msgid "Delay before connection (in seconds)"
@@ -199,11 +207,12 @@ msgid ""
 "before the automatic login occurs. Any user activity will cancel the "
 "countdown."
 msgstr ""
-"このオプションを設定すると、自動的にログインする前に、この秒数の間だけ待機します。ユーザーが何か操作をすると、カウントダウンを中止します。"
+"このオプションを設定すると、自動的にログインする前に、この秒数の間だけ待機し"
+"ます。ユーザーが何か操作をすると、カウントダウンを中止します。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:223
 msgid "These settings require a computer reboot to take effect."
-msgstr "これらの設定を有効にするには、コンピューターの再起動が必要です。"
+msgstr "これらの設定を反映させるには、コンピューターの再起動が必要です。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:228
 #: usr/lib/lightdm-settings/lightdm-settings:229
@@ -252,7 +261,9 @@ msgstr "モニター"
 msgid ""
 "Choose which monitor should display the login window, or select 'Auto' if "
 "you want it to follow the mouse."
-msgstr "ログイン画面を表示するモニターを選択します。'自動' にすると、マウスカーソルがあるモニターに表示します。"
+msgstr ""
+"ログイン画面を表示するモニターを選択します。'自動' にすると、マウスカーソルが"
+"あるモニターに表示します。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:257
 msgid "Panel indicators"
@@ -317,7 +328,9 @@ msgstr "時計の形式"
 #: usr/lib/lightdm-settings/lightdm-settings:304
 msgid ""
 "See https://www.foragoodstrftime.com for more information on formatting."
-msgstr "フォーマットの詳細については https://www.foragoodstrftime.com を参照してください。"
+msgstr ""
+"フォーマットの詳細については https://www.foragoodstrftime.com を参照してくだ"
+"さい。"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:235
 msgid "Choose an Image File"
