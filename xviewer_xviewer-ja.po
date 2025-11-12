@@ -14,20 +14,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: xviewer master\n"
-"Report-Msgid-Bugs-To: "
-"http://bugzilla.gnome.org/enter_bug.cgi?product=xviewer&keywords=I18N+L10N&co"
-"mponent=general\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=xviewer&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2025-04-16 17:14+0100\n"
-"PO-Revision-Date: 2025-05-25 11:01+0000\n"
+"PO-Revision-Date: 2025-11-12 15:28+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Launchpad-Export-Date: 2025-08-29 13:37+0000\n"
-"X-Generator: Launchpad (build 919009172d854f2b8e4e8262db447f12f11d25eb)\n"
-"Language: ja\n"
+"X-Generator: Poedit 3.6\n"
 
 #: ../src/resources/xviewer-app-menu.xml.h:1 ../src/xviewer-window.c:4242
 msgid "_View"
@@ -245,7 +244,7 @@ msgstr "連番の開始 (_S):"
 
 #: ../src/resources/xviewer-multiple-save-as-dialog.ui.h:13
 msgid "_Replace spaces with underscores"
-msgstr "空白をアンダースコアで置換 (_R)"
+msgstr "スペースをアンダースコアで置換 (_R)"
 
 #: ../src/resources/xviewer-multiple-save-as-dialog.ui.h:14
 msgid "Options"
@@ -443,7 +442,8 @@ msgstr "画像 \"%s\" を閉じる前に、変更した内容を保存します�
 msgid "There is %d image with unsaved changes. Save changes before closing?"
 msgid_plural ""
 "There are %d images with unsaved changes. Save changes before closing?"
-msgstr[0] "変更が保存されていない %d 枚の画像があります。閉じる前に内容を保存しますか？"
+msgstr[0] ""
+"変更が保存されていない %d 枚の画像があります。閉じる前に内容を保存しますか？"
 
 #: ../src/xviewer-close-confirmation-dialog.c:669
 msgid "S_elect the images you want to save:"
@@ -583,7 +583,9 @@ msgstr "ファイルの形式が不明、またはサポートされていませ
 msgid ""
 "Image Viewer could not determine a supported writable file format based on "
 "the filename."
-msgstr "サポートされている書き込みファイル形式を、ファイル名から推定できませんでした。"
+msgstr ""
+"サポートされている書き込みファイル形式を、ファイル名から推定できませんでし"
+"た。"
 
 #: ../src/xviewer-file-chooser.c:125
 msgid "Please try a different file extension like .png or .jpg."
@@ -975,7 +977,8 @@ msgstr ""
 msgid ""
 "A trash for \"%s\" couldn't be found. Do you want to remove this image "
 "permanently?"
-msgstr "画像 \"%s\" をゴミ箱に移動できないため、完全に削除します。よろしいですか？"
+msgstr ""
+"画像 \"%s\" をゴミ箱に移動できないため、完全に削除します。よろしいですか？"
 
 #: ../src/xviewer-window.c:3724
 #, c-format
@@ -993,7 +996,9 @@ msgstr[0] ""
 msgid ""
 "Some of the selected images can't be moved to the trash and will be removed "
 "permanently. Are you sure you want to proceed?"
-msgstr "選択したいくつかの画像はゴミ箱に移動できないため、完全に削除されます。よろしいですか？"
+msgstr ""
+"選択したいくつかの画像はゴミ箱に移動できないため、完全に削除されます。よろし"
+"いですか？"
 
 #: ../src/xviewer-window.c:3746 ../src/xviewer-window.c:4318
 #: ../src/xviewer-window.c:4357
@@ -1066,8 +1071,7 @@ msgid "Changes the visibility of the statusbar in the current window"
 msgstr "現在のウィンドウのステータスバーを表示/非表示にします"
 
 #: ../src/xviewer-window.c:4274
-msgid ""
-"Changes the visibility of the image gallery pane in the current window"
+msgid "Changes the visibility of the image gallery pane in the current window"
 msgstr "現在のウィンドウの画像ギャラリーペインを表示/非表示にします"
 
 #: ../src/xviewer-window.c:4277
@@ -1368,7 +1372,9 @@ msgstr "既存のインスタンスを流用せずに、新しいインスタン
 #: ../src/main.c:67
 msgid ""
 "Open in a single window, if multiple windows are open the first one is used"
-msgstr "単一のウィンドウで開きます (複数のウィンドウを開いている場合、最初のウィンドウが使用されます)"
+msgstr ""
+"単一のウィンドウで開きます (複数のウィンドウを開いている場合、最初のウィンド"
+"ウが使用されます)"
 
 #: ../src/main.c:69
 msgid "Show the application's version"
@@ -1382,4 +1388,6 @@ msgstr "[ファイル…]"
 #: ../src/main.c:112
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options."
-msgstr "'%s --help' を実行すると、利用できるコマンドラインのオプションをすべて表示します。"
+msgstr ""
+"'%s --help' を実行すると、利用できるコマンドラインのオプションをすべて表示し"
+"ます。"

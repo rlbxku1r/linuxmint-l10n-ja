@@ -9,17 +9,17 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
 "japanese\n"
 "POT-Creation-Date: 2018-05-07 12:31+0100\n"
-"PO-Revision-Date: 2023-12-02 11:02+0000\n"
+"PO-Revision-Date: 2025-11-12 15:28+0900\n"
 "Last-Translator: npaqq <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Launchpad-Export-Date: 2025-08-29 13:36+0000\n"
-"X-Generator: Launchpad (build 919009172d854f2b8e4e8262db447f12f11d25eb)\n"
-"Language: ja\n"
+"X-Generator: Poedit 3.6\n"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:28
 #: usr/lib/linuxmint/mintupload/upload-manager.py:28
@@ -33,7 +33,9 @@ msgstr "アップロードマネージャー"
 #: usr/lib/linuxmint/mintupload/mintupload.py:138
 #, python-format
 msgid "%(percentage)s of %(number)d files - Uploading to %(service)s"
-msgstr "%(percentage)s / %(number)d 個のファイル - %(service)s にアップロードしています"
+msgstr ""
+"%(percentage)s / %(number)d 個のファイル - %(service)s にアップロードしていま"
+"す"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:45
 #: usr/lib/linuxmint/mintupload/mintupload.py:141
@@ -248,7 +250,7 @@ msgstr "サービス名:"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:127
 msgid "<i>Try to avoid spaces and special characters...</i>"
-msgstr "<i>空白と特殊文字の使用は避けてください...</i>"
+msgstr "<i>スペースと特殊文字の使用は避けてください...</i>"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:204
 #, python-format
@@ -307,7 +309,9 @@ msgstr "ユーザー名、既定値はあなたのローカルユーザー名に
 msgid ""
 "Password, by default: password-less SCP connection, null-string FTP "
 "connection, ~/.ssh keys used for SFTP connections"
-msgstr "パスワードです、既定値はパスワードなし (SCP 接続)、ナル文字 (FTP 接続)、~/.ssh 鍵 (SFTP 接続)"
+msgstr ""
+"パスワードです、既定値はパスワードなし (SCP 接続)、ナル文字 (FTP 接続)、"
+"~/.ssh 鍵 (SFTP 接続)"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:236
 #: usr/lib/linuxmint/mintupload/upload-manager.py:237
@@ -319,7 +323,9 @@ msgstr "時刻の書式です (strftime)。既定値:"
 msgid ""
 "Directory to upload to. <TIMESTAMP> is replaced with the current timestamp, "
 "following the timestamp format given. By default: ."
-msgstr "アップロード先のディレクトリです。<TIMESTAMP> は (指定された書式に従い) 現在の時刻で置き換えられます。既定値: ."
+msgstr ""
+"アップロード先のディレクトリです。<TIMESTAMP> は (指定された書式に従い) 現在"
+"の時刻で置き換えられます。既定値: ."
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:314
 msgid "Could not save configuration change"
