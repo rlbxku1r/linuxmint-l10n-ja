@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2025-08-29 13:36+0000\n"
-"X-Generator: Launchpad (build 919009172d854f2b8e4e8262db447f12f11d25eb)\n"
+"X-Launchpad-Export-Date: 2025-11-12 08:08+0000\n"
+"X-Generator: Launchpad (build 1d08ffb47b836b8a4c9a0f11318dfdea7420ab6d)\n"
 "Language: ja\n"
 
 #: usr/lib/linuxmint/mintwelcome/mintwelcome.py:121
@@ -272,45 +272,3 @@ msgstr "素敵な時間をお過ごしいただき､そして遠慮なく私た
 #: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:38
 msgid "Let's go!"
 msgstr "始めましょう！"
-
-#~ msgid "Visit the forums"
-#~ msgstr "フォーラムへ移動"
-
-#~ msgid "Read the release notes"
-#~ msgstr "リリースノートを読む"
-
-#~ msgid "Connect to the chat room"
-#~ msgstr "チェットルームに接続"
-
-#~ msgid "Browse the list of new features"
-#~ msgstr "新機能の一覧を見る"
-
-#~ msgid "Contribute to Linux Mint"
-#~ msgstr "Linux Mint へ寄与"
-
-#, python-format
-#~ msgid "Discover %s"
-#~ msgstr "%s を見つける"
-
-#~ msgid "Find help"
-#~ msgstr "ヘルプを検索"
-
-#~ msgid "Become a sponsor"
-#~ msgstr "スポンサーになる"
-
-#~ msgid ""
-#~ "Welcome and thank you for choosing Linux Mint. We hope you'll enjoy using it "
-#~ "as much as we did making it. Please make yourself familiar with the new "
-#~ "features and the documentation and don't hesitate to send us your feedback."
-#~ msgstr ""
-#~ "ようこそ Linux Mint へ。Linux Mint をお選び頂き有難う御座います。私達は開発した以上に Linux Mint "
-#~ "を楽しく使って頂ける事と存じます。新しい特徴と設計仕様をお確かめ頂き、お気づきの点があれば、ぜひ私達にお聞かせ下さい。"
-
-#~ msgid "Make a donation"
-#~ msgstr "寄付する"
-
-#~ msgid "Get involved"
-#~ msgstr "参加する"
-
-#~ msgid "Download the user guide (PDF)"
-#~ msgstr "ユーザガイド (PDF) をダウンロード"
