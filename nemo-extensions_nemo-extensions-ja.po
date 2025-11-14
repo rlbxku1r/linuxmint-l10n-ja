@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-12-15 14:48+0000\n"
-"PO-Revision-Date: 2025-11-12 21:02+0900\n"
+"PO-Revision-Date: 2025-11-14 19:18+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "Language: ja\n"
@@ -1747,7 +1747,7 @@ msgstr "コンテキストメニューからアーカイブを管理できるよ
 
 #: nemo-share/src/nemo-share.c:1115
 msgid "Allows you to quickly share a folder from the context menu"
-msgstr "コンテキストメニューから素早くフォルダーを共有できるようにします"
+msgstr "コンテキストメニューからフォルダーを素早く共有できるようにします"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:19
 msgid "Nemo Emblems"
