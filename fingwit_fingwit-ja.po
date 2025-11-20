@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2025-08-26 17:41+0200\n"
-"PO-Revision-Date: 2025-11-12 20:50+0900\n"
+"POT-Creation-Date: 2025-11-19 16:04+0000\n"
+"PO-Revision-Date: 2025-11-20 18:55+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2025-08-29 13:36+0000\n"
+"X-Launchpad-Export-Date: 2025-11-20 09:48+0000\n"
 "X-Generator: Poedit 3.6\n"
 
 #: data/fingwit.desktop.in:3 fingwit:81 data/fingwit/fingwit.ui.h:9
@@ -88,12 +88,12 @@ msgstr "スキャナーに指を置いてください..."
 
 #: fingwit:293
 msgid "Well done! Your fingerprint was saved successfully."
-msgstr "これで完了です。指紋が正常に保存されました。"
+msgstr "これで完了です！指紋が正常に保存されました。"
 
 #: fingwit:299
 #, python-format
 msgid "Good scan (%d so far)! Do it again..."
-msgstr "その調子です (現在 %d 回目)。もう一度スキャンしてください..."
+msgstr "その調子です (現在 %d 回目)！もう一度スキャンしてください..."
 
 #: fingwit:302
 msgid "Try again..."
@@ -106,6 +106,14 @@ msgstr "すみません、指紋を保存できませんでした。"
 #: fingwit:310
 msgid "This fingerprint is already saved, use a different finger."
 msgstr "すでにこの指紋は保存されています。別の指で登録してください。"
+
+#: fingwit:315
+msgid "This device cannot store any more fingerprints."
+msgstr "このデバイスには、これ以上指紋を保存できません。"
+
+#: fingwit:320
+msgid "An unknown error occured."
+msgstr "不明なエラーが発生しました。"
 
 #: data/fingwit/fingwit.ui.h:1
 msgid "No fingerprint reader detected"
