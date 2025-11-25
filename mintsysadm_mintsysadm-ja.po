@@ -7,21 +7,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2025-11-11 14:02+0000\n"
-"PO-Revision-Date: 2025-11-12 20:09+0900\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2025-11-24 13:08+0000\n"
+"PO-Revision-Date: 2025-11-25 20:28+0900\n"
+"Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2025-11-11 19:28+0000\n"
+"X-Launchpad-Export-Date: 2025-11-25 11:08+0000\n"
 "X-Generator: Poedit 3.6\n"
 
 #: generate_desktop_files:25 generate_desktop_files:53
-#: usr/lib/linuxmint/mintsysadm/mintsysadm.py:53
-#: usr/lib/linuxmint/mintsysadm/mintsysadm.py:193
-#: usr/share/mintsysadm/mintsysadm.ui.h:11
+#: usr/lib/linuxmint/mintsysadm/mintsysadm.py:52
+#: usr/lib/linuxmint/mintsysadm/mintsysadm.py:214
+#: usr/share/mintsysadm/mintsysadm.ui.h:14
 msgid "System Administration"
 msgstr "システムの管理"
 
@@ -29,24 +29,24 @@ msgstr "システムの管理"
 msgid "Configure the system"
 msgstr "システムの構成を変更します"
 
-#: usr/lib/linuxmint/mintsysadm/mintsysadm.py:69
+#: usr/lib/linuxmint/mintsysadm/mintsysadm.py:70
 msgid "Add a boot argument"
 msgstr "ブート引数を追加"
 
-#: usr/lib/linuxmint/mintsysadm/mintsysadm.py:69
+#: usr/lib/linuxmint/mintsysadm/mintsysadm.py:70
 msgid "If the argument is not recognized by the kernel it will be ignored."
 msgstr "カーネルが認識できない引数は無視されます。"
 
-#: usr/lib/linuxmint/mintsysadm/mintsysadm.py:87
+#: usr/lib/linuxmint/mintsysadm/mintsysadm.py:88
 msgid "Quit"
 msgstr "終了"
 
-#: usr/lib/linuxmint/mintsysadm/mintsysadm.py:99
-#: usr/lib/linuxmint/mintsysadm/mintsysadm.py:191
+#: usr/lib/linuxmint/mintsysadm/mintsysadm.py:100
+#: usr/lib/linuxmint/mintsysadm/mintsysadm.py:212
 msgid "About"
 msgstr "このアプリケーションについて"
 
-#: usr/lib/linuxmint/mintsysadm/mintsysadm.py:143
+#: usr/lib/linuxmint/mintsysadm/mintsysadm.py:164
 msgid ""
 "Running update-grub...\n"
 "\n"
@@ -54,75 +54,91 @@ msgstr ""
 "update-grub を実行しています...\n"
 "\n"
 
-#: usr/lib/linuxmint/mintsysadm/mintsysadm.py:144
-#: usr/share/mintsysadm/mintsysadm.ui.h:15
+#: usr/lib/linuxmint/mintsysadm/mintsysadm.py:165
+#: usr/share/mintsysadm/mintsysadm.ui.h:18
 msgid "Processing..."
 msgstr "処理しています..."
 
-#: usr/lib/linuxmint/mintsysadm/mintsysadm.py:170
+#: usr/lib/linuxmint/mintsysadm/mintsysadm.py:191
 msgid "Success"
 msgstr "成功"
 
-#: usr/lib/linuxmint/mintsysadm/mintsysadm.py:172
+#: usr/lib/linuxmint/mintsysadm/mintsysadm.py:193
 msgid "Error"
 msgstr "エラー"
 
-#: usr/lib/linuxmint/mintsysadm/mintsysadm.py:184
+#: usr/lib/linuxmint/mintsysadm/mintsysadm.py:205
 msgid "Boot arguments cannot include space characters."
 msgstr "ブート引数にスペースを含めることはできません。"
 
 #: usr/share/mintsysadm/mintsysadm.ui.h:1
-msgid "Boot menu:"
-msgstr "ブートメニュー:"
+msgid "Boot menu"
+msgstr "ブートメニュー"
 
 #: usr/share/mintsysadm/mintsysadm.ui.h:2
-msgid "Duration (in seconds)"
-msgstr "持続時間 (秒)"
-
-#: usr/share/mintsysadm/mintsysadm.ui.h:3
 msgid "Show the menu"
 msgstr "メニューを表示"
 
+#: usr/share/mintsysadm/mintsysadm.ui.h:3
+msgid ""
+"The menu will always be shown if multiple operating systems are installed."
+msgstr ""
+"複数のオペレーティングシステムがインストールされている場合、メニューは常に"
+"表示されます。"
+
 #: usr/share/mintsysadm/mintsysadm.ui.h:4
-msgid "Set the duration to -1 if you want the menu to show indefinitely."
-msgstr "ずっとメニューを表示しておくには、持続時間を -1 に設定してください。"
+msgid "Delay before booting the default selection (seconds)"
+msgstr "既定の項目が起動するまでの待機時間 (秒)"
 
 #: usr/share/mintsysadm/mintsysadm.ui.h:5
-msgid "Boot parameters:"
-msgstr "ブートパラメーター:"
+msgid "Set the delay to -1 if you want the menu to show indefinitely."
+msgstr ""
+"ずっとメニューを表示させておくには、待機時間を -1 に設定してください。"
 
 #: usr/share/mintsysadm/mintsysadm.ui.h:6
+msgid "-1"
+msgstr "-1"
+
+#: usr/share/mintsysadm/mintsysadm.ui.h:7
+msgid "Remember the last selected choice as the default"
+msgstr "最後に選択した項目を記憶"
+
+#: usr/share/mintsysadm/mintsysadm.ui.h:8
+msgid "Boot parameters"
+msgstr "ブートパラメーター"
+
+#: usr/share/mintsysadm/mintsysadm.ui.h:9
 msgid "The computer booted with the following parameters:"
 msgstr "これらのパラメーターでコンピューターが起動します:"
 
-#: usr/share/mintsysadm/mintsysadm.ui.h:7
+#: usr/share/mintsysadm/mintsysadm.ui.h:10
 msgid ""
 "In addition to the system configuration you can set your own parameters in "
-"the list below:"
-msgstr "システムの構成に加えて、下の一覧で任意のパラメーターを設定できます:"
+"the list below"
+msgstr "システムの構成に加えて、下の一覧で任意のパラメーターを設定できます"
 
-#: usr/share/mintsysadm/mintsysadm.ui.h:8
-msgid "Note: Press Save and reboot the computer for changes to take effect."
+#: usr/share/mintsysadm/mintsysadm.ui.h:11
+msgid "Press Save and reboot the computer for changes to take effect."
 msgstr ""
-"注: 変更を適用するには、保存ボタンを押してから、コンピューターを再起動して"
-"ください。"
+"変更を適用するには、保存ボタンを押してから、コンピューターを再起動してくだ"
+"さい。"
 
-#: usr/share/mintsysadm/mintsysadm.ui.h:9
+#: usr/share/mintsysadm/mintsysadm.ui.h:12
 msgid "Save"
 msgstr "保存"
 
-#: usr/share/mintsysadm/mintsysadm.ui.h:10
+#: usr/share/mintsysadm/mintsysadm.ui.h:13
 msgid "Boot Menu"
 msgstr "ブートメニュー"
 
-#: usr/share/mintsysadm/mintsysadm.ui.h:12
+#: usr/share/mintsysadm/mintsysadm.ui.h:15
 msgid "Updating the boot menu"
 msgstr "ブートメニューを更新しています"
 
-#: usr/share/mintsysadm/mintsysadm.ui.h:13
+#: usr/share/mintsysadm/mintsysadm.ui.h:16
 msgid "Close"
 msgstr "閉じる"
 
-#: usr/share/mintsysadm/mintsysadm.ui.h:14
+#: usr/share/mintsysadm/mintsysadm.ui.h:17
 msgid "Result:"
 msgstr "結果:"
