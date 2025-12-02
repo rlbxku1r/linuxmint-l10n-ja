@@ -9,16 +9,16 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
 "japanese\n"
 "POT-Creation-Date: 2023-05-30 13:56+0100\n"
-"PO-Revision-Date: 2025-07-21 07:10+0000\n"
+"PO-Revision-Date: 2025-12-02 22:58+0900\n"
 "Last-Translator: npaqq <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2025-11-12 08:08+0000\n"
-"X-Generator: Launchpad (build 1d08ffb47b836b8a4c9a0f11318dfdea7420ab6d)\n"
-"Language: ja\n"
+"X-Generator: Poedit 3.6\n"
 
 #: usr/share/help/C/mintdesktop/wms.page:8(name)
 #: usr/share/help/C/mintdesktop/index.page:6(name)
@@ -50,14 +50,16 @@ msgid ""
 "Marco is the default window manager for the MATE desktop environment. It is "
 "very stable and very reliable. It can run with or without compositing."
 msgstr ""
-"Marco は MATE "
-"デスクトップ環境の既定のウィンドウマネージャーです。とても安定していて信頼性があります。コンポジットの有無にかかわらず実行できます。"
+"Marco は MATE デスクトップ環境の既定のウィンドウマネージャーです。とても安定"
+"していて信頼性があります。コンポジットの有無にかかわらず実行できます。"
 
 #: usr/share/help/C/mintdesktop/wms.page:23(p)
 msgid ""
 "If Marco is not installed already, you can install it with <cmd>apt install "
 "marco</cmd>."
-msgstr "Marco がインストールされていない場合、<cmd>apt install marco</cmd> でインストールすることができます。"
+msgstr ""
+"Marco がインストールされていない場合、<cmd>apt install marco</cmd> でインス"
+"トールすることができます。"
 
 #: usr/share/help/C/mintdesktop/wms.page:27(title)
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:163
@@ -70,15 +72,17 @@ msgid ""
 "Metacity was the default window manager for the GNOME 2 desktop environment. "
 "It is very stable and very reliable. It can run with or without compositing."
 msgstr ""
-"Metacity は、かつての GNOME 2 "
-"デスクトップ環境で使用されていたウィンドウマネージャーです。とても安定していて信頼性があります。コンポジットの有無にかかわらず実行できます。"
+"Metacity は、かつての GNOME 2 デスクトップ環境で使用されていたウィンドウマ"
+"ネージャーです。とても安定していて信頼性があります。コンポジットの有無にかか"
+"わらず実行できます。"
 
 #: usr/share/help/C/mintdesktop/wms.page:29(p)
 msgid ""
 "If Metacity is not installed already, you can install it with <cmd>apt "
 "install metacity</cmd>."
 msgstr ""
-"Metacity がインストールされていない場合、<cmd>apt install metacity</cmd> でインストールすることができます。"
+"Metacity がインストールされていない場合、<cmd>apt install metacity</cmd> でイ"
+"ンストールすることができます。"
 
 #: usr/share/help/C/mintdesktop/wms.page:33(title)
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:177
@@ -90,14 +94,17 @@ msgstr "Mutter"
 msgid ""
 "Mutter is the default window and compositing manager for the GNOME 3 desktop "
 "environment. It is very stable and very reliable."
-msgstr "Mutter は GNOME 3 デスクトップ環境の既定のウィンドウ兼コンポジットマネージャーです。とても安定していて信頼性があります。"
+msgstr ""
+"Mutter は GNOME 3 デスクトップ環境の既定のウィンドウ兼コンポジットマネー"
+"ジャーです。とても安定していて信頼性があります。"
 
 #: usr/share/help/C/mintdesktop/wms.page:35(p)
 msgid ""
 "If Mutter is not installed already, you can install it with <cmd>apt install "
 "mutter</cmd>."
 msgstr ""
-"Mutter がインストールされていない場合、<cmd>apt install mutter</cmd> でインストールすることができます。"
+"Mutter がインストールされていない場合、<cmd>apt install mutter</cmd> でインス"
+"トールすることができます。"
 
 #: usr/share/help/C/mintdesktop/wms.page:39(title)
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:168
@@ -110,14 +117,16 @@ msgid ""
 "Xfwm4 is the default window manager for the Xfce desktop environment. It is "
 "very stable and very reliable. It can run with or without compositing."
 msgstr ""
-"Xfwm4 は Xfce "
-"デスクトップ環境の既定のウィンドウマネージャーです。とても安定していて信頼性があります。コンポジットの有無にかかわらず実行できます。"
+"Xfwm4 は Xfce デスクトップ環境の既定のウィンドウマネージャーです。とても安定"
+"していて信頼性があります。コンポジットの有無にかかわらず実行できます。"
 
 #: usr/share/help/C/mintdesktop/wms.page:41(p)
 msgid ""
 "If Xfwm4 is not installed already, you can install it with <cmd>apt install "
 "xfwm4</cmd>."
-msgstr "Xfwm4 がインストールされていない場合、<cmd>apt install xfwm4</cmd> でインストールすることができます。"
+msgstr ""
+"Xfwm4 がインストールされていない場合、<cmd>apt install xfwm4</cmd> でインス"
+"トールすることができます。"
 
 #: usr/share/help/C/mintdesktop/wms.page:45(title)
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:179
@@ -131,14 +140,16 @@ msgid ""
 "amazing effects and animations. It is however the least reliable and the "
 "least stable."
 msgstr ""
-"Compiz "
-"はとても印象的なウィンドウマネージャーです。拡張性に優れ、視覚効果やアニメーションが多様されています。しかし、安定性や信頼性は低くなっています。"
+"Compiz はとても印象的なウィンドウマネージャーです。拡張性に優れ、視覚効果やア"
+"ニメーションが多様されています。しかし、安定性や信頼性は低くなっています。"
 
 #: usr/share/help/C/mintdesktop/wms.page:47(p)
 msgid ""
 "Compiz is installed by default in Linux Mint. Note: It is not available in "
 "LMDE."
-msgstr "Compiz は Linux Mint に最初からインストールされています。ただし、LMDE では利用できません。"
+msgstr ""
+"Compiz は Linux Mint に最初からインストールされています。ただし、LMDE では利"
+"用できません。"
 
 #: usr/share/help/C/mintdesktop/wms.page:51(title)
 msgid "Compton"
@@ -150,16 +161,17 @@ msgid ""
 "managers such as Marco, Metacity or Xfwm4. In Xfce, using Xfwm4+Compton is "
 "known to reduce screen tearing."
 msgstr ""
-"Compton はコンポジットマネージャーです。Marco, Metacity, Xfwm4 "
-"などのウィンドウマネージャーと組み合わせて使用できます。Xfce 環境では Xfwm4 と Compton "
-"の併用により、画面の乱れを減少させることが知られています。"
+"Compton はコンポジットマネージャーです。Marco, Metacity, Xfwm4 などのウィンド"
+"ウマネージャーと組み合わせて使用できます。Xfce 環境では Xfwm4 と Compton の併"
+"用により、画面の乱れを減少させることが知られています。"
 
 #: usr/share/help/C/mintdesktop/wms.page:53(p)
 msgid ""
 "If Compton is not installed already, you can install it with <cmd>apt "
 "install compton</cmd>."
 msgstr ""
-"Compton がインストールされていない場合、<cmd>apt install compton</cmd> でインストールすることができます。"
+"Compton がインストールされていない場合、<cmd>apt install compton</cmd> でイン"
+"ストールすることができます。"
 
 #: usr/share/help/C/mintdesktop/wms.page:57(title)
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:173
@@ -176,7 +188,8 @@ msgid ""
 "If Openbox is not installed already, you can install it with <cmd>apt "
 "install openbox</cmd>."
 msgstr ""
-"Openbox がインストールされていない場合、<cmd>apt install openbox</cmd> でインストールすることができます。"
+"Openbox がインストールされていない場合、<cmd>apt install openbox</cmd> でイン"
+"ストールすることができます。"
 
 #: usr/share/help/C/mintdesktop/index.page:14(title)
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:126 generate_desktop_files:26
@@ -200,7 +213,9 @@ msgstr "ウィンドウセクションではウィンドウマネージャーを
 msgid ""
 "Within the operating system, the <gui>window manager</gui> is the part which "
 "is responsible for:"
-msgstr "オペレーティングシステム上の<gui>ウィンドウマネージャー</gui>は、これらの部分の処理を担います:"
+msgstr ""
+"オペレーティングシステム上の<gui>ウィンドウマネージャー</gui>は、これらの部分"
+"の処理を担います:"
 
 #: usr/share/help/C/mintdesktop/index.page:24(p)
 msgid "Windows borders, title bars and window buttons"
@@ -224,15 +239,18 @@ msgstr "利点"
 
 #: usr/share/help/C/mintdesktop/compositing.page:22(p)
 msgid "Better look &amp; feel: Window animations, shadows and transparency."
-msgstr "より美しい外観と視覚効果: ウィンドウのアニメーションや、影・透過効果が適用されます。"
+msgstr ""
+"より美しい外観と視覚効果: ウィンドウのアニメーションや、影・透過効果が適用さ"
+"れます。"
 
 #: usr/share/help/C/mintdesktop/compositing.page:25(p)
 msgid ""
 "Better support for modern applications: Client-side decorations in GTK3 are "
 "better supported by composited window managers."
 msgstr ""
-"最新のアプリケーションとのより良い相互作用: GTK3 で作成されたクライアント側装飾 (CSD) "
-"のアプリケーションは、コンポジットを有効にしたウィンドウマネージャーとの相性が抜群です。"
+"最新のアプリケーションとのより良い相互作用: GTK3 で作成されたクライアント側装"
+"飾 (CSD) のアプリケーションは、コンポジットを有効にしたウィンドウマネージャー"
+"との相性が抜群です。"
 
 #: usr/share/help/C/mintdesktop/compositing.page:31(title)
 msgid "Disadvantages"
@@ -244,16 +262,18 @@ msgid ""
 "with the GPU (as opposed to the CPU) can result in visual artefacts or "
 "screen tearing."
 msgstr ""
-"GPU 描画: お使いのグラフィックカードやドライバーとの組み合わせ次第では、GPU が (CPU とは違い) "
-"不自然・不正確な描画を行ったり、画面の乱れを発生させることがあります。"
+"GPU 描画: お使いのグラフィックカードやドライバーとの組み合わせ次第では、GPU "
+"が (CPU とは違い) 不自然・不正確な描画を行ったり、画面の乱れを発生させること"
+"があります。"
 
 #: usr/share/help/C/mintdesktop/compositing.page:38(p)
 msgid ""
 "Resource usage: Compositing requires more resources. This can result in "
 "slower performance or reduced battery autonomy on laptop computers."
 msgstr ""
-"リソースの消費量: コンポジット処理には、より多くのリソースを必要とします。これにより、パフォーマンスの低下や、ノート PC "
-"バッテリーの持続時間が悪化します。"
+"リソースの消費量: コンポジット処理には、より多くのリソースを必要とします。こ"
+"れにより、パフォーマンスの低下や、ノート PC バッテリーの持続時間が悪化しま"
+"す。"
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: usr/share/help/C/mintdesktop/compositing.page:0(None)
@@ -361,9 +381,12 @@ msgid ""
 "Use the 'wm-recovery' command to switch back to the default window manager.\n"
 "Use the 'wm-detect' command to check which window manager is running."
 msgstr ""
-"ウィンドウマネージャーの詳細については、ヘルプボタンをクリックしてください。\n"
-"既定のウィンドウマネージャーに戻すには 'wm-recovery' コマンドを使用してください。\n"
-"どのウィンドウマネージャーを実行しているか確認するには 'wm-detect' コマンドを使用してください。"
+"ウィンドウマネージャーの詳細については、ヘルプボタンをクリックしてくださ"
+"い。\n"
+"既定のウィンドウマネージャーに戻すには 'wm-recovery' コマンドを使用してくださ"
+"い。\n"
+"どのウィンドウマネージャーを実行しているか確認するには 'wm-detect' コマンドを"
+"使用してください。"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:188
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:192
@@ -460,7 +483,7 @@ msgstr "ほぼ画面サイズのウィンドウは自動的に最大化"
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:228
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:227
 msgid "Enable edge tiling when dropping windows on screen edges"
-msgstr "ウィンドウを画面端にドロップしたときのタイル状配置を有効化"
+msgstr "ウィンドウを画面縁にドロップしたときのタイル状配置を有効化"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:222
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:231
@@ -612,4 +635,6 @@ msgstr "ダークモード"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:301
 msgid "This setting only affects applications which support dark mode"
-msgstr "この設定は、ダークモードをサポートしているアプリケーションにのみ効果があります"
+msgstr ""
+"この設定は、ダークモードをサポートしているアプリケーションにのみ効果がありま"
+"す"
