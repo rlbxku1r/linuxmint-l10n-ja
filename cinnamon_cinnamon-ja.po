@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-02 04:45+0900\n"
-"PO-Revision-Date: 2025-12-03 21:08+0900\n"
+"PO-Revision-Date: 2025-12-03 21:37+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
@@ -6804,7 +6804,7 @@ msgstr "レーン"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_thunderbolt.py:243
 msgid "Manage Thunderbolt and USB4 devices"
-msgstr "Thunderbolt と USB4 デバイスを管理します"
+msgstr "Thunderbolt と USB4 デバイスを管理"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_thunderbolt.py:246
 msgid "thunderbolt, usb, docking, station, hub, dock"
