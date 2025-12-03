@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-02 04:45+0900\n"
-"PO-Revision-Date: 2025-12-02 23:25+0900\n"
+"PO-Revision-Date: 2025-12-03 20:41+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
@@ -8529,15 +8529,15 @@ msgstr "検索バーの位置"
 
 #. menu@cinnamon.org->settings-schema.json->search-position->options
 msgid "At the top"
-msgstr "上部"
+msgstr "上側"
 
 #. menu@cinnamon.org->settings-schema.json->search-position->options
 msgid "At the bottom"
-msgstr "下部"
+msgstr "下側"
 
 #. menu@cinnamon.org->settings-schema.json->sidebar-icon-size->description
 msgid "Sidebar icon size"
-msgstr "サイドバーのアイコンサイズ"
+msgstr "サイドバーアイコンの大きさ"
 
 #. menu@cinnamon.org->settings-schema.json->show-favorites->tooltip
 msgid "Choose whether or not to show favorite files in the menu."
