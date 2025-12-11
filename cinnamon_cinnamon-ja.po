@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
 "japanese\n"
 "POT-Creation-Date: 2025-12-10 14:14+0000\n"
-"PO-Revision-Date: 2025-12-11 00:01+0900\n"
+"PO-Revision-Date: 2025-12-11 16:39+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
@@ -8074,7 +8074,7 @@ msgstr "ウィンドウ数のバッジを表示"
 #. grouped-window-list@cinnamon.org->settings-schema.json->enable-window-
 #. count-badges->tooltip
 msgid "Indicate on the panel the number of open windows an application has"
-msgstr "パネル上にアプリケーションの開いているウィンドウ数を表記します"
+msgstr "パネル上にアプリケーションの開いているウィンドウ数を表示します"
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->enable-
 #. notification-badges->description
@@ -8086,7 +8086,7 @@ msgstr "通知のバッジを表示"
 #. grouped-window-list@cinnamon.org->settings-schema.json->enable-
 #. notification-badges->tooltip
 msgid "Indicate on the panel when an application has notifications"
-msgstr "パネル上にアプリケーションの通知の数を表記します"
+msgstr "パネル上にアプリケーションの通知の数を表示します"
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->enable-app-button-
 #. dragging->description
