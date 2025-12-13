@@ -9,21 +9,23 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
 "japanese\n"
 "POT-Creation-Date: 2020-05-14 08:12+0100\n"
-"PO-Revision-Date: 2023-12-19 15:09+0000\n"
+"PO-Revision-Date: 2025-12-13 17:42+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2025-11-12 08:08+0000\n"
-"X-Generator: Launchpad (build 1d08ffb47b836b8a4c9a0f11318dfdea7420ab6d)\n"
-"Language: ja\n"
+"X-Generator: Poedit 3.6\n"
 
 #: usr/lib/linuxmint/mintMenu/keybinding.py:168
 msgid ""
 "Click to set a new accelerator key for opening and closing the menu.  "
-msgstr "メニューの開閉に使用する、アクセラレーターキーを設定するにはクリックしてください。  "
+msgstr ""
+"メニューの開閉に使用する、アクセラレーターキーを設定するにはクリックしてく"
+"ださい。  "
 
 #: usr/lib/linuxmint/mintMenu/keybinding.py:169
 msgid "Press Escape or click again to cancel the operation.  "
@@ -47,11 +49,11 @@ msgstr "メニュー"
 
 #: usr/lib/linuxmint/mintMenu/mintMenu.py:153
 msgid "Couldn't load plugin:"
-msgstr "プラグインを読み込めません:"
+msgstr "プラグインを読み込めませんでした:"
 
 #: usr/lib/linuxmint/mintMenu/mintMenu.py:212
 msgid "Couldn't initialize plugin"
-msgstr "プラグインを初期化できません"
+msgstr "プラグインを初期化できませんでした"
 
 #: usr/lib/linuxmint/mintMenu/mintMenu.py:587
 msgid "Advanced MATE Menu"
@@ -99,7 +101,8 @@ msgstr "メニューボタン"
 
 #: usr/lib/linuxmint/mintMenu/preferences.py:67
 msgid "Applet button in the panel"
-msgstr "メニューへのアクセスに使用する、パネル上のアプレットボタンを編集します"
+msgstr ""
+"メニューへのアクセスに使用する、パネル上のアプレットボタンを編集します"
 
 #: usr/lib/linuxmint/mintMenu/preferences.py:68
 msgid "Show button icon"
@@ -511,7 +514,9 @@ msgstr "すべてのアプリケーションを表示します"
 #: usr/lib/linuxmint/mintMenu/plugins/places.py:141
 msgid ""
 "Browse all local and remote disks and folders accessible from this computer"
-msgstr "このコンピューターからアクセスできるローカル・リモートのディスク、フォルダーをすべて参照します"
+msgstr ""
+"このコンピューターからアクセスできるローカル・リモートのディスク、フォル"
+"ダーをすべて参照します"
 
 #: usr/lib/linuxmint/mintMenu/plugins/places.py:148
 msgid "Open your personal folder"
@@ -519,7 +524,8 @@ msgstr "自分の個人用フォルダーを開きます"
 
 #: usr/lib/linuxmint/mintMenu/plugins/places.py:160
 msgid "Browse bookmarked and local network locations"
-msgstr "ブックマークした場所や、ローカルネットワーク上の場所をすべて参照します"
+msgstr ""
+"ブックマークした場所や、ローカルネットワーク上の場所をすべて参照します"
 
 #: usr/lib/linuxmint/mintMenu/plugins/places.py:179
 msgid "Browse items placed on the desktop"
@@ -567,7 +573,8 @@ msgstr "ログアウト、またはユーザーを切り替えます"
 
 #: usr/lib/linuxmint/mintMenu/plugins/system_management.py:196
 msgid "Shutdown, restart, suspend or hibernate"
-msgstr "コンピューターをシャットダウン、再起動、サスペンド、ハイバネートします"
+msgstr ""
+"コンピューターをシャットダウン、再起動、サスペンド、ハイバネートします"
 
 #: usr/share/linuxmint/mintmenu/applications.ui.h:2
 msgid "All applications"
