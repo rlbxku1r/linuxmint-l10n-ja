@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2025-09-13 17:09+0100\n"
-"PO-Revision-Date: 2025-11-12 15:54+0900\n"
+"PO-Revision-Date: 2025-12-13 17:46+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "Language: ja\n"
@@ -203,7 +203,7 @@ msgstr "コンピューターを再起動してください。"
 #: usr/lib/linuxmint/mintupgrade/checks.py:409
 #, python-format
 msgid "%s is unreachable"
-msgstr "%s には到達できません"
+msgstr "%s に到達できません"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:414
 #, python-format
