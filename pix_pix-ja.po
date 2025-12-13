@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=pix&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2023-12-12 10:17+0000\n"
-"PO-Revision-Date: 2025-12-13 16:25+0900\n"
+"PO-Revision-Date: 2025-12-13 17:13+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "Language: ja\n"
@@ -3325,7 +3325,7 @@ msgstr "WebP"
 #: extensions/catalogs/gth-file-source-catalogs.c:516
 #: extensions/file_manager/actions.c:109
 msgid "Name already used"
-msgstr "この名前はすでに使用されています"
+msgstr "すでにこの名前は使用されています"
 
 #: extensions/catalogs/actions.c:177
 msgid "New catalog"
@@ -3445,12 +3445,12 @@ msgstr "タグ"
 #: extensions/catalogs/gth-file-source-catalogs.c:958
 #, c-format
 msgid "The catalog “%s” already exists, do you want to overwrite it?"
-msgstr "カタログ “%s” がすでに存在します。上書きしますか？"
+msgstr "すでにカタログ “%s” が存在します。上書きしますか？"
 
 #: extensions/catalogs/gth-file-source-catalogs.c:960
 #, c-format
 msgid "The library “%s” already exists, do you want to overwrite it?"
-msgstr "ライブラリ “%s” がすでに存在します。上書きしますか？"
+msgstr "すでにライブラリ “%s” が存在します。上書きしますか？"
 
 #: extensions/catalogs/gth-file-source-catalogs.c:968
 msgid "Over_write"

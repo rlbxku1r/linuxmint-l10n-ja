@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
 "japanese\n"
 "POT-Creation-Date: 2025-12-12 12:06+0000\n"
-"PO-Revision-Date: 2025-12-13 16:25+0900\n"
+"PO-Revision-Date: 2025-12-13 17:13+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
@@ -1353,7 +1353,7 @@ msgstr "電源管理: アクティブ"
 
 #: files/usr/share/cinnamon/applets/inhibit@cinnamon.org/applet.js:125
 msgid "Power management is already inhibited by another program"
-msgstr "電源管理はすでに別のプログラムによって抑制されています"
+msgstr "すでに電源管理は別のプログラムによって抑制されています"
 
 #: files/usr/share/cinnamon/applets/inhibit@cinnamon.org/applet.js:126
 msgid "Power management: inhibited by another program"

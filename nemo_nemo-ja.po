@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
 "japanese\n"
 "POT-Creation-Date: 2025-11-25 16:58+0000\n"
-"PO-Revision-Date: 2025-12-13 16:25+0900\n"
+"PO-Revision-Date: 2025-12-13 17:13+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
@@ -517,7 +517,7 @@ msgstr "パーミッションを変更できませんでした。"
 msgid ""
 "The name \"%s\" is already used in this folder. Please use a different name."
 msgstr ""
-"名前 \"%s\" はすでにこのフォルダー内で使用されています。別の名前を付けてくだ"
+"すでに名前 \"%s\" はこのフォルダー内で使用されています。別の名前を付けてくだ"
 "さい。"
 
 #: src/nemo-error-reporting.c:209
@@ -4257,17 +4257,17 @@ msgstr ""
 #: libnemo-private/nemo-file-conflict-dialog.c:154
 #, c-format
 msgid "An older folder with the same name already exists in \"%s\"."
-msgstr "\"%s\" には、すでに同名の古いフォルダーが存在します。"
+msgstr "すでに \"%s\" には、同名の古いフォルダーが存在します。"
 
 #: libnemo-private/nemo-file-conflict-dialog.c:158
 #, c-format
 msgid "A newer folder with the same name already exists in \"%s\"."
-msgstr "\"%s\" には、すでに同名の新しいフォルダーが存在します。"
+msgstr "すでに \"%s\" には、同名の新しいフォルダーが存在します。"
 
 #: libnemo-private/nemo-file-conflict-dialog.c:162
 #, c-format
 msgid "Another folder with the same name already exists in \"%s\"."
-msgstr "\"%s\" には、すでに同名の別フォルダーが存在します。"
+msgstr "すでに \"%s\" には、同名の別フォルダーが存在します。"
 
 #: libnemo-private/nemo-file-conflict-dialog.c:167
 msgid "Replacing it will remove all files in the folder."
@@ -4281,7 +4281,7 @@ msgstr "フォルダー \"%s\" を置き換えますか？"
 #: libnemo-private/nemo-file-conflict-dialog.c:171
 #, c-format
 msgid "A folder with the same name already exists in \"%s\"."
-msgstr "\"%s\" には、すでに同名のフォルダーが存在します。"
+msgstr "すでに \"%s\" には、同名のフォルダーが存在します。"
 
 #: libnemo-private/nemo-file-conflict-dialog.c:176
 #, c-format
@@ -4295,17 +4295,17 @@ msgstr "このまま置き換えると、ファイルの内容がすべて上書
 #: libnemo-private/nemo-file-conflict-dialog.c:182
 #, c-format
 msgid "An older file with the same name already exists in \"%s\"."
-msgstr "\"%s\" には、すでに同名の古いファイルが存在します。"
+msgstr "すでに \"%s\" には、同名の古いファイルが存在します。"
 
 #: libnemo-private/nemo-file-conflict-dialog.c:186
 #, c-format
 msgid "A newer file with the same name already exists in \"%s\"."
-msgstr "\"%s\" には、すでに同名の新しいファイルが存在します。"
+msgstr "すでに \"%s\" には、同名の新しいファイルが存在します。"
 
 #: libnemo-private/nemo-file-conflict-dialog.c:190
 #, c-format
 msgid "Another file with the same name already exists in \"%s\"."
-msgstr "\"%s\" には、すでに同名の別ファイルが存在します。"
+msgstr "すでに \"%s\" には、同名の別ファイルが存在します。"
 
 #: libnemo-private/nemo-file-conflict-dialog.c:268
 msgid "Original file"
