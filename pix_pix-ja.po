@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=pix&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2023-12-12 10:17+0000\n"
-"PO-Revision-Date: 2025-11-11 21:21+0900\n"
+"PO-Revision-Date: 2025-12-13 16:25+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "Language: ja\n"
@@ -647,7 +647,7 @@ msgstr "%s の空き容量"
 #: pix/gth-browser.c:1907 pix/gth-browser.c:1923
 #, c-format
 msgid "No suitable module found for %s"
-msgstr "%s に適切なモジュールが見つかりませんでした"
+msgstr "%s に適切なモジュールが見つかりません"
 
 #: pix/gth-browser.c:1984 extensions/file_tools/gth-file-tool-curves.c:533
 #: extensions/gstreamer_tools/actions.c:69
@@ -729,7 +729,7 @@ msgstr "サポートされていない種類のファイルです"
 
 #: pix/gth-browser.c:6900
 msgid "No suitable module found"
-msgstr "適切なモジュールが見つかりませんでした"
+msgstr "適切なモジュールが見つかりません"
 
 #: pix/gth-buffer-data.c:84 extensions/cairo_io/gth-image-saver-tga.c:260
 #: extensions/cairo_io/gth-image-saver-tiff.c:442
@@ -2650,7 +2650,7 @@ msgstr "表示 (_V)"
 
 #: extensions/find_duplicates/data/ui/find-duplicates-dialog.ui:544
 msgid "No duplicates found."
-msgstr "重複しているファイルは見つかりませんでした。"
+msgstr "重複しているファイルは見つかりません。"
 
 #: extensions/find_duplicates/data/ui/find-duplicates.ui:32
 #: extensions/rename_series/data/ui/rename-series.ui:28
@@ -4940,7 +4940,7 @@ msgstr "別の場所を追加"
 
 #: extensions/search/gth-search-task.c:113
 msgid "No file found"
-msgstr "ファイルが見つかりませんでした"
+msgstr "ファイルが見つかりません"
 
 #: extensions/search/gth-search-task.c:191
 #, c-format

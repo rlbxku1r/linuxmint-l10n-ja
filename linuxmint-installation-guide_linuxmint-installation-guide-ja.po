@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-03-29 10:21+0000\n"
-"PO-Revision-Date: 2025-11-12 21:02+0900\n"
+"PO-Revision-Date: 2025-12-13 16:25+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "Language: ja\n"
@@ -24,11 +24,11 @@ msgstr "起動オプション"
 
 #: ../../boot_options.rst:4
 msgid ""
-"Some graphics cards and motherboards don't work well with the open-source "
-"drivers present in Linux Mint by default."
+"Some graphics cards and motherboards don't work well with the open-source drivers present in "
+"Linux Mint by default."
 msgstr ""
-"一部のグラフィックカードとマザーボードは、Linux Mint にあらかじめ同梱されてい"
-"るオープンソースのドライバーではうまく動きません。"
+"一部のグラフィックカードとマザーボードは、Linux Mint にあらかじめ同梱されているオープンソースのド"
+"ライバーではうまく動きません。"
 
 #: ../../boot_options.rst:7
 msgid "Compatibility mode"
@@ -36,11 +36,10 @@ msgstr "互換モード"
 
 #: ../../boot_options.rst:9
 msgid ""
-"The easiest option is to select ``compatibility mode`` from the USB stick "
-"(or DVD) boot menu."
+"The easiest option is to select ``compatibility mode`` from the USB stick (or DVD) boot menu."
 msgstr ""
-"USB スティック / DVD のブートメニューから ``compatibility mode`` を選択するの"
-"が最も簡単な方法です。"
+"USB スティック / DVD のブートメニューから ``compatibility mode`` を選択するのが最も簡単な方法で"
+"す。"
 
 #: ../../boot_options.rst:15
 msgid "Grub menu (EFI mode)"
@@ -52,8 +51,7 @@ msgstr "Isolinux メニュー (BIOS モード)"
 
 #: ../../boot_options.rst:23
 msgid "If that doesn't work, you can try the ``nomodeset`` boot option."
-msgstr ""
-"それでも動作しないなら、起動オプション ``nomodeset`` を試してみてください。"
+msgstr "それでも動作しないなら、起動オプション ``nomodeset`` を試してみてください。"
 
 #: ../../boot_options.rst:26
 msgid "Nomodeset boot option"
@@ -61,41 +59,34 @@ msgstr "Nomodeset 起動オプション"
 
 #: ../../boot_options.rst:28
 msgid ""
-"In EFI mode, highlight the ``Start Linux Mint`` option and press :kbd:`e` to "
-"modify the boot options."
+"In EFI mode, highlight the ``Start Linux Mint`` option and press :kbd:`e` to modify the boot "
+"options."
 msgstr ""
-"EFI モードでは、``Start Linux Mint`` オプションを強調表示し、:kbd:`e` で起動"
-"オプションを編集します。"
+"EFI モードでは、``Start Linux Mint`` オプションを強調表示し、:kbd:`e` で起動オプションを編集しま"
+"す。"
 
 #: ../../boot_options.rst:34
-msgid ""
-"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`F10` to boot."
-msgstr ""
-"``quiet splash`` を ``nomodeset`` に置き換えてから、:kbd:`F10` を押して起動し"
-"ます。"
+msgid "Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`F10` to boot."
+msgstr "``quiet splash`` を ``nomodeset`` に置き換えてから、:kbd:`F10` を押して起動します。"
 
 #: ../../boot_options.rst:36
 msgid ""
-"In BIOS mode, highlight ``Start Linux Mint`` and press :kbd:`Tab` to modify "
-"the boot options."
+"In BIOS mode, highlight ``Start Linux Mint`` and press :kbd:`Tab` to modify the boot options."
 msgstr ""
-"BIOS モードでは、``Start Linux Mint`` オプションを強調表示し、:kbd:`Tab` で起"
-"動オプションを編集します。"
+"BIOS モードでは、``Start Linux Mint`` オプションを強調表示し、:kbd:`Tab` で起動オプションを編集し"
+"ます。"
 
 #: ../../boot_options.rst:42
-msgid ""
-"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`Enter` to boot."
-msgstr ""
-"``quiet splash`` を ``nomodeset`` に置き換えてから、:kbd:`Enter` を押して起動"
-"します。"
+msgid "Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`Enter` to boot."
+msgstr "``quiet splash`` を ``nomodeset`` に置き換えてから、:kbd:`Enter` を押して起動します。"
 
 #: ../../boot_options.rst:45
 msgid ""
-"Repeat this operation post-install in your grub boot menu and "
-"read :doc:`drivers` to install additional drivers."
+"Repeat this operation post-install in your grub boot menu and read :doc:`drivers` to install "
+"additional drivers."
 msgstr ""
-"インストール後、GRUB ブートメニューでこの操作を再び行い、:doc:`drivers` に"
-"従って追加のドライバーをインストールしてください。"
+"インストール後、GRUB ブートメニューでこの操作を再び行い、:doc:`drivers` に従って追加のドライバー"
+"をインストールしてください。"
 
 #: ../../boot_options.rst:48
 msgid "Other boot options"
@@ -111,11 +102,11 @@ msgstr "``nomodeset`` ではなく ``nouveau.noaccel=1`` を指定する。"
 
 #: ../../boot_options.rst:53
 msgid ""
-"After the installation, use :menuselection:`Advanced Options --> Recovery "
-"mode` from the boot menu and choose ``resume``."
+"After the installation, use :menuselection:`Advanced Options --> Recovery mode` from the boot "
+"menu and choose ``resume``."
 msgstr ""
-"インストール後、ブートメニューから :menuselection:`Advanced Options --> "
-"Recovery mode` を使用し、``resume`` を選択する。"
+"インストール後、ブートメニューから :menuselection:`Advanced Options --> Recovery mode` を使用し、"
+"``resume`` を選択する。"
 
 #: ../../boot_options.rst:56
 msgid "Install an older release"
@@ -123,43 +114,35 @@ msgstr "過去のリリースのインストール"
 
 #: ../../boot_options.rst:58
 msgid ""
-"If your computer has compatibility issues with the latest Linux Mint "
-"release, install a previous release from the same Linux Mint series."
+"If your computer has compatibility issues with the latest Linux Mint release, install a previous "
+"release from the same Linux Mint series."
 msgstr ""
-"お使いのコンピューターと、最新の Linux Mint リリースの間に互換性の問題がある"
-"場合は、同じシリーズの Linux Mint の以前のリリースをインストールしてくださ"
-"い。"
+"お使いのコンピューターと、最新の Linux Mint リリースの間に互換性の問題がある場合は、同じシリーズ"
+"の Linux Mint の以前のリリースをインストールしてください。"
 
 #: ../../boot_options.rst:60
 msgid ""
-"For instance, if you can't install Linux Mint 18.3 (which comes with a 4.10 "
-"kernel), install Linux Mint 18 (which comes with a 4.4 kernel) and upgrade "
-"to 18.3."
+"For instance, if you can't install Linux Mint 18.3 (which comes with a 4.10 kernel), install "
+"Linux Mint 18 (which comes with a 4.4 kernel) and upgrade to 18.3."
 msgstr ""
-"例えば、Linux Mint 18.3 (カーネル 4.10) がインストールできないなら、いったん "
-"Linux Mint 18 (カーネル 4.4) をインストールし、18.3 にアップグレードします。"
+"例えば、Linux Mint 18.3 (カーネル 4.10) がインストールできないなら、いったん Linux Mint 18 (カー"
+"ネル 4.4) をインストールし、18.3 にアップグレードします。"
 
 #: ../../boot_options.rst:63
 msgid ""
-"The first release in each series uses an LTS (Long Term Support) kernel. "
-"Upgrading from this release to the latest one in the series does not change "
-"your kernel."
+"The first release in each series uses an LTS (Long Term Support) kernel. Upgrading from this "
+"release to the latest one in the series does not change your kernel."
 msgstr ""
-"各シリーズの一番初めのリリースは LTS (長期サポート) カーネルを使用していま"
-"す。このリリースから最新版にアップグレードしても、お使いのカーネルは変更され"
-"ません。"
+"各シリーズの一番初めのリリースは LTS (長期サポート) カーネルを使用しています。このリリースから最"
+"新版にアップグレードしても、お使いのカーネルは変更されません。"
 
 #: ../../boot.rst:2
 msgid "Boot Linux Mint"
 msgstr "Linux Mint の起動"
 
 #: ../../boot.rst:4
-msgid ""
-"Now that you have Linux Mint on a USB stick (or DVD) boot the computer from "
-"it."
-msgstr ""
-"Linux Mint をコピーした USB スティック / DVD から、コンピューターを起動しま"
-"しょう。"
+msgid "Now that you have Linux Mint on a USB stick (or DVD) boot the computer from it."
+msgstr "Linux Mint をコピーした USB スティック / DVD から、コンピューターを起動しましょう。"
 
 #: ../../boot.rst:6
 msgid "Insert your USB stick (or DVD) into the computer."
@@ -171,48 +154,45 @@ msgstr "コンピューターを再起動します。"
 
 #: ../../boot.rst:10
 msgid ""
-"Before your computer boots your current operating system (Windows, Mac, "
-"Linux) you should see your `BIOS <https://en.wikipedia.org/wiki/BIOS>`_ "
-"loading screen. Check the screen or your computer's documentation to know "
-"which key to press and instruct your computer to boot on USB (or DVD)."
+"Before your computer boots your current operating system (Windows, Mac, Linux) you should see "
+"your `BIOS <https://en.wikipedia.org/wiki/BIOS>`_ loading screen. Check the screen or your "
+"computer's documentation to know which key to press and instruct your computer to boot on USB "
+"(or DVD)."
 msgstr ""
-"すでにインストール済みの OS (Windows, Mac, Linux) でコンピューターが起動する"
-"前に、`BIOS <https://ja.wikipedia.org/wiki/BIOS>`_ の読み込み画面が現れるはず"
-"です。BIOS 画面、もしくはコンピューターの説明書に従い、コンピューターが "
-"USB / DVD から起動するように、キーボードで操作してあげてください。"
+"すでにインストール済みの OS (Windows, Mac, Linux) でコンピューターが起動する前に、`BIOS <https://"
+"ja.wikipedia.org/wiki/BIOS>`_ の読み込み画面が現れるはずです。BIOS 画面、もしくはコンピューターの"
+"説明書に従い、コンピューターが USB / DVD から起動するように、キーボードで操作してあげてください。"
 
 #: ../../boot.rst:13
 msgid ""
-"Most BIOS have a special key you can press to select the boot device and all "
-"of them have a special key to enter the BIOS configuration screen (from "
-"which you can define the boot order). Depending on the BIOS, these special "
-"keys can "
+"Most BIOS have a special key you can press to select the boot device and all of them have a "
+"special key to enter the BIOS configuration screen (from which you can define the boot order). "
+"Depending on the BIOS, these special keys can "
 "be :kbd:`Escape`, :kbd:`F1`, :kbd:`F2`, :kbd:`F8`, :kbd:`F10`, :kbd:`F11`, :kbd:`F12`, "
-"or :kbd:`Delete`. That information is usually briefly written on the screen "
-"during the boot sequence."
+"or :kbd:`Delete`. That information is usually briefly written on the screen during the boot "
+"sequence."
 msgstr ""
-"ほとんどの BIOS には、ブートデバイスを選んだり、BIOS の設定画面 (ここで起動順"
-"も変更できる) に入るために使用する、何らかの特別なキーが用意されています。お"
-"使いの BIOS にもよりますが、一般的に"
+"ほとんどの BIOS には、ブートデバイスを選んだり、BIOS の設定画面 (ここで起動順も変更できる) に入る"
+"ために使用する、何らかの特別なキーが用意されています。お使いの BIOS にもよりますが、一般的に"
 "は :kbd:`Esc`, :kbd:`F1`, :kbd:`F2`, :kbd:`F8`, :kbd:`F10`, :kbd:`F11`, :kbd:`F12`, :kbd:`Delete` "
-"であることが多いです。通常なら、起動処理の合間に、どのキーを押せばいいのかの"
-"説明が一瞬だけ出てくるはずです。"
+"であることが多いです。通常なら、起動処理の合間に、どのキーを押せばいいのかの説明が一瞬だけ出てく"
+"るはずです。"
 
 #: ../../boot.rst:16
 msgid ""
-"On Macs, keep your finger pressed on the :kbd:`Alt` or :kbd:`Option` key "
-"after hearing the boot sound."
+"On Macs, keep your finger pressed on the :kbd:`Alt` or :kbd:`Option` key after hearing the boot "
+"sound."
 msgstr ""
-"Mac では、起動音が聞こえたら、:kbd:`Alt` もしくは :kbd:`Option` キーを押しっ"
-"ぱなしにしてください。"
+"Mac では、起動音が聞こえたら、:kbd:`Alt` もしくは :kbd:`Option` キーを押しっぱなしにしてくださ"
+"い。"
 
 #: ../../boot.rst:18
 msgid ""
-"The Linux Mint ISO can be booted both in EFI or BIOS mode. In EFI mode it "
-"shows a grub menu. In BIOS mode it shows an isolinux menu."
+"The Linux Mint ISO can be booted both in EFI or BIOS mode. In EFI mode it shows a grub menu. In "
+"BIOS mode it shows an isolinux menu."
 msgstr ""
-"Linux Mint の ISO は EFI モードでも BIOS モードでも起動できます。EFI モードで"
-"は GRUB メニューが、BIOS モードでは isolinux メニューが表示されます。"
+"Linux Mint の ISO は EFI モードでも BIOS モードでも起動できます。EFI モードでは GRUB メニューが、"
+"BIOS モードでは isolinux メニューが表示されます。"
 
 #: ../../boot.rst:24
 msgid "The isolinux menu in BIOS mode"
@@ -224,11 +204,9 @@ msgstr "EFI モードの GRUB メニュー"
 
 #: ../../boot.rst:32
 msgid ""
-"From one of these menu, press :kbd:`Enter` to start Linux Mint from your USB "
-"stick (or DVD)."
+"From one of these menu, press :kbd:`Enter` to start Linux Mint from your USB stick (or DVD)."
 msgstr ""
-"これらのメニューにて :kbd:`Enter` を押すと、Linux Mint を USB スティック / "
-"DVD から開始します。"
+"これらのメニューにて :kbd:`Enter` を押すと、Linux Mint を USB スティック / DVD から開始します。"
 
 #: ../../burn.rst:2
 msgid "Create the bootable media"
@@ -236,8 +214,7 @@ msgstr "起動可能メディアの作成"
 
 #: ../../burn.rst:4
 msgid "The easiest way to install Linux Mint is with a USB stick."
-msgstr ""
-"Linux Mint のインストールには、USB スティックを使用する方法が簡単です。"
+msgstr "Linux Mint のインストールには、USB スティックを使用する方法が簡単です。"
 
 #: ../../burn.rst:6
 msgid "If you cannot boot from USB, you can use a blank DVD."
@@ -253,28 +230,24 @@ msgstr "Linux Mint で作る方法"
 
 #: ../../burn.rst:14
 msgid ""
-"Right-click the ISO file and select :menuselection:`Make Bootable USB "
-"Stick`, or launch :menuselection:`Menu --> Accessories --> USB Image Writer`."
+"Right-click the ISO file and select :menuselection:`Make Bootable USB Stick`, or "
+"launch :menuselection:`Menu --> Accessories --> USB Image Writer`."
 msgstr ""
-"ISO ファイルを右クリックし、:menuselection:`起動可能な USB メモリの作成`を選"
-"択するか、:menuselection:`メニュー --> アクセサリ --> USB イメージライター`を"
-"起動します。"
+"ISO ファイルを右クリックし、:menuselection:`起動可能な USB メモリの作成`を選択する"
+"か、:menuselection:`メニュー --> アクセサリ --> USB イメージライター`を起動します。"
 
 #: ../../burn.rst:20
 msgid "Select your USB device and click :guilabel:`Write`."
-msgstr ""
-"書き込み先の USB デバイスを選択し、:guilabel:`書き込み`をクリックします。"
+msgstr "書き込み先の USB デバイスを選択し、:guilabel:`書き込み`をクリックします。"
 
 #: ../../burn.rst:23
 msgid "In Windows, Mac OS, or other Linux distributions"
 msgstr "Windows, Mac OS, 他の Linux ディストリビューションで作る方法"
 
 #: ../../burn.rst:25
-msgid ""
-"Download `Etcher <https://www.balena.io/etcher/>`_, install it and run it."
+msgid "Download `Etcher <https://www.balena.io/etcher/>`_, install it and run it."
 msgstr ""
-"`Etcher <https://www.balena.io/etcher/>`_ をダウンロードし、インストールして"
-"から実行します。"
+"`Etcher <https://www.balena.io/etcher/>`_ をダウンロードし、インストールしてから実行します。"
 
 #: ../../burn.rst:31
 msgid "Using Etcher"
@@ -298,9 +271,7 @@ msgstr "起動可能な DVD の作り方"
 
 #: ../../burn.rst:43
 msgid "Optical discs are slow and burning to disc is prone to errors."
-msgstr ""
-"光学ディスクの処理速度は遅く、ディスクへの書き込み時にエラーが発生することも"
-"あります。"
+msgstr "光学ディスクの処理速度は遅く、ディスクへの書き込み時にエラーが発生することもあります。"
 
 #: ../../burn.rst:46
 msgid "To prevent issues, burn at the lowest possible speed."
@@ -308,14 +279,13 @@ msgstr "問題を最小限に抑えるため、できるだけ低速で書き込
 
 #: ../../burn.rst:49
 msgid ""
-"Burn the content of the ISO onto the DVD, not the ISO file itself. When "
-"finished, your DVD should contain directories such as ``boot`` and "
-"``casper``, it shouldn't be an empty DVD containing an .iso file."
+"Burn the content of the ISO onto the DVD, not the ISO file itself. When finished, your DVD "
+"should contain directories such as ``boot`` and ``casper``, it shouldn't be an empty DVD "
+"containing an .iso file."
 msgstr ""
-"ISO ファイルの中身を DVD に書き込んでください (ISO ファイル自身を置くわけでは"
-"ありません)。書き込みの完了後、DVD には ``boot`` や ``casper`` というディレク"
-"トリが存在しているはずです。もし .iso ファイル 1 個のみが置かれた DVD が出来"
-"上がったら、どこかで手順を間違えていることになります。"
+"ISO ファイルの中身を DVD に書き込んでください (ISO ファイル自身を置くわけではありません)。書き込"
+"みの完了後、DVD には ``boot`` や ``casper`` というディレクトリが存在しているはずです。もし .iso "
+"ファイル 1 個のみが置かれた DVD が出来上がったら、どこかで手順を間違えていることになります。"
 
 #: ../../burn.rst:52
 msgid "In Linux"
@@ -331,28 +301,24 @@ msgstr "Windows で作る方法"
 
 #: ../../burn.rst:57
 msgid "Right-click the ISO file and select :menuselection:`Burn disk image`."
-msgstr ""
-"ISO ファイルを右クリックし、:menuselection:`ディスク イメージの書き込み`を選"
-"択します。"
+msgstr "ISO ファイルを右クリックし、:menuselection:`ディスク イメージの書き込み`を選択します。"
 
 #: ../../burn.rst:59
 msgid ""
-"To make sure the ISO was burned without any errors, "
-"select :menuselection:`Verify disc after burning`."
+"To make sure the ISO was burned without any errors, select :menuselection:`Verify disc after "
+"burning`."
 msgstr ""
-"ISO が正常に書き込まれることを保証するため、:menuselection:`書き込み後のディ"
-"スクの確認`を選択します。"
+"ISO が正常に書き込まれることを保証するため、:menuselection:`書き込み後のディスクの確認`を選択しま"
+"す。"
 
 #: ../../burn.rst:62
 msgid "In Mac OS"
 msgstr "Mac OS で作る方法"
 
 #: ../../burn.rst:63
-msgid ""
-"Right-click the ISO file and select :menuselection:`Burn Disk Image to Disc`."
+msgid "Right-click the ISO file and select :menuselection:`Burn Disk Image to Disc`."
 msgstr ""
-"ISO ファイルを右クリックし、:menuselection:`ディスクイメージをディスクに書き"
-"込む`を選択します。"
+"ISO ファイルを右クリックし、:menuselection:`ディスクイメージをディスクに書き込む`を選択します。"
 
 #: ../../choose.rst:2
 msgid "Choose the right edition"
@@ -360,29 +326,23 @@ msgstr "自分に適したエディションを選ぶ"
 
 #: ../../choose.rst:4
 msgid ""
-"You can download Linux Mint from the `Linux Mint website <https://"
-"linuxmint.com/download.php>`_."
+"You can download Linux Mint from the `Linux Mint website <https://linuxmint.com/download.php>`_."
 msgstr ""
-"Linux Mint は `Linux Mint のウェブサイト <https://linuxmint.com/"
-"download.php>`_からダウンロードできます。"
+"Linux Mint は `Linux Mint のウェブサイト <https://linuxmint.com/download.php>`_からダウンロードで"
+"きます。"
 
 #: ../../choose.rst:6
 msgid "Read below to choose which edition and architecture are right for you."
-msgstr ""
-"これを読むと、自分に合ったエディションとアーキテクチャを見つけられるはずで"
-"す。"
+msgstr "これを読むと、自分に合ったエディションとアーキテクチャを見つけられるはずです。"
 
 #: ../../choose.rst:9
 msgid "Cinnamon, MATE or Xfce?"
 msgstr "Cinnamon, MATE, Xfce のどれがいい？"
 
 #: ../../choose.rst:11
-msgid ""
-"Linux Mint comes in 3 different flavours, each featuring a different desktop "
-"environment."
+msgid "Linux Mint comes in 3 different flavours, each featuring a different desktop environment."
 msgstr ""
-"Linux Mint には 3 つのフレーバーがあり、それぞれ採用されているデスクトップ環"
-"境が異なります。"
+"Linux Mint には 3 つのフレーバーがあり、それぞれ採用されているデスクトップ環境が異なります。"
 
 #: ../../choose.rst:14 ../../choose.rst:26
 msgid "Cinnamon"
@@ -410,71 +370,62 @@ msgstr "最も軽量なデスクトップ"
 
 #: ../../choose.rst:19
 msgid ""
-"The most popular version of Linux Mint is the Cinnamon edition. Cinnamon is "
-"primarily developed for and by Linux Mint. It is slick, beautiful, and full "
-"of new features."
+"The most popular version of Linux Mint is the Cinnamon edition. Cinnamon is primarily developed "
+"for and by Linux Mint. It is slick, beautiful, and full of new features."
 msgstr ""
-"Linux Mint では、Cinnamon エディションが一番人気のあるバージョンです。元々 "
-"Cinnamon は Linux Mint のために開発されたデスクトップ環境であり、見た目も美し"
-"く、機能も充実しています。"
+"Linux Mint では、Cinnamon エディションが一番人気のあるバージョンです。元々 Cinnamon は Linux "
+"Mint のために開発されたデスクトップ環境であり、見た目も美しく、機能も充実しています。"
 
 #: ../../choose.rst:28
 msgid ""
-"Linux Mint is also involved in the development of MATE, a classic desktop "
-"environment which is the continuation of GNOME 2, Linux Mint's default "
-"desktop between 2006 and 2011. Although it misses a few features and its "
-"development is slower than Cinnamon's, MATE uses less resources and can run "
-"faster on older computers."
+"Linux Mint is also involved in the development of MATE, a classic desktop environment which is "
+"the continuation of GNOME 2, Linux Mint's default desktop between 2006 and 2011. Although it "
+"misses a few features and its development is slower than Cinnamon's, MATE uses less resources "
+"and can run faster on older computers."
 msgstr ""
-"Linux Mint はまた、GNOME 2 由来のクラシックなデスクトップ環境 MATE の開発にも"
-"貢献しており、実際に 2006 年から 2011 年まで Linux Mint の既定のデスクトップ"
-"環境として採用していました。Cinnamon と比べて機能の少なさや開発速度の遅さはあ"
-"りますが、MATE はリソースの消費が緩やかなので、古いコンピューターでも速く動作"
-"します。"
+"Linux Mint はまた、GNOME 2 由来のクラシックなデスクトップ環境 MATE の開発にも貢献しており、実際"
+"に 2006 年から 2011 年まで Linux Mint の既定のデスクトップ環境として採用していました。Cinnamon と"
+"比べて機能の少なさや開発速度の遅さはありますが、MATE はリソースの消費が緩やかなので、古いコン"
+"ピューターでも速く動作します。"
 
 #: ../../choose.rst:37
 msgid ""
-"Xfce is a lightweight desktop environment. It doesn't support as many "
-"features as Cinnamon or MATE, but it's extremely stable and very light on "
-"resource usage."
+"Xfce is a lightweight desktop environment. It doesn't support as many features as Cinnamon or "
+"MATE, but it's extremely stable and very light on resource usage."
 msgstr ""
-"Xfce は軽量なデスクトップ環境です。機能面では Cinnamon や MATE よりも劣勢です"
-"が、抜群の安定性を誇り、リソースの消費量も最小限に抑えられます。"
+"Xfce は軽量なデスクトップ環境です。機能面では Cinnamon や MATE よりも劣勢ですが、抜群の安定性を誇"
+"り、リソースの消費量も最小限に抑えられます。"
 
 #: ../../choose.rst:46
 msgid ""
-"Of course, all three desktops are great and Linux Mint is extremely proud of "
-"each edition. Although there are more features and better support in some "
-"editions than others, and some do run faster and use less resources than "
-"others, they're all great alternatives and choosing the right edition is "
-"largely a matter of taste."
+"Of course, all three desktops are great and Linux Mint is extremely proud of each edition. "
+"Although there are more features and better support in some editions than others, and some do "
+"run faster and use less resources than others, they're all great alternatives and choosing the "
+"right edition is largely a matter of taste."
 msgstr ""
-"もちろん、これら 3 つのデスクトップはどれも素晴らしいもので、それぞれにはそれ"
-"ぞれの利点があります。機能やサポートに差はあれど、他よりも高速に動作したり、"
-"リソースの消費量が少なかったりします。自分に適しているエディションというのは"
-"結局のところ、ほとんど好みの問題です。"
+"もちろん、これら 3 つのデスクトップはどれも素晴らしいもので、それぞれにはそれぞれの利点がありま"
+"す。機能やサポートに差はあれど、他よりも高速に動作したり、リソースの消費量が少なかったりします。"
+"自分に適しているエディションというのは結局のところ、ほとんど好みの問題です。"
 
 #: ../../choose.rst:48
 msgid ""
-"Other than their features and performance, Cinnamon, MATE and Xfce also "
-"represent three different desktop environments, with different menus, "
-"different panels and configuration tools. The right one for you is the one "
-"where you feel at home."
+"Other than their features and performance, Cinnamon, MATE and Xfce also represent three "
+"different desktop environments, with different menus, different panels and configuration tools. "
+"The right one for you is the one where you feel at home."
 msgstr ""
-"機能やパフォーマンス面以外でも、Cinnamon, MATE, Xfce はお互いまったく違うデス"
-"クトップ環境のため、メニューやパネル、設定ツールの見た目も使い勝手も異なりま"
-"す。一番自分にしっくりくるものを選ぶといいでしょう。"
+"機能やパフォーマンス面以外でも、Cinnamon, MATE, Xfce はお互いまったく違うデスクトップ環境のため、"
+"メニューやパネル、設定ツールの見た目も使い勝手も異なります。一番自分にしっくりくるものを選ぶとい"
+"いでしょう。"
 
 #: ../../choose.rst:50
 msgid ""
-"If you are unsure which desktop to choose start with the Cinnamon edition. "
-"Try them all eventually when you have the time. All three of them have their "
-"own audience within the Linux Mint community and they're all very popular."
+"If you are unsure which desktop to choose start with the Cinnamon edition. Try them all "
+"eventually when you have the time. All three of them have their own audience within the Linux "
+"Mint community and they're all very popular."
 msgstr ""
-"それでもどのデスクトップ環境がいいか迷っているのであれば、Cinnamon エディショ"
-"ンから始めてみることをおすすめします。そして、時間が空いているときに他の 2 つ"
-"も実際に試してみるといいです。どのデスクトップ環境も Linux Mint コミュニティ"
-"から愛されており、とても人気があります。"
+"それでもどのデスクトップ環境がいいか迷っているのであれば、Cinnamon エディションから始めてみること"
+"をおすすめします。そして、時間が空いているときに他の 2 つも実際に試してみるといいです。どのデスク"
+"トップ環境も Linux Mint コミュニティから愛されており、とても人気があります。"
 
 #: ../../choose.rst:54
 msgid "32-bit or 64-bit?"
@@ -486,48 +437,41 @@ msgstr "バージョン 20 以降では、64 ビット版しか存在しませ�
 
 #: ../../choose.rst:58
 msgid ""
-"The 32-bit ISO images on prior versions are provided for compatibility with "
-"older computers. 32-bit processors are extremely rare nowadays and most "
-"computers are able to run in 64-bit. If your computer was manufactured after "
-"2007, you probably have a 64-bit processor."
+"The 32-bit ISO images on prior versions are provided for compatibility with older computers. 32-"
+"bit processors are extremely rare nowadays and most computers are able to run in 64-bit. If your "
+"computer was manufactured after 2007, you probably have a 64-bit processor."
 msgstr ""
-"以前のバージョンまでに存在した 32 ビット版の ISO イメージは、古いコンピュー"
-"ターとの互換性のために提供されています。近年では 32 ビットプロセッサーを目に"
-"することは非常に少なく、ほとんどのコンピューターは 64 ビットで実行できるよう"
-"になっています。お使いのコンピューターが 2007 年以降に製造されたものであれ"
-"ば、おそらく 64 ビットプロセッサーが搭載されています。"
+"以前のバージョンまでに存在した 32 ビット版の ISO イメージは、古いコンピューターとの互換性のために"
+"提供されています。近年では 32 ビットプロセッサーを目にすることは非常に少なく、ほとんどのコン"
+"ピューターは 64 ビットで実行できるようになっています。お使いのコンピューターが 2007 年以降に製造"
+"されたものであれば、おそらく 64 ビットプロセッサーが搭載されています。"
 
 #: ../../choose.rst:60
 msgid ""
-"If you have an old computer and you are unsure whether or not it can run in "
-"64-bit, read `X86 Chronology <https://en.wikipedia.org/wiki/"
-"X86#Chronology>`_."
+"If you have an old computer and you are unsure whether or not it can run in 64-bit, read `X86 "
+"Chronology <https://en.wikipedia.org/wiki/X86#Chronology>`_."
 msgstr ""
-"もしお使いのコンピューターがとても古く、64 ビットで実行できるかどうか分からな"
-"い場合は、`x86 製品群と世代 <https://ja.wikipedia.org/wiki/"
-"X86#%E8%A3%BD%E5%93%81%E7%BE%A4%E3%81%A8%E4%B8%96%E4%BB%A3>`_を読んでみてくだ"
-"さい。"
+"もしお使いのコンピューターがとても古く、64 ビットで実行できるかどうか分からない場合は、`x86 製品"
+"群と世代 <https://ja.wikipedia.org/wiki/"
+"X86#%E8%A3%BD%E5%93%81%E7%BE%A4%E3%81%A8%E4%B8%96%E4%BB%A3>`_を読んでみてください。"
 
 #: ../../choose.rst:63
 msgid ""
-"You can try to boot Linux Mint 64-bit on your computer. If it isn't "
-"compatible, nothing bad will happen. You will just get an error message."
+"You can try to boot Linux Mint 64-bit on your computer. If it isn't compatible, nothing bad will "
+"happen. You will just get an error message."
 msgstr ""
-"実際に 64 ビット版の Linux Mint を起動してみることもできます。たとえ互換性が"
-"なかったとしても、特に何も起こりません。ただエラーメッセージが表示されるだけ"
-"です。"
+"実際に 64 ビット版の Linux Mint を起動してみることもできます。たとえ互換性がなかったとしても、特"
+"に何も起こりません。ただエラーメッセージが表示されるだけです。"
 
 #: ../../choose.rst:66
 msgid ""
-"If you cannot boot or install Linux Mint because your hardware is too recent "
-"and is not properly detected see the `Edge ISO Images <https://linuxmint-"
-"user-guide.readthedocs.io/en/latest/edge.html>`_ chapter in the Linux Mint "
-"User Guide for an alternative ISO."
+"If you cannot boot or install Linux Mint because your hardware is too recent and is not properly "
+"detected see the `Edge ISO Images <https://linuxmint-user-guide.readthedocs.io/en/latest/"
+"edge.html>`_ chapter in the Linux Mint User Guide for an alternative ISO."
 msgstr ""
-"お使いのハードウェアが新しすぎるが故に正常に検出できず、Linux Mint の起動やイ"
-"ンストールができない場合、Linux Mint ユーザーガイドの`エッジ ISO イメージ "
-"<https://linuxmint-user-guide.readthedocs.io/en/latest/edge.html>`_の章を参照"
-"し、代替の ISO を探してみてください。"
+"お使いのハードウェアが新しすぎるが故に正常に検出できず、Linux Mint の起動やインストールができない"
+"場合、Linux Mint ユーザーガイドの`エッジ ISO イメージ <https://linuxmint-user-"
+"guide.readthedocs.io/en/latest/edge.html>`_の章を参照し、代替の ISO を探してみてください。"
 
 #: ../../codecs.rst:2
 msgid "Multimedia codecs"
@@ -535,33 +479,28 @@ msgstr "マルチメディアコーデック"
 
 #: ../../codecs.rst:4
 msgid "Some multimedia content requires additional codecs to be installed."
-msgstr ""
-"一部のマルチメディアコンテンツを扱うには、追加のコーデックが必要になることが"
-"あります。"
+msgstr "一部のマルチメディアコンテンツを扱うには、追加のコーデックが必要になることがあります。"
 
 #: ../../codecs.rst:7
 msgid ""
-"If you were online when installing Linux Mint and you ticked the option to "
-"install these codecs, they are already installed."
+"If you were online when installing Linux Mint and you ticked the option to install these codecs, "
+"they are already installed."
 msgstr ""
-"インターネットに接続された状態で Linux Mint を、かつコーデックのオプション付"
-"きでインストールしたのならば、すでにコーデックがインストールされた状態になっ"
-"ているはずです。"
+"インターネットに接続された状態で Linux Mint を、かつコーデックのオプション付きでインストールした"
+"のならば、すでにコーデックがインストールされた状態になっているはずです。"
 
 #: ../../codecs.rst:9
-msgid ""
-"Launch :menuselection:`Menu --> Sound & Video --> Install Multimedia Codecs`."
+msgid "Launch :menuselection:`Menu --> Sound & Video --> Install Multimedia Codecs`."
 msgstr ""
-":menuselection:`メニュー --> サウンドとビデオ --> マルチメディアコーデックの"
-"インストール`を起動します。"
+":menuselection:`メニュー --> サウンドとビデオ --> マルチメディアコーデックのインストール`を起動し"
+"ます。"
 
 #: ../../codecs.rst:14
 msgid "Click :guilabel:`Install`."
 msgstr ":guilabel:`インストール`をクリックします。"
 
 #: ../../codecs.rst:16
-msgid ""
-"Enter your password and wait for the codecs to be installed on your computer."
+msgid "Enter your password and wait for the codecs to be installed on your computer."
 msgstr "パスワードを入力し、コーデックがインストールされるのをお待ちください。"
 
 #: ../../drivers.rst:2
@@ -570,41 +509,38 @@ msgstr "ハードウェアのドライバー"
 
 #: ../../drivers.rst:4
 msgid ""
-"One of the first things to do after installing Linux Mint is to check for "
-"available hardware drivers."
+"One of the first things to do after installing Linux Mint is to check for available hardware "
+"drivers."
 msgstr ""
-"Linux Mint をインストールしたら、お使いのコンピューターの周辺機器を正常に動作"
-"させるために、利用できるハードウェアドライバーをインストールしましょう。"
+"Linux Mint をインストールしたら、お使いのコンピューターの周辺機器を正常に動作させるために、利用で"
+"きるハードウェアドライバーをインストールしましょう。"
 
 #: ../../drivers.rst:6
 msgid "Launch :menuselection:`Menu --> Administration --> Driver Manager`."
-msgstr ""
-":menuselection:`メニュー --> システム管理 --> ドライバーマネージャー`を起動し"
-"ます。"
+msgstr ":menuselection:`メニュー --> システム管理 --> ドライバーマネージャー`を起動します。"
 
 #: ../../drivers.rst:13
 msgid ""
-"If you are offline, the Driver Manager will complain that it cannot connect "
-"to the Internet."
+"If you are offline, the Driver Manager will complain that it cannot connect to the Internet."
 msgstr ""
-"オフライン状態だと、ドライバーマネージャー上に、インターネットに接続できない"
-"ことを示すエラーが表示されます。"
+"オフライン状態だと、ドライバーマネージャー上に、インターネットに接続できないことを示すエラーが表"
+"示されます。"
 
 #: ../../drivers.rst:19
 msgid ""
-"Insert your bootable Linux Mint USB stick (or DVD), wait for it to be "
-"mounted, and click :guilabel:`OK`."
+"Insert your bootable Linux Mint USB stick (or DVD), wait for it to be mounted, and "
+"click :guilabel:`OK`."
 msgstr ""
-"起動可能な Linux Mint の USB スティック / DVD を挿入し、マウントされたことを"
-"確認後、:guilabel:`OK` をクリックしてください。"
+"起動可能な Linux Mint の USB スティック / DVD を挿入し、マウントされたことを確認"
+"後、:guilabel:`OK` をクリックしてください。"
 
 #: ../../drivers.rst:21
 msgid ""
-"Tick the appropriate checkboxes to select the available drivers and "
-"click :guilabel:`Apply Changes`."
+"Tick the appropriate checkboxes to select the available drivers and click :guilabel:`Apply "
+"Changes`."
 msgstr ""
-"適切なチェックボックスにチェックを入れて、利用できるドライバーを選択します。"
-"その後、:guilabel:`変更の適用`をクリックします。"
+"適切なチェックボックスにチェックを入れて、利用できるドライバーを選択します。その後、:guilabel:`変"
+"更の適用`をクリックします。"
 
 #: ../../efi.rst:2
 msgid "EFI"
@@ -616,11 +552,11 @@ msgstr "セキュアブート"
 
 #: ../../efi.rst:7
 msgid ""
-"If after installing Linux Mint in EFI mode, you are unable to boot due to a "
-"``Secure Boot Violation``, you can try one of the following solutions:"
+"If after installing Linux Mint in EFI mode, you are unable to boot due to a ``Secure Boot "
+"Violation``, you can try one of the following solutions:"
 msgstr ""
-"Linux Mint を EFI モードでインストールしたあとに、``Secure Boot Violation`` "
-"と出て起動できない場合、これらの解決策を試してみてください:"
+"Linux Mint を EFI モードでインストールしたあとに、``Secure Boot Violation`` と出て起動できない場"
+"合、これらの解決策を試してみてください:"
 
 #: ../../efi.rst:15
 msgid "Restart the installation:"
@@ -632,11 +568,11 @@ msgstr "インストールする前に、インターネットに接続してく
 
 #: ../../efi.rst:15
 msgid ""
-"**Do not** select ``Install third-party software for graphics and Wi-Fi "
-"hardware, Flash, MP3 and other media``."
+"**Do not** select ``Install third-party software for graphics and Wi-Fi hardware, Flash, MP3 and "
+"other media``."
 msgstr ""
-"``グラフィックスとWi-Fiハードウェアと追加のメディアフォーマットのサードパー"
-"ティ製ソフトウェアをインストールする``を選択**しないで**ください。"
+"``グラフィックスとWi-Fiハードウェアと追加のメディアフォーマットのサードパーティ製ソフトウェアをイ"
+"ンストールする``を選択**しないで**ください。"
 
 #: ../../efi.rst:17
 msgid "Disable ``SecureBoot`` in the ``BIOS`` settings of your computer."
@@ -644,14 +580,12 @@ msgstr "コンピューターの ``BIOS`` 設定から``セキュアブート``�
 
 #: ../../efi.rst:20
 msgid ""
-"For examples of how to disable secure boot on various computers, read "
-"`Managing EFI Boot Loaders for Linux: Dealing with Secure Boot <http://"
-"www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+"For examples of how to disable secure boot on various computers, read `Managing EFI Boot Loaders "
+"for Linux: Dealing with Secure Boot <http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
 msgstr ""
-"セキュアブートを無効化する手順は、コンピューターごとに異なります。設定の一例"
-"については `Linux で EFI ブートローダーを使用する: セキュアブートへの対策 "
-"<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_をお読みくださ"
-"い。"
+"セキュアブートを無効化する手順は、コンピューターごとに異なります。設定の一例については `Linux で "
+"EFI ブートローダーを使用する: セキュアブートへの対策 <http://www.rodsbooks.com/efi-bootloaders/"
+"secureboot.html>`_をお読みください。"
 
 #: ../../efi.rst:23
 msgid "EFI boot order"
@@ -659,13 +593,12 @@ msgstr "EFI の起動順"
 
 #: ../../efi.rst:25
 msgid ""
-"If after installing Linux Mint in EFI mode, your computer skips the boot "
-"menu and boots straight into Windows (or another operating system), you "
-"probably have an issue with the boot order."
+"If after installing Linux Mint in EFI mode, your computer skips the boot menu and boots straight "
+"into Windows (or another operating system), you probably have an issue with the boot order."
 msgstr ""
-"Linux Mint を EFI モードでインストールしても、適切なブートメニューが表示され"
-"ないまま、他の OS (Windows など) へ直行してしまうことがあります。この場合、起"
-"動順を変更しないといけないかもしれません。"
+"Linux Mint を EFI モードでインストールしても、適切なブートメニューが表示されないまま、他の OS "
+"(Windows など) へ直行してしまうことがあります。この場合、起動順を変更しないといけないかもしれませ"
+"ん。"
 
 #: ../../efi.rst:27
 msgid "To modify the boot order:"
@@ -673,8 +606,7 @@ msgstr "起動順を変更するには:"
 
 #: ../../efi.rst:29 ../../multiboot.rst:18
 msgid "Boot Linux Mint in ``live`` mode (with your USB stick or DVD)."
-msgstr ""
-"Linux Mint を``ライブ``モードで (USB スティックか DVD から) 起動します。"
+msgstr "Linux Mint を``ライブ``モードで (USB スティックか DVD から) 起動します。"
 
 #: ../../efi.rst:31 ../../multiboot.rst:20
 msgid "Open a terminal."
@@ -706,48 +638,43 @@ msgstr "``0081`` の ``Mac OS X``"
 
 #: ../../efi.rst:47
 msgid ""
-"The boot order is ``0081``. This indicates that the computer only tries to "
-"boot Mac OS and not Linux Mint."
+"The boot order is ``0081``. This indicates that the computer only tries to boot Mac OS and not "
+"Linux Mint."
 msgstr ""
-"起動順は ``0081`` です。つまり、コンピューターは Linux Mint ではなく、Mac OS "
-"だけを起動しようとします。"
+"起動順は ``0081`` です。つまり、コンピューターは Linux Mint ではなく、Mac OS だけを起動しようとし"
+"ます。"
 
 #: ../../efi.rst:50
 msgid "For technical reasons Linux Mint uses ``ubuntu`` as its EFI boot name."
-msgstr ""
-"技術的な理由により、Linux Mint は ``ubuntu`` という名前を EFI の起動名に使用"
-"しています。"
+msgstr "技術的な理由により、Linux Mint は ``ubuntu`` という名前を EFI の起動名に使用しています。"
 
 #: ../../efi.rst:53
 msgid ""
-"To fix the boot order, type ``sudo efibootmgr --bootorder XXXX,YYYY`` (where "
-"``XXXX`` and ``YYYY`` are the operating system boot options you want to "
-"boot)."
+"To fix the boot order, type ``sudo efibootmgr --bootorder XXXX,YYYY`` (where ``XXXX`` and "
+"``YYYY`` are the operating system boot options you want to boot)."
 msgstr ""
-"起動順を修正するには、``sudo efibootmgr --bootorder XXXX,YYYY`` (``XXXX`` と "
-"``YYYY`` には、起動したい OS の起動オプションを指定する) と入力します。"
+"起動順を修正するには、``sudo efibootmgr --bootorder XXXX,YYYY`` (``XXXX`` と ``YYYY`` には、起動"
+"したい OS の起動オプションを指定する) と入力します。"
 
 #: ../../efi.rst:59
 msgid ""
-"In the screenshot above, ``sudo efibootmgr --bootorder 0000,0081`` instructs "
-"the computer to first try to boot Linux Mint (``ubuntu`` being the EFI boot "
-"name for Linux Mint), and then Mac OS."
+"In the screenshot above, ``sudo efibootmgr --bootorder 0000,0081`` instructs the computer to "
+"first try to boot Linux Mint (``ubuntu`` being the EFI boot name for Linux Mint), and then Mac "
+"OS."
 msgstr ""
-"このスクリーンショットでは、``sudo efibootmgr --bootorder 0000,0081`` とする"
-"ことで、コンピューターにまず Linux Mint の起動を試みるよう指示し (``ubuntu`` "
-"が Linux Mint の EFI 起動名です)、Mac OS の起動を後回しにしています。"
+"このスクリーンショットでは、``sudo efibootmgr --bootorder 0000,0081`` とすることで、コンピュー"
+"ターにまず Linux Mint の起動を試みるよう指示し (``ubuntu`` が Linux Mint の EFI 起動名です)、Mac "
+"OS の起動を後回しにしています。"
 
 #: ../../efi.rst:64
 msgid ""
-"In the screenshot above ``0000`` is the first boot option so the computer "
-"boots on the Linux Mint grub menu. If grub fails (or if it is dismissed with "
-"the ``exit`` command), the computer follows the boot order and then tries to "
-"boot ``0081``, which corresponds to Mac OS."
+"In the screenshot above ``0000`` is the first boot option so the computer boots on the Linux "
+"Mint grub menu. If grub fails (or if it is dismissed with the ``exit`` command), the computer "
+"follows the boot order and then tries to boot ``0081``, which corresponds to Mac OS."
 msgstr ""
-"このスクリーンショットでは、``0000`` が最初の起動オプションになっているため、"
-"コンピューターはまず Linux Mint の GRUB メニューを起動します。もし GRUB が失"
-"敗した (または ``exit`` で意図的に終了させた) ら、コンピューターはさらに起動"
-"順を巡回し、今度は ``0081`` (Mac OS) を起動します。"
+"このスクリーンショットでは、``0000`` が最初の起動オプションになっているため、コンピューターはま"
+"ず Linux Mint の GRUB メニューを起動します。もし GRUB が失敗した (または ``exit`` で意図的に終了"
+"させた) ら、コンピューターはさらに起動順を巡回し、今度は ``0081`` (Mac OS) を起動します。"
 
 #: ../../help.rst:2
 msgid "Where to find help"
@@ -755,33 +682,27 @@ msgstr "困ったときは"
 
 #: ../../help.rst:4
 msgid ""
-"Many users will be glad to help you and guide you through your first steps "
-"with Linux if you are nice and patient with them and if you give them the "
-"information they require to understand the issues you are facing."
+"Many users will be glad to help you and guide you through your first steps with Linux if you are "
+"nice and patient with them and if you give them the information they require to understand the "
+"issues you are facing."
 msgstr ""
-"Linux を使用するのが初めてで、何か分からないことがあれば、他のユーザーが親切"
-"に助けてくれるかもしれません。直面している問題についての情報を詳しく提供でき"
-"れば、解決への糸口も早く見つかります。"
+"Linux を使用するのが初めてで、何か分からないことがあれば、他のユーザーが親切に助けてくれるかもし"
+"れません。直面している問題についての情報を詳しく提供できれば、解決への糸口も早く見つかります。"
 
 #: ../../help.rst:7
 msgid "The forums"
 msgstr "フォーラム"
 
 #: ../../help.rst:9
-msgid ""
-"The best place to find help is on the `Linux Mint Forums <https://"
-"forums.linuxmint.com>`_."
+msgid "The best place to find help is on the `Linux Mint Forums <https://forums.linuxmint.com>`_."
 msgstr ""
-"助けを求めるための最善な場所が `Linux Mint のフォーラム <https://"
-"forums.linuxmint.com>`_です。"
+"助けを求めるための最善な場所が `Linux Mint のフォーラム <https://forums.linuxmint.com>`_です。"
 
 #: ../../help.rst:12
-msgid ""
-"Search the forums before asking, in case someone else already asked the same "
-"question."
+msgid "Search the forums before asking, in case someone else already asked the same question."
 msgstr ""
-"質問をする前に、まずフォーラム内を検索してみましょう。もしかしたら、すでに同"
-"じような質問をした人と、その答えが見つかるかもしれません。"
+"質問をする前に、まずフォーラム内を検索してみましょう。もしかしたら、すでに同じような質問をした人"
+"と、その答えが見つかるかもしれません。"
 
 #: ../../help.rst:15
 msgid "The chat room"
@@ -793,46 +714,42 @@ msgstr "IRC のチャットルームでも、助けを求めることができ�
 
 #: ../../help.rst:19
 msgid ""
-"To reach the chat room from within Linux Mint, launch :menuselection:`Menu --"
-"> Internet --> HexChat`."
+"To reach the chat room from within Linux Mint, launch :menuselection:`Menu --> Internet --> "
+"HexChat`."
 msgstr ""
-"Linux Mint からチャットルームに接続するには、:menuselection:`メニュー --> イ"
-"ンターネット --> HexChat` を起動します。"
+"Linux Mint からチャットルームに接続するには、:menuselection:`メニュー --> インターネット --> "
+"HexChat` を起動します。"
 
 #: ../../help.rst:21
 msgid ""
-"If you are using another operating system, you can use `Kiwiirc <https://"
-"kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_ to connect to the "
-"chat room."
+"If you are using another operating system, you can use `Kiwiirc <https://kiwiirc.com/client/"
+"irc.spotchat.org/?i#linuxmint-help>`_ to connect to the chat room."
 msgstr ""
-"他の OS を使用している場合、`Kiwiirc <https://kiwiirc.com/client/"
-"irc.spotchat.org/?i#linuxmint-help>`_ でチャットルームに接続できます。"
+"他の OS を使用している場合、`Kiwiirc <https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-"
+"help>`_ でチャットルームに接続できます。"
 
 #: ../../help.rst:24
 msgid ""
-"Many people are connected to the chat room but only look at it now and then. "
-"Be patient after asking a question. Don't repeat it and stay connected until "
-"you get an answer. It can sometimes take a few hours for somebody to see "
-"your question and reply to you. Don't quit after a few minutes. It is "
-"frustrating to you, but also to others who later see your question and are "
-"unable to reply because you already left."
+"Many people are connected to the chat room but only look at it now and then. Be patient after "
+"asking a question. Don't repeat it and stay connected until you get an answer. It can sometimes "
+"take a few hours for somebody to see your question and reply to you. Don't quit after a few "
+"minutes. It is frustrating to you, but also to others who later see your question and are unable "
+"to reply because you already left."
 msgstr ""
-"チャットルームには多くの人々が接続していますが、常にメッセージを見ているとは"
-"限りません。なので、質問への返信が来るまでにしばらく時間がかかることもありま"
-"す。その間に同じ質問を何度も繰り返したり、すぐにチャットルームから切断したり"
-"するのは控えましょう。ずっと待っておくのは嫌かもしれませんが、あとで誰かがあ"
-"なたの質問を見てくれるかもしれません。その時点であなたがチャットルームに接続"
-"していないと、返信のしようがありません。"
+"チャットルームには多くの人々が接続していますが、常にメッセージを見ているとは限りません。なので、"
+"質問への返信が来るまでにしばらく時間がかかることもあります。その間に同じ質問を何度も繰り返した"
+"り、すぐにチャットルームから切断したりするのは控えましょう。ずっと待っておくのは嫌かもしれません"
+"が、あとで誰かがあなたの質問を見てくれるかもしれません。その時点であなたがチャットルームに接続し"
+"ていないと、返信のしようがありません。"
 
 #: ../../help.rst:27
 msgid ""
-"If you are using Hexchat, you can minimize it to tray by clicking its status "
-"icon. People will often mention your nickname when replying to you. When "
-"they do, your Hexchat status icon will blink to catch your attention."
+"If you are using Hexchat, you can minimize it to tray by clicking its status icon. People will "
+"often mention your nickname when replying to you. When they do, your Hexchat status icon will "
+"blink to catch your attention."
 msgstr ""
-"Hexchat を使用している場合、状態アイコンをクリックすることで、トレイに最小化"
-"できます。後にあなた宛への返信が来たら、Hexchat の状態アイコンが点滅し、返信"
-"が来ていることを伝えてくれます。"
+"Hexchat を使用している場合、状態アイコンをクリックすることで、トレイに最小化できます。後にあなた"
+"宛への返信が来たら、Hexchat の状態アイコンが点滅し、返信が来ていることを伝えてくれます。"
 
 #: ../../help.rst:30
 msgid "Community resources"
@@ -840,19 +757,19 @@ msgstr "コミュニティ提供の資料"
 
 #: ../../help.rst:32
 msgid ""
-"The `tutorials section <https://community.linuxmint.com/tutorial/search>`_ "
-"is useful to find tutorials about Linux Mint."
+"The `tutorials section <https://community.linuxmint.com/tutorial/search>`_ is useful to find "
+"tutorials about Linux Mint."
 msgstr ""
-"Linux Mint についてのチュートリアルを探すには、`チュートリアルセクション "
-"<https://community.linuxmint.com/tutorial/search>`_がうってつけです。"
+"Linux Mint についてのチュートリアルを探すには、`チュートリアルセクション <https://"
+"community.linuxmint.com/tutorial/search>`_がうってつけです。"
 
 #: ../../help.rst:34
 msgid ""
-"The `hardware database <https://community.linuxmint.com/hardware/search>`_ "
-"is useful to find compatible hardware."
+"The `hardware database <https://community.linuxmint.com/hardware/search>`_ is useful to find "
+"compatible hardware."
 msgstr ""
-"互換ハードウェアについての情報は、`ハードウェアデータベース <https://"
-"community.linuxmint.com/hardware/search>`_が有用です。"
+"互換ハードウェアについての情報は、`ハードウェアデータベース <https://community.linuxmint.com/"
+"hardware/search>`_が有用です。"
 
 #: ../../help.rst:37
 msgid "Local communities"
@@ -860,11 +777,11 @@ msgstr "ローカルのコミュニティ"
 
 #: ../../help.rst:39
 msgid ""
-"To find help in your language, use the `Local Communities <https://"
-"www.linuxmint.com/links.php>`_."
+"To find help in your language, use the `Local Communities <https://www.linuxmint.com/"
+"links.php>`_."
 msgstr ""
-"母国語での助けが必要なら、`ローカルコミュニティ <https://www.linuxmint.com/"
-"links.php>`_を見てください。"
+"母国語での助けが必要なら、`ローカルコミュニティ <https://www.linuxmint.com/links.php>`_を見てくだ"
+"さい。"
 
 #: ../../index.rst:2
 msgid "Linux Mint Installation Guide"
@@ -872,20 +789,19 @@ msgstr "Linux Mint インストールガイド"
 
 #: ../../index.rst:8
 msgid ""
-"Linux Mint comes in the form of an ISO image (an .iso file) which can be "
-"used to make a bootable DVD or a bootable USB stick."
+"Linux Mint comes in the form of an ISO image (an .iso file) which can be used to make a bootable "
+"DVD or a bootable USB stick."
 msgstr ""
-"Linux Mint は ISO イメージ (.iso ファイル) 形式で配布されています。このファイ"
-"ルから、起動可能な DVD や USB スティックを作ることができます。"
+"Linux Mint は ISO イメージ (.iso ファイル) 形式で配布されています。このファイルから、起動可能な "
+"DVD や USB スティックを作ることができます。"
 
 #: ../../index.rst:10
 msgid ""
-"This guide will help you download the right ISO image, create your bootable "
-"media and install Linux Mint on your computer."
+"This guide will help you download the right ISO image, create your bootable media and install "
+"Linux Mint on your computer."
 msgstr ""
-"このガイドでは、どの ISO イメージをダウンロードした方が良いのか、どうやって起"
-"動可能なメディアを作るのか、コンピューターに Linux Mint をインストールするに"
-"はどうするのかの説明が載っています。"
+"このガイドでは、どの ISO イメージをダウンロードした方が良いのか、どうやって起動可能なメディアを作"
+"るのか、コンピューターに Linux Mint をインストールするにはどうするのかの説明が載っています。"
 
 #: ../../index.rst:12 ../../sections.rst:5
 msgid "Download"
@@ -921,14 +837,13 @@ msgstr "ライブセッション"
 
 #: ../../install.rst:7
 msgid ""
-"When you boot the computer from the USB stick (or DVD), Linux Mint starts a "
-"``live session``. It logs you in automatically as a user called ``mint`` and "
-"shows you a desktop with the installer on it:"
+"When you boot the computer from the USB stick (or DVD), Linux Mint starts a ``live session``. It "
+"logs you in automatically as a user called ``mint`` and shows you a desktop with the installer "
+"on it:"
 msgstr ""
-"USB スティック / DVD からコンピューターを起動すると、Linux Mint の``ライブ"
-"セッション``が開始されます。``mint`` というユーザー名で自動ログインされた後、"
-"アイコンの並んだデスクトップが表示されます。そのアイコンの中にインストーラー"
-"が混ざっています:"
+"USB スティック / DVD からコンピューターを起動すると、Linux Mint の``ライブセッション``が開始され"
+"ます。``mint`` というユーザー名で自動ログインされた後、アイコンの並んだデスクトップが表示されま"
+"す。そのアイコンの中にインストーラーが混ざっています:"
 
 #: ../../install.rst:13
 msgid "The Linux Mint live session"
@@ -936,47 +851,40 @@ msgstr "Linux Mint のライブセッション"
 
 #: ../../install.rst:15
 msgid ""
-"The ``live session`` is similar to a normal session (i.e. to Linux Mint once "
-"it is permanently installed on the computer), but with the following "
-"exceptions:"
+"The ``live session`` is similar to a normal session (i.e. to Linux Mint once it is permanently "
+"installed on the computer), but with the following exceptions:"
 msgstr ""
-"``ライブセッション``は通常のセッション (要はコンピューターにインストールされ"
-"た実際の Linux Mint) と似ていますが、いくつか制限があります:"
+"``ライブセッション``は通常のセッション (要はコンピューターにインストールされた実際の Linux Mint) "
+"と似ていますが、いくつか制限があります:"
 
 #: ../../install.rst:17
 msgid ""
-"The Live session is slower (it is loaded from a USB stick or DVD as opposed "
-"to a SSD or HDD)."
+"The Live session is slower (it is loaded from a USB stick or DVD as opposed to a SSD or HDD)."
 msgstr ""
-"ライブセッションは快適に動作しません (SSD や HDD 上ではなく、USB スティック"
-"や DVD 上で動いているため)。"
+"ライブセッションは快適に動作しません (SSD や HDD 上ではなく、USB スティックや DVD 上で動いている"
+"ため)。"
 
 #: ../../install.rst:18
 msgid ""
-"Changes you make in the live session are not permanent. They are not written "
-"to the USB stick (or DVD) and they do not impact the system installed by the "
-"installer."
+"Changes you make in the live session are not permanent. They are not written to the USB stick "
+"(or DVD) and they do not impact the system installed by the installer."
 msgstr ""
-"ライブセッションで行った変更は保存されません。USB スティック / DVD には如何な"
-"るデータをも書き込まないため、インストーラーでインストールするシステムにも影"
-"響を及ぼしません。"
+"ライブセッションで行った変更は保存されません。USB スティック / DVD には如何なるデータをも書き込ま"
+"ないため、インストーラーでインストールするシステムにも影響を及ぼしません。"
 
 #: ../../install.rst:19
 msgid ""
-"Some applications work differently (or not at all) in the live session "
-"(Timeshift, Flatpak, Update Manager, Welcome Screen..etc.)."
+"Some applications work differently (or not at all) in the live session (Timeshift, Flatpak, "
+"Update Manager, Welcome Screen..etc.)."
 msgstr ""
-"ライブセッション内の一部アプリケーションがまったく動作しなかったり、挙動が変"
-"わったりします (Timeshift, Flatpak, アップデートマネージャー, ようこそ画面な"
-"ど)。"
+"ライブセッション内の一部アプリケーションがまったく動作しなかったり、挙動が変わったりします "
+"(Timeshift, Flatpak, アップデートマネージャー, ようこそ画面など)。"
 
 #: ../../install.rst:22
-msgid ""
-"The username for the live session is ``mint``. If asked for a password "
-"press :kbd:`Enter`."
+msgid "The username for the live session is ``mint``. If asked for a password press :kbd:`Enter`."
 msgstr ""
-"ライブセッションではユーザー名 ``mint`` が使用されます。もしパスワードを求め"
-"られたら、そのまま :kbd:`Enter` を押してください。"
+"ライブセッションではユーザー名 ``mint`` が使用されます。もしパスワードを求められたら、そのま"
+"ま :kbd:`Enter` を押してください。"
 
 #: ../../install.rst:25
 msgid "Installing Linux Mint on the computer"
@@ -999,12 +907,10 @@ msgid "Connect to the Internet."
 msgstr "インターネットに接続します。"
 
 #: ../../install.rst:43
-msgid ""
-"If you are connected to the Internet, tick the box to install the multimedia "
-"codecs."
+msgid "If you are connected to the Internet, tick the box to install the multimedia codecs."
 msgstr ""
-"インターネットに接続し、かつこのオプションにチェックを入れると、マルチメディ"
-"アコーデックがインストールされます。"
+"インターネットに接続し、かつこのオプションにチェックを入れると、マルチメディアコーデックがインス"
+"トールされます。"
 
 #: ../../install.rst:49
 msgid "Choose an installation type."
@@ -1012,86 +918,73 @@ msgstr "インストールする方法を選びます。"
 
 #: ../../install.rst:55
 msgid ""
-"If Linux Mint is the only operating system you want to run on this computer "
-"and all data can be lost on the hard drive, choose :guilabel:`Erase disk and "
-"install Linux Mint`."
+"If Linux Mint is the only operating system you want to run on this computer and all data can be "
+"lost on the hard drive, choose :guilabel:`Erase disk and install Linux Mint`."
 msgstr ""
-"お使いのコンピューターを Linux Mint 専用機とし、ハードディスク上のデータがす"
-"べて無くなっても問題ないのなら、:guilabel:`ディスクを削除してLinux Mintをイン"
-"ストール`を選んでください。"
+"お使いのコンピューターを Linux Mint 専用機とし、ハードディスク上のデータがすべて無くなっても問題"
+"ないのなら、:guilabel:`ディスクを削除してLinux Mintをインストール`を選んでください。"
 
 #: ../../install.rst:58
 msgid ""
-":guilabel:`Encrypt the new Linux Mint installation for security` refers to "
-"full disk encryption. At this stage of the installation your keyboard layout "
-"wasn't yet selected so it is set to en_US. If you decide to use this option, "
-"keep this in mind when entering a password. Note that there are issues with "
-"this option and some NVIDIA drivers. If you are new to Linux use home "
-"directory encryption instead (you can select it later during the "
-"installation)."
+":guilabel:`Encrypt the new Linux Mint installation for security` refers to full disk encryption. "
+"At this stage of the installation your keyboard layout wasn't yet selected so it is set to "
+"en_US. If you decide to use this option, keep this in mind when entering a password. Note that "
+"there are issues with this option and some NVIDIA drivers. If you are new to Linux use home "
+"directory encryption instead (you can select it later during the installation)."
 msgstr ""
-":guilabel:`安全のため新しいLinux Mintのインストールを暗号化する`にチェックを"
-"入れると、ディスクが完全に暗号化されます。現時点のインストール段階では、まだ"
-"お使いのキーボードレイアウトを選択していないため、既定の en_US (アメリカ英"
-"語) 配列が使用されます。暗号化のオプションを使用する場合、パスワード入力の際"
-"には注意してください。また、暗号化済みのシステムは NVIDIA ドライバーとの相性"
-"が良くないこともあるそうです。Linux の使用が初めてで、設定や操作についての自"
-"信が持てないのなら、ホームディレクトリのみを暗号化する方が無難です (インス"
-"トールを進めていくと、あとで選択できます)。"
+":guilabel:`安全のため新しいLinux Mintのインストールを暗号化する`にチェックを入れると、ディスクが"
+"完全に暗号化されます。現時点のインストール段階では、まだお使いのキーボードレイアウトを選択してい"
+"ないため、既定の en_US (アメリカ英語) 配列が使用されます。暗号化のオプションを使用する場合、パス"
+"ワード入力の際には注意してください。また、暗号化済みのシステムは NVIDIA ドライバーとの相性が良く"
+"ないこともあるそうです。Linux の使用が初めてで、設定や操作についての自信が持てないのなら、ホーム"
+"ディレクトリのみを暗号化する方が無難です (インストールを進めていくと、あとで選択できます)。"
 
 #: ../../install.rst:60
 msgid ""
-"If another operating system is present on the computer, the installer shows "
-"you an option to install Linux Mint alongside it. If you choose this option, "
-"the installer automatically resizes your existing operating system, makes "
-"room and installs Linux Mint beside it. A boot menu is set up to choose "
-"between the two operating systems each time you start your computer."
+"If another operating system is present on the computer, the installer shows you an option to "
+"install Linux Mint alongside it. If you choose this option, the installer automatically resizes "
+"your existing operating system, makes room and installs Linux Mint beside it. A boot menu is set "
+"up to choose between the two operating systems each time you start your computer."
 msgstr ""
-"コンピューターに他の OS が存在する場合、Linux Mint を別の場所にインストールす"
-"るオプションが表示されます。このオプションを選択すると、インストーラーは自動"
-"的に既存のオペレーティングシステムへの割り当て領域を調節し、Linux Mint をイン"
-"ストールできる空間を作ってくれます。どちらの OS を起動するかは、コンピュー"
-"ターの起動時に毎回選択できます。"
+"コンピューターに他の OS が存在する場合、Linux Mint を別の場所にインストールするオプションが表示さ"
+"れます。このオプションを選択すると、インストーラーは自動的に既存のオペレーティングシステムへの割"
+"り当て領域を調節し、Linux Mint をインストールできる空間を作ってくれます。どちらの OS を起動するか"
+"は、コンピューターの起動時に毎回選択できます。"
 
 #: ../../install.rst:64
 msgid ""
 "If you want to manage the partitions or specify which partitions to use, "
 "select :guilabel:`Something else`."
 msgstr ""
-"パーティションを管理したり、使用するパーティションを指定したいな"
-"ら、:guilabel:`それ以外`を選択します。"
+"パーティションを管理したり、使用するパーティションを指定したいなら、:guilabel:`それ以外`を選択し"
+"ます。"
 
 #: ../../install.rst:70
-msgid ""
-"Linux Mint requires one partition to be mounted on the root ``/`` directory."
+msgid "Linux Mint requires one partition to be mounted on the root ``/`` directory."
 msgstr ""
-"Linux Mint では、ルート ``/`` ディレクトリにマウントできるパーティションをひ"
-"とつ必要とします。"
+"Linux Mint では、ルート ``/`` ディレクトリにマウントできるパーティションをひとつ必要とします。"
 
 #: ../../install.rst:72
 msgid ""
-"The Linux Mint operating system (without additional software or personal "
-"data) takes roughly 15GB, so give this partition a decent size (100GB or "
-"more)."
+"The Linux Mint operating system (without additional software or personal data) takes roughly "
+"15GB, so give this partition a decent size (100GB or more)."
 msgstr ""
-"Linux Mint は (追加のソフトウェアや個人用データを除いて) 約 15GB の領域を消費"
-"します。なので、パーティションには余裕を持たせた容量 (100GB 以上) を割り当て"
-"てください。"
+"Linux Mint は (追加のソフトウェアや個人用データを除いて) 約 15GB の領域を消費します。なので、パー"
+"ティションには余裕を持たせた容量 (100GB 以上) を割り当ててください。"
 
 #: ../../install.rst:74
 msgid "``ext4`` is recommended. It is the most popular Linux filesystem."
-msgstr ""
-"``ext4`` を推奨します。Linux ファイルシステムの中で最も多く使用されています。"
+msgstr "``ext4`` を推奨します。Linux ファイルシステムの中で最も多く使用されています。"
 
 #: ../../install.rst:79
 msgid ""
-"Also create a ``swap`` partition. This partition is used for hibernation and "
-"as a safety buffer in case your computer runs out of RAM. Give this "
-"partition a size equal to the amount of RAM in your computer."
+"Also create a ``swap`` partition. This partition is used for hibernation and as a safety buffer "
+"in case your computer runs out of RAM. Give this partition a size equal to the amount of RAM in "
+"your computer."
 msgstr ""
-"``swap`` パーティションも作成してください。このパーティションは、システムをハ"
-"イバネートする際や、RAM が枯渇したときの予備バッファーとして使用されます。お"
-"使いのコンピューターの RAM 容量と同じ大きさのパーティションにしてください。"
+"``swap`` パーティションも作成してください。このパーティションは、システムをハイバネートする際や、"
+"RAM が枯渇したときの予備バッファーとして使用されます。お使いのコンピューターの RAM 容量と同じ大き"
+"さのパーティションにしてください。"
 
 #: ../../install.rst:81
 msgid "Select your timezone"
@@ -1107,36 +1000,33 @@ msgstr "ユーザーアカウントの詳細を入力します"
 
 #: ../../install.rst:99
 msgid ""
-"Your ``name`` can be your real name, but it doesn't have to be. It is only "
-"used locally, in the screensaver and on the login screen."
+"Your ``name`` can be your real name, but it doesn't have to be. It is only used locally, in the "
+"screensaver and on the login screen."
 msgstr ""
-"``あなたの名前``に付けるのは本名でも、何でも構いません。スクリーンセーバーや"
-"ログイン画面のような、ローカルな場所でのみ使用されます。"
+"``あなたの名前``に付けるのは本名でも、何でも構いません。スクリーンセーバーやログイン画面のよう"
+"な、ローカルな場所でのみ使用されます。"
 
 #: ../../install.rst:101
 msgid ""
-"Your ``username`` is what you log in as, and your ``hostname`` is the name "
-"of your computer on the network."
+"Your ``username`` is what you log in as, and your ``hostname`` is the name of your computer on "
+"the network."
 msgstr ""
-"``ユーザー名``は、ログインする際に必要となる名前です。``コンピューターの名前"
-"``は、ネットワーク上で表示される名前です。"
+"``ユーザー名``は、ログインする際に必要となる名前です。``コンピューターの名前``は、ネットワーク上"
+"で表示される名前です。"
 
 #: ../../install.rst:103
-msgid ""
-"To prevent bugs only use lowercase characters, with no punctuation or "
-"accentuation."
+msgid "To prevent bugs only use lowercase characters, with no punctuation or accentuation."
 msgstr ""
-"不具合を防ぐため、アルファベットの小文字のみを使用してください。句読点や濁点"
-"は使用しないでください。"
+"不具合を防ぐため、アルファベットの小文字のみを使用してください。句読点や濁点は使用しないでくださ"
+"い。"
 
 #: ../../install.rst:105
 msgid ""
-"To protect your personal data against local attacks (people around you, or "
-"in case your computer gets stolen), tick :guilabel:`Encrypt my home folder`."
+"To protect your personal data against local attacks (people around you, or in case your computer "
+"gets stolen), tick :guilabel:`Encrypt my home folder`."
 msgstr ""
-"個人用データを物理的なクラッキング (あなたの周りにいる人々や、コンピューター"
-"の盗用) から守るには、:guilabel:`ホームフォルダーを暗号化する`にチェックを入"
-"れてください。"
+"個人用データを物理的なクラッキング (あなたの周りにいる人々や、コンピューターの盗用) から守るに"
+"は、:guilabel:`ホームフォルダーを暗号化する`にチェックを入れてください。"
 
 #: ../../install.rst:107
 msgid "Choose a strong password."
@@ -1144,23 +1034,20 @@ msgstr "強度の高いパスワードを指定してください。"
 
 #: ../../install.rst:109
 msgid "Enjoy the slideshow while Linux Mint is installed on your computer."
-msgstr ""
-"Linux Mint のインストール中は、スライドショーで様々な情報をご覧いただけます。"
+msgstr "Linux Mint のインストール中は、スライドショーで様々な情報をご覧いただけます。"
 
 #: ../../install.rst:115
 msgid "When the installation is finished, click :guilabel:`Restart Now`."
-msgstr ""
-"インストールが完了したら、:guilabel:`今すぐ再起動する`をクリックします。"
+msgstr "インストールが完了したら、:guilabel:`今すぐ再起動する`をクリックします。"
 
 #: ../../install.rst:121
 msgid ""
-"The computer will then start to shut down and ask you to remove the USB disk "
-"(or DVD). Upon reboot, your computer should show you a boot menu or start "
-"your newly installed Linux Mint operating system."
+"The computer will then start to shut down and ask you to remove the USB disk (or DVD). Upon "
+"reboot, your computer should show you a boot menu or start your newly installed Linux Mint "
+"operating system."
 msgstr ""
-"コンピューターのシャットダウン中に USB ディスク / DVD を取り外すように尋ねら"
-"れます。再起動後には、ブートメニューが表示されるか、新しくインストールした "
-"Linux Mint が起動します。"
+"コンピューターのシャットダウン中に USB ディスク / DVD を取り外すように尋ねられます。再起動後に"
+"は、ブートメニューが表示されるか、新しくインストールした Linux Mint が起動します。"
 
 #: ../../locales.rst:2
 msgid "Language support"
@@ -1168,13 +1055,13 @@ msgstr "言語サポート"
 
 #: ../../locales.rst:4
 msgid ""
-"Language support includes translations but also packages related to spell-"
-"checking, synonyms, hyphenation and dictionaries which enhance your "
-"experience in software applications such as LibreOffice."
+"Language support includes translations but also packages related to spell-checking, synonyms, "
+"hyphenation and dictionaries which enhance your experience in software applications such as "
+"LibreOffice."
 msgstr ""
-"言語サポートには UI の翻訳だけではなく、スペルチェック・類義語・ハイフネー"
-"ション・辞書に関連するパッケージも含まれているため、LibreOffice などのソフト"
-"ウェアアプリケーションの使い勝手を向上させることができます。"
+"言語サポートには UI の翻訳だけではなく、スペルチェック・類義語・ハイフネーション・辞書に関連する"
+"パッケージも含まれているため、LibreOffice などのソフトウェアアプリケーションの使い勝手を向上させ"
+"ることができます。"
 
 #: ../../locales.rst:6
 msgid "Launch :menuselection:`Menu --> Preferences --> Languages`."
@@ -1186,12 +1073,11 @@ msgstr ":guilabel:`言語のインストールと削除`をクリックします
 
 #: ../../locales.rst:18
 msgid ""
-"If beside your locale, you see a label saying ``Some language packs are "
-"missing``, select your locale and click :guilabel:`Install language packs`."
+"If beside your locale, you see a label saying ``Some language packs are missing``, select your "
+"locale and click :guilabel:`Install language packs`."
 msgstr ""
-"お使いのロケールの隣に``言語パッケージが足りません``というラベルがある場合、"
-"そのロケールを選択し、:guilabel:`言語パッケージのインストール`をクリックしま"
-"す。"
+"お使いのロケールの隣に``言語パッケージが足りません``というラベルがある場合、そのロケールを選択"
+"し、:guilabel:`言語パッケージのインストール`をクリックします。"
 
 #: ../../multiboot.rst:2
 msgid "Multi-boot"
@@ -1203,31 +1089,27 @@ msgstr "まず最初に Windows をインストールしてください"
 
 #: ../../multiboot.rst:7
 msgid ""
-"Windows does not detect other operating systems and does not feature a boot "
-"menu. When you install it, it overwrites your boot sequence and your "
-"computer then boots straight into Windows."
+"Windows does not detect other operating systems and does not feature a boot menu. When you "
+"install it, it overwrites your boot sequence and your computer then boots straight into Windows."
 msgstr ""
-"Windows は他の OS を検出しません。また、ブートメニューもありません。Windows "
-"は起動順を上書きしてインストールされるので、コンピューターの起動時は常に "
-"Windows へ直行します。"
+"Windows は他の OS を検出しません。また、ブートメニューもありません。Windows は起動順を上書きして"
+"インストールされるので、コンピューターの起動時は常に Windows へ直行します。"
 
 #: ../../multiboot.rst:9
 msgid ""
-"Linux Mint (and most Linux distributions) detects other operating systems "
-"and builds a menu from which you can choose which system to boot."
+"Linux Mint (and most Linux distributions) detects other operating systems and builds a menu from "
+"which you can choose which system to boot."
 msgstr ""
-"Linux Mint (他の Linux ディストリビューションもほぼ同様) は他の OS を検出し、"
-"起動するシステムを選べるようにするメニューを設置します。"
+"Linux Mint (他の Linux ディストリビューションもほぼ同様) は他の OS を検出し、起動するシステムを選"
+"べるようにするメニューを設置します。"
 
 #: ../../multiboot.rst:11
 msgid ""
-"For this reason, if you want to dual-boot or multi-boot with Windows, it is "
-"easier and recommended to install Windows first, before you install Linux "
-"Mint."
+"For this reason, if you want to dual-boot or multi-boot with Windows, it is easier and "
+"recommended to install Windows first, before you install Linux Mint."
 msgstr ""
-"この理由から、Windows とのデュアルブート、もしくは 3 種類以上の OS からなるマ"
-"ルチブート環境を構築したいのなら、Linux Mint をインストールする前に Windows "
-"をインストールするのが手っ取り早いです。"
+"この理由から、Windows とのデュアルブート、もしくは 3 種類以上の OS からなるマルチブート環境を構築"
+"したいのなら、Linux Mint をインストールする前に Windows をインストールするのが手っ取り早いです。"
 
 #: ../../multiboot.rst:14
 msgid "Fix the boot sequence"
@@ -1239,17 +1121,15 @@ msgstr "Windows が起動順を上書きした場合:"
 
 #: ../../multiboot.rst:22
 msgid "To list your partitions, type ``lsblk -f`` and press :kbd:`Enter`."
-msgstr ""
-"パーティションの一覧を表示するには ``lsblk -f`` と入力し、:kbd:`Enter` を押し"
-"ます。"
+msgstr "パーティションの一覧を表示するには ``lsblk -f`` と入力し、:kbd:`Enter` を押します。"
 
 #: ../../multiboot.rst:28
 msgid ""
-"Find the partition where Linux Mint is installed. On most systems this "
-"should be the only ``ext4`` partition."
+"Find the partition where Linux Mint is installed. On most systems this should be the only "
+"``ext4`` partition."
 msgstr ""
-"Linux Mint がインストールされているパーティションを探します。ほとんどのシステ"
-"ムでは ``ext4`` パーティションに入っているはずです。"
+"Linux Mint がインストールされているパーティションを探します。ほとんどのシステムでは ``ext4`` パー"
+"ティションに入っているはずです。"
 
 #: ../../multiboot.rst:30
 msgid "In the screenshot above:"
@@ -1257,23 +1137,19 @@ msgstr "上のスクリーンショットでは:"
 
 #: ../../multiboot.rst:32
 msgid ""
-"``sdb`` is the USB stick (recognizable by its ``iso9660`` type which "
-"corresponds to an ISO image)."
-msgstr ""
-"``sdb`` が USB スティックです (``iso9660`` という表示は ISO イメージを意味す"
-"る)。"
+"``sdb`` is the USB stick (recognizable by its ``iso9660`` type which corresponds to an ISO "
+"image)."
+msgstr "``sdb`` が USB スティックです (``iso9660`` という表示は ISO イメージを意味する)。"
 
 #: ../../multiboot.rst:33
 msgid "``sda`` is the hard drive."
 msgstr "``sda`` がハードドライブです。"
 
 #: ../../multiboot.rst:34
-msgid ""
-"``sda4`` is the partition on the ``sda`` hard drive, where Linux Mint is "
-"installed."
+msgid "``sda4`` is the partition on the ``sda`` hard drive, where Linux Mint is installed."
 msgstr ""
-"``sda4`` がハードドライブ ``sda`` に存在するパーティションで、Linux Mint がイ"
-"ンストールされている場所です。"
+"``sda4`` がハードドライブ ``sda`` に存在するパーティションで、Linux Mint がインストールされている"
+"場所です。"
 
 #: ../../multiboot.rst:36
 msgid "To list partition sizes, type ``lsblk``:"
@@ -1284,20 +1160,17 @@ msgid "To list partition labels, type ``blkid``:"
 msgstr "パーティションラベルの一覧を表示するには ``blkid`` と入力します:"
 
 #: ../../multiboot.rst:48
-msgid ""
-"Mount the Linux Mint partition and reinstall the grub menu with the "
-"following commands:"
+msgid "Mount the Linux Mint partition and reinstall the grub menu with the following commands:"
 msgstr ""
-"Linux Mint のパーティションをマウントし、GRUB メニューを再インストールするコ"
-"マンドを実行します:"
+"Linux Mint のパーティションをマウントし、GRUB メニューを再インストールするコマンドを実行します:"
 
 #: ../../multiboot.rst:56
 msgid ""
-"In the commands above, replace /dev/sda4 and /dev/sda with the appropriate "
-"names for your Linux Mint partition and your hard drive device."
+"In the commands above, replace /dev/sda4 and /dev/sda with the appropriate names for your Linux "
+"Mint partition and your hard drive device."
 msgstr ""
-"上記のコマンドの /dev/sda4 と /dev/sda の部分を、お使いの Linux Mint パーティ"
-"ションとハードドライブデバイスに合った適切な名前で置き換えてください。"
+"上記のコマンドの /dev/sda4 と /dev/sda の部分を、お使いの Linux Mint パーティションとハードドライ"
+"ブデバイスに合った適切な名前で置き換えてください。"
 
 #: ../../oem.rst:2
 msgid "Pre-installing Linux Mint (OEM Installation)"
@@ -1306,8 +1179,7 @@ msgstr "Linux Mint のプリインストール (OEM 事業者向け)"
 #: ../../oem.rst:4
 msgid "In the ISO boot menu, ``OEM install`` is used to preinstall Linux Mint."
 msgstr ""
-"ISO のブートメニューで ``OEM install`` を使用すると、Linux Mint をプリインス"
-"トールできます。"
+"ISO のブートメニューで ``OEM install`` を使用すると、Linux Mint をプリインストールできます。"
 
 #: ../../oem.rst:6
 msgid "This option is useful to:"
@@ -1315,10 +1187,9 @@ msgstr "このオプションが有用なケースは:"
 
 #: ../../oem.rst:8
 msgid ""
-"Manufacturers and resellers who want to install Linux Mint on computers they "
-"sell to their customers."
-msgstr ""
-"Linux Mint をインストールしたコンピューターを顧客に提供する、製造者と販売者。"
+"Manufacturers and resellers who want to install Linux Mint on computers they sell to their "
+"customers."
+msgstr "Linux Mint をインストールしたコンピューターを顧客に提供する、製造者と販売者。"
 
 #: ../../oem.rst:9
 msgid "People who want to sell or give their computer to somebody else."
@@ -1326,13 +1197,11 @@ msgstr "今のコンピューターを他の人に譲渡したり、売ったり
 
 #: ../../oem.rst:11
 msgid ""
-"When you install Linux Mint in ``OEM`` mode, the operating system is "
-"installed with a temporary user account and prepared for the computer's "
-"future owner."
+"When you install Linux Mint in ``OEM`` mode, the operating system is installed with a temporary "
+"user account and prepared for the computer's future owner."
 msgstr ""
-"Linux Mint を ``OEM`` モードでインストールすると、OS が一時的なユーザーアカウ"
-"ントでインストールされ、次にコンピューターを使用する人へ向けての事前準備がで"
-"きます。"
+"Linux Mint を ``OEM`` モードでインストールすると、OS が一時的なユーザーアカウントでインストールさ"
+"れ、次にコンピューターを使用する人へ向けての事前準備ができます。"
 
 #: ../../oem.rst:13
 msgid "The user account is set up by the new owner."
@@ -1352,35 +1221,27 @@ msgstr "インストーラーを起動し、表示されている指示に従い
 
 #: ../../oem.rst:23
 msgid "Change any system settings or install additional software if you want."
-msgstr ""
-"必要に応じて、適切なシステム設定や、追加のソフトウェアをインストールしてくだ"
-"さい。"
+msgstr "必要に応じて、適切なシステム設定や、追加のソフトウェアをインストールしてください。"
 
 #: ../../oem.rst:25
 msgid ""
-"When ready, click :guilabel:`Prepare for shipping to end user`, enter the "
-"password you chose during the installation, click :guilabel:`OK` and shut "
-"down the computer."
+"When ready, click :guilabel:`Prepare for shipping to end user`, enter the password you chose "
+"during the installation, click :guilabel:`OK` and shut down the computer."
 msgstr ""
-"準備ができたら、:guilabel:`エンドユーザーへの出荷準備`をクリックし、インス"
-"トール中に指定したパスワードを入力します。その後 :guilabel:`OK` をクリック"
-"し、コンピューターをシャットダウンします。"
+"準備ができたら、:guilabel:`エンドユーザーへの出荷準備`をクリックし、インストール中に指定したパス"
+"ワードを入力します。その後 :guilabel:`OK` をクリックし、コンピューターをシャットダウンします。"
 
 #: ../../oem.rst:31
-msgid ""
-"When the new owner of the computer boots the computer the following screen "
-"appears:"
-msgstr ""
-"新しい所有者がコンピューターを起動すると、このような画面が表示されます:"
+msgid "When the new owner of the computer boots the computer the following screen appears:"
+msgstr "新しい所有者がコンピューターを起動すると、このような画面が表示されます:"
 
 #: ../../oem.rst:37
 msgid ""
-"The new owner selects his or her username, password, keyboard layout, "
-"language, timezone and all the details relevant to create his or her user "
-"account."
+"The new owner selects his or her username, password, keyboard layout, language, timezone and all "
+"the details relevant to create his or her user account."
 msgstr ""
-"新しい所有者は、ユーザー名、パスワード、キーボードレイアウト、言語、タイム"
-"ゾーン、その他ユーザーアカウントに関係するすべての情報を自ら選択できます。"
+"新しい所有者は、ユーザー名、パスワード、キーボードレイアウト、言語、タイムゾーン、その他ユーザー"
+"アカウントに関係するすべての情報を自ら選択できます。"
 
 #: ../../partitioning.rst:2
 msgid "Partitioning"
@@ -1392,29 +1253,23 @@ msgstr "Linux におけるディスクとパーティション"
 
 #: ../../partitioning.rst:7
 msgid ""
-"If you are not familiar with the Linux naming scheme for devices and "
-"partitions, or the concept of filesystems and mount points, read:"
+"If you are not familiar with the Linux naming scheme for devices and partitions, or the concept "
+"of filesystems and mount points, read:"
 msgstr ""
-"Linux のデバイスやパーティションの命名規則、ファイルシステムやマウントポイン"
-"トの概念に慣れていない場合は、これらを一読してみるといいかもしれません:"
+"Linux のデバイスやパーティションの命名規則、ファイルシステムやマウントポイントの概念に慣れていな"
+"い場合は、これらを一読してみるといいかもしれません:"
 
 #: ../../partitioning.rst:9
 msgid ""
-"`A beginner’s guide to disks and disk partitions in Linux <http://"
-"linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-partitions-in-"
-"linux/>`_"
+"`A beginner’s guide to disks and disk partitions in Linux <http://linuxbsdos.com/2014/11/08/a-"
+"beginners-guide-to-disks-and-disk-partitions-in-linux/>`_"
 msgstr ""
-"`Linux のディスクとディスクパーティションについての初心者用ガイド <http://"
-"linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-partitions-in-"
-"linux/>`_"
+"`Linux のディスクとディスクパーティションについての初心者用ガイド <http://linuxbsdos.com/"
+"2014/11/08/a-beginners-guide-to-disks-and-disk-partitions-in-linux/>`_"
 
 #: ../../partitioning.rst:10
-msgid ""
-"`Device Names in Linux <https://www.debian.org/releases/wheezy/amd64/"
-"apcs04.html.en>`_"
-msgstr ""
-"`Linux におけるデバイス名 <https://www.debian.org/releases/wheezy/amd64/"
-"apcs04.html.ja>`_"
+msgid "`Device Names in Linux <https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_"
+msgstr "`Linux におけるデバイス名 <https://www.debian.org/releases/wheezy/amd64/apcs04.html.ja>`_"
 
 #: ../../partitioning.rst:11
 msgid ""
@@ -1431,40 +1286,37 @@ msgid "Dedicated /home partition"
 msgstr "専用の /home パーティション"
 
 #: ../../partitioning.rst:16
-msgid ""
-"In Linux, the ``/home`` directory is used to store user data and preferences."
-msgstr ""
-"Linux には、ユーザーデータや設定を収納する ``/home`` ディレクトリがあります。"
+msgid "In Linux, the ``/home`` directory is used to store user data and preferences."
+msgstr "Linux には、ユーザーデータや設定を収納する ``/home`` ディレクトリがあります。"
 
 #: ../../partitioning.rst:18
 msgid ""
-"This directory contains one subdirectoy for each user account. Say your "
-"username is ``john``, your home directory is ``/home/john``, your downloads "
-"are in ``/home/john/Downloads``, your documents in ``/home/john/Documents``, "
-"your Firefox bookmarks somewhere in ``/home/john/.mozilla`` and so on..."
+"This directory contains one subdirectoy for each user account. Say your username is ``john``, "
+"your home directory is ``/home/john``, your downloads are in ``/home/john/Downloads``, your "
+"documents in ``/home/john/Documents``, your Firefox bookmarks somewhere in ``/home/"
+"john/.mozilla`` and so on..."
 msgstr ""
-"このディレクトリにはユーザーアカウント 1 人につき、サブディレクトリが 1 個含"
-"まれています。例えば、ユーザー名が ``yamada`` なら、ホームディレクトリは ``/"
-"home/yamada`` になります。ダウンロードしたファイルは ``/home/yamada/"
-"Downloads`` へ、ドキュメントは ``/home/yamada/Documents`` へ、Firefox のブッ"
-"クマークは ``/home/yamada/.mozilla`` のどこかへ保存されます。また、他にも様々"
-"なディレクトリがあります。"
+"このディレクトリにはユーザーアカウント 1 人につき、サブディレクトリが 1 個含まれています。例え"
+"ば、ユーザー名が ``yamada`` なら、ホームディレクトリは ``/home/yamada`` になります。ダウンロード"
+"したファイルは ``/home/yamada/Downloads`` へ、ドキュメントは ``/home/yamada/Documents`` へ、"
+"Firefox のブックマークは ``/home/yamada/.mozilla`` のどこかへ保存されます。また、他にも様々なディ"
+"レクトリがあります。"
 
 #: ../../partitioning.rst:20
 msgid ""
-"By giving ``/home`` its own dedicated partition, you separate the user data "
-"from the rest of the operating system."
+"By giving ``/home`` its own dedicated partition, you separate the user data from the rest of the "
+"operating system."
 msgstr ""
-"``/home`` をそれ専用のパーティション上に設置することで、ユーザーデータとその"
-"他 OS のデータを別々に保持できます。"
+"``/home`` をそれ専用のパーティション上に設置することで、ユーザーデータとその他 OS のデータを別々"
+"に保持できます。"
 
 #: ../../partitioning.rst:22
 msgid ""
-"The advantage is that you can wipe the operating system and replace it "
-"without affecting the user data."
+"The advantage is that you can wipe the operating system and replace it without affecting the "
+"user data."
 msgstr ""
-"こうする利点のひとつとして、ユーザーデータに影響を与えずに OS のみを初期化し"
-"たり、別のものに置き換えたりできるようになります。"
+"こうする利点のひとつとして、ユーザーデータに影響を与えずに OS のみを初期化したり、別のものに置き"
+"換えたりできるようになります。"
 
 #: ../../partitioning.rst:24
 msgid "When installing Linux Mint:"
@@ -1472,45 +1324,38 @@ msgstr "Linux Mint をインストールするときに:"
 
 #: ../../partitioning.rst:26
 msgid ""
-"Assign the ``/`` mount point to the partition dedicated to the operating "
-"system, and tell the installer to format it."
-msgstr ""
-"マウントポイント ``/`` を OS 専用のパーティションに割り当てて、フォーマットし"
-"ます。"
+"Assign the ``/`` mount point to the partition dedicated to the operating system, and tell the "
+"installer to format it."
+msgstr "マウントポイント ``/`` を OS 専用のパーティションに割り当てて、フォーマットします。"
 
 #: ../../partitioning.rst:28
 msgid ""
-"Assign the ``/home`` mount point to the partition dedicated to the user "
-"data, and if it contains user data already, make sure to tell the installer "
-"**not to format it**."
+"Assign the ``/home`` mount point to the partition dedicated to the user data, and if it contains "
+"user data already, make sure to tell the installer **not to format it**."
 msgstr ""
-"マウントポイント ``/home`` をユーザーデータ専用のパーティションに割り当てま"
-"す。ただし、すでにユーザーデータが含まれている場合、インストーラーに**フォー"
-"マットさせないよう**注意してください。"
+"マウントポイント ``/home`` をユーザーデータ専用のパーティションに割り当てます。ただし、すでにユー"
+"ザーデータが含まれている場合、インストーラーに**フォーマットさせないよう**注意してください。"
 
 #: ../../partitioning.rst:31
 msgid ""
-"This is not recommended for novice users. A misstep during the installation "
-"could wipe all your data. Always make backups, make sure to select the right "
-"partitions and to carefully review formatting options."
+"This is not recommended for novice users. A misstep during the installation could wipe all your "
+"data. Always make backups, make sure to select the right partitions and to carefully review "
+"formatting options."
 msgstr ""
-"これらの手順をよく理解できないなら、止めておいた方が無難です。インストール中"
-"の設定を誤った場合、データがすべて吹き飛びます。なので、常にバックアップを取"
-"るように心がけてください。正しいパーティションを選び、フォーマットのオプショ"
-"ンも間違えていないか、よく確認してください。"
+"これらの手順をよく理解できないなら、止めておいた方が無難です。インストール中の設定を誤った場合、"
+"データがすべて吹き飛びます。なので、常にバックアップを取るように心がけてください。正しいパーティ"
+"ションを選び、フォーマットのオプションも間違えていないか、よく確認してください。"
 
 #: ../../partitioning.rst:34
 msgid ""
-"A Linux Mint operating system takes about 15GB and grows as you install "
-"additional software. If you can spare the size, give it 100GB. Keep most of "
-"your free space for the home partition. User data (downloads, videos, "
-"pictures) takes a lot more space."
+"A Linux Mint operating system takes about 15GB and grows as you install additional software. If "
+"you can spare the size, give it 100GB. Keep most of your free space for the home partition. User "
+"data (downloads, videos, pictures) takes a lot more space."
 msgstr ""
-"Linux Mint は約 15GB の領域を消費し、追加のソフトウェアをインストールすること"
-"でさらに消費します。ディスクの容量に余裕があるのなら、100GB ほど割り当ててお"
-"きましょう。残りのほとんどは home パーティション用に取っておいてください。"
-"ユーザーデータ (ダウンロード、動画、画像) はおそらく、それ以上の領域を消費し"
-"ます。"
+"Linux Mint は約 15GB の領域を消費し、追加のソフトウェアをインストールすることでさらに消費します。"
+"ディスクの容量に余裕があるのなら、100GB ほど割り当てておきましょう。残りのほとんどは home パー"
+"ティション用に取っておいてください。ユーザーデータ (ダウンロード、動画、画像) はおそらく、それ以"
+"上の領域を消費します。"
 
 #: ../../timeshift.rst:2
 msgid "System snapshots"
@@ -1518,39 +1363,32 @@ msgstr "システムのスナップショット"
 
 #: ../../timeshift.rst:4
 msgid ""
-"Before you start using your operating system, set up system snapshots. Then "
-"if anything goes wrong, you can restore your system from an earlier backup."
+"Before you start using your operating system, set up system snapshots. Then if anything goes "
+"wrong, you can restore your system from an earlier backup."
 msgstr ""
-"Linux Mint を使い始める前に、システムのスナップショットをセットアップしましょ"
-"う。何かトラブルが発生した際に、以前のバックアップからシステムを復元できるよ"
-"うになります。"
+"Linux Mint を使い始める前に、システムのスナップショットをセットアップしましょう。何かトラブルが発"
+"生した際に、以前のバックアップからシステムを復元できるようになります。"
 
 #: ../../timeshift.rst:6
 msgid "Launch :menuselection:`Menu --> Administration --> Timeshift`."
-msgstr ""
-":menuselection:`メニュー --> システム管理 --> Timeshift` を起動します。"
+msgstr ":menuselection:`メニュー --> システム管理 --> Timeshift` を起動します。"
 
 #: ../../timeshift.rst:8
 msgid "Select ``RSYNC`` and click :guilabel:`Next`."
 msgstr "``RSYNC`` を選択し、:guilabel:`次へ`をクリックします。"
 
 #: ../../timeshift.rst:13
-msgid ""
-"Select the device where you want system snapshots to be saved and "
-"click :guilabel:`Next`."
-msgstr ""
-"システムスナップショットの保存先となるデバイスを選択し、:guilabel:`次へ`をク"
-"リックします。"
+msgid "Select the device where you want system snapshots to be saved and click :guilabel:`Next`."
+msgstr "システムスナップショットの保存先となるデバイスを選択し、:guilabel:`次へ`をクリックします。"
 
 #: ../../timeshift.rst:19
 msgid ""
-"The selected device is not formatted and no data is lost. System snapshots "
-"are saved into a newly created ``timeshift`` directory on the root of the "
-"selected device."
+"The selected device is not formatted and no data is lost. System snapshots are saved into a "
+"newly created ``timeshift`` directory on the root of the selected device."
 msgstr ""
-"選択したデバイスがフォーマットされることはないため、データを失うことはありま"
-"せん。システムスナップショットの保存先は、選択したデバイスのルートに新しく作"
-"成される ``timeshift`` というディレクトリの中です。"
+"選択したデバイスがフォーマットされることはないため、データを失うことはありません。システムスナッ"
+"プショットの保存先は、選択したデバイスのルートに新しく作成される ``timeshift`` というディレクトリ"
+"の中です。"
 
 #: ../../timeshift.rst:21
 msgid "Select when system snapshots are saved."
@@ -1558,21 +1396,19 @@ msgstr "システムスナップショットが保存されるタイミングを
 
 #: ../../timeshift.rst:27
 msgid ""
-"System snapshots are incremental so although the first snapshot takes a "
-"significant amount of spaces, new snapshots only take additional space for "
-"files which have changed."
+"System snapshots are incremental so although the first snapshot takes a significant amount of "
+"spaces, new snapshots only take additional space for files which have changed."
 msgstr ""
-"システムスナップショットは、前のスナップショットとの差分を取りながら保存され"
-"ていきます。なので、何のファイルもない初回のスナップショットだけは、たくさん"
-"の領域を消費します。"
+"システムスナップショットは、前のスナップショットとの差分を取りながら保存されていきます。なので、"
+"何のファイルもない初回のスナップショットだけは、たくさんの領域を消費します。"
 
 #: ../../timeshift.rst:30
 msgid ""
-"``Boot`` snapshots are performed in the background and do not impact the "
-"speed of the boot sequence."
+"``Boot`` snapshots are performed in the background and do not impact the speed of the boot "
+"sequence."
 msgstr ""
-"``起動後``スナップショットの作成は、バックグラウンドで実行されるため、起動時"
-"のパフォーマンスへの影響はありません。"
+"``起動後``スナップショットの作成は、バックグラウンドで実行されるため、起動時のパフォーマンスへの"
+"影響はありません。"
 
 #: ../../timeshift.rst:32
 msgid "Click :guilabel:`Finish`."
@@ -1583,31 +1419,26 @@ msgid "Verify your ISO image"
 msgstr "ISO イメージの検証"
 
 #: ../../verify.rst:4
-msgid ""
-"It is important to verify the integrity and authenticity of your ISO image."
+msgid "It is important to verify the integrity and authenticity of your ISO image."
 msgstr "ISO イメージの正当性・信頼性を検証することは非常に重要です。"
 
 #: ../../verify.rst:6
 msgid ""
-"The integrity check confirms that your ISO image was properly downloaded and "
-"that your local file is an exact copy of the file present on the download "
-"servers. An error during the download could result in a corrupted file and "
-"trigger random issues during the installation."
+"The integrity check confirms that your ISO image was properly downloaded and that your local "
+"file is an exact copy of the file present on the download servers. An error during the download "
+"could result in a corrupted file and trigger random issues during the installation."
 msgstr ""
-"正当性を検証すると、お使いの ISO イメージが正しくダウンロードできており、ダウ"
-"ンロードサーバー上に存在するファイルと正確に一致することが保証されます。ダウ"
-"ンロード中に問題があった場合、ファイルが破損していることとなり、インストール"
-"の際に予期しない問題を引き起こすおそれがあります。"
+"正当性を検証すると、お使いの ISO イメージが正しくダウンロードできており、ダウンロードサーバー上に"
+"存在するファイルと正確に一致することが保証されます。ダウンロード中に問題があった場合、ファイルが"
+"破損していることとなり、インストールの際に予期しない問題を引き起こすおそれがあります。"
 
 #: ../../verify.rst:8
 msgid ""
-"The authenticity check confirms that the ISO image you downloaded was signed "
-"by Linux Mint, and thus that it isn't a modified or malicious copy made by "
-"somebody else."
+"The authenticity check confirms that the ISO image you downloaded was signed by Linux Mint, and "
+"thus that it isn't a modified or malicious copy made by somebody else."
 msgstr ""
-"信頼性を検証すると、ダウンロードした ISO ファイルがちゃんと Linux Mint チーム"
-"によって署名されていることを保証します。なので、悪意のある第三者の手で改ざん"
-"されていないという確証が持てます。"
+"信頼性を検証すると、ダウンロードした ISO ファイルがちゃんと Linux Mint チームによって署名されてい"
+"ることを保証します。なので、悪意のある第三者の手で改ざんされていないという確証が持てます。"
 
 #: ../../verify.rst:11
 msgid "Download the SHA256 sums provided by Linux Mint"
@@ -1615,40 +1446,34 @@ msgstr "Linux Mint が提供する SHA256 チェックサム値のダウンロ�
 
 #: ../../verify.rst:13
 msgid ""
-"All `download mirrors <https://www.linuxmint.com/mirrors.php>`_ provide the "
-"ISO images, a ``sha256sum.txt`` file and a ``sha256sum.txt.gpg`` file. You "
-"should be able to find these files in the same place you downloaded the ISO "
-"image from."
+"All `download mirrors <https://www.linuxmint.com/mirrors.php>`_ provide the ISO images, a "
+"``sha256sum.txt`` file and a ``sha256sum.txt.gpg`` file. You should be able to find these files "
+"in the same place you downloaded the ISO image from."
 msgstr ""
-"すべての`ダウンロードミラー<https://www.linuxmint.com/mirrors.php>`_は ISO イ"
-"メージ本体に加え、2 つのファイル ``sha256sum.txt`` と ``sha256sum.txt.gpg`` "
-"も提供しています。これらのファイルは ISO イメージをダウンロードしてきたのと同"
-"じ場所にセットで入っているはずです。"
+"すべての`ダウンロードミラー<https://www.linuxmint.com/mirrors.php>`_は ISO イメージ本体に加え、2 "
+"つのファイル ``sha256sum.txt`` と ``sha256sum.txt.gpg`` も提供しています。これらのファイルは ISO "
+"イメージをダウンロードしてきたのと同じ場所にセットで入っているはずです。"
 
 #: ../../verify.rst:15
 msgid ""
-"If you can't find them, browse the `Heanet download mirror <https://"
-"ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ and click the version of the "
-"Linux Mint release you downloaded."
+"If you can't find them, browse the `Heanet download mirror <https://ftp.heanet.ie/mirrors/"
+"linuxmint.com/stable/>`_ and click the version of the Linux Mint release you downloaded."
 msgstr ""
-"それでも見つからない場合は `Heanet のダウンロードミラー <https://"
-"ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_を開き、ダウンロードした Linux "
-"Mint リリースと一緒のバージョンをクリックします。"
+"それでも見つけられない場合は `Heanet のダウンロードミラー <https://ftp.heanet.ie/mirrors/"
+"linuxmint.com/stable/>`_を開き、ダウンロードした Linux Mint リリースと一緒のバージョンをクリック"
+"します。"
 
 #: ../../verify.rst:17
 msgid "Download both ``sha256sum.txt`` and ``sha256sum.txt.gpg``."
-msgstr ""
-"``sha256sum.txt`` と ``sha256sum.txt.gpg`` のファイル両方をダウンロードしま"
-"す。"
+msgstr "``sha256sum.txt`` と ``sha256sum.txt.gpg`` のファイル両方をダウンロードします。"
 
 #: ../../verify.rst:19
 msgid ""
-"Do not copy their content, use \"right-click->Save Link As...\" to download "
-"the files themselves and do not modify them in any way."
+"Do not copy their content, use \"right-click->Save Link As...\" to download the files themselves "
+"and do not modify them in any way."
 msgstr ""
-"ファイルの中身をコピーするのではなく、\"右クリック -> 名前を付けてリンク先を"
-"保存...\"でファイル自体をダウンロードしてください。また、ファイルの中身には手"
-"を加えないでください。"
+"ファイルの中身をコピーするのではなく、\"右クリック -> 名前を付けてリンク先を保存...\"でファイル自"
+"体をダウンロードしてください。また、ファイルの中身には手を加えないでください。"
 
 #: ../../verify.rst:22
 msgid "Integrity check"
@@ -1656,28 +1481,26 @@ msgstr "正当性の検証"
 
 #: ../../verify.rst:24
 msgid ""
-"To check the integrity of your local ISO file, generate its SHA256 sum and "
-"compare it with the sum present in ``sha256sum.txt``."
+"To check the integrity of your local ISO file, generate its SHA256 sum and compare it with the "
+"sum present in ``sha256sum.txt``."
 msgstr ""
-"手元にある ISO ファイルの正当性を検証するには、そのファイルの SHA256 チェック"
-"サム値を生成し、``sha256sum.txt`` に書かれている値と比較します。"
+"手元にある ISO ファイルの正当性を検証するには、そのファイルの SHA256 チェックサム値を生成し、"
+"``sha256sum.txt`` に書かれている値と比較します。"
 
 #: ../../verify.rst:31
 msgid ""
-"If you are using Windows follow the tutorial `How to verify the ISO image on "
-"Windows <https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_."
+"If you are using Windows follow the tutorial `How to verify the ISO image on Windows <https://"
+"forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_."
 msgstr ""
-"Windows を使用している場合、チュートリアル `Windows で ISO ファイルを検証する"
-"方法 <https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_に沿って進め"
-"てください。"
+"Windows を使用している場合、チュートリアル `Windows で ISO ファイルを検証する方法 <https://"
+"forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_に沿って進めてください。"
 
 #: ../../verify.rst:33
 msgid ""
-"If the sums match, your ISO image was successfully downloaded. If they "
-"don't, download it again."
+"If the sums match, your ISO image was successfully downloaded. If they don't, download it again."
 msgstr ""
-"チェックサム値が一致するのなら、ISO イメージのダウンロードは正常に完了してい"
-"ます。もし違ったら、ダウンロードし直してください。"
+"チェックサム値が一致するのなら、ISO イメージのダウンロードは正常に完了しています。もし違ったら、"
+"ダウンロードし直してください。"
 
 #: ../../verify.rst:38
 msgid "Authenticity check"
@@ -1685,11 +1508,11 @@ msgstr "信頼性の検証"
 
 #: ../../verify.rst:40
 msgid ""
-"To verify the authenticity of ``sha256sum.txt``, check the signature of "
-"``sha256sum.txt.gpg`` by following the steps below."
+"To verify the authenticity of ``sha256sum.txt``, check the signature of ``sha256sum.txt.gpg`` by "
+"following the steps below."
 msgstr ""
-"``sha256sum.txt`` の信頼性を検証するには、``sha256sum.txt.gpg`` の署名を、次"
-"の手順に沿って検証します。"
+"``sha256sum.txt`` の信頼性を検証するには、``sha256sum.txt.gpg`` の署名を、次の手順に沿って検証し"
+"ます。"
 
 #: ../../verify.rst:43
 msgid "Import the Linux Mint signing key:"
@@ -1697,18 +1520,15 @@ msgstr "Linux Mint の署名鍵をインポートする:"
 
 #: ../../verify.rst:49
 msgid "If gpg complains about the key ID, try the following commands instead:"
-msgstr ""
-"GPG が 鍵 ID に関するエラーを発した場合は、代わりにこのコマンドを試してくださ"
-"い:"
+msgstr "GPG が 鍵 ID に関するエラーを発した場合は、代わりにこのコマンドを試してください:"
 
 #: ../../verify.rst:56
 msgid ""
-"Check the output of the last command, to make sure the fingerprint is ``27DE "
-"B156 44C6 B3CF 3BD7 D291 300F 846B A25B AE09`` (with or without spaces)."
+"Check the output of the last command, to make sure the fingerprint is ``27DE B156 44C6 B3CF 3BD7 "
+"D291 300F 846B A25B AE09`` (with or without spaces)."
 msgstr ""
-"実行したコマンドの最終結果を確認してください。正常なフィンガープリントの値は "
-"``27DE B156 44C6 B3CF 3BD7 D291 300F 846B A25B AE09`` (スペースの有無は問わ"
-"ず) です。"
+"実行したコマンドの最終結果を確認してください。正常なフィンガープリントの値は ``27DE B156 44C6 "
+"B3CF 3BD7 D291 300F 846B A25B AE09`` (スペースの有無は問わず) です。"
 
 #: ../../verify.rst:59
 msgid "Verify the authenticity of sha256sum.txt:"
@@ -1716,26 +1536,24 @@ msgstr "sha256sum.txt の信頼性を検証する:"
 
 #: ../../verify.rst:64
 msgid ""
-"The output of the last command should tell you that the file signature is "
-"``good`` and that it was signed with the ``A25BAE09`` key."
+"The output of the last command should tell you that the file signature is ``good`` and that it "
+"was signed with the ``A25BAE09`` key."
 msgstr ""
-"実行したコマンドの最終結果には、ファイルの署名が``正しい``と表示されており、"
-"署名に使用されている鍵は ``A25BAE09`` となっているはずです。"
+"実行したコマンドの最終結果には、ファイルの署名が``正しい``と表示されており、署名に使用されている"
+"鍵は ``A25BAE09`` となっているはずです。"
 
 #: ../../verify.rst:67
 msgid ""
-"GPG might warn you that the Linux Mint signature is not trusted by your "
-"computer. This is expected and perfectly normal."
+"GPG might warn you that the Linux Mint signature is not trusted by your computer. This is "
+"expected and perfectly normal."
 msgstr ""
-"Linux Mint の署名はコンピューターから信頼されていない、との警告を GPG が発す"
-"るかもしれませんが、これは正常な挙動です。"
+"Linux Mint の署名はコンピューターから信頼されていない、との警告を GPG が発するかもしれませんが、"
+"これは正常な挙動です。"
 
 #: ../../verify.rst:70
 msgid ""
-"For more information on ISO verification, or to verify BETA, LMDE or old "
-"releases, read `How to Verify ISO images <https://linuxmint.com/"
-"verify.php>`_."
+"For more information on ISO verification, or to verify BETA, LMDE or old releases, read `How to "
+"Verify ISO images <https://linuxmint.com/verify.php>`_."
 msgstr ""
-"ISO の検証についてもっと詳しく知りたい、またはベータ版や LMDE、古いリリースも"
-"検証したいならば `ISO イメージを検証する方法 <https://linuxmint.com/"
-"verify.php>`_をお読みください。"
+"ISO の検証についてもっと詳しく知りたい、またはベータ版や LMDE、古いリリースも検証したいならば "
+"`ISO イメージを検証する方法 <https://linuxmint.com/verify.php>`_をお読みください。"

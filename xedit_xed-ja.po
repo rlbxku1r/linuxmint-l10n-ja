@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-05 12:46+0100\n"
-"PO-Revision-Date: 2025-11-12 21:02+0900\n"
+"PO-Revision-Date: 2025-12-13 16:25+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/MATE/language/"
 "ja/)\n"
@@ -1392,7 +1392,7 @@ msgstr "\"%s\" が見つかりませんでした"
 
 #: ../xed/xed-searchbar.c:298
 msgid "No matches found"
-msgstr "一致が見つかりませんでした"
+msgstr "一致が見つかりません"
 
 #: ../xed/xed-searchbar.c:306
 #, c-format

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2025-11-21 13:15+0000\n"
-"PO-Revision-Date: 2025-11-22 21:06+0900\n"
+"PO-Revision-Date: 2025-12-13 16:25+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "Language: ja\n"
@@ -488,7 +488,7 @@ msgstr "自動"
 #: src/prefs.py:435
 #, python-format
 msgid "%s - not found"
-msgstr "%s - 見つかりません"
+msgstr "%s - 見つかりませんでした"
 
 #: src/prefs.py:437
 msgid "Network interface to use"
@@ -634,11 +634,11 @@ msgstr "転送が %s によってキャンセルされました"
 #: src/warpinator.py:186
 #, python-format
 msgid "File '%s' not found"
-msgstr "ファイル '%s' が見つかりません"
+msgstr "ファイル '%s' が見つかりませんでした"
 
 #: src/warpinator.py:188
 msgid "Some files not found"
-msgstr "一部のファイルが見つかりません"
+msgstr "一部のファイルが見つかりませんでした"
 
 #: src/warpinator.py:215
 msgid "Completed"

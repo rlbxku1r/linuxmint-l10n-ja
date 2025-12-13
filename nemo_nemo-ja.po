@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
 "japanese\n"
 "POT-Creation-Date: 2025-11-25 16:58+0000\n"
-"PO-Revision-Date: 2025-11-28 22:48+0900\n"
+"PO-Revision-Date: 2025-12-13 16:25+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
@@ -68,7 +68,7 @@ msgstr "自動実行プログラムの起動中にエラーがありました: %
 
 #: src/nemo-autorun-software.c:149
 msgid "Cannot find the autorun program"
-msgstr "自動実行プログラムが見つかりません"
+msgstr "自動実行プログラムを見つけられません"
 
 #: src/nemo-autorun-software.c:171
 msgid "<big><b>Error autorunning software</b></big>"
@@ -172,7 +172,7 @@ msgstr "\"%2$s\" 上ではフォルダー \"%1$s\" を開けません。"
 #: src/nemo-connect-server-dialog.c:296
 #, c-format
 msgid "The server at \"%s\" cannot be found."
-msgstr "\"%s\" のサーバーが見つかりません。"
+msgstr "\"%s\" のサーバーを見つけられませんでした。"
 
 #: src/nemo-connect-server-dialog.c:331
 msgid "Try Again"
@@ -3694,7 +3694,7 @@ msgstr "タブを閉じる (_C)"
 
 #: src/nemo-window-slot.c:291
 msgid "No files found"
-msgstr "ファイルが見つかりませんでした"
+msgstr "ファイルが見つかりません"
 
 #: src/nemo-x-content-bar.c:97
 msgid "These files are on an Audio CD."
@@ -3971,7 +3971,7 @@ msgstr "ファイル名にスラッシュは使用できません"
 
 #: libnemo-private/nemo-file.c:1934
 msgid "File not found"
-msgstr "ファイルが見つかりません"
+msgstr "ファイルが見つかりませんでした"
 
 #: libnemo-private/nemo-file.c:1962
 msgid "Toplevel files cannot be renamed"

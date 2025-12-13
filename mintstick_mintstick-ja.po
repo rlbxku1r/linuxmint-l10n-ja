@@ -9,16 +9,16 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
 "japanese\n"
 "POT-Creation-Date: 2023-11-27 14:33+0000\n"
-"PO-Revision-Date: 2025-08-11 11:51+0000\n"
+"PO-Revision-Date: 2025-12-13 16:25+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2025-08-29 13:36+0000\n"
-"X-Generator: Launchpad (build 919009172d854f2b8e4e8262db447f12f11d25eb)\n"
-"Language: ja\n"
+"X-Generator: Poedit 3.6\n"
 
 #: lib/mintstick.py:312
 msgid "The USB stick was formatted successfully."
@@ -87,7 +87,7 @@ msgstr "計算しています..."
 
 #: lib/verify.py:167
 msgid "No volume ID found"
-msgstr "ボリューム ID が見つかりませんでした"
+msgstr "ボリューム ID が見つかりません"
 
 #: lib/verify.py:208
 msgid "The checksum is correct"
@@ -96,7 +96,9 @@ msgstr "チェックサムは正確です"
 #: lib/verify.py:209
 msgid ""
 "The checksum is correct but the authenticity of the sum was not verified."
-msgstr "チェックサムは正確ですが、そのチェックサム自体が正規のものなのかは不明です。"
+msgstr ""
+"チェックサムは正確ですが、そのチェックサム自体が正規のものなのかは不明で"
+"す。"
 
 #: lib/verify.py:211
 msgid "Checksum mismatch"
@@ -104,11 +106,14 @@ msgstr "チェックサムが一致しません"
 
 #: lib/verify.py:212
 msgid "Download the ISO image again. Its checksum does not match."
-msgstr "ISO イメージを再度ダウンロードしてください。チェックサムが一致しません。"
+msgstr ""
+"ISO イメージを再度ダウンロードしてください。チェックサムが一致しません。"
 
 #: lib/verify.py:223
 msgid "The sums file could not be downloaded. Check the URL."
-msgstr "チェックサムファイルをダウンロードできませんでした。URL を確認してください。"
+msgstr ""
+"チェックサムファイルをダウンロードできませんでした。URL を確認してくださ"
+"い。"
 
 #: lib/verify.py:232
 msgid "The gpg file could not be downloaded. Check the URL."
@@ -177,7 +182,9 @@ msgstr "ISO イメージの SHA256 チェックサムが不正です。"
 
 #: lib/verify.py:328
 msgid "The SHA256 sums file does not contain sums for this ISO image."
-msgstr "この ISO イメージのチェックサムが、SHA256 チェックサムファイルに含まれていません。"
+msgstr ""
+"この ISO イメージのチェックサムが、SHA256 チェックサムファイルに含まれてい"
+"ません。"
 
 #: generate_additional_files.py:22 generate_additional_files.py:34
 #: share/mintstick/mintstick.ui.h:38
@@ -220,7 +227,8 @@ msgstr "イメージの信頼性と整合性を検証します"
 msgid ""
 "This will destroy all data on the USB stick, are you sure you want to "
 "proceed?"
-msgstr "この操作により USB メモリのデータがすべて削除されます。よろしいですか？"
+msgstr ""
+"この操作により USB メモリのデータがすべて削除されます。よろしいですか？"
 
 #: share/mintstick/mintstick.ui.h:1
 msgid "USB stick:"
@@ -268,12 +276,14 @@ msgstr ""
 "NTFS \n"
 "  + Windows 環境との互換性があります。\n"
 "  -  Mac およびほとんどのハードウェア機器との互換性がありません。\n"
-"  -  Linux 環境でも互換性の問題が生じるかもしれません (NTFS の仕様はプロプライエタリで、リバースエンジニアリングされたものです)。\n"
+"  -  Linux 環境でも互換性の問題が生じるかもしれません (NTFS の仕様はプロプ"
+"ライエタリで、リバースエンジニアリングされたものです)。\n"
 "\n"
 "EXT4 \n"
 "  + 近代的で、安定しており、速く、信頼性があります。\n"
 "  + Linux のファイルパーミッションをサポートしています。\n"
-"  -  Windows, Mac およびほとんどのハードウェア機器との互換性がありません。\n"
+"  -  Windows, Mac およびほとんどのハードウェア機器との互換性がありませ"
+"ん。\n"
 
 #: share/mintstick/mintstick.ui.h:23
 msgid "Volume label:"

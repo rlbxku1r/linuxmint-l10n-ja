@@ -17,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=xviewer&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2025-04-16 17:14+0100\n"
-"PO-Revision-Date: 2025-11-12 15:28+0900\n"
+"PO-Revision-Date: 2025-12-13 16:25+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "Language: ja\n"
@@ -476,7 +476,7 @@ msgstr "画像 '%s' を保存できませんでした。"
 #: ../src/xviewer-error-message-area.c:256
 #, c-format
 msgid "No images found in '%s'."
-msgstr "'%s' には画像が見つかりませんでした。"
+msgstr "'%s' には画像が見つかりません。"
 
 #: ../src/xviewer-error-message-area.c:263
 msgid "The given locations contain no images."
