@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
 "japanese\n"
 "POT-Creation-Date: 2025-11-25 16:58+0000\n"
-"PO-Revision-Date: 2025-12-13 17:13+0900\n"
+"PO-Revision-Date: 2025-12-13 17:36+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
@@ -172,7 +172,7 @@ msgstr "\"%2$s\" 上ではフォルダー \"%1$s\" を開けません。"
 #: src/nemo-connect-server-dialog.c:296
 #, c-format
 msgid "The server at \"%s\" cannot be found."
-msgstr "\"%s\" のサーバーを見つけられませんでした。"
+msgstr "\"%s\" のサーバーを見つけられません。"
 
 #: src/nemo-connect-server-dialog.c:331
 msgid "Try Again"
