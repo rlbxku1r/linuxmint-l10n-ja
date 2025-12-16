@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
 "japanese\n"
-"POT-Creation-Date: 2025-12-16 10:50+0000\n"
-"PO-Revision-Date: 2025-12-16 20:13+0900\n"
+"POT-Creation-Date: 2025-12-16 16:40+0000\n"
+"PO-Revision-Date: 2025-12-17 04:09+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2025-12-16 11:04+0000\n"
+"X-Launchpad-Export-Date: 2025-12-16 19:00+0000\n"
 "X-Generator: Poedit 3.6\n"
 
 #: src/cinnamon-app.c:374 src/cinnamon-app.c:383 js/ui/endSessionDialog.js:290
@@ -71,7 +71,7 @@ msgstr "検索"
 msgid "%1$s: %2$s"
 msgstr "%1$s: %2$s"
 
-#: src/main.c:279
+#: src/main.c:284
 msgid "Print version"
 msgstr "バージョンを表示"
 
@@ -98,7 +98,7 @@ msgid "Cancel"
 msgstr "キャンセル"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/input-sources-list.ui:52
-#: files/usr/share/cinnamon/cinnamon-settings/bin/input-sources-list.ui:207
+#: files/usr/share/cinnamon/cinnamon-settings/bin/input-sources-list.ui:221
 #: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.ui:59
 #: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.ui:163
 #: files/usr/share/cinnamon/applets/panel-launchers@cinnamon.org/applet.js:54
@@ -115,11 +115,15 @@ msgstr "追加"
 msgid "Type to search layouts"
 msgstr "入力してレイアウトを検索"
 
-#: files/usr/share/cinnamon/cinnamon-settings/bin/input-sources-list.ui:151
+#: files/usr/share/cinnamon/cinnamon-settings/bin/input-sources-list.ui:130
+msgid "Include less-common layouts"
+msgstr "あまり使用されないレイアウトも含める"
+
+#: files/usr/share/cinnamon/cinnamon-settings/bin/input-sources-list.ui:165
 msgid "Enabled layouts"
 msgstr "有効なレイアウト"
 
-#: files/usr/share/cinnamon/cinnamon-settings/bin/input-sources-list.ui:220
+#: files/usr/share/cinnamon/cinnamon-settings/bin/input-sources-list.ui:234
 #: js/ui/panel.js:1746
 #: files/usr/share/cinnamon/applets/panel-launchers@cinnamon.org/applet.js:62
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_applets.py:56
@@ -128,11 +132,11 @@ msgstr "有効なレイアウト"
 msgid "Remove"
 msgstr "削除"
 
-#: files/usr/share/cinnamon/cinnamon-settings/bin/input-sources-list.ui:273
+#: files/usr/share/cinnamon/cinnamon-settings/bin/input-sources-list.ui:287
 msgid "View layout"
 msgstr "レイアウトを表示"
 
-#: files/usr/share/cinnamon/cinnamon-settings/bin/input-sources-list.ui:287
+#: files/usr/share/cinnamon/cinnamon-settings/bin/input-sources-list.ui:301
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:306
 msgid "Configure"
 msgstr "設定"
@@ -466,7 +470,7 @@ msgid "Switch User"
 msgstr "ユーザーを切り替え"
 
 #: js/ui/endSessionDialog.js:142 js/ui/endSessionDialog.js:149
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2361
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2348
 msgid "Log Out"
 msgstr "ログアウト"
 
@@ -494,7 +498,7 @@ msgid "Restart"
 msgstr "再起動"
 
 #: js/ui/endSessionDialog.js:185 js/ui/endSessionDialog.js:193
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2374
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2361
 msgid "Shut Down"
 msgstr "シャットダウン"
 
@@ -1270,7 +1274,7 @@ msgstr "エキスポ"
 #. menu@cinnamon.org->settings-schema.json->show-favorites->description
 #. favorites@cinnamon.org->metadata.json->name
 #: files/usr/share/cinnamon/applets/favorites@cinnamon.org/applet.js:46
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2235
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2222
 msgid "Favorites"
 msgstr "お気に入り"
 
@@ -1428,8 +1432,8 @@ msgstr "デスクトップに追加"
 msgid "Uninstall"
 msgstr "アンインストール"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:751
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:792
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:738
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:779
 msgid "This file is no longer available"
 msgstr "このファイルはもう利用できません"
 
@@ -1437,58 +1441,58 @@ msgstr "このファイルはもう利用できません"
 #. menu@cinnamon.org->settings-schema.json->behavior-menu->title
 #. sound@cinnamon.org->settings-schema.json->section1->description
 #. network@cinnamon.org->settings-schema.json->section1->description
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1095
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1082
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:57
 msgid "Menu"
 msgstr "メニュー"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1100
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1087
 msgid "Edit menu"
 msgstr "メニューを編集"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2172
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2159
 msgid "Recent Files"
 msgstr "最近使ったファイル"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2188
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2175
 #: files/usr/share/cinnamon/applets/recent@cinnamon.org/applet.js:121
 msgid "Clear list"
 msgstr "一覧を消去"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2189
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2176
 msgid "Clear all recent documents"
 msgstr "最近使ったドキュメントをすべて消去します"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2205
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2192
 #: files/usr/share/cinnamon/applets/recent@cinnamon.org/applet.js:126
 msgid "No recent documents"
 msgstr "最近使ったドキュメントはありません"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2253
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2240
 msgid "No favorite documents"
 msgstr "お気に入りのドキュメントはありません"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2285
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2272
 msgid "All Applications"
 msgstr "すべてのアプリケーション"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2335
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2322
 #: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:80
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:610
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:615
 msgid "Lock Screen"
 msgstr "画面をロック"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2336
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2323
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:11
 msgid "Lock the screen"
 msgstr "画面をロックします"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2362
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2349
 msgid "Leave the session"
 msgstr "セッションを終了します"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2375
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2362
 msgid "Shut down the computer"
 msgstr "コンピューターをシャットダウンします"
 
@@ -2807,7 +2811,7 @@ msgstr "写真"
 #. settings-example@cinnamon.org->settings-schema.json->tree->columns->title
 #: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.py:591
 #: files/usr/share/cinnamon/cinnamon-menu-editor/cme/MainWindow.py:176
-#: files/usr/share/cinnamon/cinnamon-settings/bin/AddKeyboardLayout.py:73
+#: files/usr/share/cinnamon/cinnamon-settings/bin/AddKeyboardLayout.py:79
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:849
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_startup.py:792
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_user.py:83
@@ -2946,11 +2950,11 @@ msgstr "表示"
 msgid "Item"
 msgstr "アイテム"
 
-#: files/usr/share/cinnamon/cinnamon-settings/bin/AddKeyboardLayout.py:81
+#: files/usr/share/cinnamon/cinnamon-settings/bin/AddKeyboardLayout.py:87
 msgid "Input method"
 msgstr "入力方式"
 
-#: files/usr/share/cinnamon/cinnamon-settings/bin/AddKeyboardLayout.py:194
+#: files/usr/share/cinnamon/cinnamon-settings/bin/AddKeyboardLayout.py:207
 msgid "IBus"
 msgstr "IBus"
 
