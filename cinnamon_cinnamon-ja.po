@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
 "japanese\n"
-"POT-Creation-Date: 2025-12-23 13:48+0000\n"
-"PO-Revision-Date: 2025-12-24 00:05+0900\n"
+"POT-Creation-Date: 2025-12-28 14:42+0000\n"
+"PO-Revision-Date: 2025-12-29 00:15+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2025-12-23 14:40+0000\n"
+"X-Launchpad-Export-Date: 2025-12-28 15:00+0000\n"
 "X-Generator: Poedit 3.6\n"
 
 #: src/cinnamon-app.c:374 src/cinnamon-app.c:383 js/ui/endSessionDialog.js:290
@@ -59,7 +59,7 @@ msgid "File System"
 msgstr "ファイルシステム"
 
 #: src/cinnamon-util.c:259
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2562
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2565
 #: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:302
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:446
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:860
@@ -75,6 +75,142 @@ msgstr "%1$s: %2$s"
 #: src/main.c:284
 msgid "Print version"
 msgstr "バージョンを表示"
+
+#: files/usr/share/cinnamon/desklets/launcher@cinnamon.org/editorDialog.ui:7
+msgid "Add/Edit Launcher"
+msgstr "ランチャーを追加/編集"
+
+#: files/usr/share/cinnamon/desklets/launcher@cinnamon.org/editorDialog.ui:87
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_default.py:505
+msgid "Type:"
+msgstr "種類:"
+
+#: files/usr/share/cinnamon/desklets/launcher@cinnamon.org/editorDialog.ui:104
+#: files/usr/share/cinnamon/cinnamon-desktop-editor/directory-editor.ui:97
+#: files/usr/share/cinnamon/cinnamon-desktop-editor/launcher-editor.ui:97
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:766
+msgid "Name:"
+msgstr "名前:"
+
+#: files/usr/share/cinnamon/desklets/launcher@cinnamon.org/editorDialog.ui:121
+msgid "Title:"
+msgstr "タイトル:"
+
+#: files/usr/share/cinnamon/desklets/launcher@cinnamon.org/editorDialog.ui:138
+msgid "Program:"
+msgstr "プログラム:"
+
+#: files/usr/share/cinnamon/desklets/launcher@cinnamon.org/editorDialog.ui:155
+msgid "Icon Name"
+msgstr "アイコン名"
+
+#: files/usr/share/cinnamon/desklets/launcher@cinnamon.org/editorDialog.ui:172
+msgid "Application"
+msgstr "アプリケーション"
+
+#: files/usr/share/cinnamon/desklets/launcher@cinnamon.org/editorDialog.ui:173
+msgid "Custom Application"
+msgstr "任意のアプリケーション"
+
+#: files/usr/share/cinnamon/cinnamon-menu-editor/cinnamon-menu-editor.ui:8
+msgid "Main Menu"
+msgstr "メインメニュー"
+
+#: files/usr/share/cinnamon/cinnamon-menu-editor/cinnamon-menu-editor.ui:28
+msgid "Restore System Configuration"
+msgstr "システムの初期設定に戻す"
+
+#: files/usr/share/cinnamon/cinnamon-menu-editor/cinnamon-menu-editor.ui:33
+msgid "Restore the default menu layout"
+msgstr "既定のメニュー構成に戻します"
+
+#: files/usr/share/cinnamon/cinnamon-menu-editor/cinnamon-menu-editor.ui:45
+#: js/ui/workspace.js:1169
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:341
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:1031
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_default.py:482
+msgid "Close"
+msgstr "閉じる"
+
+#: files/usr/share/cinnamon/cinnamon-menu-editor/cinnamon-menu-editor.ui:162
+msgid "_New Menu"
+msgstr "新しいメニュー (_N)"
+
+#: files/usr/share/cinnamon/cinnamon-menu-editor/cinnamon-menu-editor.ui:178
+msgid "Ne_w Item"
+msgstr "新しいアイテム (_W)"
+
+#: files/usr/share/cinnamon/cinnamon-menu-editor/cinnamon-menu-editor.ui:208
+msgid "Cut"
+msgstr "切り取り"
+
+#: files/usr/share/cinnamon/cinnamon-menu-editor/cinnamon-menu-editor.ui:222
+#: js/ui/cinnamonEntry.js:33
+msgid "Copy"
+msgstr "コピー"
+
+#: files/usr/share/cinnamon/cinnamon-menu-editor/cinnamon-menu-editor.ui:236
+#: js/ui/cinnamonEntry.js:38
+msgid "Paste"
+msgstr "貼り付け"
+
+#: files/usr/share/cinnamon/cinnamon-menu-editor/cinnamon-menu-editor.ui:250
+#: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.ui:72
+#: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.ui:189
+msgid "Delete"
+msgstr "削除"
+
+#: files/usr/share/cinnamon/cinnamon-menu-editor/cinnamon-menu-editor.ui:278
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:527
+msgid "Properties"
+msgstr "プロパティ"
+
+#: files/usr/share/cinnamon/cinnamon-menu-editor/cinnamon-menu-editor.ui:292
+msgid "Edit Desktop File"
+msgstr "デスクトップファイルを編集"
+
+#. Display name                         ID              Show it? Always False
+#. to start              Icon
+#. printers@cinnamon.org->settings-schema.json->section1->description
+#. menu@cinnamon.org->settings-schema.json->appearance->title
+#: files/usr/share/cinnamon/cinnamon-settings/themes.ui:26
+#: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:64
+msgid "Appearance"
+msgstr "外観"
+
+#. settings-example@cinnamon.org->settings-schema.json->tree->columns->title
+#: files/usr/share/cinnamon/cinnamon-settings/themes.ui:42
+#: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:73
+msgid "Color"
+msgstr "色"
+
+#: files/usr/share/cinnamon/cinnamon-settings/themes.ui:56
+msgid ""
+"In mixed mode most applications are light. Some desktop elements are dark to "
+"create contrast."
+msgstr ""
+"混合モードでは、ほとんどのアプリケーションに明るい色調が適用されます。一部の"
+"デスクトップ要素のみが暗い色調となり、コントラストを生み出します。"
+
+#: files/usr/share/cinnamon/cinnamon-settings/themes.ui:100
+msgid "Mixed"
+msgstr "混合"
+
+#: files/usr/share/cinnamon/cinnamon-settings/themes.ui:148
+msgid "Dark"
+msgstr "ダーク"
+
+#: files/usr/share/cinnamon/cinnamon-settings/themes.ui:196
+msgid "Light"
+msgstr "ライト"
+
+#: files/usr/share/cinnamon/cinnamon-settings/themes.ui:241
+msgid "Advanced settings..."
+msgstr "詳細設定..."
+
+#: files/usr/share/cinnamon/cinnamon-settings/themes.ui:257
+msgid "Style"
+msgstr "スタイル"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/input-sources-list.ui:9
 msgid "Choose a Layout"
@@ -142,69 +278,23 @@ msgstr "レイアウトを表示"
 msgid "Configure"
 msgstr "設定"
 
-#. Display name                         ID              Show it? Always False
-#. to start              Icon
-#. menu@cinnamon.org->settings-schema.json->appearance->title
-#. printers@cinnamon.org->settings-schema.json->section1->description
-#: files/usr/share/cinnamon/cinnamon-settings/themes.ui:26
-#: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:64
-msgid "Appearance"
-msgstr "外観"
+#: files/usr/share/cinnamon/cinnamon-desktop-editor/directory-editor.ui:9
+msgid "Directory Properties"
+msgstr "ディレクトリのプロパティ"
 
-#. settings-example@cinnamon.org->settings-schema.json->tree->columns->title
-#: files/usr/share/cinnamon/cinnamon-settings/themes.ui:42
-#: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:73
-msgid "Color"
-msgstr "色"
-
-#: files/usr/share/cinnamon/cinnamon-settings/themes.ui:56
-msgid ""
-"In mixed mode most applications are light. Some desktop elements are dark to "
-"create contrast."
-msgstr ""
-"混合モードでは、ほとんどのアプリケーションに明るい色調が適用されます。一部の"
-"デスクトップ要素のみが暗い色調となり、コントラストを生み出します。"
-
-#: files/usr/share/cinnamon/cinnamon-settings/themes.ui:100
-msgid "Mixed"
-msgstr "混合"
-
-#: files/usr/share/cinnamon/cinnamon-settings/themes.ui:148
-msgid "Dark"
-msgstr "ダーク"
-
-#: files/usr/share/cinnamon/cinnamon-settings/themes.ui:196
-msgid "Light"
-msgstr "ライト"
-
-#: files/usr/share/cinnamon/cinnamon-settings/themes.ui:241
-msgid "Advanced settings..."
-msgstr "詳細設定..."
-
-#: files/usr/share/cinnamon/cinnamon-settings/themes.ui:257
-msgid "Style"
-msgstr "スタイル"
+#: files/usr/share/cinnamon/cinnamon-desktop-editor/directory-editor.ui:114
+#: files/usr/share/cinnamon/cinnamon-desktop-editor/launcher-editor.ui:127
+msgid "Comment:"
+msgstr "説明:"
 
 #: files/usr/share/cinnamon/cinnamon-desktop-editor/launcher-editor.ui:9
 msgid "Launcher Properties"
 msgstr "ランチャーのプロパティ"
 
-#: files/usr/share/cinnamon/cinnamon-desktop-editor/launcher-editor.ui:97
-#: files/usr/share/cinnamon/cinnamon-desktop-editor/directory-editor.ui:97
-#: files/usr/share/cinnamon/desklets/launcher@cinnamon.org/editorDialog.ui:104
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:766
-msgid "Name:"
-msgstr "名前:"
-
 #: files/usr/share/cinnamon/cinnamon-desktop-editor/launcher-editor.ui:112
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:767
 msgid "Command:"
 msgstr "コマンド:"
-
-#: files/usr/share/cinnamon/cinnamon-desktop-editor/launcher-editor.ui:127
-#: files/usr/share/cinnamon/cinnamon-desktop-editor/directory-editor.ui:114
-msgid "Comment:"
-msgstr "説明:"
 
 #: files/usr/share/cinnamon/cinnamon-desktop-editor/launcher-editor.ui:171
 msgid "Browse"
@@ -218,101 +308,11 @@ msgstr "端末で実行"
 msgid "Use dedicated GPU if available"
 msgstr "専用の GPU があれば使用"
 
-#: files/usr/share/cinnamon/cinnamon-desktop-editor/directory-editor.ui:9
-msgid "Directory Properties"
-msgstr "ディレクトリのプロパティ"
-
-#: files/usr/share/cinnamon/cinnamon-menu-editor/cinnamon-menu-editor.ui:8
-msgid "Main Menu"
-msgstr "メインメニュー"
-
-#: files/usr/share/cinnamon/cinnamon-menu-editor/cinnamon-menu-editor.ui:28
-msgid "Restore System Configuration"
-msgstr "システムの初期設定に戻す"
-
-#: files/usr/share/cinnamon/cinnamon-menu-editor/cinnamon-menu-editor.ui:33
-msgid "Restore the default menu layout"
-msgstr "既定のメニュー構成に戻します"
-
-#: files/usr/share/cinnamon/cinnamon-menu-editor/cinnamon-menu-editor.ui:45
-#: js/ui/workspace.js:1169
-#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:341
-#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:1031
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_default.py:482
-msgid "Close"
-msgstr "閉じる"
-
-#: files/usr/share/cinnamon/cinnamon-menu-editor/cinnamon-menu-editor.ui:162
-msgid "_New Menu"
-msgstr "新しいメニュー (_N)"
-
-#: files/usr/share/cinnamon/cinnamon-menu-editor/cinnamon-menu-editor.ui:178
-msgid "Ne_w Item"
-msgstr "新しいアイテム (_W)"
-
-#: files/usr/share/cinnamon/cinnamon-menu-editor/cinnamon-menu-editor.ui:208
-msgid "Cut"
-msgstr "切り取り"
-
-#: files/usr/share/cinnamon/cinnamon-menu-editor/cinnamon-menu-editor.ui:222
-#: js/ui/cinnamonEntry.js:33
-msgid "Copy"
-msgstr "コピー"
-
-#: files/usr/share/cinnamon/cinnamon-menu-editor/cinnamon-menu-editor.ui:236
-#: js/ui/cinnamonEntry.js:38
-msgid "Paste"
-msgstr "貼り付け"
-
-#: files/usr/share/cinnamon/cinnamon-menu-editor/cinnamon-menu-editor.ui:250
-#: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.ui:72
-#: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.ui:189
-msgid "Delete"
-msgstr "削除"
-
-#: files/usr/share/cinnamon/cinnamon-menu-editor/cinnamon-menu-editor.ui:278
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:508
-msgid "Properties"
-msgstr "プロパティ"
-
-#: files/usr/share/cinnamon/cinnamon-menu-editor/cinnamon-menu-editor.ui:292
-msgid "Edit Desktop File"
-msgstr "デスクトップファイルを編集"
-
 #: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.ui:176
 #: files/usr/share/cinnamon/applets/panel-launchers@cinnamon.org/applet.js:58
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_startup.py:431
 msgid "Edit"
 msgstr "編集"
-
-#: files/usr/share/cinnamon/desklets/launcher@cinnamon.org/editorDialog.ui:7
-msgid "Add/Edit Launcher"
-msgstr "ランチャーを追加/編集"
-
-#: files/usr/share/cinnamon/desklets/launcher@cinnamon.org/editorDialog.ui:87
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_default.py:505
-msgid "Type:"
-msgstr "種類:"
-
-#: files/usr/share/cinnamon/desklets/launcher@cinnamon.org/editorDialog.ui:121
-msgid "Title:"
-msgstr "タイトル:"
-
-#: files/usr/share/cinnamon/desklets/launcher@cinnamon.org/editorDialog.ui:138
-msgid "Program:"
-msgstr "プログラム:"
-
-#: files/usr/share/cinnamon/desklets/launcher@cinnamon.org/editorDialog.ui:155
-msgid "Icon Name"
-msgstr "アイコン名"
-
-#: files/usr/share/cinnamon/desklets/launcher@cinnamon.org/editorDialog.ui:172
-msgid "Application"
-msgstr "アプリケーション"
-
-#: files/usr/share/cinnamon/desklets/launcher@cinnamon.org/editorDialog.ui:173
-msgid "Custom Application"
-msgstr "任意のアプリケーション"
 
 #: js/misc/util.js:260
 #, javascript-format
@@ -471,7 +471,7 @@ msgid "Switch User"
 msgstr "ユーザーを切り替え"
 
 #: js/ui/endSessionDialog.js:142 js/ui/endSessionDialog.js:149
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2395
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2398
 msgid "Log Out"
 msgstr "ログアウト"
 
@@ -499,7 +499,7 @@ msgid "Restart"
 msgstr "再起動"
 
 #: js/ui/endSessionDialog.js:185 js/ui/endSessionDialog.js:193
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2408
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2411
 msgid "Shut Down"
 msgstr "シャットダウン"
 
@@ -1272,10 +1272,10 @@ msgstr "ウィンドウ選択画面を表示 (スケール)"
 msgid "Expo"
 msgstr "エキスポ"
 
-#. menu@cinnamon.org->settings-schema.json->show-favorites->description
 #. favorites@cinnamon.org->metadata.json->name
+#. menu@cinnamon.org->settings-schema.json->show-favorites->description
 #: files/usr/share/cinnamon/applets/favorites@cinnamon.org/applet.js:46
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2269
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2272
 msgid "Favorites"
 msgstr "お気に入り"
 
@@ -1309,7 +1309,7 @@ msgid "Recent"
 msgstr "最近使ったファイル"
 
 #: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:209
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:485
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:504
 #: files/usr/share/cinnamon/applets/panel-launchers@cinnamon.org/applet.js:49
 msgid "Run with dedicated GPU"
 msgstr "専用の GPU で実行"
@@ -1407,24 +1407,24 @@ msgid "Manage keyboard layouts"
 msgstr "キーボードレイアウトを管理"
 
 #: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:407
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:498
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:517
 msgid "Remove from favorites"
 msgstr "お気に入りから削除"
 
 #: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:414
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:501
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:520
 msgid "Add to favorites"
 msgstr "お気に入りに追加"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:489
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:508
 msgid "Add to panel"
 msgstr "パネルに追加"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:493
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:512
 msgid "Add to desktop"
 msgstr "デスクトップに追加"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:513
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:532
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:912
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_actions.py:84
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_applets.py:57
@@ -1433,71 +1433,71 @@ msgstr "デスクトップに追加"
 msgid "Uninstall"
 msgstr "アンインストール"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:772
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:813
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:775
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:816
 msgid "This file is no longer available"
 msgstr "このファイルはもう利用できません"
 
+#. network@cinnamon.org->settings-schema.json->section1->description
+#. sound@cinnamon.org->settings-schema.json->section1->description
 #. menu@cinnamon.org->metadata.json->name
 #. menu@cinnamon.org->settings-schema.json->behavior-menu->title
-#. sound@cinnamon.org->settings-schema.json->section1->description
-#. network@cinnamon.org->settings-schema.json->section1->description
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1121
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1124
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:57
 msgid "Menu"
 msgstr "メニュー"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1126
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1129
 msgid "Edit menu"
 msgstr "メニューを編集"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2206
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2209
 msgid "Recent Files"
 msgstr "最近使ったファイル"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2222
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2225
 #: files/usr/share/cinnamon/applets/recent@cinnamon.org/applet.js:121
 msgid "Clear list"
 msgstr "一覧を消去"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2223
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2226
 msgid "Clear all recent documents"
 msgstr "最近使ったドキュメントをすべて消去します"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2239
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2242
 #: files/usr/share/cinnamon/applets/recent@cinnamon.org/applet.js:126
 msgid "No recent documents"
 msgstr "最近使ったドキュメントはありません"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2287
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2290
 msgid "No favorite documents"
 msgstr "お気に入りのドキュメントはありません"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2319
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2322
 msgid "All Applications"
 msgstr "すべてのアプリケーション"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2369
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2372
 #: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:80
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:610
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:615
 msgid "Lock Screen"
 msgstr "画面をロック"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2370
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2373
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:11
 msgid "Lock the screen"
 msgstr "画面をロックします"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2396
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2399
 msgid "Leave the session"
 msgstr "セッションを終了します"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2409
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2412
 msgid "Shut down the computer"
 msgstr "コンピューターをシャットダウンします"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2487
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2490
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_user.py:38
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_user.py:52
 msgid "Account details"
@@ -2083,16 +2083,16 @@ msgstr "リムーバブルドライブ"
 msgid "Open file manager"
 msgstr "ファイルマネージャーを開く"
 
+#. scale@cinnamon.org->metadata.json->name
 #. grouped-window-list@cinnamon.org->settings-schema.json->launcher-animation-
 #. effect->options
-#. scale@cinnamon.org->metadata.json->name
 #: files/usr/share/cinnamon/applets/scale@cinnamon.org/applet.js:12
 msgid "Scale"
 msgstr "スケール"
 
-#. show-desktop@cinnamon.org->settings-schema.json->head->description
-#. favorites@cinnamon.org->settings-schema.json->head->description
 #. cornerbar@cinnamon.org->settings-schema.json->head->description
+#. favorites@cinnamon.org->settings-schema.json->head->description
+#. show-desktop@cinnamon.org->settings-schema.json->head->description
 #: files/usr/share/cinnamon/applets/settings@cinnamon.org/applet.js:8
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_backgrounds.py:291
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_display.py:47
@@ -2360,10 +2360,10 @@ msgstr "右"
 msgid "Upside-down"
 msgstr "逆さま"
 
-#. window-list@cinnamon.org->settings-schema.json->section2->description
-#. notifications@cinnamon.org->settings-schema.json->section2->description
-#. calendar@cinnamon.org->settings-schema.json->section1->description
 #. xrandr@cinnamon.org->metadata.json->name
+#. window-list@cinnamon.org->settings-schema.json->section2->description
+#. calendar@cinnamon.org->settings-schema.json->section1->description
+#. notifications@cinnamon.org->settings-schema.json->section2->description
 #. power@cinnamon.org->settings-schema.json->labelinfo->description
 #: files/usr/share/cinnamon/applets/xrandr@cinnamon.org/applet.js:26
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_display.py:15
@@ -2969,7 +2969,7 @@ msgstr "アイテム"
 msgid "Input method"
 msgstr "入力方式"
 
-#: files/usr/share/cinnamon/cinnamon-settings/bin/AddKeyboardLayout.py:207
+#: files/usr/share/cinnamon/cinnamon-settings/bin/AddKeyboardLayout.py:211
 msgid "IBus"
 msgstr "IBus"
 
@@ -4418,18 +4418,18 @@ msgstr "待ち時間"
 msgid "Motion threshold"
 msgstr "発動するまでの移動量"
 
-#. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-
-#. size->options
 #. window-list@cinnamon.org->settings-schema.json->window-preview-
 #. scale->options
+#. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-
+#. size->options
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_accessibility.py:403
 msgid "Small"
 msgstr "小"
 
-#. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-
-#. size->options
 #. window-list@cinnamon.org->settings-schema.json->window-preview-
 #. scale->options
+#. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-
+#. size->options
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_accessibility.py:403
 msgid "Large"
 msgstr "大"
@@ -5192,10 +5192,10 @@ msgstr "RGBA"
 msgid "Slight"
 msgstr "微少"
 
-#. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-
-#. size->options
 #. window-list@cinnamon.org->settings-schema.json->window-preview-
 #. scale->options
+#. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-
+#. size->options
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_fonts.py:50
 msgid "Medium"
 msgstr "中"
@@ -5706,9 +5706,9 @@ msgstr "カスタムショートカットを削除"
 msgid "Categories"
 msgstr "カテゴリ"
 
-#. notifications@cinnamon.org->settings-schema.json->section3->description
 #. inhibit@cinnamon.org->settings-schema.json->section1->description
 #. calendar@cinnamon.org->settings-schema.json->section2->description
+#. notifications@cinnamon.org->settings-schema.json->section3->description
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:247
 msgid "Keyboard shortcuts"
 msgstr "キーボードショートカット"
@@ -6000,6 +6000,10 @@ msgstr "メディアキーの画面表示"
 msgid "Show media keys OSD"
 msgstr "メディアキーの画面表示を有効化"
 
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_notifications.py:87
+msgid "This is a test notification"
+msgstr "これはテスト用の通知です"
+
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:39
 msgid "Center Zone"
 msgstr "中央域"
@@ -6052,11 +6056,11 @@ msgstr "自動的にパネルを隠す"
 msgid "Show delay"
 msgstr "出現までの待ち時間"
 
+#. cornerbar@cinnamon.org->settings-schema.json->peek-delay->units
+#. show-desktop@cinnamon.org->settings-schema.json->peek-delay->units
 #. menu@cinnamon.org->settings-schema.json->hover-delay->units
 #. grouped-window-list@cinnamon.org->settings-schema.json->show-apps-order-
 #. timeout->units
-#. show-desktop@cinnamon.org->settings-schema.json->peek-delay->units
-#. cornerbar@cinnamon.org->settings-schema.json->peek-delay->units
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:64
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:67
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:177
@@ -6120,9 +6124,9 @@ msgstr ""
 "panel, height, bottom, top, autohide, size, layout, パネル, 高さ, 下, 上, 自"
 "動的に隠す, サイズ, 大きさ, レイアウト"
 
+#. sound@cinnamon.org->settings-schema.json->section2->description
 #. menu@cinnamon.org->settings-schema.json->behavior-panel->title
 #. menu@cinnamon.org->settings-schema.json->appearance-panel->title
-#. sound@cinnamon.org->settings-schema.json->section2->description
 #. grouped-window-list@cinnamon.org->settings-schema.json->panelPage->title
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:162
 msgid "Panel"
@@ -7325,8 +7329,8 @@ msgstr "タイトルバーを中クリックしたときの動作"
 msgid "Action on title bar right-click"
 msgstr "タイトルバーを右クリックしたときの動作"
 
-#. cornerbar@cinnamon.org->settings-schema.json->scroll-behavior->options
 #. window-list@cinnamon.org->settings-schema.json->window-hover->options
+#. cornerbar@cinnamon.org->settings-schema.json->scroll-behavior->options
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:68
 msgid "Nothing"
 msgstr "なし"
@@ -7347,19 +7351,19 @@ msgstr "タイトルバーをマウスでスクロールしたときの動作"
 msgid "Minimum opacity"
 msgstr "最小の不透明度"
 
-#. show-desktop@cinnamon.org->settings-schema.json->peek-opacity->units
 #. cornerbar@cinnamon.org->settings-schema.json->peek-opacity->units
+#. show-desktop@cinnamon.org->settings-schema.json->peek-opacity->units
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:73
 msgid "%"
 msgstr "%"
 
+#. panel-launchers@cinnamon.org->settings-schema.json->section1->description
+#. window-list@cinnamon.org->settings-schema.json->section1->description
+#. expo@cinnamon.org->settings-schema.json->section1->description
+#. notifications@cinnamon.org->settings-schema.json->section1->description
 #. menu@cinnamon.org->settings-schema.json->behavior->title
 #. grouped-window-list@cinnamon.org->settings-
 #. schema.json->generalSection->title
-#. window-list@cinnamon.org->settings-schema.json->section1->description
-#. expo@cinnamon.org->settings-schema.json->section1->description
-#. panel-launchers@cinnamon.org->settings-schema.json->section1->description
-#. notifications@cinnamon.org->settings-schema.json->section1->description
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:82
 msgid "Behavior"
 msgstr "振る舞い"
@@ -7521,6 +7525,8 @@ msgstr "最小化されているウィンドウは末端に表示"
 msgid "Delay before displaying the alt-tab switcher"
 msgstr "Alt-Tab の切り替えを実際に表示するまでの待ち時間"
 
+#. window-list@cinnamon.org->settings-schema.json->show-all-
+#. workspaces->description
 #. grouped-window-list@cinnamon.org->settings-schema.json->show-all-
 #. workspaces->description
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:180
@@ -7679,765 +7685,34 @@ msgstr "Spice の UUID"
 msgid "Unable to locate %s %s"
 msgstr "%s %s のパスを特定できません"
 
-#. nightlight@cinnamon.org->metadata.json->description
-msgid "Activate/deactivate Night Light mode."
-msgstr "夜間モードを有効/無効化します。"
-
-#. menu@cinnamon.org->metadata.json->description
-msgid "Main Cinnamon menu"
-msgstr "Cinnamon メインメニュー"
-
-#. menu@cinnamon.org->settings-schema.json->content->title
-#. menu@cinnamon.org->settings-schema.json->content-content->title
-msgid "Content"
-msgstr "内容"
-
-#. menu@cinnamon.org->settings-schema.json->content-places->title
-msgid "Places"
-msgstr "場所"
-
-#. menu@cinnamon.org->settings-schema.json->overlay-key->description
-msgid "Keyboard shortcut to open and close the menu"
-msgstr "メニューを開閉するキーボードショートカット"
-
-#. menu@cinnamon.org->settings-schema.json->menu-custom->description
-msgid "Use a custom icon and label"
-msgstr "アイコンとラベルのカスタマイズ"
-
-#. menu@cinnamon.org->settings-schema.json->menu-icon->description
-#. settings-example@cinnamon.org->settings-schema.json->tree->columns->title
-msgid "Icon"
-msgstr "アイコン"
-
-#. menu@cinnamon.org->settings-schema.json->menu-icon-size->description
-msgid "Icon size"
-msgstr "アイコンの大きさ"
-
-#. menu@cinnamon.org->settings-schema.json->menu-label->description
-msgid "Text"
-msgstr "テキスト"
-
-#. menu@cinnamon.org->settings-schema.json->symbolic-category-
-#. icons->description
-msgid "Use symbolic icons for categories"
-msgstr "カテゴリにシンボリックアイコンを使用"
-
-#. menu@cinnamon.org->settings-schema.json->category-icon-size->description
-msgid "Categories icon size"
-msgstr "カテゴリアイコンの大きさ"
-
-#. menu@cinnamon.org->settings-schema.json->application-icon-size->description
-msgid "Applications icon size"
-msgstr "アプリケーションアイコンの大きさ"
-
-#. menu@cinnamon.org->settings-schema.json->show-sidebar->description
-msgid "Sidebar"
-msgstr "サイドバー"
-
-#. menu@cinnamon.org->settings-schema.json->show-avatar->description
-msgid "Avatar"
-msgstr "アバター"
-
-#. menu@cinnamon.org->settings-schema.json->show-documents->description
-msgid "Documents"
-msgstr "ドキュメント"
-
-#. menu@cinnamon.org->settings-schema.json->show-downloads->description
-msgid "Downloads"
-msgstr "ダウンロード"
-
-#. menu@cinnamon.org->settings-schema.json->show-pictures->description
-msgid "Pictures"
-msgstr "画像"
-
-#. menu@cinnamon.org->settings-schema.json->show-videos->description
-msgid "Videos"
-msgstr "ビデオ"
-
-#. menu@cinnamon.org->settings-schema.json->show-bookmarks->description
-msgid "Other bookmarks"
-msgstr "他のブックマーク"
-
-#. menu@cinnamon.org->settings-schema.json->system-position->description
-msgid "Position of the system buttons"
-msgstr "システムボタンの位置"
-
-#. menu@cinnamon.org->settings-schema.json->system-position->options
-msgid "In the sidebar"
-msgstr "サイドバーの中"
-
-#. menu@cinnamon.org->settings-schema.json->system-position->options
-msgid "Alongside the search bar"
-msgstr "検索バーの隣"
-
-#. menu@cinnamon.org->settings-schema.json->search-position->description
-msgid "Position of the search bar"
-msgstr "検索バーの位置"
-
-#. menu@cinnamon.org->settings-schema.json->search-position->options
-msgid "At the top"
-msgstr "上側"
-
-#. menu@cinnamon.org->settings-schema.json->search-position->options
-msgid "At the bottom"
-msgstr "下側"
-
-#. menu@cinnamon.org->settings-schema.json->sidebar-icon-size->description
-msgid "Sidebar icon size"
-msgstr "サイドバーアイコンの大きさ"
-
-#. menu@cinnamon.org->settings-schema.json->sidebar-max-width->description
-msgid "Maximum sidebar width (px)"
-msgstr "サイドバーの最大幅 (ピクセル)"
-
-#. menu@cinnamon.org->settings-schema.json->show-recents->description
-msgid "Recents"
-msgstr "最近使ったファイル"
-
-#. menu@cinnamon.org->settings-schema.json->show-description->description
-msgid "Show application descriptions"
-msgstr "アプリケーションの説明を表示"
-
-#. menu@cinnamon.org->settings-schema.json->category-hover->description
-msgid "Change categories on hover"
-msgstr "マウスを合わせてカテゴリを変更"
-
-#. menu@cinnamon.org->settings-schema.json->enable-autoscroll->description
-msgid "Enable autoscrolling in application list"
-msgstr "アプリケーション一覧の自動スクロールを有効化"
-
-#. menu@cinnamon.org->settings-schema.json->force-show-panel->description
-msgid "Force the panel to be visible when opening the menu"
-msgstr "メニューを開くときにパネルを強制表示"
-
-#. menu@cinnamon.org->settings-schema.json->force-show-panel->tooltip
-msgid ""
-"Opening the menu will also show the main panel (which may be auto-hidden)."
-msgstr ""
-"メニューを開くと同時に (自動的に隠す設定となっている) メインパネルも表示しま"
-"す。"
-
-#. menu@cinnamon.org->settings-schema.json->activate-on-hover->description
-msgid "Open the menu when I move my mouse over it"
-msgstr "メニューにマウスを置いて開く"
-
-#. menu@cinnamon.org->settings-schema.json->activate-on-hover->tooltip
-msgid "Enable opening the menu when the mouse enters the applet"
-msgstr "アプレットにマウスを置いたら、自動でメニューを開きます"
-
-#. menu@cinnamon.org->settings-schema.json->hover-delay->description
-msgid "Menu hover delay"
-msgstr "メニュー出現までの待ち時間"
-
-#. menu@cinnamon.org->settings-schema.json->hover-delay->tooltip
-msgid "Delay before the menu opens when hovered"
-msgstr ""
-"メニューにマウスを置いたあと、実際にメニューが出てくるまでの待ち時間です"
-
-#. menu@cinnamon.org->settings-schema.json->enable-animation->description
-msgid "Use menu animations"
-msgstr "メニューにアニメーション効果を適用"
-
-#. menu@cinnamon.org->settings-schema.json->enable-animation->tooltip
-msgid "Allow the menu to animate on open and close"
-msgstr "メニューの開閉動作にアニメーション効果を適用します"
-
-#. menu@cinnamon.org->settings-schema.json->menu-editor-button->description
-msgid "Open the menu editor"
-msgstr "メニューの項目を編集"
-
-#. menu@cinnamon.org->settings-schema.json->menu-editor-button->tooltip
-msgid "Press this button to customize your menu entries."
-msgstr "メニューの項目をカスタマイズするには、このボタンを押してください。"
-
-#. menu@cinnamon.org->settings-schema.json->reset-menu-size-
-#. button->description
-msgid "Restore the menu to its original size"
-msgstr "メニューを元の大きさに戻す"
-
-#. xapp-status@cinnamon.org->metadata.json->name
-msgid "XApp Status Applet"
-msgstr "XApp 状態アプレット"
-
-#. xapp-status@cinnamon.org->metadata.json->description
-msgid ""
-"An applet which hosts all the system tray icons for applications which use "
-"XAppStatusIcons"
-msgstr ""
-"XAppStatusIcon を使用するアプリケーションのシステムトレイアイコンをすべてホス"
-"トするアプレット"
-
-#. sound@cinnamon.org->metadata.json->description
-msgid "A Cinnamon applet to control sound and music"
-msgstr "サウンドとミュージックを操作する Cinnamon アプレット"
-
-#. sound@cinnamon.org->settings-schema.json->playerControl->description
-msgid "Control Players"
-msgstr "プレーヤーの操作"
-
-#. sound@cinnamon.org->settings-
-#. schema.json->extendedPlayerControl->description
-msgid "Show Loop and Shuffle controls"
-msgstr "ループとシャッフルのコントロールを表示"
-
-#. sound@cinnamon.org->settings-schema.json->keyOpen->description
-#. network@cinnamon.org->settings-schema.json->keyOpen->description
-msgid "Show menu"
-msgstr "メニューを表示"
-
-#. sound@cinnamon.org->settings-schema.json->keyOpen->tooltip
-msgid "Set keybinding(s) to show the sound applet menu."
-msgstr "サウンドアプレットのメニューを表示するキーを割り当てます。"
-
-#. sound@cinnamon.org->settings-schema.json->alwaysShowMuteInput->description
-msgid "Always show input switch"
-msgstr "常に '入力をミュート' のスイッチを表示"
-
-#. sound@cinnamon.org->settings-schema.json->alwaysShowMuteInput->tooltip
-msgid "Always show the 'Mute input' switch in the context menu."
-msgstr "コンテキストメニューの '入力をミュート' スイッチを常に表示します。"
-
-#. sound@cinnamon.org->settings-schema.json->showtrack->description
-msgid "Show song information on the panel"
-msgstr "パネルに音楽の情報を表示"
-
-#. sound@cinnamon.org->settings-schema.json->truncatetext->units
-msgid "characters"
-msgstr "文字数"
-
-#. sound@cinnamon.org->settings-schema.json->truncatetext->description
-msgid "Limit song information to"
-msgstr "音楽情報の最大長制限"
-
-#. sound@cinnamon.org->settings-schema.json->middleClickAction->options
-#. sound@cinnamon.org->settings-schema.json->middleShiftClickAction->options
-msgid "Toggle Mute"
-msgstr "消音を切り替え"
-
-#. sound@cinnamon.org->settings-schema.json->middleClickAction->options
-#. sound@cinnamon.org->settings-schema.json->middleShiftClickAction->options
-msgid "Toggle Mute output"
-msgstr "出力音のミュートと解除"
-
-#. sound@cinnamon.org->settings-schema.json->middleClickAction->options
-#. sound@cinnamon.org->settings-schema.json->middleShiftClickAction->options
-msgid "Toggle Mute input"
-msgstr "入力音のミュートと解除"
-
-#. sound@cinnamon.org->settings-schema.json->middleClickAction->description
-msgid "Action on middle click"
-msgstr "中クリックの動作"
-
-#. sound@cinnamon.org->settings-
-#. schema.json->middleShiftClickAction->description
-msgid "Action on shift+middle click"
-msgstr "Shift+中クリックの動作"
-
-#. sound@cinnamon.org->settings-schema.json->horizontalScroll->description
-msgid "Use horizontal scrolling to move between tracks"
-msgstr "トラック間の移動に水平スクロールを使用"
-
-#. sound@cinnamon.org->settings-schema.json->showalbum->description
-msgid "Show album art as icon"
-msgstr "アイコンにアルバムアートを表示"
-
-#. sound@cinnamon.org->settings-schema.json->hideSystray->description
-msgid "Hide system tray icons for compatible players"
-msgstr "互換プレーヤーのシステムトレイアイコンは隠す"
-
-#. sound@cinnamon.org->settings-schema.json->section3->description
-msgid "Tooltip"
-msgstr "ツールチップ"
-
-#. sound@cinnamon.org->settings-schema.json->tooltipShowVolume->description
-msgid "Show volume in tooltip"
-msgstr "ツールチップに音量を表示"
-
-#. sound@cinnamon.org->settings-schema.json->tooltipShowPlayer->description
-msgid "Show player in tooltip"
-msgstr "ツールチップにプレーヤーを表示"
-
-#. sound@cinnamon.org->settings-
-#. schema.json->tooltipShowArtistTitle->description
-msgid "Show song artist and title in tooltip"
-msgstr "ツールチップに音楽のアーティストとタイトルを表示"
-
-#. systray@cinnamon.org->metadata.json->name
-msgid "System Tray"
-msgstr "システムトレイ"
-
-#. systray@cinnamon.org->metadata.json->description
-msgid "An applet which hosts all the system tray icons"
-msgstr "すべてのシステムトレイアイコンをホストするアプレット"
-
-#. grouped-window-list@cinnamon.org->metadata.json->description
-msgid "Main Cinnamon window list with app grouping"
-msgstr "アプリをグループ別にまとめる Cinnamon メインウィンドウリスト"
-
-#. grouped-window-list@cinnamon.org->settings-
-#. schema.json->thumbnailsPage->title
-#. grouped-window-list@cinnamon.org->settings-
-#. schema.json->thumbnailsSection->title
-msgid "Thumbnails"
-msgstr "サムネイル"
-
-#. grouped-window-list@cinnamon.org->settings-
-#. schema.json->contextMenuPage->title
-msgid "Context Menu"
-msgstr "コンテキストメニュー"
-
-#. grouped-window-list@cinnamon.org->settings-
-#. schema.json->hotKeysSection->title
-msgid "Hot Keys"
-msgstr "ホットキー"
-
-#. grouped-window-list@cinnamon.org->settings-
-#. schema.json->appButtonsSection->title
-msgid "Application Buttons"
-msgstr "アプリケーションボタン"
-
-#. grouped-window-list@cinnamon.org->settings-
-#. schema.json->hoverPeekSection->title
-msgid "Hover Peek"
-msgstr "ホバー表示"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->group-
-#. apps->description
-msgid "Group windows by application"
-msgstr "アプリケーション別にウィンドウをグループ化"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->scroll-
-#. behavior->description
-msgid "Mouse wheel scroll action"
-msgstr "マウスホイールスクロールの動作"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->scroll-
-#. behavior->options
-msgid "Cycle apps"
-msgstr "アプリを循環"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->scroll-
-#. behavior->options
-#. grouped-window-list@cinnamon.org->settings-schema.json->left-click-
-#. action->options
-msgid "Cycle windows"
-msgstr "ウィンドウを循環"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->left-click-
-#. action->description
-msgid "Left click action"
-msgstr "左クリックの動作"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->left-click-
-#. action->options
-msgid "Toggle activation of last focused window"
-msgstr "最後にフォーカスしたウィンドウをアクティブ化/解除"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->middle-click-
-#. action->description
-#. cornerbar@cinnamon.org->settings-schema.json->middle-click-
-#. action->description
-msgid "Middle click action"
-msgstr "中クリックの動作"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->middle-click-
-#. action->options
-msgid "Launch new app instance"
-msgstr "アプリの新しいインスタンスを起動"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->middle-click-
-#. action->options
-msgid "Close last focused window in group"
-msgstr "グループ内で最後にフォーカスしたウィンドウを閉じる"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->window-display-
-#. settings->description
-msgid "Show windows from other monitors"
-msgstr "他のモニターのウィンドウを表示"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->window-display-
-#. settings->options
-msgid "Only from monitors without a window list"
-msgstr "ウィンドウリストがないモニターのウィンドウのみ"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->window-display-
-#. settings->options
-msgid "From all monitors"
-msgstr "すべてのモニターのウィンドウ"
-
-#. grouped-window-list@cinnamon.org->settings-
-#. schema.json->cycleMenusHotkey->description
-msgid "Global hotkey for cycling through thumbnail menus"
-msgstr "サムネイルメニューを循環させるグローバルホットキー"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->show-apps-order-
-#. hotkey->description
-msgid "Global hotkey to show the order of apps"
-msgstr "アプリの順番を表示するグローバルホットキー"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->show-apps-order-
-#. timeout->description
-msgid "Duration of the apps order display on hotkey press"
-msgstr "ホットキー入力時、アプリの順番を表示しておく時間"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->super-num-
-#. hotkeys->description
-msgid "Enable Super+<number> shortcut to switch/open apps"
-msgstr "Super+<数字> キーによるアプリの切り替えと起動を有効化"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->title-
-#. display->description
-msgid "Button label"
-msgstr "ボタンのラベル"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->title-
-#. display->options
-msgid "Application name"
-msgstr "アプリケーション名"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->title-
-#. display->options
-msgid "Window title"
-msgstr "ウィンドウのタイトル"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->title-
-#. display->options
-msgid "Window title (only for the focused window)"
-msgstr "ウィンドウのタイトル (フォーカスしているウィンドウのみ)"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->launcher-animation-
-#. effect->description
-msgid "Launcher animation"
-msgstr "ランチャーのアニメーション"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->enable-window-
-#. count-badges->description
-msgid "Show window count badges"
-msgstr "ウィンドウ数のバッジを表示"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->enable-window-
-#. count-badges->tooltip
-msgid "Indicate on the panel the number of open windows an application has"
-msgstr "パネル上にアプリケーションの開いているウィンドウ数を表示します"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->enable-
-#. notification-badges->description
-#. window-list@cinnamon.org->settings-schema.json->enable-
-#. notifications->description
-msgid "Show notification badges"
-msgstr "通知のバッジを表示"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->enable-
-#. notification-badges->tooltip
-msgid "Indicate on the panel when an application has notifications"
-msgstr "パネル上にアプリケーションの通知の数を表示します"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->enable-app-button-
+#. panel-launchers@cinnamon.org->metadata.json->description
+msgid "Launch applications from the panel"
+msgstr "パネルからアプリケーションを起動"
+
+#. panel-launchers@cinnamon.org->settings-schema.json->allow-
 #. dragging->description
-msgid "Enable app button dragging"
-msgstr "アプリボタンのドラッグ移動を有効化"
+msgid "Allow dragging of launchers"
+msgstr "ランチャーのドラッグ移動を許可"
 
-#. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-scroll-
-#. behavior->description
-msgid "Cycle windows on mouse wheel scroll"
-msgstr "マウスホイールスクロールでウィンドウを循環"
+#. a11y@cinnamon.org->metadata.json->description
+msgid "Accessibility applet"
+msgstr "ユーザー補助アプレット"
 
-#. grouped-window-list@cinnamon.org->settings-schema.json->show-
-#. thumbnails->description
-msgid "Show thumbnails"
-msgstr "サムネイルを表示"
+#. scale@cinnamon.org->metadata.json->description
+msgid "Click or hover to activate Scale view"
+msgstr "クリックまたはホバーでスケール画面を表示"
 
-#. grouped-window-list@cinnamon.org->settings-schema.json->animate-
-#. thumbnails->description
-msgid "Animate thumbnails"
-msgstr "サムネイル出現時のアニメーション効果"
+#. scale@cinnamon.org->settings-schema.json->activate-on-hover->description
+msgid "Activate scale on hover"
+msgstr "マウスを置いてスケール画面を表示"
 
-#. grouped-window-list@cinnamon.org->settings-schema.json->vertical-
-#. thumbnails->description
-msgid "Enable vertical thumbnails"
-msgstr "縦方向へサムネイルを引き出す"
+#. keyboard@cinnamon.org->metadata.json->description
+msgid "Keyboard layout"
+msgstr "キーボードレイアウト"
 
-#. grouped-window-list@cinnamon.org->settings-schema.json->sort-
-#. thumbnails->description
-msgid "Sort thumbnails according to the last focused windows"
-msgstr "最後にフォーカスされたウィンドウ順でサムネイルを並べる"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->highlight-last-
-#. focused-thumbnail->description
-msgid "Highlight the thumbnail of the last focused window"
-msgstr "最後にフォーカスされたウィンドウのサムネイルを強調表示"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->onclick-
-#. thumbnails->description
-msgid "Click to show thumbnails"
-msgstr "クリックでサムネイルを表示"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-
-#. timeout->description
-msgid "Delay before showing thumbnails"
-msgstr "サムネイル出現までの待ち時間"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-
-#. timeout->options
-msgid "50 ms"
-msgstr "50 ミリ秒"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-
-#. timeout->options
-msgid "250 ms"
-msgstr "250 ミリ秒"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-
-#. timeout->options
-msgid "500 ms"
-msgstr "500 ミリ秒"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-
-#. size->description
-#. window-list@cinnamon.org->settings-schema.json->window-preview-
-#. scale->description
-msgid "Thumbnail size"
-msgstr "サムネイルの大きさ"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-
-#. size->options
-#. window-list@cinnamon.org->settings-schema.json->window-preview-
-#. scale->options
-msgid "Largest"
-msgstr "最大"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->enable-hover-
-#. peek->description
-msgid "Show the window when hovering its thumbnail"
-msgstr "サムネイルにマウスを置いてウィンドウを表示"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-time-
-#. in->description
-msgid "Window fade-in time"
-msgstr "ウィンドウがフェードインする時間"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-time-
-#. in->options
-#. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-time-
-#. out->options
-msgid "150 ms"
-msgstr "150 ミリ秒"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-time-
-#. in->options
-#. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-time-
-#. out->options
-msgid "300 ms"
-msgstr "300 ミリ秒"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-time-
-#. in->options
-#. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-time-
-#. out->options
-msgid "450 ms"
-msgstr "450 ミリ秒"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-time-
-#. out->description
-msgid "Window fade-out time"
-msgstr "ウィンドウがフェードアウトする時間"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-
-#. opacity->units
-msgid "percent"
-msgstr "パーセント"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-
-#. opacity->description
-#. show-desktop@cinnamon.org->settings-schema.json->peek-opacity->description
-#. cornerbar@cinnamon.org->settings-schema.json->peek-opacity->description
-msgid "Window opacity"
-msgstr "ウィンドウの不透明度"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->show-
-#. recent->description
-msgid "Show recent items"
-msgstr "最近使ったアイテムを表示"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->autostart-menu-
-#. item->description
-msgid "Show autostart option"
-msgstr "自動開始アプリのオプションを表示"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->monitor-move-all-
-#. windows->description
-msgid "Apply the monitor move option to all windows"
-msgstr "モニター間移動の操作をすべてのウィンドウに適用"
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->monitor-move-all-
-#. windows->tooltip
-msgid ""
-"When clicking \"Move to monitor\" in the context menu, this option will move "
-"all of an app's windows instead of just the last focused window from the app."
-msgstr ""
-"コンテキストメニューの \"モニターに移動\" をクリックしたとき、最後にフォーカ"
-"スされたアプリウィンドウだけではなく、他のアプリウィンドウもまとめて移動しま"
-"す。"
-
-#. network@cinnamon.org->metadata.json->description
-msgid "Network manager applet"
-msgstr "ネットワーク管理アプレット"
-
-#. network@cinnamon.org->settings-schema.json->keyOpen->tooltip
-msgid "Set keybinding(s) to show the network applet menu."
-msgstr "ネットワークアプレットのメニューを表示するキーを割り当てます。"
-
-#. workspace-switcher@cinnamon.org->metadata.json->name
-msgid "Workspace switcher"
-msgstr "ワークスペーススイッチャー"
-
-#. workspace-switcher@cinnamon.org->metadata.json->description
-msgid "Select the workspace from the panel"
-msgstr "パネルからワークスペースを切り替え"
-
-#. workspace-switcher@cinnamon.org->settings-schema.json->display-
-#. type->description
-msgid "Type of display"
-msgstr "表示方法"
-
-#. workspace-switcher@cinnamon.org->settings-schema.json->display-
-#. type->tooltip
-msgid ""
-"Note that the visual representation will only work if your panel is large "
-"enough to display it properly, otherwise the simple style will be used."
-msgstr ""
-"視覚的な表現を正常に行うには、十分に広いパネルが必要です。スペースが狭すぎる"
-"と、簡易表現しか使用できません。"
-
-#. workspace-switcher@cinnamon.org->settings-schema.json->display-
-#. type->options
-msgid "A visual representation of the workspaces"
-msgstr "ワークスペースの視覚的な表現"
-
-#. workspace-switcher@cinnamon.org->settings-schema.json->display-
-#. type->options
-msgid "Simple buttons"
-msgstr "簡易なボタン"
-
-#. workspace-switcher@cinnamon.org->settings-schema.json->scroll-
-#. behavior->description
-#. cornerbar@cinnamon.org->settings-schema.json->scroll-behavior->description
-msgid "Scroll wheel behavior"
-msgstr "ホイールスクロールの振る舞い"
-
-#. workspace-switcher@cinnamon.org->settings-schema.json->scroll-
-#. behavior->tooltip
-msgid "Reverse or disable the direction of the scroll in the workspace list."
-msgstr ""
-"ワークスペースリストを逆方向へスクロールするか、スクロール操作そのものを無効"
-"にします。"
-
-#. workspace-switcher@cinnamon.org->settings-schema.json->scroll-
-#. behavior->options
-msgid "Reversed"
-msgstr "逆"
-
-#. show-desktop@cinnamon.org->metadata.json->description
-msgid "Minimize all windows"
-msgstr "ウィンドウをすべて最小化"
-
-#. show-desktop@cinnamon.org->settings-schema.json->peek-at-
-#. desktop->description
-#. cornerbar@cinnamon.org->settings-schema.json->peek-at-desktop->description
-msgid "Peek at the desktop on hover"
-msgstr "マウスを置いてデスクトップを表示"
-
-#. show-desktop@cinnamon.org->settings-schema.json->peek-at-desktop->tooltip
-#. cornerbar@cinnamon.org->settings-schema.json->peek-at-desktop->tooltip
-msgid "Peek at the desktop when hovering the applet"
-msgstr "アプレットにマウスを置くと、デスクトップのプレビューを表示します"
-
-#. show-desktop@cinnamon.org->settings-schema.json->peek-blur->description
-#. cornerbar@cinnamon.org->settings-schema.json->peek-blur->description
-msgid "Blur effect"
-msgstr "ぼかし効果"
-
-#. show-desktop@cinnamon.org->settings-schema.json->peek-blur->tooltip
-#. cornerbar@cinnamon.org->settings-schema.json->peek-blur->tooltip
-msgid "Blur windows when peeking at the desktop"
-msgstr "デスクトップ表示中にウィンドウをぼかします"
-
-#. show-desktop@cinnamon.org->settings-schema.json->peek-delay->description
-#. cornerbar@cinnamon.org->settings-schema.json->peek-delay->description
-msgid "Hover delay"
-msgstr "表示までの待ち時間"
-
-#. show-desktop@cinnamon.org->settings-schema.json->peek-delay->tooltip
-#. cornerbar@cinnamon.org->settings-schema.json->peek-delay->tooltip
-msgid "Delay before Peek shows desktop"
-msgstr "デスクトップが実際に表示されるまでの待ち時間を指定します"
-
-#. show-desktop@cinnamon.org->settings-schema.json->peek-opacity->tooltip
-#. cornerbar@cinnamon.org->settings-schema.json->peek-opacity->tooltip
-msgid "Change the opacity of windows when peeking at the desktop"
-msgstr "デスクトップ表示中のウィンドウの不透明度を変更します"
-
-#. favorites@cinnamon.org->metadata.json->description
-msgid "Access your favorite files"
-msgstr "お気に入りのファイルにアクセス"
-
-#. favorites@cinnamon.org->settings-schema.json->show-full-uri->description
-msgid "Display full paths in the list"
-msgstr "完全なパスの一覧を表示"
-
-#. trash@cinnamon.org->metadata.json->description
-msgid "Control the trash from the panel"
-msgstr "パネルからゴミ箱を操作"
-
-#. settings@cinnamon.org->metadata.json->name
-msgid "Settings Applet"
-msgstr "設定アプレット"
-
-#. settings@cinnamon.org->metadata.json->description
-msgid "Cinnamon Settings"
-msgstr "Cinnamon の設定"
-
-#. removable-drives@cinnamon.org->metadata.json->description
-msgid "Access removable drives"
-msgstr "リムーバブルドライブにアクセス"
-
-#. recent@cinnamon.org->metadata.json->description
-msgid "Access the documents you recently opened"
-msgstr "最近開いたドキュメントにアクセス"
-
-#. cornerbar@cinnamon.org->metadata.json->name
-msgid "Corner bar"
-msgstr "コーナーバー"
-
-#. cornerbar@cinnamon.org->metadata.json->description
-msgid ""
-"A bar designed to be placed in the corner, used to show the desktop, "
-"desklets, the workspace selector or the window selector."
-msgstr ""
-"画面端に置くことを想定したバーで、デスクトップやデスクレット、ワークスペース/"
-"ウィンドウの選択画面を表示するために使用します。"
-
-#. cornerbar@cinnamon.org->settings-schema.json->click-action->description
-msgid "Click action"
-msgstr "クリックの動作"
-
-#. cornerbar@cinnamon.org->settings-schema.json->shift-click-
-#. action->description
-msgid "Shift + click action"
-msgstr "Shift + クリックの動作"
-
-#. cornerbar@cinnamon.org->settings-schema.json->shift-middle-click-
-#. action->description
-msgid "Shift + middle click action"
-msgstr "Shift + 中クリックの動作"
-
-#. cornerbar@cinnamon.org->settings-schema.json->scroll-behavior->options
-msgid "Switch workspaces"
-msgstr "ワークスペースを切り替え"
-
-#. cornerbar@cinnamon.org->settings-schema.json->scroll-behavior->options
-msgid "Switch workspaces (reversed)"
-msgstr "ワークスペースを切り替え (逆順)"
+#. xrandr@cinnamon.org->metadata.json->description
+msgid "XRandR monitor control applet"
+msgstr "XRandR モニター操作アプレット"
 
 #. window-list@cinnamon.org->metadata.json->name
 msgid "Window list"
@@ -8458,12 +7733,12 @@ msgstr ""
 #. window-list@cinnamon.org->settings-schema.json->enable-
 #. scrolling->description
 msgid "Enable mouse-wheel scrolling in the window list"
-msgstr "マウスホイールスクロールでウィンドウを切り替え"
+msgstr "マウスホイールのスクロールでウィンドウを切り替え"
 
 #. window-list@cinnamon.org->settings-schema.json->reverse-
 #. scrolling->description
 msgid "Reverse the direction of mouse-wheel scrolling in the window list"
-msgstr "マウスホイールスクロールを逆方向にする"
+msgstr "マウスホイールのスクロールを逆方向にする"
 
 #. window-list@cinnamon.org->settings-schema.json->left-click-
 #. minimize->description
@@ -8507,53 +7782,164 @@ msgstr "サムネイル"
 msgid "Show title above thumbnail"
 msgstr "サムネイルの上端にタイトルを表示"
 
-#. spacer@cinnamon.org->metadata.json->name
-msgid "Spacer"
-msgstr "スペーサー"
+#. window-list@cinnamon.org->settings-schema.json->window-preview-
+#. scale->description
+#. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-
+#. size->description
+msgid "Thumbnail size"
+msgstr "サムネイルの大きさ"
 
-#. spacer@cinnamon.org->metadata.json->description
-msgid "Add some space between your other applets"
-msgstr "アプレットの間隔を調節できる余白を挿入"
+#. window-list@cinnamon.org->settings-schema.json->window-preview-
+#. scale->options
+#. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-
+#. size->options
+msgid "Largest"
+msgstr "最大"
 
-#. spacer@cinnamon.org->settings-schema.json->width->description
-msgid "Amount of space in pixels"
-msgstr "余白の量 (ピクセル)"
+#. window-list@cinnamon.org->settings-schema.json->enable-
+#. notifications->description
+#. grouped-window-list@cinnamon.org->settings-schema.json->enable-
+#. notification-badges->description
+msgid "Show notification badges"
+msgstr "通知のバッジを表示"
 
-#. spacer@cinnamon.org->settings-schema.json->width->tooltip
-msgid "Adjust this to increase or decrease the width of this spacer"
-msgstr "この値を調節し、スペーサーの幅を増減させます"
+#. user@cinnamon.org->metadata.json->description
+msgid ""
+"An applet to access your account details, switch users and quickly logout or "
+"power off the computer"
+msgstr ""
+"現在のアカウント情報へのアクセス・ユーザーの切り替え・ログアウト・コンピュー"
+"ターのシャットダウンを行うアプレット"
 
-#. scale@cinnamon.org->metadata.json->description
-msgid "Click or hover to activate Scale view"
-msgstr "クリックまたはホバーでスケール画面を表示"
+#. user@cinnamon.org->metadata.json->name
+msgid "User Applet"
+msgstr "ユーザーアプレット"
 
-#. scale@cinnamon.org->settings-schema.json->activate-on-hover->description
-msgid "Activate scale on hover"
-msgstr "マウスを置いてスケール画面を表示"
+#. user@cinnamon.org->settings-schema.json->display-name->description
+msgid "Display user name on panel"
+msgstr "パネルにユーザー名を表示"
 
-#. printers@cinnamon.org->metadata.json->description
-msgid "Manage print jobs"
-msgstr "印刷ジョブを管理"
+#. user@cinnamon.org->settings-schema.json->display-image->description
+msgid "Display the user image on the panel"
+msgstr "パネルにユーザーの画像を表示"
 
-#. printers@cinnamon.org->settings-schema.json->show-icon->description
-msgid "Show printer icon"
-msgstr "プリンターのアイコン表示"
+#. cornerbar@cinnamon.org->metadata.json->name
+msgid "Corner bar"
+msgstr "コーナーバー"
 
-#. printers@cinnamon.org->settings-schema.json->show-icon->options
-msgid "Always"
-msgstr "常時"
+#. cornerbar@cinnamon.org->metadata.json->description
+msgid ""
+"A bar designed to be placed in the corner, used to show the desktop, "
+"desklets, the workspace selector or the window selector."
+msgstr ""
+"画面端に置くことを想定したバーで、デスクトップやデスクレット、ワークスペース/"
+"ウィンドウの選択画面を表示するために使用します。"
 
-#. printers@cinnamon.org->settings-schema.json->show-icon->options
-msgid "When printers exist"
-msgstr "プリンターが存在するとき"
+#. cornerbar@cinnamon.org->settings-schema.json->click-action->description
+msgid "Click action"
+msgstr "クリックの動作"
 
-#. printers@cinnamon.org->settings-schema.json->show-icon->options
-msgid "When printing"
-msgstr "印刷しているとき"
+#. cornerbar@cinnamon.org->settings-schema.json->middle-click-
+#. action->description
+#. grouped-window-list@cinnamon.org->settings-schema.json->middle-click-
+#. action->description
+msgid "Middle click action"
+msgstr "中クリックの動作"
 
-#. printers@cinnamon.org->settings-schema.json->show-icon->tooltip
-msgid "Choose when to show the printer icon in the panel"
-msgstr "プリンターのアイコンが表示されるタイミングを選択します"
+#. cornerbar@cinnamon.org->settings-schema.json->shift-click-
+#. action->description
+msgid "Shift + click action"
+msgstr "Shift + クリックの動作"
+
+#. cornerbar@cinnamon.org->settings-schema.json->shift-middle-click-
+#. action->description
+msgid "Shift + middle click action"
+msgstr "Shift + 中クリックの動作"
+
+#. cornerbar@cinnamon.org->settings-schema.json->scroll-behavior->description
+#. workspace-switcher@cinnamon.org->settings-schema.json->scroll-
+#. behavior->description
+msgid "Scroll wheel behavior"
+msgstr "ホイールスクロールの振る舞い"
+
+#. cornerbar@cinnamon.org->settings-schema.json->scroll-behavior->options
+msgid "Switch workspaces"
+msgstr "ワークスペースを切り替え"
+
+#. cornerbar@cinnamon.org->settings-schema.json->scroll-behavior->options
+msgid "Switch workspaces (reversed)"
+msgstr "ワークスペースを切り替え (逆順)"
+
+#. cornerbar@cinnamon.org->settings-schema.json->peek-at-desktop->description
+#. show-desktop@cinnamon.org->settings-schema.json->peek-at-
+#. desktop->description
+msgid "Peek at the desktop on hover"
+msgstr "マウスを置いてデスクトップを表示"
+
+#. cornerbar@cinnamon.org->settings-schema.json->peek-at-desktop->tooltip
+#. show-desktop@cinnamon.org->settings-schema.json->peek-at-desktop->tooltip
+msgid "Peek at the desktop when hovering the applet"
+msgstr "アプレットにマウスを置くと、デスクトップのプレビューを表示します"
+
+#. cornerbar@cinnamon.org->settings-schema.json->peek-blur->description
+#. show-desktop@cinnamon.org->settings-schema.json->peek-blur->description
+msgid "Blur effect"
+msgstr "ぼかし効果"
+
+#. cornerbar@cinnamon.org->settings-schema.json->peek-blur->tooltip
+#. show-desktop@cinnamon.org->settings-schema.json->peek-blur->tooltip
+msgid "Blur windows when peeking at the desktop"
+msgstr "デスクトップ表示中にウィンドウをぼかします"
+
+#. cornerbar@cinnamon.org->settings-schema.json->peek-delay->description
+#. show-desktop@cinnamon.org->settings-schema.json->peek-delay->description
+msgid "Hover delay"
+msgstr "表示までの待ち時間"
+
+#. cornerbar@cinnamon.org->settings-schema.json->peek-delay->tooltip
+#. show-desktop@cinnamon.org->settings-schema.json->peek-delay->tooltip
+msgid "Delay before Peek shows desktop"
+msgstr "デスクトップが実際に表示されるまでの待ち時間を指定します"
+
+#. cornerbar@cinnamon.org->settings-schema.json->peek-opacity->description
+#. show-desktop@cinnamon.org->settings-schema.json->peek-opacity->description
+#. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-
+#. opacity->description
+msgid "Window opacity"
+msgstr "ウィンドウの不透明度"
+
+#. cornerbar@cinnamon.org->settings-schema.json->peek-opacity->tooltip
+#. show-desktop@cinnamon.org->settings-schema.json->peek-opacity->tooltip
+msgid "Change the opacity of windows when peeking at the desktop"
+msgstr "デスクトップ表示中のウィンドウの不透明度を変更します"
+
+#. trash@cinnamon.org->metadata.json->description
+msgid "Control the trash from the panel"
+msgstr "パネルからゴミ箱を操作"
+
+#. settings@cinnamon.org->metadata.json->name
+msgid "Settings Applet"
+msgstr "設定アプレット"
+
+#. settings@cinnamon.org->metadata.json->description
+msgid "Cinnamon Settings"
+msgstr "Cinnamon の設定"
+
+#. favorites@cinnamon.org->metadata.json->description
+msgid "Access your favorite files"
+msgstr "お気に入りのファイルにアクセス"
+
+#. favorites@cinnamon.org->settings-schema.json->show-full-uri->description
+msgid "Display full paths in the list"
+msgstr "完全なパスの一覧を表示"
+
+#. systray@cinnamon.org->metadata.json->name
+msgid "System Tray"
+msgstr "システムトレイ"
+
+#. systray@cinnamon.org->metadata.json->description
+msgid "An applet which hosts all the system tray icons"
+msgstr "すべてのシステムトレイアイコンをホストするアプレット"
 
 #. settings-example@cinnamon.org->metadata.json->name
 msgid "Settings API Demo"
@@ -8816,6 +8202,11 @@ msgid "Id number"
 msgstr "ID 番号"
 
 #. settings-example@cinnamon.org->settings-schema.json->tree->columns->title
+#. menu@cinnamon.org->settings-schema.json->menu-icon->description
+msgid "Icon"
+msgstr "アイコン"
+
+#. settings-example@cinnamon.org->settings-schema.json->tree->columns->title
 msgid "Shortcut key"
 msgstr "ショートカットキー"
 
@@ -8906,94 +8297,46 @@ msgstr "クリックまたはホバーでエキスポ画面を表示"
 msgid "Activate expo on hover"
 msgstr "マウスを置いてエキスポ画面を表示"
 
-#. slideshow@cinnamon.org->metadata.json->name
-msgid "Slideshow Controls"
-msgstr "スライドショーの操作"
+#. windows-quick-list@cinnamon.org->metadata.json->name
+msgid "Windows Quick List"
+msgstr "簡易ウィンドウリスト"
 
-#. slideshow@cinnamon.org->metadata.json->description
-msgid "Basic controls for the Cinnamon slideshow"
-msgstr "Cinnamon スライドショーの基本的な操作"
+#. windows-quick-list@cinnamon.org->metadata.json->description
+msgid "Quickly access windows from all workspaces"
+msgstr "すべてのワークスペースのウィンドウに素早くアクセス"
 
-#. user@cinnamon.org->metadata.json->description
+#. on-screen-keyboard@cinnamon.org->metadata.json->name
+msgid "On-Screen keyboard"
+msgstr "スクリーンキーボード"
+
+#. on-screen-keyboard@cinnamon.org->metadata.json->description
+msgid "A Cinnamon applet to launch the on-screen keyboard"
+msgstr "スクリーンキーボードを起動させる Cinnamon アプレット"
+
+#. xapp-status@cinnamon.org->metadata.json->name
+msgid "XApp Status Applet"
+msgstr "XApp 状態アプレット"
+
+#. xapp-status@cinnamon.org->metadata.json->description
 msgid ""
-"An applet to access your account details, switch users and quickly logout or "
-"power off the computer"
+"An applet which hosts all the system tray icons for applications which use "
+"XAppStatusIcons"
 msgstr ""
-"現在のアカウント情報へのアクセス・ユーザーの切り替え・ログアウト・コンピュー"
-"ターのシャットダウンを行うアプレット"
+"XAppStatusIcon を使用するアプリケーションのシステムトレイアイコンをすべてホス"
+"トするアプレット"
 
-#. user@cinnamon.org->metadata.json->name
-msgid "User Applet"
-msgstr "ユーザーアプレット"
+#. network@cinnamon.org->metadata.json->description
+msgid "Network manager applet"
+msgstr "ネットワーク管理アプレット"
 
-#. user@cinnamon.org->settings-schema.json->display-name->description
-msgid "Display user name on panel"
-msgstr "パネルにユーザー名を表示"
+#. network@cinnamon.org->settings-schema.json->keyOpen->description
+#. sound@cinnamon.org->settings-schema.json->keyOpen->description
+msgid "Show menu"
+msgstr "メニューを表示"
 
-#. user@cinnamon.org->settings-schema.json->display-image->description
-msgid "Display the user image on the panel"
-msgstr "パネルにユーザーの画像を表示"
-
-#. panel-launchers@cinnamon.org->metadata.json->description
-msgid "Launch applications from the panel"
-msgstr "パネルからアプリケーションを起動"
-
-#. panel-launchers@cinnamon.org->settings-schema.json->allow-
-#. dragging->description
-msgid "Allow dragging of launchers"
-msgstr "ランチャーのドラッグ移動を許可"
-
-#. notifications@cinnamon.org->metadata.json->description
-msgid "Click to display and manage system notifications"
-msgstr "クリックでシステムの通知を表示・管理"
-
-#. notifications@cinnamon.org->settings-
-#. schema.json->ignoreTransientNotifications->description
-msgid "Ignore transient notifications"
-msgstr "一時的な通知を無視"
-
-#. notifications@cinnamon.org->settings-
-#. schema.json->ignoreTransientNotifications->tooltip
-msgid "Check this to ignore transient notifications."
-msgstr "これにチェックすると、一時的な通知を無視します。"
-
-#. notifications@cinnamon.org->settings-
-#. schema.json->showEmptyTray->description
-msgid "Show empty tray"
-msgstr "空のトレイを表示"
-
-#. notifications@cinnamon.org->settings-schema.json->showEmptyTray->tooltip
-msgid "Check this to show the tray even when there are no new notifications."
-msgstr "これにチェックすると、通知がないときでもトレイを表示します。"
-
-#. notifications@cinnamon.org->settings-
-#. schema.json->showNotificationCount->description
-msgid "Show the number of notifications"
-msgstr "通知の数を表示"
-
-#. notifications@cinnamon.org->settings-
-#. schema.json->showNewestFirst->description
-msgid "Show newest notifications first"
-msgstr "新着順に通知を表示"
-
-#. notifications@cinnamon.org->settings-schema.json->keyOpen->description
-msgid "Show notifications"
-msgstr "通知を表示"
-
-#. notifications@cinnamon.org->settings-schema.json->keyOpen->tooltip
-msgid "Set keybinding(s) to show the notification popup menu."
-msgstr "通知ポップアップのメニューを表示するキーを割り当てます。"
-
-#. notifications@cinnamon.org->settings-schema.json->keyClear->tooltip
-msgid "Set keybinding(s) to clear all notifications."
-msgstr "すべての通知を消去するキーを割り当てます。"
-
-#. notifications@cinnamon.org->settings-
-#. schema.json->btnSystemSettings->description
-#. inhibit@cinnamon.org->settings-
-#. schema.json->btnSystemNotificationSettings->description
-msgid "Open notification settings"
-msgstr "通知の設定を開く"
+#. network@cinnamon.org->settings-schema.json->keyOpen->tooltip
+msgid "Set keybinding(s) to show the network applet menu."
+msgstr "ネットワークアプレットのメニューを表示するキーを割り当てます。"
 
 #. inhibit@cinnamon.org->metadata.json->name
 msgid "Inhibit Applet"
@@ -9028,13 +8371,12 @@ msgstr "通知を抑制するキーを割り当てます。"
 msgid "Open power settings"
 msgstr "電源の設定を開く"
 
-#. on-screen-keyboard@cinnamon.org->metadata.json->name
-msgid "On-Screen keyboard"
-msgstr "スクリーンキーボード"
-
-#. on-screen-keyboard@cinnamon.org->metadata.json->description
-msgid "A Cinnamon applet to launch the on-screen keyboard"
-msgstr "スクリーンキーボードを起動させる Cinnamon アプレット"
+#. inhibit@cinnamon.org->settings-
+#. schema.json->btnSystemNotificationSettings->description
+#. notifications@cinnamon.org->settings-
+#. schema.json->btnSystemSettings->description
+msgid "Open notification settings"
+msgstr "通知の設定を開く"
 
 #. calendar@cinnamon.org->metadata.json->name
 msgid "Calendar"
@@ -9103,25 +8445,164 @@ msgstr "カレンダーを表示"
 msgid "Set keybinding(s) to show the calendar."
 msgstr "カレンダーを表示するキーを割り当てます。"
 
-#. xrandr@cinnamon.org->metadata.json->description
-msgid "XRandR monitor control applet"
-msgstr "XRandR モニター操作アプレット"
+#. sound@cinnamon.org->metadata.json->description
+msgid "A Cinnamon applet to control sound and music"
+msgstr "サウンドとミュージックを操作する Cinnamon アプレット"
 
-#. keyboard@cinnamon.org->metadata.json->description
-msgid "Keyboard layout"
-msgstr "キーボードレイアウト"
+#. sound@cinnamon.org->settings-schema.json->playerControl->description
+msgid "Control Players"
+msgstr "プレーヤーの操作"
 
-#. a11y@cinnamon.org->metadata.json->description
-msgid "Accessibility applet"
-msgstr "ユーザー補助アプレット"
+#. sound@cinnamon.org->settings-
+#. schema.json->extendedPlayerControl->description
+msgid "Show Loop and Shuffle controls"
+msgstr "ループとシャッフルのコントロールを表示"
 
-#. windows-quick-list@cinnamon.org->metadata.json->name
-msgid "Windows Quick List"
-msgstr "簡易ウィンドウリスト"
+#. sound@cinnamon.org->settings-schema.json->keyOpen->tooltip
+msgid "Set keybinding(s) to show the sound applet menu."
+msgstr "サウンドアプレットのメニューを表示するキーを割り当てます。"
 
-#. windows-quick-list@cinnamon.org->metadata.json->description
-msgid "Quickly access windows from all workspaces"
-msgstr "すべてのワークスペースのウィンドウに素早くアクセス"
+#. sound@cinnamon.org->settings-schema.json->alwaysShowMuteInput->description
+msgid "Always show input switch"
+msgstr "常に '入力をミュート' のスイッチを表示"
+
+#. sound@cinnamon.org->settings-schema.json->alwaysShowMuteInput->tooltip
+msgid "Always show the 'Mute input' switch in the context menu."
+msgstr "コンテキストメニューの '入力をミュート' スイッチを常に表示します。"
+
+#. sound@cinnamon.org->settings-schema.json->showtrack->description
+msgid "Show song information on the panel"
+msgstr "パネルに音楽の情報を表示"
+
+#. sound@cinnamon.org->settings-schema.json->truncatetext->units
+msgid "characters"
+msgstr "文字数"
+
+#. sound@cinnamon.org->settings-schema.json->truncatetext->description
+msgid "Limit song information to"
+msgstr "音楽情報の最大長制限"
+
+#. sound@cinnamon.org->settings-schema.json->middleClickAction->options
+#. sound@cinnamon.org->settings-schema.json->middleShiftClickAction->options
+msgid "Toggle Mute"
+msgstr "消音を切り替え"
+
+#. sound@cinnamon.org->settings-schema.json->middleClickAction->options
+#. sound@cinnamon.org->settings-schema.json->middleShiftClickAction->options
+msgid "Toggle Mute output"
+msgstr "出力音のミュートと解除"
+
+#. sound@cinnamon.org->settings-schema.json->middleClickAction->options
+#. sound@cinnamon.org->settings-schema.json->middleShiftClickAction->options
+msgid "Toggle Mute input"
+msgstr "入力音のミュートと解除"
+
+#. sound@cinnamon.org->settings-schema.json->middleClickAction->description
+msgid "Action on middle click"
+msgstr "中クリックの動作"
+
+#. sound@cinnamon.org->settings-
+#. schema.json->middleShiftClickAction->description
+msgid "Action on shift+middle click"
+msgstr "Shift+中クリックの動作"
+
+#. sound@cinnamon.org->settings-schema.json->horizontalScroll->description
+msgid "Use horizontal scrolling to move between tracks"
+msgstr "トラック間の移動に水平スクロールを使用"
+
+#. sound@cinnamon.org->settings-schema.json->showalbum->description
+msgid "Show album art as icon"
+msgstr "アイコンにアルバムアートを表示"
+
+#. sound@cinnamon.org->settings-schema.json->hideSystray->description
+msgid "Hide system tray icons for compatible players"
+msgstr "互換プレーヤーのシステムトレイアイコンは隠す"
+
+#. sound@cinnamon.org->settings-schema.json->section3->description
+msgid "Tooltip"
+msgstr "ツールチップ"
+
+#. sound@cinnamon.org->settings-schema.json->tooltipShowVolume->description
+msgid "Show volume in tooltip"
+msgstr "ツールチップに音量を表示"
+
+#. sound@cinnamon.org->settings-schema.json->tooltipShowPlayer->description
+msgid "Show player in tooltip"
+msgstr "ツールチップにプレーヤーを表示"
+
+#. sound@cinnamon.org->settings-
+#. schema.json->tooltipShowArtistTitle->description
+msgid "Show song artist and title in tooltip"
+msgstr "ツールチップに音楽のアーティストとタイトルを表示"
+
+#. printers@cinnamon.org->metadata.json->description
+msgid "Manage print jobs"
+msgstr "印刷ジョブを管理"
+
+#. printers@cinnamon.org->settings-schema.json->show-icon->description
+msgid "Show printer icon"
+msgstr "プリンターのアイコン表示"
+
+#. printers@cinnamon.org->settings-schema.json->show-icon->options
+msgid "Always"
+msgstr "常時"
+
+#. printers@cinnamon.org->settings-schema.json->show-icon->options
+msgid "When printers exist"
+msgstr "プリンターが存在するとき"
+
+#. printers@cinnamon.org->settings-schema.json->show-icon->options
+msgid "When printing"
+msgstr "印刷しているとき"
+
+#. printers@cinnamon.org->settings-schema.json->show-icon->tooltip
+msgid "Choose when to show the printer icon in the panel"
+msgstr "プリンターのアイコンが表示されるタイミングを選択します"
+
+#. notifications@cinnamon.org->metadata.json->description
+msgid "Click to display and manage system notifications"
+msgstr "クリックでシステムの通知を表示・管理"
+
+#. notifications@cinnamon.org->settings-
+#. schema.json->ignoreTransientNotifications->description
+msgid "Ignore transient notifications"
+msgstr "一時的な通知を無視"
+
+#. notifications@cinnamon.org->settings-
+#. schema.json->ignoreTransientNotifications->tooltip
+msgid "Check this to ignore transient notifications."
+msgstr "これにチェックすると、一時的な通知を無視します。"
+
+#. notifications@cinnamon.org->settings-
+#. schema.json->showEmptyTray->description
+msgid "Show empty tray"
+msgstr "空のトレイを表示"
+
+#. notifications@cinnamon.org->settings-schema.json->showEmptyTray->tooltip
+msgid "Check this to show the tray even when there are no new notifications."
+msgstr "これにチェックすると、通知がないときでもトレイを表示します。"
+
+#. notifications@cinnamon.org->settings-
+#. schema.json->showNotificationCount->description
+msgid "Show the number of notifications"
+msgstr "通知の数を表示"
+
+#. notifications@cinnamon.org->settings-
+#. schema.json->showNewestFirst->description
+msgid "Show newest notifications first"
+msgstr "新着順に通知を表示"
+
+#. notifications@cinnamon.org->settings-schema.json->keyOpen->description
+msgid "Show notifications"
+msgstr "通知を表示"
+
+#. notifications@cinnamon.org->settings-schema.json->keyOpen->tooltip
+msgid "Set keybinding(s) to show the notification popup menu."
+msgstr "通知ポップアップのメニューを表示するキーを割り当てます。"
+
+#. notifications@cinnamon.org->settings-schema.json->keyClear->tooltip
+msgid "Set keybinding(s) to clear all notifications."
+msgstr "すべての通知を消去するキーを割り当てます。"
 
 #. separator@cinnamon.org->metadata.json->name
 msgid "Separator"
@@ -9130,6 +8611,14 @@ msgstr "区切り"
 #. separator@cinnamon.org->metadata.json->description
 msgid "A separator icon which can be added multiple times"
 msgstr "複数追加できる区切りアイコン"
+
+#. show-desktop@cinnamon.org->metadata.json->description
+msgid "Minimize all windows"
+msgstr "ウィンドウをすべて最小化"
+
+#. recent@cinnamon.org->metadata.json->description
+msgid "Access the documents you recently opened"
+msgstr "最近開いたドキュメントにアクセス"
 
 #. power@cinnamon.org->metadata.json->name
 msgid "Power Manager"
@@ -9167,6 +8656,553 @@ msgstr ""
 "これにチェックすると、プライマリとしてマークされたバッテリー以外もすべて表示"
 "します。"
 
+#. workspace-switcher@cinnamon.org->metadata.json->name
+msgid "Workspace switcher"
+msgstr "ワークスペーススイッチャー"
+
+#. workspace-switcher@cinnamon.org->metadata.json->description
+msgid "Select the workspace from the panel"
+msgstr "パネルからワークスペースを切り替え"
+
+#. workspace-switcher@cinnamon.org->settings-schema.json->display-
+#. type->description
+msgid "Type of display"
+msgstr "表示方法"
+
+#. workspace-switcher@cinnamon.org->settings-schema.json->display-
+#. type->tooltip
+msgid ""
+"Note that the visual representation will only work if your panel is large "
+"enough to display it properly, otherwise the simple style will be used."
+msgstr ""
+"視覚的な表現を正常に行うには、十分に広いパネルが必要です。スペースが狭すぎる"
+"と、簡易表現しか使用できません。"
+
+#. workspace-switcher@cinnamon.org->settings-schema.json->display-
+#. type->options
+msgid "A visual representation of the workspaces"
+msgstr "ワークスペースの視覚的な表現"
+
+#. workspace-switcher@cinnamon.org->settings-schema.json->display-
+#. type->options
+msgid "Simple buttons"
+msgstr "簡易なボタン"
+
+#. workspace-switcher@cinnamon.org->settings-schema.json->scroll-
+#. behavior->tooltip
+msgid "Reverse or disable the direction of the scroll in the workspace list."
+msgstr ""
+"ワークスペースリストを逆方向へスクロールするか、スクロール操作そのものを無効"
+"にします。"
+
+#. workspace-switcher@cinnamon.org->settings-schema.json->scroll-
+#. behavior->options
+msgid "Reversed"
+msgstr "逆"
+
+#. menu@cinnamon.org->metadata.json->description
+msgid "Main Cinnamon menu"
+msgstr "Cinnamon メインメニュー"
+
+#. menu@cinnamon.org->settings-schema.json->content->title
+#. menu@cinnamon.org->settings-schema.json->content-content->title
+msgid "Content"
+msgstr "内容"
+
+#. menu@cinnamon.org->settings-schema.json->content-places->title
+msgid "Places"
+msgstr "場所"
+
+#. menu@cinnamon.org->settings-schema.json->overlay-key->description
+msgid "Keyboard shortcut to open and close the menu"
+msgstr "メニューを開閉するキーボードショートカット"
+
+#. menu@cinnamon.org->settings-schema.json->menu-custom->description
+msgid "Use a custom icon and label"
+msgstr "アイコンとラベルのカスタマイズ"
+
+#. menu@cinnamon.org->settings-schema.json->menu-icon-size->description
+msgid "Icon size"
+msgstr "アイコンの大きさ"
+
+#. menu@cinnamon.org->settings-schema.json->menu-label->description
+msgid "Text"
+msgstr "テキスト"
+
+#. menu@cinnamon.org->settings-schema.json->symbolic-category-
+#. icons->description
+msgid "Use symbolic icons for categories"
+msgstr "カテゴリにシンボリックアイコンを使用"
+
+#. menu@cinnamon.org->settings-schema.json->category-icon-size->description
+msgid "Categories icon size"
+msgstr "カテゴリアイコンの大きさ"
+
+#. menu@cinnamon.org->settings-schema.json->application-icon-size->description
+msgid "Applications icon size"
+msgstr "アプリケーションアイコンの大きさ"
+
+#. menu@cinnamon.org->settings-schema.json->show-sidebar->description
+msgid "Sidebar"
+msgstr "サイドバー"
+
+#. menu@cinnamon.org->settings-schema.json->show-avatar->description
+msgid "Avatar"
+msgstr "アバター"
+
+#. menu@cinnamon.org->settings-schema.json->show-documents->description
+msgid "Documents"
+msgstr "ドキュメント"
+
+#. menu@cinnamon.org->settings-schema.json->show-downloads->description
+msgid "Downloads"
+msgstr "ダウンロード"
+
+#. menu@cinnamon.org->settings-schema.json->show-pictures->description
+msgid "Pictures"
+msgstr "画像"
+
+#. menu@cinnamon.org->settings-schema.json->show-videos->description
+msgid "Videos"
+msgstr "ビデオ"
+
+#. menu@cinnamon.org->settings-schema.json->show-bookmarks->description
+msgid "Other bookmarks"
+msgstr "他のブックマーク"
+
+#. menu@cinnamon.org->settings-schema.json->system-position->description
+msgid "Position of the system buttons"
+msgstr "システムボタンの位置"
+
+#. menu@cinnamon.org->settings-schema.json->system-position->options
+msgid "In the sidebar"
+msgstr "サイドバーの中"
+
+#. menu@cinnamon.org->settings-schema.json->system-position->options
+msgid "Alongside the search bar"
+msgstr "検索バーの隣"
+
+#. menu@cinnamon.org->settings-schema.json->search-position->description
+msgid "Position of the search bar"
+msgstr "検索バーの位置"
+
+#. menu@cinnamon.org->settings-schema.json->search-position->options
+msgid "At the top"
+msgstr "上側"
+
+#. menu@cinnamon.org->settings-schema.json->search-position->options
+msgid "At the bottom"
+msgstr "下側"
+
+#. menu@cinnamon.org->settings-schema.json->sidebar-icon-size->description
+msgid "Sidebar icon size"
+msgstr "サイドバーアイコンの大きさ"
+
+#. menu@cinnamon.org->settings-schema.json->sidebar-max-width->description
+msgid "Maximum sidebar width (px)"
+msgstr "サイドバーの最大幅 (ピクセル)"
+
+#. menu@cinnamon.org->settings-schema.json->show-recents->description
+msgid "Recents"
+msgstr "最近使ったファイル"
+
+#. menu@cinnamon.org->settings-schema.json->show-description->description
+msgid "Show application descriptions"
+msgstr "アプリケーションの説明を表示"
+
+#. menu@cinnamon.org->settings-schema.json->category-hover->description
+msgid "Change categories on hover"
+msgstr "マウスを合わせてカテゴリを変更"
+
+#. menu@cinnamon.org->settings-schema.json->enable-autoscroll->description
+msgid "Enable autoscrolling in application list"
+msgstr "アプリケーション一覧の自動スクロールを有効化"
+
+#. menu@cinnamon.org->settings-schema.json->force-show-panel->description
+msgid "Force the panel to be visible when opening the menu"
+msgstr "メニューを開くときにパネルを強制表示"
+
+#. menu@cinnamon.org->settings-schema.json->force-show-panel->tooltip
+msgid ""
+"Opening the menu will also show the main panel (which may be auto-hidden)."
+msgstr ""
+"メニューを開くと同時に (自動的に隠す設定となっている) メインパネルも表示しま"
+"す。"
+
+#. menu@cinnamon.org->settings-schema.json->activate-on-hover->description
+msgid "Open the menu when I move my mouse over it"
+msgstr "メニューにマウスを置いて開く"
+
+#. menu@cinnamon.org->settings-schema.json->activate-on-hover->tooltip
+msgid "Enable opening the menu when the mouse enters the applet"
+msgstr "アプレットにマウスを置いたら、自動でメニューを開きます"
+
+#. menu@cinnamon.org->settings-schema.json->hover-delay->description
+msgid "Menu hover delay"
+msgstr "メニュー出現までの待ち時間"
+
+#. menu@cinnamon.org->settings-schema.json->hover-delay->tooltip
+msgid "Delay before the menu opens when hovered"
+msgstr ""
+"メニューにマウスを置いたあと、実際にメニューが出てくるまでの待ち時間です"
+
+#. menu@cinnamon.org->settings-schema.json->enable-animation->description
+msgid "Use menu animations"
+msgstr "メニューにアニメーション効果を適用"
+
+#. menu@cinnamon.org->settings-schema.json->enable-animation->tooltip
+msgid "Allow the menu to animate on open and close"
+msgstr "メニューの開閉動作にアニメーション効果を適用します"
+
+#. menu@cinnamon.org->settings-schema.json->menu-editor-button->description
+msgid "Open the menu editor"
+msgstr "メニューの項目を編集"
+
+#. menu@cinnamon.org->settings-schema.json->menu-editor-button->tooltip
+msgid "Press this button to customize your menu entries."
+msgstr "メニューの項目をカスタマイズするには、このボタンを押してください。"
+
+#. menu@cinnamon.org->settings-schema.json->reset-menu-size-
+#. button->description
+msgid "Restore the menu to its original size"
+msgstr "メニューを元の大きさに戻す"
+
+#. spacer@cinnamon.org->metadata.json->name
+msgid "Spacer"
+msgstr "スペーサー"
+
+#. spacer@cinnamon.org->metadata.json->description
+msgid "Add some space between your other applets"
+msgstr "アプレットの間隔を調節できる余白を挿入"
+
+#. spacer@cinnamon.org->settings-schema.json->width->description
+msgid "Amount of space in pixels"
+msgstr "余白の量 (ピクセル)"
+
+#. spacer@cinnamon.org->settings-schema.json->width->tooltip
+msgid "Adjust this to increase or decrease the width of this spacer"
+msgstr "この値を調節し、スペーサーの幅を増減させます"
+
+#. slideshow@cinnamon.org->metadata.json->name
+msgid "Slideshow Controls"
+msgstr "スライドショーの操作"
+
+#. slideshow@cinnamon.org->metadata.json->description
+msgid "Basic controls for the Cinnamon slideshow"
+msgstr "Cinnamon スライドショーの基本的な操作"
+
+#. removable-drives@cinnamon.org->metadata.json->description
+msgid "Access removable drives"
+msgstr "リムーバブルドライブにアクセス"
+
+#. nightlight@cinnamon.org->metadata.json->description
+msgid "Activate/deactivate Night Light mode."
+msgstr "夜間モードを有効/無効化します。"
+
+#. grouped-window-list@cinnamon.org->metadata.json->description
+msgid "Main Cinnamon window list with app grouping"
+msgstr "アプリをグループ別にまとめる Cinnamon メインウィンドウリスト"
+
+#. grouped-window-list@cinnamon.org->settings-
+#. schema.json->thumbnailsPage->title
+#. grouped-window-list@cinnamon.org->settings-
+#. schema.json->thumbnailsSection->title
+msgid "Thumbnails"
+msgstr "サムネイル"
+
+#. grouped-window-list@cinnamon.org->settings-
+#. schema.json->contextMenuPage->title
+msgid "Context Menu"
+msgstr "コンテキストメニュー"
+
+#. grouped-window-list@cinnamon.org->settings-
+#. schema.json->hotKeysSection->title
+msgid "Hot Keys"
+msgstr "ホットキー"
+
+#. grouped-window-list@cinnamon.org->settings-
+#. schema.json->appButtonsSection->title
+msgid "Application Buttons"
+msgstr "アプリケーションボタン"
+
+#. grouped-window-list@cinnamon.org->settings-
+#. schema.json->hoverPeekSection->title
+msgid "Hover Peek"
+msgstr "ホバー表示"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->group-
+#. apps->description
+msgid "Group windows by application"
+msgstr "アプリケーション別にウィンドウをグループ化"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->scroll-
+#. behavior->description
+msgid "Mouse wheel scroll action"
+msgstr "マウスホイールスクロールの動作"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->scroll-
+#. behavior->options
+msgid "Cycle apps"
+msgstr "アプリを循環"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->scroll-
+#. behavior->options
+#. grouped-window-list@cinnamon.org->settings-schema.json->left-click-
+#. action->options
+msgid "Cycle windows"
+msgstr "ウィンドウを循環"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->left-click-
+#. action->description
+msgid "Left click action"
+msgstr "左クリックの動作"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->left-click-
+#. action->options
+msgid "Toggle activation of last focused window"
+msgstr "最後にフォーカスしたウィンドウをアクティブ化/解除"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->middle-click-
+#. action->options
+msgid "Launch new app instance"
+msgstr "アプリの新しいインスタンスを起動"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->middle-click-
+#. action->options
+msgid "Close last focused window in group"
+msgstr "グループ内で最後にフォーカスしたウィンドウを閉じる"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->window-display-
+#. settings->description
+msgid "Show windows from other monitors"
+msgstr "他のモニターのウィンドウを表示"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->window-display-
+#. settings->options
+msgid "Only from monitors without a window list"
+msgstr "ウィンドウリストがないモニターのウィンドウのみ"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->window-display-
+#. settings->options
+msgid "From all monitors"
+msgstr "すべてのモニターのウィンドウ"
+
+#. grouped-window-list@cinnamon.org->settings-
+#. schema.json->cycleMenusHotkey->description
+msgid "Global hotkey for cycling through thumbnail menus"
+msgstr "サムネイルメニューを循環させるグローバルホットキー"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->show-apps-order-
+#. hotkey->description
+msgid "Global hotkey to show the order of apps"
+msgstr "アプリの順番を表示するグローバルホットキー"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->show-apps-order-
+#. timeout->description
+msgid "Duration of the apps order display on hotkey press"
+msgstr "ホットキー入力時、アプリの順番を表示しておく時間"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->super-num-
+#. hotkeys->description
+msgid "Enable Super+<number> shortcut to switch/open apps"
+msgstr "Super+<数字> キーによるアプリの切り替えと起動を有効化"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->title-
+#. display->description
+msgid "Button label"
+msgstr "ボタンのラベル"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->title-
+#. display->options
+msgid "Application name"
+msgstr "アプリケーション名"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->title-
+#. display->options
+msgid "Window title"
+msgstr "ウィンドウのタイトル"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->title-
+#. display->options
+msgid "Window title (only for the focused window)"
+msgstr "ウィンドウのタイトル (フォーカスしているウィンドウのみ)"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->launcher-animation-
+#. effect->description
+msgid "Launcher animation"
+msgstr "ランチャーのアニメーション"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->enable-window-
+#. count-badges->description
+msgid "Show window count badges"
+msgstr "ウィンドウ数のバッジを表示"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->enable-window-
+#. count-badges->tooltip
+msgid "Indicate on the panel the number of open windows an application has"
+msgstr "パネル上にアプリケーションの開いているウィンドウ数を表示します"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->enable-
+#. notification-badges->tooltip
+msgid "Indicate on the panel when an application has notifications"
+msgstr "パネル上にアプリケーションの通知の数を表示します"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->enable-app-button-
+#. dragging->description
+msgid "Enable app button dragging"
+msgstr "アプリボタンのドラッグ移動を有効化"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-scroll-
+#. behavior->description
+msgid "Cycle windows on mouse wheel scroll"
+msgstr "マウスホイールのスクロールでウィンドウを循環"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->show-
+#. thumbnails->description
+msgid "Show thumbnails"
+msgstr "サムネイルを表示"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->animate-
+#. thumbnails->description
+msgid "Animate thumbnails"
+msgstr "サムネイル出現時のアニメーション効果"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->vertical-
+#. thumbnails->description
+msgid "Enable vertical thumbnails"
+msgstr "縦方向へサムネイルを引き出す"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->sort-
+#. thumbnails->description
+msgid "Sort thumbnails according to the last focused windows"
+msgstr "最後にフォーカスされたウィンドウ順でサムネイルを並べる"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->highlight-last-
+#. focused-thumbnail->description
+msgid "Highlight the thumbnail of the last focused window"
+msgstr "最後にフォーカスされたウィンドウのサムネイルを強調表示"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->onclick-
+#. thumbnails->description
+msgid "Click to show thumbnails"
+msgstr "クリックでサムネイルを表示"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-
+#. timeout->description
+msgid "Delay before showing thumbnails"
+msgstr "サムネイル出現までの待ち時間"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-
+#. timeout->options
+msgid "50 ms"
+msgstr "50 ミリ秒"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-
+#. timeout->options
+msgid "250 ms"
+msgstr "250 ミリ秒"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-
+#. timeout->options
+msgid "500 ms"
+msgstr "500 ミリ秒"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->enable-hover-
+#. peek->description
+msgid "Show the window when hovering its thumbnail"
+msgstr "サムネイルにマウスを置いてウィンドウを表示"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-time-
+#. in->description
+msgid "Window fade-in time"
+msgstr "ウィンドウがフェードインする時間"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-time-
+#. in->options
+#. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-time-
+#. out->options
+msgid "150 ms"
+msgstr "150 ミリ秒"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-time-
+#. in->options
+#. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-time-
+#. out->options
+msgid "300 ms"
+msgstr "300 ミリ秒"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-time-
+#. in->options
+#. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-time-
+#. out->options
+msgid "450 ms"
+msgstr "450 ミリ秒"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-time-
+#. out->description
+msgid "Window fade-out time"
+msgstr "ウィンドウがフェードアウトする時間"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-
+#. opacity->units
+msgid "percent"
+msgstr "パーセント"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->show-
+#. recent->description
+msgid "Show recent items"
+msgstr "最近使ったアイテムを表示"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->autostart-menu-
+#. item->description
+msgid "Show autostart option"
+msgstr "自動開始アプリのオプションを表示"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->monitor-move-all-
+#. windows->description
+msgid "Apply the monitor move option to all windows"
+msgstr "モニター間移動の操作をすべてのウィンドウに適用"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->monitor-move-all-
+#. windows->tooltip
+msgid ""
+"When clicking \"Move to monitor\" in the context menu, this option will move "
+"all of an app's windows instead of just the last focused window from the app."
+msgstr ""
+"コンテキストメニューの \"モニターに移動\" をクリックしたとき、最後にフォーカ"
+"スされたアプリウィンドウだけではなく、他のアプリウィンドウもまとめて移動しま"
+"す。"
+
+#. clock@cinnamon.org->metadata.json->name
+msgid "Clock desklet"
+msgstr "時計デスクレット"
+
+#. clock@cinnamon.org->metadata.json->description
+msgid "A desklet that displays the time"
+msgstr "時刻を表示するデスクレット"
+
+#. clock@cinnamon.org->settings-schema.json->text-color->description
+msgid "Text color"
+msgstr "テキストの色"
+
+#. clock@cinnamon.org->settings-schema.json->text-color->tooltip
+msgid "Click the button to select a new text color"
+msgstr "新しいテキストの色を選択するにはクリックします"
+
+#. clock@cinnamon.org->settings-schema.json->use-custom-format->tooltip
+msgid "Check this to define a custom format for the time in the clock desklet."
+msgstr ""
+"これにチェックすると、時計デスクレットに表示する時刻書式をカスタマイズできま"
+"す。"
+
+#. launcher@cinnamon.org->metadata.json->name
+msgid "Launcher desklet"
+msgstr "ランチャーデスクレット"
+
+#. launcher@cinnamon.org->metadata.json->description
+msgid "A desklet that launches a program"
+msgstr "プログラムを起動させるデスクレット"
+
 #. photoframe@cinnamon.org->metadata.json->name
 msgid "Digital photo frame"
 msgstr "デジタルフォトフレーム"
@@ -9202,33 +9238,3 @@ msgstr "セピア"
 #. photoframe@cinnamon.org->settings-schema.json->effect->options
 msgid "Black and White"
 msgstr "白黒"
-
-#. launcher@cinnamon.org->metadata.json->name
-msgid "Launcher desklet"
-msgstr "ランチャーデスクレット"
-
-#. launcher@cinnamon.org->metadata.json->description
-msgid "A desklet that launches a program"
-msgstr "プログラムを起動させるデスクレット"
-
-#. clock@cinnamon.org->metadata.json->name
-msgid "Clock desklet"
-msgstr "時計デスクレット"
-
-#. clock@cinnamon.org->metadata.json->description
-msgid "A desklet that displays the time"
-msgstr "時刻を表示するデスクレット"
-
-#. clock@cinnamon.org->settings-schema.json->text-color->description
-msgid "Text color"
-msgstr "テキストの色"
-
-#. clock@cinnamon.org->settings-schema.json->text-color->tooltip
-msgid "Click the button to select a new text color"
-msgstr "新しいテキストの色を選択するにはクリックします"
-
-#. clock@cinnamon.org->settings-schema.json->use-custom-format->tooltip
-msgid "Check this to define a custom format for the time in the clock desklet."
-msgstr ""
-"これにチェックすると、時計デスクレットに表示する時刻書式をカスタマイズできま"
-"す。"
