@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
 "japanese\n"
-"POT-Creation-Date: 2026-01-05 22:23+0200\n"
-"PO-Revision-Date: 2026-01-06 15:26+0900\n"
+"POT-Creation-Date: 2026-01-07 21:27+0000\n"
+"PO-Revision-Date: 2026-01-08 15:26+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2026-01-06 05:56+0000\n"
+"X-Launchpad-Export-Date: 2026-01-08 06:00+0000\n"
 "X-Generator: Poedit 3.6\n"
 
 #: src/cinnamon-app.c:374 src/cinnamon-app.c:383 js/ui/endSessionDialog.js:290
@@ -59,7 +59,7 @@ msgid "File System"
 msgstr "ファイルシステム"
 
 #: src/cinnamon-util.c:259
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2572
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2577
 #: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:302
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:446
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:860
@@ -92,8 +92,9 @@ msgstr "プレビュー"
 #: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.py:385
 #: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.py:451
 #: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.py:656
-#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingWidgets.py:155
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:762
+#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingWidgets.py:158
+#: files/usr/share/cinnamon/cinnamon-settings/bin/XkbSettings.py:224
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:768
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_startup.py:771
 msgid "Cancel"
 msgstr "キャンセル"
@@ -104,9 +105,10 @@ msgstr "キャンセル"
 #: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.ui:163
 #: files/usr/share/cinnamon/applets/panel-launchers@cinnamon.org/applet.js:54
 #: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.py:385
+#: files/usr/share/cinnamon/cinnamon-settings/bin/XkbSettings.py:176
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_applets.py:55
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_desklets.py:79
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:757
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:763
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_startup.py:425
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_startup.py:775
 msgid "Add"
@@ -127,6 +129,7 @@ msgstr "有効なレイアウト"
 #: files/usr/share/cinnamon/cinnamon-settings/bin/input-sources-list.ui:234
 #: js/ui/panel.js:1746
 #: files/usr/share/cinnamon/applets/panel-launchers@cinnamon.org/applet.js:62
+#: files/usr/share/cinnamon/cinnamon-settings/bin/XkbSettings.py:181
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_applets.py:56
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_desklets.py:80
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_startup.py:438
@@ -192,12 +195,12 @@ msgstr "ランチャーのプロパティ"
 #: files/usr/share/cinnamon/cinnamon-desktop-editor/launcher-editor.ui:97
 #: files/usr/share/cinnamon/cinnamon-desktop-editor/directory-editor.ui:97
 #: files/usr/share/cinnamon/desklets/launcher@cinnamon.org/editorDialog.ui:104
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:766
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:772
 msgid "Name:"
 msgstr "名前:"
 
 #: files/usr/share/cinnamon/cinnamon-desktop-editor/launcher-editor.ui:112
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:767
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:773
 msgid "Command:"
 msgstr "コマンド:"
 
@@ -471,7 +474,7 @@ msgid "Switch User"
 msgstr "ユーザーを切り替え"
 
 #: js/ui/endSessionDialog.js:142 js/ui/endSessionDialog.js:149
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2405
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2410
 msgid "Log Out"
 msgstr "ログアウト"
 
@@ -499,7 +502,7 @@ msgid "Restart"
 msgstr "再起動"
 
 #: js/ui/endSessionDialog.js:185 js/ui/endSessionDialog.js:193
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2418
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2423
 msgid "Shut Down"
 msgstr "シャットダウン"
 
@@ -1275,7 +1278,7 @@ msgstr "エキスポ"
 #. menu@cinnamon.org->settings-schema.json->show-favorites->description
 #. favorites@cinnamon.org->metadata.json->name
 #: files/usr/share/cinnamon/applets/favorites@cinnamon.org/applet.js:46
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2279
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2284
 msgid "Favorites"
 msgstr "お気に入り"
 
@@ -1451,53 +1454,53 @@ msgstr "メニュー"
 msgid "Edit menu"
 msgstr "メニューを編集"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2216
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2221
 msgid "Recent Files"
 msgstr "最近使ったファイル"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2232
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2237
 #: files/usr/share/cinnamon/applets/recent@cinnamon.org/applet.js:125
 msgid "Clear list"
 msgstr "一覧を消去"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2233
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2238
 msgid "Clear all recent documents"
 msgstr "最近使ったドキュメントをすべて消去します"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2249
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2254
 #: files/usr/share/cinnamon/applets/recent@cinnamon.org/applet.js:130
 msgid "No recent documents"
 msgstr "最近使ったドキュメントはありません"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2297
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2302
 msgid "No favorite documents"
 msgstr "お気に入りのドキュメントはありません"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2329
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2334
 msgid "All Applications"
 msgstr "すべてのアプリケーション"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2379
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2384
 #: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:80
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:610
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:615
 msgid "Lock Screen"
 msgstr "画面をロック"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2380
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2385
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:11
 msgid "Lock the screen"
 msgstr "画面をロックします"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2406
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2411
 msgid "Leave the session"
 msgstr "セッションを終了します"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2419
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2424
 msgid "Shut down the computer"
 msgstr "コンピューターをシャットダウンします"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2497
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2502
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_user.py:38
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_user.py:52
 msgid "Account details"
@@ -1866,7 +1869,7 @@ msgstr "マウス"
 #: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:63
 #: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingTable.py:70
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_accessibility.py:147
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:34
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:35
 msgid "Keyboard"
 msgstr "キーボード"
 
@@ -3131,7 +3134,7 @@ msgid "Install"
 msgstr "インストール"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:796
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:755
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:761
 msgid "Update"
 msgstr "更新"
 
@@ -3203,8 +3206,8 @@ msgid "Use upper-case when using text to represent a layout"
 msgstr "レイアウトの表記に大文字アルファベットを使用"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/InputSources.py:82
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:93
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:139
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:94
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:140
 msgid "Shortcuts"
 msgstr "ショートカット"
 
@@ -3903,27 +3906,27 @@ msgstr ""
 
 #. l10n constants - get them translated here so they use Cinnamon's gettext
 #. context
-#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingWidgets.py:147
+#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingWidgets.py:150
 msgid "Click to set a new accelerator key."
 msgstr "新しいアクセラレーターキーを設定するにはクリックしてください。"
 
-#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingWidgets.py:148
+#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingWidgets.py:151
 msgid "Press Escape or click again to cancel the operation."
 msgstr "操作をキャンセルするには Esc を押すか、再度クリックしてください。"
 
-#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingWidgets.py:149
+#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingWidgets.py:152
 msgid "Press Backspace to clear the existing keybinding."
 msgstr "現在のキー割り当てを解除するには Backspace を押してください。"
 
-#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingWidgets.py:150
+#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingWidgets.py:153
 msgid "unassigned"
 msgstr "未割り当て"
 
-#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingWidgets.py:151
+#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingWidgets.py:154
 msgid "Pick an accelerator"
 msgstr "アクセラレーターを選んでください"
 
-#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingWidgets.py:152
+#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingWidgets.py:155
 #, python-format
 msgid ""
 "\n"
@@ -3934,7 +3937,7 @@ msgstr ""
 "このキーの組み合わせ '<b>%s</b>' は使用すべきではありません (このキーを使用し"
 "た入力ができなくなってしまいます)。 "
 
-#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingWidgets.py:153
+#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingWidgets.py:156
 msgid ""
 "Please try again using a modifier key such as Control, Alt or Super (Windows "
 "key).\n"
@@ -3943,13 +3946,13 @@ msgstr ""
 "Ctrl, Alt, Super (Windows キー) などの修飾キーで再度試してください。\n"
 "\n"
 
-#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingWidgets.py:154
+#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingWidgets.py:157
 msgid ""
 "Continue only if you are certain this is what you want, otherwise press "
 "cancel.\n"
 msgstr "それでも本当にこのまま続けますか？それともキャンセルしますか？\n"
 
-#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingWidgets.py:156
+#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingWidgets.py:159
 msgid "Continue"
 msgstr "続行"
 
@@ -4055,6 +4058,16 @@ msgstr "選択した項目を下へ移動"
 #: files/usr/share/cinnamon/cinnamon-settings/bin/TreeListWidgets.py:280
 msgid "Edit entry"
 msgstr "項目を編集"
+
+#: files/usr/share/cinnamon/cinnamon-settings/bin/XkbSettings.py:195
+#: files/usr/share/cinnamon/cinnamon-settings/bin/XkbSettings.py:380
+#: files/usr/share/cinnamon/cinnamon-settings/bin/XkbSettings.py:468
+msgid "Select an option"
+msgstr "オプションを選択"
+
+#: files/usr/share/cinnamon/cinnamon-settings/bin/XkbSettings.py:219
+msgid "Back"
+msgstr "戻る"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_accessibility.py:26
 msgid "Configure accessibility features"
@@ -4332,7 +4345,7 @@ msgstr "認識されるまでの待ち時間"
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_accessibility.py:291
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_accessibility.py:317
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_accessibility.py:395
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:76
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:77
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_mouse.py:75
 msgid "Short"
 msgstr "短い"
@@ -4340,7 +4353,7 @@ msgstr "短い"
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_accessibility.py:291
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_accessibility.py:317
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_accessibility.py:395
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:76
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:77
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_mouse.py:75
 msgid "Long"
 msgstr "長い"
@@ -5672,57 +5685,57 @@ msgstr "個人情報は含まれません"
 msgid "Copy to clipboard"
 msgstr "クリップボードにコピー"
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:28
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:29
 msgid "Manage keyboard settings and shortcuts"
 msgstr "キーボードの設定とショートカットを管理"
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:33
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:34
 msgid "keyboard, shortcut, hotkey"
 msgstr "keyboard, shortcut, hotkey, キーボード, ショートカット, ホットキー"
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:69
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:70
 msgid "Key repeat"
 msgstr "キーの繰り返し入力"
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:71
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:72
 msgid "Typing"
 msgstr "タイピング"
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:73
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:74
 msgid "Enable key repeat"
 msgstr "キーの繰り返し入力を有効化"
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:76
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:77
 msgid "Repeat delay:"
 msgstr "繰り返すまでの待ち時間:"
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:79
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:80
 msgid "Repeat speed:"
 msgstr "繰り返し速度:"
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:79
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:87
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:80
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:88
 msgid "Slow"
 msgstr "遅い"
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:79
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:87
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:80
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:88
 msgid "Fast"
 msgstr "速い"
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:82
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:83
 msgid "Text cursor"
 msgstr "テキストカーソル"
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:84
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:85
 msgid "Text cursor blinks"
 msgstr "テキストカーソルの点滅"
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:87
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:88
 msgid "Blink speed:"
 msgstr "点滅速度:"
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:99
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:100
 msgid ""
 "To edit a keyboard binding, click it and press the new keys, or press "
 "backspace to clear it."
@@ -5731,55 +5744,59 @@ msgstr ""
 "バックスペースを押すと割り当てを解除します。"
 
 #. Text entry search field
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:114
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:115
 msgid "Type to search shortcuts"
 msgstr "入力してショートカットを検索"
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:127
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:128
 msgid "Press Escape to cancel the search."
 msgstr "検索をキャンセルするには Esc を押してください。"
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:129
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:130
 msgid "Click to search by accelerator"
 msgstr "クリックしてアクセラレーターから検索"
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:140
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:141
 msgid "Bindings"
 msgstr "割り当て"
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:200
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:758
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:201
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:764
 msgid "Add custom shortcut"
 msgstr "カスタムショートカットを追加"
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:202
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:203
 msgid "Remove custom shortcut"
 msgstr "カスタムショートカットを削除"
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:227
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:228
 msgid "Categories"
 msgstr "カテゴリ"
 
 #. notifications@cinnamon.org->settings-schema.json->section3->description
 #. inhibit@cinnamon.org->settings-schema.json->section1->description
 #. calendar@cinnamon.org->settings-schema.json->section2->description
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:247
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:248
 msgid "Keyboard shortcuts"
 msgstr "キーボードショートカット"
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:259
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:260
 msgid "Keyboard bindings"
 msgstr "キーボードの割り当て"
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:302
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:303
 msgid "Layouts"
 msgstr "レイアウト"
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:673
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:306
+msgid "XKB Options"
+msgstr "XKB のオプション"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:679
 msgid "Reset to default"
 msgstr "既定値に戻す"
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:775
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:781
 msgid "Select a file"
 msgstr "ファイルを選択"
 
