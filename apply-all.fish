@@ -8,13 +8,11 @@ if test $EUID -ne 0
     exit 1
 end
 
-function generate_mo
-    set PO $argv[1]
-    set MO $argv[2]
+function generate_mo -a PO MO
     msgfmt -o $MO $PO
     chown root:root $MO
     chmod a=r,u+w $MO
-    echo "Generated $MO"
+    echo $MO
 end
 
 # /usr/share/locale/$CATALOG_LANG/LC_MESSAGES/*.mo
@@ -52,7 +50,7 @@ set CATALOGS \
     xviewer
 
 for CATALOG in $CATALOGS
-    generate_mo $CATALOG_DIR/{$CATALOG}_{$CATALOG}-$CATALOG_LANG.po /usr/share/locale/$CATALOG_LANG/LC_MESSAGES/$CATALOG.mo
+    generate_mo $CATALOG_DIR/{$CATALOG}_$CATALOG-$CATALOG_LANG.po /usr/share/locale/$CATALOG_LANG/LC_MESSAGES/$CATALOG.mo
 end
 
 generate_mo $CATALOG_DIR/xedit_xed-$CATALOG_LANG.po /usr/share/locale/$CATALOG_LANG/LC_MESSAGES/xed.mo
@@ -72,5 +70,7 @@ set CATALOGS \
     mintwelcome
 
 for CATALOG in $CATALOGS
-    generate_mo $CATALOG_DIR/{$CATALOG}_{$CATALOG}-$CATALOG_LANG.po /usr/share/linuxmint/locale/$CATALOG_LANG/LC_MESSAGES/$CATALOG.mo
+    generate_mo $CATALOG_DIR/{$CATALOG}_$CATALOG-$CATALOG_LANG.po /usr/share/linuxmint/locale/$CATALOG_LANG/LC_MESSAGES/$CATALOG.mo
 end
+
+exit 0
