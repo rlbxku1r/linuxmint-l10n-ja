@@ -1,12 +1,12 @@
 #!/usr/bin/env fish
 
-set CATALOG_LANG ja
-set CATALOG_DIR (status dirname)
-
 if test $EUID -ne 0
     echo "$(status basename): This script must be run as root." >&2
     exit 1
 end
+
+set CATALOG_DIR (status dirname)
+set CATALOG_LANG (cat $CATALOG_DIR/.catalog_lang)
 
 function generate_mo -a PO MO
     msgfmt -o $MO $PO
