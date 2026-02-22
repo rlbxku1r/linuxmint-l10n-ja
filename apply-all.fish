@@ -8,29 +8,29 @@ end
 set CATALOG_DIR (status dirname)
 set CATALOG_LANG (cat $CATALOG_DIR/.catalog_lang)
 
-function generate_mo -a PO MO
-    msgfmt -o $MO $PO
-    chown root:root $MO
-    chmod a=r,u+w $MO
-    echo $MO
+function generate_mo -a po mo
+    msgfmt -o $mo $po
+    chown root:root $mo
+    chmod a=r,u+w $mo
+    echo $mo
 end
 
-function po_name -a CATALOG
-    # If the $CATALOG contains an underscore, use it as a prefix as is.
-    # Otherwise, make a prefix that repeats the $CATALOG twice, separated by an underscore.
-    if string match -q '*_*' $CATALOG
+function po_name -a catalog
+    # If the $catalog contains an underscore, use it as a prefix as is.
+    # Otherwise, make a prefix that repeats the $catalog twice, separated by an underscore.
+    if string match -q '*_*' $catalog
         # e.g. "xedit_xed" becomes "xedit_xed-$CATALOG_LANG.po".
-        echo $CATALOG-$CATALOG_LANG.po
+        echo $catalog-$CATALOG_LANG.po
     else
         # e.g. "cinnamon" becomes "cinnamon_cinnamon-$CATALOG_LANG.po".
-        echo "$CATALOG"_$CATALOG-$CATALOG_LANG.po
+        echo "$catalog"_$catalog-$CATALOG_LANG.po
     end
 end
 
-function mo_name -a CATALOG
-    # If the $CATALOG is separated by underscores, print its last word. Otherwise, just print it as is.
+function mo_name -a catalog
+    # If the $catalog is separated by underscores, print its last word. Otherwise, just print it as is.
     # e.g. "xedit_xed" becomes "xed.mo", and "cinnamon" becomes "cinnamon.mo".
-    echo (string split _ $CATALOG | tail -n1).mo
+    echo (string split _ $catalog | tail -n1).mo
 end
 
 # /usr/share/locale/$CATALOG_LANG/LC_MESSAGES/*.mo
@@ -68,8 +68,8 @@ set CATALOGS \
     xreader \
     xviewer
 
-for CATALOG in $CATALOGS
-    generate_mo $CATALOG_DIR/(po_name $CATALOG) /usr/share/locale/$CATALOG_LANG/LC_MESSAGES/(mo_name $CATALOG)
+for catalog in $CATALOGS
+    generate_mo $CATALOG_DIR/(po_name $catalog) /usr/share/locale/$CATALOG_LANG/LC_MESSAGES/(mo_name $catalog)
 end
 
 # /usr/share/linuxmint/locale/$CATALOG_LANG/LC_MESSAGES/*.mo
@@ -86,8 +86,8 @@ set CATALOGS \
     mintupload \
     mintwelcome
 
-for CATALOG in $CATALOGS
-    generate_mo $CATALOG_DIR/(po_name $CATALOG) /usr/share/linuxmint/locale/$CATALOG_LANG/LC_MESSAGES/(mo_name $CATALOG)
+for catalog in $CATALOGS
+    generate_mo $CATALOG_DIR/(po_name $catalog) /usr/share/linuxmint/locale/$CATALOG_LANG/LC_MESSAGES/(mo_name $catalog)
 end
 
 exit 0
