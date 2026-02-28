@@ -5,8 +5,8 @@ if test $EUID -ne 0
     exit 1
 end
 
-set CATALOG_DIR (status dirname)
-set CATALOG_LANG (cat $CATALOG_DIR/.catalog_lang)
+set catalog_dir (status dirname)
+set catalog_lang (cat $catalog_dir/.catalog_lang)
 
 function generate_mo -a po mo
     msgfmt -o $mo $po
@@ -19,11 +19,11 @@ function po_name -a catalog
     # If the $catalog contains an underscore, use it as a prefix as is.
     # Otherwise, make a prefix that repeats the $catalog twice, separated by an underscore.
     if string match -q '*_*' $catalog
-        # e.g. "xedit_xed" becomes "xedit_xed-$CATALOG_LANG.po".
-        echo $catalog-$CATALOG_LANG.po
+        # e.g. "xedit_xed" becomes "xedit_xed-$catalog_lang.po".
+        echo $catalog-$catalog_lang.po
     else
-        # e.g. "cinnamon" becomes "cinnamon_cinnamon-$CATALOG_LANG.po".
-        echo "$catalog"_$catalog-$CATALOG_LANG.po
+        # e.g. "cinnamon" becomes "cinnamon_cinnamon-$catalog_lang.po".
+        echo "$catalog"_$catalog-$catalog_lang.po
     end
 end
 
@@ -33,8 +33,8 @@ function mo_name -a catalog
     echo (string split _ $catalog | tail -n1).mo
 end
 
-# /usr/share/locale/$CATALOG_LANG/LC_MESSAGES/*.mo
-set CATALOGS \
+# /usr/share/locale/$catalog_lang/LC_MESSAGES/*.mo
+set catalogs \
     aptkit \
     bulky \
     captain \
@@ -68,12 +68,12 @@ set CATALOGS \
     xreader \
     xviewer
 
-for catalog in $CATALOGS
-    generate_mo $CATALOG_DIR/(po_name $catalog) /usr/share/locale/$CATALOG_LANG/LC_MESSAGES/(mo_name $catalog)
+for catalog in $catalogs
+    generate_mo $catalog_dir/(po_name $catalog) /usr/share/locale/$catalog_lang/LC_MESSAGES/(mo_name $catalog)
 end
 
-# /usr/share/linuxmint/locale/$CATALOG_LANG/LC_MESSAGES/*.mo
-set CATALOGS \
+# /usr/share/linuxmint/locale/$catalog_lang/LC_MESSAGES/*.mo
+set catalogs \
     mint-common \
     mintbackup \
     mintdesktop \
@@ -86,8 +86,8 @@ set CATALOGS \
     mintupload \
     mintwelcome
 
-for catalog in $CATALOGS
-    generate_mo $CATALOG_DIR/(po_name $catalog) /usr/share/linuxmint/locale/$CATALOG_LANG/LC_MESSAGES/(mo_name $catalog)
+for catalog in $catalogs
+    generate_mo $catalog_dir/(po_name $catalog) /usr/share/linuxmint/locale/$catalog_lang/LC_MESSAGES/(mo_name $catalog)
 end
 
 exit 0
