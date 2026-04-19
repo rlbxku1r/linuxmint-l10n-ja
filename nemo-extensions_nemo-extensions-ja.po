@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2026-04-13 14:16+0100\n"
-"PO-Revision-Date: 2026-04-19 17:59+0900\n"
+"PO-Revision-Date: 2026-04-19 18:25+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "Language: ja\n"
@@ -1186,7 +1186,7 @@ msgstr "file-roller がインストールされていません"
 
 #: nemo-seahorse/tool/nemo-seahorse-tool:563
 msgid "No public keys found"
-msgstr "公開鍵が見つかりませんでした"
+msgstr "公開鍵が見つかりません"
 
 #: nemo-seahorse/tool/nemo-seahorse-tool:565
 msgid ""
@@ -1194,7 +1194,7 @@ msgid ""
 "Would you like to encrypt using a passphrase (symmetric encryption) instead?"
 msgstr ""
 "暗号化に利用できる公開鍵がありません。\n"
-"代わりにパスフレーズ (共通鍵暗号) を使用して暗号化しますか？"
+"代わりにパスフレーズ (共通鍵暗号) で暗号化しますか？"
 
 #: nemo-seahorse/tool/nemo-seahorse-tool:569
 msgid "Use Passphrase"
@@ -1337,7 +1337,7 @@ msgstr "インポート失敗"
 
 #: nemo-seahorse/tool/nemo-seahorse-tool:890
 msgid "Keys were found but not imported."
-msgstr "鍵は見つかりましたが、インポートはされませんでした。"
+msgstr "鍵が見つかりましたが、インポートはされませんでした。"
 
 #: nemo-seahorse/tool/nemo-seahorse-tool:903
 msgid "Revoked Signature"
@@ -1377,7 +1377,7 @@ msgstr "不正、もしくは偽装された署名です。署名データが改
 
 #: nemo-seahorse/tool/nemo-seahorse-tool:924
 msgid "Good Signature"
-msgstr "有効な署名"
+msgstr "正当な署名"
 
 #: nemo-seahorse/tool/nemo-seahorse-tool:927
 #: nemo-seahorse/tool/nemo-seahorse-tool:932
