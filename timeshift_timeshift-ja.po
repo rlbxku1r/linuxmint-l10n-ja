@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2025-12-10 14:42+0000\n"
-"PO-Revision-Date: 2025-12-13 16:25+0900\n"
+"PO-Revision-Date: 2026-04-19 20:45+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "Language: ja\n"
@@ -1291,7 +1291,7 @@ msgstr "場所"
 
 #: src/Gtk/MainWindow.vala:428
 msgid "Main window closed by user"
-msgstr "ユーザーによりメインウィンドウが閉じられました"
+msgstr "ユーザーによってメインウィンドウが閉じられました"
 
 #: src/Gtk/SnapshotListBox.vala:351
 msgid "Mark/Unmark for Deletion"
@@ -1826,7 +1826,7 @@ msgstr ""
 "スナップショットを非システムディスクに保存しておけば、そこに保存してあるス"
 "ナップショットを失うことなく、システムディスクのフォーマットや、OS の再インス"
 "トールができます。さらに、他の Linux ディストリビューションをインストールした"
-"あと、スナップショットを復元させることにより、以前使用していたディストリ"
+"あと、スナップショットを復元させることによって、以前使用していたディストリ"
 "ビューションへのロールバックもできます。"
 
 #: src/Core/Main.vala:1568 src/Core/Main.vala:1723 src/Core/Main.vala:1725

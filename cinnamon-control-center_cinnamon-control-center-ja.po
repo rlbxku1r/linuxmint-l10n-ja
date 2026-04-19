@@ -20,7 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
 "japanese\n"
 "POT-Creation-Date: 2024-11-26 13:02+0000\n"
-"PO-Revision-Date: 2025-11-12 20:49+0900\n"
+"PO-Revision-Date: 2026-04-19 20:44+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
@@ -592,7 +592,7 @@ msgstr "アクセスポイントを停止 (_S)"
 #: panels/network/net-device-wifi.c:1454
 msgid "System policy prohibits use as a Hotspot"
 msgstr ""
-"システムのポリシーにより、アクセスポイントとしての使用が禁止されています"
+"システムのポリシーによって、アクセスポイントとしての使用が禁止されています"
 
 #: panels/network/net-device-wifi.c:1457
 msgid "Wireless device does not support Hotspot mode"
@@ -1160,7 +1160,7 @@ msgstr "既定"
 
 #: panels/network/connection-editor/firewall-helpers.c:50
 msgid "The zone defines the trust level of the connection"
-msgstr "ゾーンにより、接続の信頼レベルが決定されます"
+msgstr "ゾーンによって、接続の信頼レベルが決定されます"
 
 #: panels/network/connection-editor/net-connection-editor.c:295
 msgid "Unable to open connection editor"

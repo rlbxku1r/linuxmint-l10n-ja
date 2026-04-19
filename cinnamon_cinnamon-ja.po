@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
 "japanese\n"
 "POT-Creation-Date: 2026-01-07 21:27+0000\n"
-"PO-Revision-Date: 2026-01-08 15:26+0900\n"
+"PO-Revision-Date: 2026-04-19 20:44+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
@@ -47,7 +47,7 @@ msgstr "パスワードは空にできません"
 
 #: src/cinnamon-polkit-authentication-agent.c:348
 msgid "Authentication dialog was dismissed by the user"
-msgstr "ユーザーにより認証ダイアログが閉じられました"
+msgstr "ユーザーによって認証ダイアログが閉じられました"
 
 #. menu@cinnamon.org->settings-schema.json->show-home->description
 #: src/cinnamon-util.c:96
@@ -5980,7 +5980,7 @@ msgid ""
 "improve sleep quality."
 msgstr ""
 "夕方と夜の時間帯にのみ、画面を暖色寄りにする機能です。ブルーライトを軽減する"
-"ことにより、目の疲れや頭痛の緩和・睡眠の質の向上が期待できます。"
+"ことによって、目の疲れや頭痛の緩和・睡眠の質の向上が期待できます。"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_nightlight.py:43
 msgid "Color temperature"
@@ -6408,8 +6408,8 @@ msgid ""
 "Power mode controls the power usage of your computer. It can impact "
 "performance, battery life and fan noise."
 msgstr ""
-"電源モードは、お使いのコンピューターの電力使用量を調整します。これにより、パ"
-"フォーマンス・バッテリーの持ち時間・ファンの音の大きさが上下します。"
+"電源モードは、お使いのコンピューターの電力使用量を調整します。これによって、"
+"パフォーマンス・バッテリーの持ち時間・ファンの音の大きさが上下します。"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:252
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:258

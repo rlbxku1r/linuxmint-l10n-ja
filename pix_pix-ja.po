@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=pix&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2023-12-12 10:17+0000\n"
-"PO-Revision-Date: 2025-12-13 17:13+0900\n"
+"PO-Revision-Date: 2026-04-19 20:44+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "Language: ja\n"
@@ -4484,7 +4484,7 @@ msgstr ""
 "とつ以上の小さな歪みが発生するかもしれません。\n"
 "\n"
 "ただし、その歪みは反転させることもできます。変換したあとの画像の出来に問題が"
-"あったとしても、逆変換を施すことにより、元の画像に戻せます。\n"
+"あったとしても、逆変換を施すことによって、元の画像に戻せます。\n"
 "\n"
 "さらに、変換できない端のピクセルを切り取ることもできます。大抵の場合、この"
 "モードは最良の結果をもたらしてくれますが、完全な可逆変換ではなくなってしまい"
@@ -4849,7 +4849,7 @@ msgstr "赤目を除去"
 
 #: extensions/red_eye_removal/gth-file-tool-red-eye.c:472
 msgid "Remove the red eye effect caused by camera flashes"
-msgstr "カメラのフラッシュにより引き起こされる、赤目現象を取り除きます"
+msgstr "カメラのフラッシュによって引き起こされる、赤目現象を取り除きます"
 
 #: extensions/rename_series/dlg-rename-series.c:54
 #: extensions/webalbums/dlg-web-exporter.c:45

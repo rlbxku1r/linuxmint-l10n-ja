@@ -6,10 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
-"Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
-"japanese\n"
+"Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-japanese\n"
 "POT-Creation-Date: 2025-11-25 16:58+0000\n"
-"PO-Revision-Date: 2025-12-13 17:36+0900\n"
+"PO-Revision-Date: 2026-04-19 20:44+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
@@ -55,11 +54,11 @@ msgstr "Nemo が必要とするフォルダー \"%s\" を作成できません�
 
 #: src/nemo-application.c:425
 msgid ""
-"Before running Nemo, please create the following folder, or set permissions "
-"such that Nemo can create it."
+"Before running Nemo, please create the following folder, or set permissions such "
+"that Nemo can create it."
 msgstr ""
-"Nemo を起動する前に、次のフォルダーを作成するか、Nemo にフォルダーを作成でき"
-"る権限を与えてください。"
+"Nemo を起動する前に、次のフォルダーを作成するか、Nemo にフォルダーを作成できる権限を"
+"与えてください。"
 
 #: src/nemo-autorun-software.c:143 src/nemo-autorun-software.c:146
 #, c-format
@@ -76,11 +75,11 @@ msgstr "<big><b>自動実行ソフトウェアの起動エラー</b></big>"
 
 #: src/nemo-autorun-software.c:197
 msgid ""
-"<big><b>This medium contains software intended to be automatically started. "
-"Would you like to run it?</b></big>"
+"<big><b>This medium contains software intended to be automatically started. Would "
+"you like to run it?</b></big>"
 msgstr ""
-"<big><b>このメディアには自動実行を意図したソフトウェアが含まれます。ソフト"
-"ウェアを起動しますか？</b></big>"
+"<big><b>このメディアには自動実行を意図したソフトウェアが含まれます。ソフトウェアを起"
+"動しますか？</b></big>"
 
 #: src/nemo-autorun-software.c:199
 #, c-format
@@ -90,8 +89,8 @@ msgid ""
 "\n"
 "If in doubt, press Cancel."
 msgstr ""
-"メディア \"%s\" からソフトウェアを直接実行します。このソフトウェアを信用でき"
-"ない場合は、絶対に実行しないでください。\n"
+"メディア \"%s\" からソフトウェアを直接実行します。このソフトウェアを信用できない場合"
+"は、絶対に実行しないでください。\n"
 "\n"
 "よく分からなければ、キャンセルを押してください。"
 
@@ -110,8 +109,8 @@ msgstr "このモニターのデスクトップレイアウトを調節します
 
 #. hardcode "Desktop"
 #: src/nemo-blank-desktop-window.c:320 src/nemo-desktop-window.c:125
-#: src/nemo-desktop-window.c:279 src/nemo-pathbar.c:1439
-#: src/nemo-places-sidebar.c:800 libnemo-private/nemo-action.c:1394
+#: src/nemo-desktop-window.c:279 src/nemo-pathbar.c:1439 src/nemo-places-sidebar.c:800
+#: libnemo-private/nemo-action.c:1394
 #: gresources/nemo-file-management-properties.glade:4235
 msgid "Desktop"
 msgstr "デスクトップ"
@@ -295,15 +294,13 @@ msgstr "ゴミ箱を空にする (_M)"
 
 #. name, stock id
 #. label, accelerator
-#: src/nemo-desktop-icon-grid-view.c:1027
-#: gresources/nemo-desktop-overlay.glade:293
+#: src/nemo-desktop-icon-grid-view.c:1027 gresources/nemo-desktop-overlay.glade:293
 msgid "Auto-arrange"
 msgstr "自動整列"
 
 #. name, stock id
 #. label, accelerator
-#: src/nemo-desktop-icon-grid-view.c:1032
-#: gresources/nemo-desktop-overlay.glade:539
+#: src/nemo-desktop-icon-grid-view.c:1032 gresources/nemo-desktop-overlay.glade:539
 #: gresources/nemo-file-management-properties.glade:566
 msgid "Reverse sort"
 msgstr "逆順に並べる"
@@ -342,20 +339,17 @@ msgstr "水平 (_H)"
 msgid "Name"
 msgstr "名前"
 
-#: src/nemo-desktop-icon-grid-view.c:1078
-#: libnemo-private/nemo-column-utilities.c:50
+#: src/nemo-desktop-icon-grid-view.c:1078 libnemo-private/nemo-column-utilities.c:50
 #: gresources/nemo-desktop-overlay.glade:121
 msgid "Size"
 msgstr "サイズ"
 
-#: src/nemo-desktop-icon-grid-view.c:1082
-#: libnemo-private/nemo-column-utilities.c:58
+#: src/nemo-desktop-icon-grid-view.c:1082 libnemo-private/nemo-column-utilities.c:58
 #: gresources/nemo-desktop-overlay.glade:126
 msgid "Type"
 msgstr "種類"
 
-#: src/nemo-desktop-icon-grid-view.c:1086
-#: gresources/nemo-desktop-overlay.glade:131
+#: src/nemo-desktop-icon-grid-view.c:1086 gresources/nemo-desktop-overlay.glade:131
 msgid "Date"
 msgstr "日付"
 
@@ -416,8 +410,8 @@ msgstr "選択したアイコンを伸縮可能にします"
 msgid "Restore each selected icon to its original size"
 msgstr "選択したアイコンを元の大きさに戻します"
 
-#: src/nemo-desktop-item-properties.c:408
-#: src/nemo-desktop-item-properties.c:418 src/nemo-image-properties-page.c:368
+#: src/nemo-desktop-item-properties.c:408 src/nemo-desktop-item-properties.c:418
+#: src/nemo-image-properties-page.c:368
 msgid "Comment"
 msgstr "コメント"
 
@@ -425,9 +419,8 @@ msgstr "コメント"
 msgid "URL"
 msgstr "URL"
 
-#: src/nemo-desktop-item-properties.c:414
-#: src/nemo-desktop-item-properties.c:424 src/nemo-image-properties-page.c:361
-#: src/nemo-image-properties-page.c:414
+#: src/nemo-desktop-item-properties.c:414 src/nemo-desktop-item-properties.c:424
+#: src/nemo-image-properties-page.c:361 src/nemo-image-properties-page.c:414
 msgid "Description"
 msgstr "説明"
 
@@ -460,8 +453,7 @@ msgstr "全体的なデスクトップの設定を表示"
 
 #: src/nemo-error-reporting.c:68
 #, c-format
-msgid ""
-"You do not have the permissions necessary to view the contents of \"%s\"."
+msgid "You do not have the permissions necessary to view the contents of \"%s\"."
 msgstr "\"%s\" の内容を表示するために必要な権限がありません。"
 
 #: src/nemo-error-reporting.c:72
@@ -480,8 +472,7 @@ msgstr "フォルダーの内容を表示できませんでした。"
 
 #: src/nemo-error-reporting.c:107
 #, c-format
-msgid ""
-"You do not have the permissions necessary to change the group of \"%s\"."
+msgid "You do not have the permissions necessary to change the group of \"%s\"."
 msgstr "\"%s\" のグループを変更するために必要な権限がありません。"
 
 #. fall through
@@ -514,19 +505,16 @@ msgstr "パーミッションを変更できませんでした。"
 
 #: src/nemo-error-reporting.c:204
 #, c-format
-msgid ""
-"The name \"%s\" is already used in this folder. Please use a different name."
+msgid "The name \"%s\" is already used in this folder. Please use a different name."
 msgstr ""
-"すでに名前 \"%s\" はこのフォルダー内で使用されています。別の名前を付けてくだ"
-"さい。"
+"すでに名前 \"%s\" はこのフォルダー内で使用されています。別の名前を付けてください。"
 
 #: src/nemo-error-reporting.c:209
 #, c-format
-msgid ""
-"There is no \"%s\" in this folder. Perhaps it was just moved or deleted?"
+msgid "There is no \"%s\" in this folder. Perhaps it was just moved or deleted?"
 msgstr ""
-"このフォルダー内に \"%s\" が存在しません。たった今移動されたか、削除されたの"
-"かもしれません。"
+"このフォルダー内に \"%s\" が存在しません。たった今移動されたか、削除されたのかもしれ"
+"ません。"
 
 #: src/nemo-error-reporting.c:214
 #, c-format
@@ -536,11 +524,10 @@ msgstr "\"%s\" の名前を変更するために必要な権限がありませ�
 #: src/nemo-error-reporting.c:219
 #, c-format
 msgid ""
-"The name \"%s\" is not valid because it contains the character \"/\". Please "
-"use a different name."
+"The name \"%s\" is not valid because it contains the character \"/\". Please use a "
+"different name."
 msgstr ""
-"名前 \"%s\" には特殊文字 \"/\" を含めることができません。別の名前を付けてくだ"
-"さい。"
+"名前 \"%s\" には特殊文字 \"/\" を含めることができません。別の名前を付けてください。"
 
 #: src/nemo-error-reporting.c:223
 #, c-format
@@ -654,15 +641,13 @@ msgid "_Organize Desktop by Name"
 msgstr "デスクトップを名前順に整列 (_O)"
 
 #. name, stock id, label
-#: src/nemo-icon-view.c:1401
-#: gresources/nemo-file-management-properties.glade:4178
+#: src/nemo-icon-view.c:1401 gresources/nemo-file-management-properties.glade:4178
 msgid "Arran_ge Items"
 msgstr "アイテムを並べ替え (_G)"
 
 #. name, stock id
 #. label, accelerator
-#: src/nemo-icon-view.c:1403
-#: gresources/nemo-file-management-properties.glade:4197
+#: src/nemo-icon-view.c:1403 gresources/nemo-file-management-properties.glade:4197
 msgid "_Organize by Name"
 msgstr "名前順に整理 (_O)"
 
@@ -729,8 +714,7 @@ msgstr "ゴミ箱への移動日時順 (_R)"
 #. * of navigation windows and in the preferences dialog
 #: src/nemo-icon-view.c:2849 src/nemo-icon-view-container.c:2157
 #: src/nemo-icon-view-grid-container.c:1593 src/nemo-window-menus.c:1594
-#: src/nemo-window-menus.c:1753
-#: gresources/nemo-file-management-properties.glade:132
+#: src/nemo-window-menus.c:1753 gresources/nemo-file-management-properties.glade:132
 #: gresources/nemo-file-management-properties.glade:4155
 msgid "Icon View"
 msgstr "アイコン表示"
@@ -754,8 +738,7 @@ msgstr "この場所をアイコンで表示します。"
 
 #. translators: this is used in the view selection dropdown
 #. * of navigation windows and in the preferences dialog
-#: src/nemo-icon-view.c:2863 src/nemo-window-menus.c:1600
-#: src/nemo-window-menus.c:1776
+#: src/nemo-icon-view.c:2863 src/nemo-window-menus.c:1600 src/nemo-window-menus.c:1776
 #: gresources/nemo-file-management-properties.glade:138
 msgid "Compact View"
 msgstr "コンパクト表示"
@@ -844,8 +827,7 @@ msgstr "撮影日時"
 msgid "Date Digitized"
 msgstr "保存日時"
 
-#: src/nemo-image-properties-page.c:388
-#: libnemo-private/nemo-column-utilities.c:72
+#: src/nemo-image-properties-page.c:388 libnemo-private/nemo-column-utilities.c:72
 msgid "Date Modified"
 msgstr "更新日時"
 
@@ -913,12 +895,10 @@ msgid "Image"
 msgstr "画像"
 
 #: src/nemo-interesting-folder-bar.c:127
-msgid ""
-"Actions: Action files can be added to this folder and will appear in the "
-"menu."
+msgid "Actions: Action files can be added to this folder and will appear in the menu."
 msgstr ""
-"アクション: このフォルダーにアクションファイルを追加すると、メニュー項目に出"
-"現します。"
+"アクション: このフォルダーにアクションファイルを追加すると、メニュー項目に出現しま"
+"す。"
 
 #: src/nemo-interesting-folder-bar.c:129 src/nemo-interesting-folder-bar.c:137
 msgid "More info"
@@ -929,11 +909,10 @@ msgid "View a sample action file with documentation"
 msgstr "アクションファイルの見本と、そのドキュメントを参照します"
 
 #: src/nemo-interesting-folder-bar.c:134
-msgid ""
-"Scripts: All executable files in this folder will appear in the Scripts menu."
+msgid "Scripts: All executable files in this folder will appear in the Scripts menu."
 msgstr ""
-"スクリプト: このフォルダー内の実行ファイルは、すべてスクリプトメニュー項目に"
-"出現します。"
+"スクリプト: このフォルダー内の実行ファイルは、すべてスクリプトメニュー項目に出現しま"
+"す。"
 
 #: src/nemo-interesting-folder-bar.c:139
 msgid "View additional information about creating scripts"
@@ -941,11 +920,11 @@ msgstr "スクリプト作成のための追加情報を参照します"
 
 #: src/nemo-interesting-folder-bar.c:142
 msgid ""
-"The files in this folder are used as templates in the 'Create New Document' "
-"section of your context menu."
+"The files in this folder are used as templates in the 'Create New Document' section "
+"of your context menu."
 msgstr ""
-"このフォルダー内のファイルは、コンテキストメニューの '新しいドキュメントを作"
-"成' セクションに、テンプレートとして出現します。"
+"このフォルダー内のファイルは、コンテキストメニューの '新しいドキュメントを作成' セク"
+"ションに、テンプレートとして出現します。"
 
 #: src/nemo-list-model.c:459 src/nemo-tree-sidebar-model.c:1261
 msgid "(Empty)"
@@ -961,9 +940,8 @@ msgstr "一時的に自動整列を無効化"
 
 #. translators: this is used in the view selection dropdown
 #. * of navigation windows and in the preferences dialog
-#: src/nemo-list-view.c:2790 src/nemo-list-view.c:4493
-#: src/nemo-window-menus.c:1597 src/nemo-window-menus.c:1764
-#: gresources/nemo-file-management-properties.glade:135
+#: src/nemo-list-view.c:2790 src/nemo-list-view.c:4493 src/nemo-window-menus.c:1597
+#: src/nemo-window-menus.c:1764 gresources/nemo-file-management-properties.glade:135
 msgid "List View"
 msgstr "リスト表示"
 
@@ -1017,8 +995,8 @@ msgid ""
 "Create the initial window with the given geometry. Examples: nemo --"
 "geometry=+100+100, nemo --geometry=600x400, nemo --geometry=600x400+100+100."
 msgstr ""
-"作成するウィンドウの初期位置を指定します。例: nemo --geometry=+100+100, nemo "
-"--geometry=600x400, nemo --geometry=600x400+100+100。"
+"作成するウィンドウの初期位置を指定します。例: nemo --geometry=+100+100, nemo --"
+"geometry=600x400, nemo --geometry=600x400+100+100。"
 
 #: src/nemo-main-application.c:677
 msgid "GEOMETRY"
@@ -1042,11 +1020,11 @@ msgstr "URI を既存のウィンドウに開きます。"
 
 #: src/nemo-main-application.c:687
 msgid ""
-"Repair the user thumbnail cache - this can be useful if you're having "
-"trouble with file thumbnails.  Must be run as root"
+"Repair the user thumbnail cache - this can be useful if you're having trouble with "
+"file thumbnails.  Must be run as root"
 msgstr ""
-"ユーザーのサムネイルキャッシュを修復 - 問題のあるサムネイルを修復する際に役立"
-"ちます。root 権限で実行してください"
+"ユーザーのサムネイルキャッシュを修復 - 問題のあるサムネイルを修復する際に役立ちま"
+"す。root 権限で実行してください"
 
 #: src/nemo-main-application.c:691
 msgid "Quit Nemo."
@@ -1078,8 +1056,7 @@ msgid ""
 "- Right-clicking an empty region of the main toolbar\n"
 "- Right-clicking an empty region of the status bar.\n"
 "\n"
-"You can restore it permanently by selecting this option again from the View "
-"menu."
+"You can restore it permanently by selecting this option again from the View menu."
 msgstr ""
 "メインメニューを非表示とするよう選択しました。\n"
 "\n"
@@ -1115,9 +1092,9 @@ msgstr "リンク先 \"%s\" が存在しないため、使用できません。"
 
 #. name, stock id
 #. label, accelerator
-#: src/nemo-mime-actions.c:664 src/nemo-tree-sidebar.c:1360
-#: src/nemo-view.c:8326 src/nemo-view.c:8435 src/nemo-view.c:9492
-#: src/nemo-view.c:9829 gresources/nemo-file-management-properties.glade:3912
+#: src/nemo-mime-actions.c:664 src/nemo-tree-sidebar.c:1360 src/nemo-view.c:8326
+#: src/nemo-view.c:8435 src/nemo-view.c:9492 src/nemo-view.c:9829
+#: gresources/nemo-file-management-properties.glade:3912
 msgid "Mo_ve to Trash"
 msgstr "ゴミ箱に移動 (_V)"
 
@@ -1139,8 +1116,7 @@ msgstr "端末で実行 (_T)"
 msgid "_Display"
 msgstr "表示 (_D)"
 
-#: src/nemo-mime-actions.c:1063 src/nemo-mime-actions.c:1754
-#: src/nemo-view.c:1105
+#: src/nemo-mime-actions.c:1063 src/nemo-mime-actions.c:1754 src/nemo-view.c:1105
 msgid "Are you sure you want to open all files?"
 msgstr "すべてのファイルを開きますか？"
 
@@ -1150,8 +1126,7 @@ msgid "This will open %d separate tab."
 msgid_plural "This will open %d separate tabs."
 msgstr[0] "%d 個のタブを別々に開きます。"
 
-#: src/nemo-mime-actions.c:1167 src/nemo-open-with-main.c:151
-#: src/nemo-view.c:1394
+#: src/nemo-mime-actions.c:1167 src/nemo-open-with-main.c:151 src/nemo-view.c:1394
 msgid "Open with"
 msgstr "別のプログラムで開く"
 
@@ -1162,15 +1137,15 @@ msgstr "ファイルの種類が不明です"
 #: src/nemo-mime-actions.c:1252
 #, c-format
 msgid ""
-"The file \"%s\" has no known programs associated with it.  If you trust the "
-"source of this file, and have sufficient permissions, you can mark it "
-"executable and launch it.  Or, you can use the Open With dialog to pick a "
-"program to associate it with."
+"The file \"%s\" has no known programs associated with it.  If you trust the source "
+"of this file, and have sufficient permissions, you can mark it executable and "
+"launch it.  Or, you can use the Open With dialog to pick a program to associate it "
+"with."
 msgstr ""
-"ファイル \"%s\" に関連付けられたプログラムがありません。このファイルの提供元"
-"が信頼でき、十分な権限を有しているのであれば、実行可能としたうえで起動してみ"
-"てください。あるいは \"別のプログラムで開く\" ダイアログから、関連付けるプロ"
-"グラムを選択することもできます。"
+"ファイル \"%s\" に関連付けられたプログラムがありません。このファイルの提供元が信頼で"
+"き、十分な権限を有しているのであれば、実行可能としたうえで起動してみてください。ある"
+"いは \"別のプログラムで開く\" ダイアログから、関連付けるプログラムを選択することもで"
+"きます。"
 
 #: src/nemo-mime-actions.c:1259
 msgid "Make executable and run"
@@ -1179,11 +1154,11 @@ msgstr "実行可能にして起動"
 #: src/nemo-mime-actions.c:1261
 #, c-format
 msgid ""
-"The file \"%s\" has no known programs associated with it.  Use the Open With "
-"dialog to pick a program to open it with."
+"The file \"%s\" has no known programs associated with it.  Use the Open With dialog "
+"to pick a program to open it with."
 msgstr ""
-"ファイル \"%s\" に関連付けられたプログラムがありません。\"別のプログラムで開"
-"く\" ダイアログから、関連付けるプログラムを選択してください。"
+"ファイル \"%s\" に関連付けられたプログラムがありません。\"別のプログラムで開く\" ダ"
+"イアログから、関連付けるプログラムを選択してください。"
 
 #: src/nemo-mime-actions.c:1274
 msgid "Choose a program"
@@ -1196,12 +1171,11 @@ msgstr "安全性が確認されていないアプリケーションランチャ
 #: src/nemo-mime-actions.c:1358
 #, c-format
 msgid ""
-"The application launcher \"%s\" has not been marked as trusted (executable). "
-"If you do not know the source of this file, launching it may be unsafe."
+"The application launcher \"%s\" has not been marked as trusted (executable). If you "
+"do not know the source of this file, launching it may be unsafe."
 msgstr ""
-"アプリケーションランチャー \"%s\" は実行可能になっておらず、安全性が確認され"
-"ていません。提供元が不明なファイルを起動すると、システムが危険にさらされるお"
-"それがあります。"
+"アプリケーションランチャー \"%s\" は実行可能になっておらず、安全性が確認されていませ"
+"ん。提供元が不明なファイルを起動すると、システムが危険にさらされるおそれがあります。"
 
 #: src/nemo-mime-actions.c:1374
 msgid "_Launch Anyway"
@@ -1217,8 +1191,7 @@ msgid "This will open %d separate application."
 msgid_plural "This will open %d separate applications."
 msgstr[0] "%d 個のアプリケーションを別々に開きます。"
 
-#: src/nemo-mime-actions.c:1833 src/nemo-mime-actions.c:2107
-#: src/nemo-view.c:7444
+#: src/nemo-mime-actions.c:1833 src/nemo-mime-actions.c:2107 src/nemo-view.c:7444
 msgid "Unable to mount location"
 msgstr "場所をマウントできません"
 
@@ -1247,13 +1220,13 @@ msgstr "タブを閉じる"
 msgid ""
 "\n"
 "\n"
-"Show an open-with dialog given a uri, to allow the user to change the "
-"default mimetype handler."
+"Show an open-with dialog given a uri, to allow the user to change the default "
+"mimetype handler."
 msgstr ""
 "\n"
 "\n"
-"\"別のプログラムで開く\" ダイアログを、与えられた URI で表示します。これによ"
-"り、ユーザーが特定の MIME 型に行う、既定の処理を変更できるようになります。"
+"\"別のプログラムで開く\" ダイアログを、与えられた URI で表示します。これによって、"
+"ユーザーが特定の MIME 型に行う、既定の処理を変更できるようになります。"
 
 #: src/nemo-places-sidebar.c:347
 msgid "Devices"
@@ -1279,9 +1252,8 @@ msgstr ""
 
 #: src/nemo-places-sidebar.c:783 src/nemo-tree-sidebar.c:1493
 #: libnemo-private/nemo-bookmark.c:130 libnemo-private/nemo-desktop-link.c:118
-#: libnemo-private/nemo-file-utilities.c:66
-#: libnemo-private/nemo-file-utilities.c:114 generate_additional_file:41
-#: gresources/nemo-desktop-preferences.glade:211
+#: libnemo-private/nemo-file-utilities.c:66 libnemo-private/nemo-file-utilities.c:114
+#: generate_additional_file:41 gresources/nemo-desktop-preferences.glade:211
 #: gresources/nemo-file-management-properties.glade:3161
 msgid "Home"
 msgstr "ホーム"
@@ -1373,19 +1345,17 @@ msgstr "ネットワークの内容を表示します"
 
 #. name, stock id
 #. label, accelerator
-#: src/nemo-places-sidebar.c:2352 src/nemo-places-sidebar.c:3499
-#: src/nemo-view.c:8372 src/nemo-view.c:8396 src/nemo-view.c:8459
-#: src/nemo-view.c:9113 src/nemo-view.c:9117 src/nemo-view.c:9200
-#: src/nemo-view.c:9204 src/nemo-view.c:9304 src/nemo-view.c:9308
+#: src/nemo-places-sidebar.c:2352 src/nemo-places-sidebar.c:3499 src/nemo-view.c:8372
+#: src/nemo-view.c:8396 src/nemo-view.c:8459 src/nemo-view.c:9113 src/nemo-view.c:9117
+#: src/nemo-view.c:9200 src/nemo-view.c:9204 src/nemo-view.c:9304 src/nemo-view.c:9308
 msgid "_Start"
 msgstr "開始 (_S)"
 
 #. name, stock id
 #. label, accelerator
-#: src/nemo-places-sidebar.c:2353 src/nemo-places-sidebar.c:3500
-#: src/nemo-view.c:8376 src/nemo-view.c:8400 src/nemo-view.c:8463
-#: src/nemo-view.c:9142 src/nemo-view.c:9229 src/nemo-view.c:9333
-#: src/nemo-window-menus.c:1408
+#: src/nemo-places-sidebar.c:2353 src/nemo-places-sidebar.c:3500 src/nemo-view.c:8376
+#: src/nemo-view.c:8400 src/nemo-view.c:8463 src/nemo-view.c:9142 src/nemo-view.c:9229
+#: src/nemo-view.c:9333 src/nemo-window-menus.c:1408
 msgid "_Stop"
 msgstr "停止 (_S)"
 
@@ -1448,24 +1418,22 @@ msgstr "%s を停止できません"
 
 #. name, stock id
 #. label, accelerator
-#: src/nemo-places-sidebar.c:3489 src/nemo-tree-sidebar.c:1351
-#: src/nemo-view.c:8233 src/nemo-view.c:9761
-#: libnemo-private/nemo-mime-application-chooser.c:483
+#: src/nemo-places-sidebar.c:3489 src/nemo-tree-sidebar.c:1351 src/nemo-view.c:8233
+#: src/nemo-view.c:9761 libnemo-private/nemo-mime-application-chooser.c:483
 #: gresources/nemo-file-management-properties.glade:3610
 msgid "_Open"
 msgstr "開く (_O)"
 
 #. name, stock id
 #. label, accelerator
-#: src/nemo-places-sidebar.c:3490 src/nemo-tree-sidebar.c:1352
-#: src/nemo-view.c:8245 src/nemo-view.c:8417 src/nemo-view.c:9439
-#: src/nemo-view.c:9807 gresources/nemo-file-management-properties.glade:3629
+#: src/nemo-places-sidebar.c:3490 src/nemo-tree-sidebar.c:1352 src/nemo-view.c:8245
+#: src/nemo-view.c:8417 src/nemo-view.c:9439 src/nemo-view.c:9807
+#: gresources/nemo-file-management-properties.glade:3629
 msgid "Open in New _Tab"
 msgstr "新しいタブで開く (_T)"
 
-#: src/nemo-places-sidebar.c:3491 src/nemo-tree-sidebar.c:1353
-#: src/nemo-view.c:9430 src/nemo-view.c:9787
-#: gresources/nemo-file-management-properties.glade:3648
+#: src/nemo-places-sidebar.c:3491 src/nemo-tree-sidebar.c:1353 src/nemo-view.c:9430
+#: src/nemo-view.c:9787 gresources/nemo-file-management-properties.glade:3648
 msgid "Open in New _Window"
 msgstr "新しいウィンドウで開く (_W)"
 
@@ -1495,15 +1463,15 @@ msgstr "マウント (_M)"
 
 #. name, stock id
 #. label, accelerator
-#: src/nemo-places-sidebar.c:3496 src/nemo-tree-sidebar.c:1362
-#: src/nemo-view.c:8364 src/nemo-view.c:8388 src/nemo-view.c:8451
+#: src/nemo-places-sidebar.c:3496 src/nemo-tree-sidebar.c:1362 src/nemo-view.c:8364
+#: src/nemo-view.c:8388 src/nemo-view.c:8451
 msgid "_Unmount"
 msgstr "アンマウント (_U)"
 
 #. name, stock id
 #. label, accelerator
-#: src/nemo-places-sidebar.c:3497 src/nemo-tree-sidebar.c:1363
-#: src/nemo-view.c:8368 src/nemo-view.c:8392 src/nemo-view.c:8455
+#: src/nemo-places-sidebar.c:3497 src/nemo-tree-sidebar.c:1363 src/nemo-view.c:8368
+#: src/nemo-view.c:8392 src/nemo-view.c:8455
 msgid "_Eject"
 msgstr "取り出す (_E)"
 
@@ -1520,9 +1488,8 @@ msgstr "ゴミ箱を空にする (_E) (_T)"
 
 #. name, stock id
 #. label, accelerator
-#: src/nemo-places-sidebar.c:3502 src/nemo-tree-sidebar.c:1364
-#: src/nemo-view.c:8215 src/nemo-view.c:8472
-#: gresources/nemo-file-management-properties.glade:3931
+#: src/nemo-places-sidebar.c:3502 src/nemo-tree-sidebar.c:1364 src/nemo-view.c:8215
+#: src/nemo-view.c:8472 gresources/nemo-file-management-properties.glade:3931
 #: gresources/nemo-file-management-properties.glade:4117
 msgid "_Properties"
 msgstr "プロパティ (_P)"
@@ -1641,8 +1608,7 @@ msgstr "(一部の内容は読み取り不可)"
 msgid "Contents:"
 msgstr "内容:"
 
-#: src/nemo-properties-window.c:2323
-#: libnemo-private/nemo-file-conflict-dialog.c:269
+#: src/nemo-properties-window.c:2323 libnemo-private/nemo-file-conflict-dialog.c:269
 #: libnemo-private/nemo-file-conflict-dialog.c:301
 msgid "Size:"
 msgstr "サイズ:"
@@ -1669,8 +1635,7 @@ msgstr "ファイルシステムの種類:"
 msgid "Basic"
 msgstr "基本"
 
-#: src/nemo-properties-window.c:3141
-#: libnemo-private/nemo-file-conflict-dialog.c:272
+#: src/nemo-properties-window.c:3141 libnemo-private/nemo-file-conflict-dialog.c:272
 #: libnemo-private/nemo-file-conflict-dialog.c:304
 msgid "Type:"
 msgstr "種類:"
@@ -1833,8 +1798,7 @@ msgstr "ファイルのパーミッション:"
 msgid "Text view:"
 msgstr "テキストの表示:"
 
-#: src/nemo-properties-window.c:4572
-#: libnemo-private/nemo-column-utilities.c:127
+#: src/nemo-properties-window.c:4572 libnemo-private/nemo-column-utilities.c:127
 msgid "Permissions"
 msgstr "パーミッション"
 
@@ -1918,8 +1882,8 @@ msgstr "不明なテンプレート"
 #: src/nemo-template-config-widget.c:232
 msgid "No templates found. Click New or drag a file here to create one."
 msgstr ""
-"テンプレートがありません。新規ボタンをクリックするか、ここにファイルをドラッ"
-"グして作成できます。"
+"テンプレートがありません。新規ボタンをクリックするか、ここにファイルをドラッグして作"
+"成できます。"
 
 #. Add buttons
 #: src/nemo-template-config-widget.c:322
@@ -1979,11 +1943,11 @@ msgstr "選択したテンプレートの内容を編集します"
 
 #: src/nemo-thumbnail-problem-bar.c:114
 msgid ""
-"A problem has been detected with your thumbnail cache.  Fixing it will "
-"require administrative privileges."
+"A problem has been detected with your thumbnail cache.  Fixing it will require "
+"administrative privileges."
 msgstr ""
-"サムネイルのキャッシュに問題が発生しました。この問題を修復するには、管理者権"
-"限が必要です。"
+"サムネイルのキャッシュに問題が発生しました。この問題を修復するには、管理者権限が必要"
+"です。"
 
 #: src/nemo-thumbnail-problem-bar.c:118
 msgid "Fix now"
@@ -2199,16 +2163,14 @@ msgstr "テンプレート \"%s\" から新しいドキュメントを作成し�
 #: src/nemo-view.c:6747
 #, c-format
 msgid "The %'d selected item will be moved if you select the Paste command"
-msgid_plural ""
-"The %'d selected items%s will be moved if you select the Paste command"
+msgid_plural "The %'d selected items%s will be moved if you select the Paste command"
 msgstr[0] "貼り付けると、選択した %'d 個のアイテム%sが移動されます"
 
 #. translators: this is preceded with a string of form 'N selected items' (N more than 1)
 #: src/nemo-view.c:6755
 #, c-format
 msgid "The %'d selected item will be copied if you select the Paste command"
-msgid_plural ""
-"The %'d selected items%s will be copied if you select the Paste command"
+msgid_plural "The %'d selected items%s will be copied if you select the Paste command"
 msgstr[0] "貼り付けると、選択した %'d 個のアイテム%sがコピーされます"
 
 #: src/nemo-view.c:6925
@@ -2236,8 +2198,7 @@ msgstr "ドライブを停止できません"
 msgid "Connect to Server %s"
 msgstr "サーバー %s に接続"
 
-#: src/nemo-view.c:7990 src/nemo-view.c:9121 src/nemo-view.c:9208
-#: src/nemo-view.c:9312
+#: src/nemo-view.c:7990 src/nemo-view.c:9121 src/nemo-view.c:9208 src/nemo-view.c:9312
 msgid "_Connect"
 msgstr "接続 (_C)"
 
@@ -2394,17 +2355,16 @@ msgstr "貼り付け (_P)"
 #. tooltip
 #: src/nemo-view.c:8287
 msgid "Move or copy files previously selected by a Cut or Copy command"
-msgstr ""
-"事前に切り取り/コピーするよう準備したファイルを、実際に移動/コピーします"
+msgstr "事前に切り取り/コピーするよう準備したファイルを、実際に移動/コピーします"
 
 #. tooltip
 #: src/nemo-view.c:8293
 msgid ""
-"Move or copy files previously selected by a Cut or Copy command into the "
-"selected folder"
+"Move or copy files previously selected by a Cut or Copy command into the selected "
+"folder"
 msgstr ""
-"事前に切り取り/コピーするよう準備したファイルを、対象のフォルダー内に移動/コ"
-"ピーします"
+"事前に切り取り/コピーするよう準備したファイルを、対象のフォルダー内に移動/コピーしま"
+"す"
 
 #. name, stock id, label
 #: src/nemo-view.c:8295 gresources/nemo-file-management-properties.glade:3838
@@ -2436,8 +2396,7 @@ msgstr "パターンによる選択 (_T)..."
 #. tooltip
 #: src/nemo-view.c:8303
 msgid "Select items in this window matching a given pattern"
-msgstr ""
-"このウィンドウ内にあるアイテムから、パターンに一致するものだけを選択します"
+msgstr "このウィンドウ内にあるアイテムから、パターンに一致するものだけを選択します"
 
 #. name, stock id
 #. label, accelerator
@@ -2580,21 +2539,18 @@ msgstr "選択したドライブのメディアを検出します"
 #. tooltip
 #: src/nemo-view.c:8385
 msgid "Mount the volume associated with the open folder"
-msgstr ""
-"開いているフォルダーに関連付けられている、対象のボリュームをマウントします"
+msgstr "開いているフォルダーに関連付けられている、対象のボリュームをマウントします"
 
 #. tooltip
 #: src/nemo-view.c:8389
 msgid "Unmount the volume associated with the open folder"
 msgstr ""
-"開いているフォルダーに関連付けられている、対象のボリュームをアンマウントしま"
-"す"
+"開いているフォルダーに関連付けられている、対象のボリュームをアンマウントします"
 
 #. tooltip
 #: src/nemo-view.c:8393
 msgid "Eject the volume associated with the open folder"
-msgstr ""
-"開いているフォルダーに関連付けられている、対象のボリュームを取り出します"
+msgstr "開いているフォルダーに関連付けられている、対象のボリュームを取り出します"
 
 #. tooltip
 #: src/nemo-view.c:8397
@@ -2635,11 +2591,9 @@ msgstr "このフォルダーを、あとで貼り付けてコピーできるよ
 #. tooltip
 #: src/nemo-view.c:8431
 msgid ""
-"Move or copy files previously selected by a Cut or Copy command into this "
-"folder"
+"Move or copy files previously selected by a Cut or Copy command into this folder"
 msgstr ""
-"事前に切り取り/コピーするよう準備したファイルを、このフォルダーに移動/コピー"
-"します"
+"事前に切り取り/コピーするよう準備したファイルを、このフォルダーに移動/コピーします"
 
 #. tooltip
 #: src/nemo-view.c:8436
@@ -2688,8 +2642,7 @@ msgstr "もう片方のペイン (_O)"
 
 #: src/nemo-view.c:8477
 msgid "Copy the current selection to the other pane in the window"
-msgstr ""
-"現在選択されているアイテムを、ウィンドウのもう片方のペインにコピーします"
+msgstr "現在選択されているアイテムを、ウィンドウのもう片方のペインにコピーします"
 
 #: src/nemo-view.c:8480
 msgid "Move the current selection to the other pane in the window"
@@ -2738,8 +2691,7 @@ msgstr "選択したアイテムのコピー先となるフォルダーを参照
 
 #: src/nemo-view.c:8508
 msgid ""
-"Pin the selected file so it always appears at the top of this location's "
-"file list"
+"Pin the selected file so it always appears at the top of this location's file list"
 msgstr "選択したファイルを、この場所のファイル一覧上部に固定します"
 
 #: src/nemo-view.c:8512
@@ -2810,8 +2762,7 @@ msgid "Move the selected item out of the trash"
 msgid_plural "Move the selected items out of the trash"
 msgstr[0] "選択したアイテムを、ゴミ箱の外に移動します"
 
-#: src/nemo-view.c:9114 src/nemo-view.c:9118 src/nemo-view.c:9305
-#: src/nemo-view.c:9309
+#: src/nemo-view.c:9114 src/nemo-view.c:9118 src/nemo-view.c:9305 src/nemo-view.c:9309
 msgid "Start the selected drive"
 msgstr "選択したドライブを開始します"
 
@@ -2874,13 +2825,11 @@ msgstr "開いているフォルダーに関連付けられている、対象の
 #: src/nemo-view.c:9213
 msgid "Start the multi-disk drive associated with the open folder"
 msgstr ""
-"開いているフォルダーに関連付けられている、対象のマルチディスクドライブを開始"
-"します"
+"開いているフォルダーに関連付けられている、対象のマルチディスクドライブを開始します"
 
 #: src/nemo-view.c:9217
 msgid "Unlock the drive associated with the open folder"
-msgstr ""
-"開いているフォルダーに関連付けられている、対象のドライブのロックを解除します"
+msgstr "開いているフォルダーに関連付けられている、対象のドライブのロックを解除します"
 
 #: src/nemo-view.c:9230
 msgid "_Stop the drive associated with the open folder"
@@ -2888,8 +2837,7 @@ msgstr "開いているフォルダーに関連付けられている、対象の
 
 #: src/nemo-view.c:9234
 msgid "Safely remove the drive associated with the open folder"
-msgstr ""
-"開いているフォルダーに関連付けられている、対象のドライブを安全に取り外します"
+msgstr "開いているフォルダーに関連付けられている、対象のドライブを安全に取り外します"
 
 #: src/nemo-view.c:9238
 msgid "Disconnect the drive associated with the open folder"
@@ -2898,8 +2846,7 @@ msgstr "開いているフォルダーに関連付けられている、対象の
 #: src/nemo-view.c:9242
 msgid "Stop the multi-disk drive associated with the open folder"
 msgstr ""
-"開いているフォルダーに関連付けられている、対象のマルチディスクドライブを停止"
-"します"
+"開いているフォルダーに関連付けられている、対象のマルチディスクドライブを停止します"
 
 #: src/nemo-view.c:9246
 msgid "Lock the drive associated with the open folder"
@@ -2987,8 +2934,7 @@ msgstr "ドロップしたデータ"
 
 #: src/nemo-window-bookmarks.c:83
 msgid ""
-"Do you want to remove any bookmarks with the non-existing location from your "
-"list?"
+"Do you want to remove any bookmarks with the non-existing location from your list?"
 msgstr "存在しない場所へのブックマークを一覧から削除しますか？"
 
 #: src/nemo-window-bookmarks.c:85
@@ -3027,8 +2973,7 @@ msgstr "\"%s\" を表示できませんでした。"
 
 #: src/nemo-window-manage-views.c:1728
 msgid "Nemo has no installed viewer capable of displaying the folder."
-msgstr ""
-"そのフォルダーを表示できるビューアーが Nemo にインストールされていません。"
+msgstr "そのフォルダーを表示できるビューアーが Nemo にインストールされていません。"
 
 #: src/nemo-window-manage-views.c:1734
 msgid "The location is not a folder."
@@ -3071,10 +3016,8 @@ msgid "Could not display \"%s\", because the host could not be found."
 msgstr "ホストが見つからなかったため \"%s\" を表示できませんでした。"
 
 #: src/nemo-window-manage-views.c:1778
-msgid ""
-"Check that the spelling is correct and that your proxy settings are correct."
-msgstr ""
-"綴りを確認してください。プロキシが正常に設定されていない可能性もあります。"
+msgid "Check that the spelling is correct and that your proxy settings are correct."
+msgstr "綴りを確認してください。プロキシが正常に設定されていない可能性もあります。"
 
 #: src/nemo-window-manage-views.c:1793
 #, c-format
@@ -3087,44 +3030,39 @@ msgstr ""
 
 #: src/nemo-window-menus.c:311
 msgid ""
-"Nemo is free software; you can redistribute it and/or modify it under the "
-"terms of the GNU General Public License as published by the Free Software "
-"Foundation; either version 2 of the License, or (at your option) any later "
-"version."
+"Nemo is free software; you can redistribute it and/or modify it under the terms of "
+"the GNU General Public License as published by the Free Software Foundation; either "
+"version 2 of the License, or (at your option) any later version."
 msgstr ""
-"Nemo はフリーソフトウェアです。あなたはこれを、フリーソフトウェア財団によって"
-"発行された GNU 一般公衆利用許諾契約書 (バージョン 2 か、希望によってはそれ以"
-"降のバージョンのうちどれか) の定める条件の下で再頒布または改変することができ"
-"ます。"
+"Nemo はフリーソフトウェアです。あなたはこれを、フリーソフトウェア財団によって発行さ"
+"れた GNU 一般公衆利用許諾契約書 (バージョン 2 か、希望によってはそれ以降のバージョン"
+"のうちどれか) の定める条件の下で再頒布または改変することができます。"
 
 #: src/nemo-window-menus.c:315
 msgid ""
-"Nemo is distributed in the hope that it will be useful, but WITHOUT ANY "
-"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
-"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
-"details."
+"Nemo is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; "
+"without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR "
+"PURPOSE.  See the GNU General Public License for more details."
 msgstr ""
-"Nemo は有用であることを願って配布されますが、全くの無保証です。商業可能性の保"
-"証や特定の目的への適合性は、言外に示されたものも含め全く存在しません。詳しく"
-"は GNU 一般公衆利用許諾契約書をご覧ください。"
+"Nemo は有用であることを願って配布されますが、全くの無保証です。商業可能性の保証や特"
+"定の目的への適合性は、言外に示されたものも含め全く存在しません。詳しくは GNU 一般公"
+"衆利用許諾契約書をご覧ください。"
 
 #: src/nemo-window-menus.c:319
 msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"Nemo; if not, write to the Free Software Foundation, Inc., 51 Franklin "
-"Street, Fifth Floor, Boston, MA 02110-1301 USA"
+"You should have received a copy of the GNU General Public License along with Nemo; "
+"if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth "
+"Floor, Boston, MA 02110-1301 USA"
 msgstr ""
-"あなたは Nemo と共に、GNU 一般公衆利用許諾契約書の複製を一部受け取ったはずで"
-"す。もし受け取っていなければ、フリーソフトウェア財団まで請求してください (宛"
-"先は the Free Software Foundation Inc., 51 Franklin St, Fifth Floor, Boston, "
-"MA 02110-1301 USA)。"
+"あなたは Nemo と共に、GNU 一般公衆利用許諾契約書の複製を一部受け取ったはずです。もし"
+"受け取っていなければ、フリーソフトウェア財団まで請求してください (宛先は the Free "
+"Software Foundation Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA)。"
 
 #: src/nemo-window-menus.c:334
-msgid ""
-"Nemo lets you organize files and folders, both on your computer and online."
+msgid "Nemo lets you organize files and folders, both on your computer and online."
 msgstr ""
-"Nemo を使用すると、コンピューターやオンライン上のファイルとフォルダーを整理で"
-"きます。"
+"Nemo を使用すると、コンピューターやオンライン上のファイルとフォルダーを整理できま"
+"す。"
 
 #: src/nemo-window-menus.c:395
 #, c-format
@@ -3306,11 +3244,10 @@ msgstr "コンピューター (_C)"
 
 #. tooltip
 #: src/nemo-window-menus.c:1477
-msgid ""
-"Browse all local and remote disks and folders accessible from this computer"
+msgid "Browse all local and remote disks and folders accessible from this computer"
 msgstr ""
-"このコンピューターからアクセスできるローカル・リモートのディスク、フォルダー"
-"をすべて参照します"
+"このコンピューターからアクセスできるローカル・リモートのディスク、フォルダーをすべて"
+"参照します"
 
 #. name, stock id
 #. label, accelerator
@@ -3481,15 +3418,13 @@ msgstr "現在のタブを右へ移動します"
 msgid "Sidebar"
 msgstr "サイドバー"
 
-#: src/nemo-window-menus.c:1537
-#: gresources/nemo-file-management-properties.glade:3532
+#: src/nemo-window-menus.c:1537 gresources/nemo-file-management-properties.glade:3532
 msgid "Toolbar"
 msgstr "ツールバー"
 
 #. name, stock id
 #. label, accelerator
-#: src/nemo-window-menus.c:1542
-#: gresources/nemo-file-management-properties.glade:4079
+#: src/nemo-window-menus.c:1542 gresources/nemo-file-management-properties.glade:4079
 msgid "Show _Hidden Files"
 msgstr "隠しファイルを表示 (_H)"
 
@@ -3567,8 +3502,7 @@ msgstr "分割表示 (_X)"
 #. tooltip
 #: src/nemo-window-menus.c:1573 src/nemo-window-menus.c:1809
 msgid "Open an extra folder view side-by-side"
-msgstr ""
-"ウィンドウを 2 つのペインに分割し、それぞれ別のフォルダーを開けるようにします"
+msgstr "ウィンドウを 2 つのペインに分割し、それぞれ別のフォルダーを開けるようにします"
 
 #. is_active
 #. name, stock id
@@ -3642,8 +3576,7 @@ msgstr "コンピューターに移動します"
 msgid "Toggle Location Entry"
 msgstr "パスの入力方法を切り替えます"
 
-#: src/nemo-window-menus.c:1731
-#: gresources/nemo-file-management-properties.glade:3272
+#: src/nemo-window-menus.c:1731 gresources/nemo-file-management-properties.glade:3272
 msgid "New folder"
 msgstr "新しいフォルダー"
 
@@ -3919,19 +3852,19 @@ msgstr "ボリューム \"%s\" はゴミ箱に移動できません。"
 
 #: libnemo-private/nemo-desktop-link-monitor.c:99
 msgid ""
-"If you want to eject the volume, please use \"Eject\" in the popup menu of "
-"the volume."
+"If you want to eject the volume, please use \"Eject\" in the popup menu of the "
+"volume."
 msgstr ""
-"ボリュームを取り出すときは、ボリュームのポップアップメニューから \"取り出す"
-"\" を選択してください。"
+"ボリュームを取り出すときは、ボリュームのポップアップメニューから \"取り出す\" を選択"
+"してください。"
 
 #: libnemo-private/nemo-desktop-link-monitor.c:108
 msgid ""
-"If you want to unmount the volume, please use \"Unmount Volume\" in the "
-"popup menu of the volume."
+"If you want to unmount the volume, please use \"Unmount Volume\" in the popup menu "
+"of the volume."
 msgstr ""
-"ボリュームをアンマウントするときは、ボリュームのポップアップメニューから \"ア"
-"ンマウント\" を選択してください。"
+"ボリュームをアンマウントするときは、ボリュームのポップアップメニューから \"アンマウ"
+"ント\" を選択してください。"
 
 #: libnemo-private/nemo-dnd.c:882
 msgid "_Move Here"
@@ -4248,11 +4181,11 @@ msgstr "フォルダー \"%s\" をマージしますか？"
 
 #: libnemo-private/nemo-file-conflict-dialog.c:149
 msgid ""
-"Merging will ask for confirmation before replacing any files in the folder "
-"that conflict with the files being copied."
+"Merging will ask for confirmation before replacing any files in the folder that "
+"conflict with the files being copied."
 msgstr ""
-"マージの際に衝突するファイルが見つかった場合、そのままコピー元のファイルで置"
-"き換えるかどうかの確認が表示されます。"
+"マージの際に衝突するファイルが見つかった場合、そのままコピー元のファイルで置き換える"
+"かどうかの確認が表示されます。"
 
 #: libnemo-private/nemo-file-conflict-dialog.c:154
 #, c-format
@@ -4600,8 +4533,7 @@ msgstr "\"%B\" をゴミ箱に移動しますか？"
 #: libnemo-private/nemo-file-operations.c:1541
 #, c-format
 msgid "unused %'d"
-msgid_plural ""
-"Are you sure you want to move the %'d selected items to the trash?"
+msgid_plural "Are you sure you want to move the %'d selected items to the trash?"
 msgstr[0] "選択した %'d 個のアイテムをゴミ箱に移動しますか？"
 
 #: libnemo-private/nemo-file-operations.c:1550
@@ -4619,11 +4551,9 @@ msgstr "\"%B\" をゴミ箱から完全に削除しますか？"
 #: libnemo-private/nemo-file-operations.c:1589
 #, c-format
 msgid ""
-"Are you sure you want to permanently delete the %'d selected item from the "
-"trash?"
+"Are you sure you want to permanently delete the %'d selected item from the trash?"
 msgid_plural ""
-"Are you sure you want to permanently delete the %'d selected items from the "
-"trash?"
+"Are you sure you want to permanently delete the %'d selected items from the trash?"
 msgstr[0] "選択した %'d 個のアイテムをゴミ箱から完全に削除しますか？"
 
 #: libnemo-private/nemo-file-operations.c:1599
@@ -4646,8 +4576,7 @@ msgstr "\"%B\" を完全に削除しますか？"
 #: libnemo-private/nemo-file-operations.c:1656
 #, c-format
 msgid "Are you sure you want to permanently delete the %'d selected item?"
-msgid_plural ""
-"Are you sure you want to permanently delete the %'d selected items?"
+msgid_plural "Are you sure you want to permanently delete the %'d selected items?"
 msgstr[0] "選択した %'d 個のアイテムを完全に削除しますか？"
 
 #: libnemo-private/nemo-file-operations.c:1699
@@ -4687,17 +4616,15 @@ msgstr "削除中にエラーがありました。"
 
 #: libnemo-private/nemo-file-operations.c:1797
 msgid ""
-"Files in the folder \"%B\" cannot be deleted because you do not have "
-"permissions to see them."
+"Files in the folder \"%B\" cannot be deleted because you do not have permissions to "
+"see them."
 msgstr ""
-"フォルダー \"%B\" 内のファイルを削除するには、それらの情報を取得する権限が必"
-"要です。"
+"フォルダー \"%B\" 内のファイルを削除するには、それらの情報を取得する権限が必要です。"
 
 #: libnemo-private/nemo-file-operations.c:1800
 #: libnemo-private/nemo-file-operations.c:2904
 #: libnemo-private/nemo-file-operations.c:3922
-msgid ""
-"There was an error getting information about the files in the folder \"%B\"."
+msgid "There was an error getting information about the files in the folder \"%B\"."
 msgstr "フォルダー \"%B\" 内のファイル情報の取得中にエラーがありました。"
 
 #: libnemo-private/nemo-file-operations.c:1809
@@ -4707,8 +4634,7 @@ msgstr "ファイルをスキップ (_S)"
 
 #: libnemo-private/nemo-file-operations.c:1830
 msgid ""
-"The folder \"%B\" cannot be deleted because you do not have permissions to "
-"read it."
+"The folder \"%B\" cannot be deleted because you do not have permissions to read it."
 msgstr "フォルダー \"%B\" を削除するには、それを読み取る権限が必要です。"
 
 #: libnemo-private/nemo-file-operations.c:1833
@@ -4765,11 +4691,11 @@ msgstr "アンマウントする前にゴミ箱を空にしますか？"
 
 #: libnemo-private/nemo-file-operations.c:2560
 msgid ""
-"In order to regain the free space on this volume the trash must be emptied. "
-"All trashed items on the volume will be permanently lost."
+"In order to regain the free space on this volume the trash must be emptied. All "
+"trashed items on the volume will be permanently lost."
 msgstr ""
-"このデバイスの空き容量を増やすには、ゴミ箱を空にする必要があります。その際、"
-"ゴミ箱にあるすべてのアイテムは完全に削除されます。"
+"このデバイスの空き容量を増やすには、ゴミ箱を空にする必要があります。その際、ゴミ箱に"
+"あるすべてのアイテムは完全に削除されます。"
 
 #: libnemo-private/nemo-file-operations.c:2566
 msgid "Do _not Empty Trash"
@@ -4823,22 +4749,19 @@ msgstr "ゴミ箱へのファイル移動中にエラーがありました。"
 
 #: libnemo-private/nemo-file-operations.c:2901
 msgid ""
-"Files in the folder \"%B\" cannot be handled because you do not have "
-"permissions to see them."
+"Files in the folder \"%B\" cannot be handled because you do not have permissions to "
+"see them."
 msgstr ""
-"フォルダー \"%B\" 内のファイルを操作するには、それらの情報を取得する権限が必"
-"要です。"
+"フォルダー \"%B\" 内のファイルを操作するには、それらの情報を取得する権限が必要です。"
 
 #: libnemo-private/nemo-file-operations.c:2940
 msgid ""
-"The folder \"%B\" cannot be handled because you do not have permissions to "
-"read it."
+"The folder \"%B\" cannot be handled because you do not have permissions to read it."
 msgstr "フォルダー \"%B\" を操作するには、それを読み取る権限が必要です。"
 
 #: libnemo-private/nemo-file-operations.c:3020
 msgid ""
-"The file \"%B\" cannot be handled because you do not have permissions to "
-"read it."
+"The file \"%B\" cannot be handled because you do not have permissions to read it."
 msgstr "ファイル \"%B\" を操作するには、それを読み取る権限が必要です。"
 
 #: libnemo-private/nemo-file-operations.c:3023
@@ -4866,11 +4789,9 @@ msgstr "転送先がフォルダーではありません。"
 
 #: libnemo-private/nemo-file-operations.c:3201
 msgid ""
-"There is not enough space on the destination. Try to remove files to make "
-"space."
+"There is not enough space on the destination. Try to remove files to make space."
 msgstr ""
-"転送先の空き容量が足りません。ファイルをいくつか削除し、空きを増やしてみてく"
-"ださい。"
+"転送先の空き容量が足りません。ファイルをいくつか削除し、空きを増やしてみてください。"
 
 #: libnemo-private/nemo-file-operations.c:3203
 #, c-format
@@ -4936,8 +4857,8 @@ msgstr[0] "%S / %S — 残り %T (%S/秒)"
 
 #: libnemo-private/nemo-file-operations.c:3786
 msgid ""
-"The folder \"%B\" cannot be copied because you do not have permissions to "
-"create it in the destination."
+"The folder \"%B\" cannot be copied because you do not have permissions to create it "
+"in the destination."
 msgstr "フォルダー \"%B\" をコピーするには、転送先への作成権限が必要です。"
 
 #: libnemo-private/nemo-file-operations.c:3789
@@ -4946,16 +4867,15 @@ msgstr "フォルダー \"%B\" の作成中にエラーがありました。"
 
 #: libnemo-private/nemo-file-operations.c:3919
 msgid ""
-"Files in the folder \"%B\" cannot be copied because you do not have "
-"permissions to see them."
+"Files in the folder \"%B\" cannot be copied because you do not have permissions to "
+"see them."
 msgstr ""
-"フォルダー \"%B\" 内のファイルをコピーするには、それらの情報を取得する権限が"
-"必要です。"
+"フォルダー \"%B\" 内のファイルをコピーするには、それらの情報を取得する権限が必要で"
+"す。"
 
 #: libnemo-private/nemo-file-operations.c:3964
 msgid ""
-"The folder \"%B\" cannot be copied because you do not have permissions to "
-"read it."
+"The folder \"%B\" cannot be copied because you do not have permissions to read it."
 msgstr "フォルダー \"%B\" をコピーするには、それを読み取る権限が必要です。"
 
 #: libnemo-private/nemo-file-operations.c:4009
@@ -5469,11 +5389,11 @@ msgstr "有効な実行ファイルです。"
 
 #: libnemo-private/nemo-mime-application-chooser.c:284
 msgid ""
-"Not a valid executable.  Spaces in the file path must be escaped with "
-"backslash (\\)."
+"Not a valid executable.  Spaces in the file path must be escaped with backslash "
+"(\\)."
 msgstr ""
-"無効な実行ファイルです。ファイルのパスに現れるスペースは、バックスラッシュ "
-"(\\) でエスケープしてください。"
+"無効な実行ファイルです。ファイルのパスに現れるスペースは、バックスラッシュ (\\) でエ"
+"スケープしてください。"
 
 #. the %s here is a file extension
 #: libnemo-private/nemo-mime-application-chooser.c:419
@@ -5489,11 +5409,9 @@ msgstr "\"%s\" に属するすべてのファイルを、次のプログラム�
 
 #: libnemo-private/nemo-mime-application-chooser.c:444
 #, c-format
-msgid ""
-"Select an application in the list to open %s and other files of type \"%s\""
+msgid "Select an application in the list to open %s and other files of type \"%s\""
 msgstr ""
-"%s およびファイルの種類 \"%s\" を開くためのプログラムを、一覧から選択してくだ"
-"さい"
+"%s およびファイルの種類 \"%s\" を開くためのプログラムを、一覧から選択してください"
 
 #: libnemo-private/nemo-mime-application-chooser.c:478
 msgid "Custom application"
@@ -5505,13 +5423,13 @@ msgstr "実行ファイル"
 
 #: libnemo-private/nemo-mime-application-chooser.c:544
 msgid ""
-"You can also type or select a custom executable file to use to open this "
-"file type.  You can use this command just once, or set it as default for all "
-"files of this type."
+"You can also type or select a custom executable file to use to open this file "
+"type.  You can use this command just once, or set it as default for all files of "
+"this type."
 msgstr ""
-"この種類のファイルを開くために使用するプログラムを一覧から選択するか、直接入"
-"力してください。また、このプログラムの使用を今回限りにするか、あるいは今後の"
-"既定のプログラムとして設定するかも選べます。"
+"この種類のファイルを開くために使用するプログラムを一覧から選択するか、直接入力してく"
+"ださい。また、このプログラムの使用を今回限りにするか、あるいは今後の既定のプログラム"
+"として設定するかも選べます。"
 
 #: libnemo-private/nemo-mime-application-chooser.c:558
 msgid "Enter a custom command..."
@@ -5548,26 +5466,24 @@ msgid "This drop target only supports local files."
 msgstr "アイテムのドロップはローカルファイルに対してのみ使用できます。"
 
 #: libnemo-private/nemo-program-choosing.c:362
-msgid ""
-"To open non-local files copy them to a local folder and then drop them again."
+msgid "To open non-local files copy them to a local folder and then drop them again."
 msgstr ""
-"対象のファイルをドロップする前に、いったんファイルをローカルフォルダーにコ"
-"ピーしてください。"
+"対象のファイルをドロップする前に、いったんファイルをローカルフォルダーにコピーしてく"
+"ださい。"
 
 #: libnemo-private/nemo-program-choosing.c:373
 msgid ""
-"To open non-local files copy them to a local folder and then drop them "
-"again. The local files you dropped have already been opened."
+"To open non-local files copy them to a local folder and then drop them again. The "
+"local files you dropped have already been opened."
 msgstr ""
-"対象のファイルをドロップする前に、いったんファイルをローカルフォルダーにコ"
-"ピーしてください。ドロップしたローカルファイルはすでに開かれています。"
+"対象のファイルをドロップする前に、いったんファイルをローカルフォルダーにコピーしてく"
+"ださい。ドロップしたローカルファイルはすでに開かれています。"
 
 #: libnemo-private/nemo-program-choosing.c:395
 msgid "Details: "
 msgstr "詳細: "
 
-#: libnemo-private/nemo-progress-info.c:210
-#: libnemo-private/nemo-progress-info.c:228
+#: libnemo-private/nemo-progress-info.c:210 libnemo-private/nemo-progress-info.c:228
 #: libnemo-private/nemo-progress-info.c:246
 msgid "Preparing"
 msgstr "準備しています"
@@ -5615,12 +5531,12 @@ msgstr "行端揃え"
 
 #: eel/eel-editable-label.c:327
 msgid ""
-"The alignment of the lines in the text of the label relative to each other. "
-"This does NOT affect the alignment of the label within its allocation. See "
+"The alignment of the lines in the text of the label relative to each other. This "
+"does NOT affect the alignment of the label within its allocation. See "
 "GtkMisc::xalign for that."
 msgstr ""
-"ラベルのテキスト行をお互いに揃えます。ラベル自身の割り当て領域は調整されませ"
-"ん。詳細は GtkMisc::xalign を参照してください。"
+"ラベルのテキスト行をお互いに揃えます。ラベル自身の割り当て領域は調整されません。詳細"
+"は GtkMisc::xalign を参照してください。"
 
 #: eel/eel-editable-label.c:335
 msgid "Line wrap"
@@ -5643,8 +5559,7 @@ msgid "Selection Bound"
 msgstr "選択範囲"
 
 #: eel/eel-editable-label.c:354
-msgid ""
-"The position of the opposite end of the selection from the cursor in chars."
+msgid "The position of the opposite end of the selection from the cursor in chars."
 msgstr "文字中にあるカーソルが選択している範囲の反対側の終端位置です。"
 
 #: eel/eel-editable-label.c:3106
@@ -5821,8 +5736,7 @@ msgstr "アイテムの並べ替え順"
 msgid "Reset grid spacing"
 msgstr "既定のグリッド間隔に戻す"
 
-#: gresources/nemo-desktop-overlay.glade:680
-#: gresources/nemo-desktop-overlay.glade:870
+#: gresources/nemo-desktop-overlay.glade:680 gresources/nemo-desktop-overlay.glade:870
 msgid "button"
 msgstr "ボタン"
 
@@ -5839,11 +5753,9 @@ msgid "page0"
 msgstr "ページ 0"
 
 #: gresources/nemo-desktop-overlay.glade:859
-msgid ""
-"<b><big>Desktop icons are not currently enabled for this monitor.</big></b>"
+msgid "<b><big>Desktop icons are not currently enabled for this monitor.</big></b>"
 msgstr ""
-"<b><big>現在、このモニターではデスクトップアイコンが有効になっていません。</"
-"big></b>"
+"<b><big>現在、このモニターではデスクトップアイコンが有効になっていません。</big></b>"
 
 #: gresources/nemo-desktop-overlay.glade:887
 msgid "page1"
@@ -6226,8 +6138,7 @@ msgstr "<b>メディアの取り扱い</b>"
 #: gresources/nemo-file-management-properties.glade:1535
 msgid "Automatically mount removable media when inserted and on startup"
 msgstr ""
-"リムーバブルメディアが挿入されたり、挿入された状態でシステムを起動したら自動"
-"マウント"
+"リムーバブルメディアが挿入されたり、挿入された状態でシステムを起動したら自動マウント"
 
 #: gresources/nemo-file-management-properties.glade:1551
 msgid "Automatically open a folder for automounted media"
@@ -6239,11 +6150,11 @@ msgstr "メディアが挿入されたら、プログラムを自動実行する
 
 #: gresources/nemo-file-management-properties.glade:1583
 msgid ""
-"Automatically close the device's tab, pane, or window when a device is "
-"unmounted or ejected"
+"Automatically close the device's tab, pane, or window when a device is unmounted or "
+"ejected"
 msgstr ""
-"デバイスをアンマウント/取り出したら､そのデバイスのタブ・ペイン・ウィンドウを"
-"自動的に閉じる"
+"デバイスをアンマウント/取り出したら､そのデバイスのタブ・ペイン・ウィンドウを自動的に"
+"閉じる"
 
 #: gresources/nemo-file-management-properties.glade:1599
 msgid "Detect content of media and suggest application to open"
@@ -6263,11 +6174,11 @@ msgstr "<b>アイコンのタイトル</b>"
 
 #: gresources/nemo-file-management-properties.glade:1778
 msgid ""
-"Choose the order of information to appear beneath icon names. More "
-"information will appear when zooming in closer."
+"Choose the order of information to appear beneath icon names. More information will "
+"appear when zooming in closer."
 msgstr ""
-"アイコン名の下に追加で表示する、詳細情報の順序を選択してください。拡大するに"
-"つれて、表示される情報が増えていきます。"
+"アイコン名の下に追加で表示する、詳細情報の順序を選択してください。拡大するにつれて、"
+"表示される情報が増えていきます。"
 
 #: gresources/nemo-file-management-properties.glade:1915
 msgid "<b>Date</b>"
@@ -6375,8 +6286,8 @@ msgstr "デスクトップのツールチップを有効化"
 
 #: gresources/nemo-file-management-properties.glade:2767
 msgid ""
-"<i>By default, a folder tooltip shows the item count, and files display "
-"their size.\n"
+"<i>By default, a folder tooltip shows the item count, and files display their "
+"size.\n"
 "    Select additional information to display in the tooltip:</i>"
 msgstr ""
 "<i>既定の状態では、フォルダーのツールチップにアイテム数、\n"
@@ -6473,8 +6384,7 @@ msgid "Background"
 msgstr "背景"
 
 #: gresources/nemo-file-management-properties.glade:4305
-msgid ""
-"Visible action and extension entries can be configured in the Plugins tab"
+msgid "Visible action and extension entries can be configured in the Plugins tab"
 msgstr "使用できるアクションと拡張機能の項目は、プラグインタブから構成できます"
 
 #: gresources/nemo-file-management-properties.glade:4322
@@ -6805,8 +6715,7 @@ msgstr "アイテムのプロパティを表示"
 
 #: gresources/nemo-action-layout-editor.glade:29
 msgid "Customize the layout and appearance of your actions in Nemo's menus"
-msgstr ""
-"Nemo のメニューに出現する、アクションのレイアウト・見た目をカスタマイズします"
+msgstr "Nemo のメニューに出現する、アクションのレイアウト・見た目をカスタマイズします"
 
 #: gresources/nemo-action-layout-editor.glade:92
 msgid "Add a submenu or a separator"
@@ -6877,11 +6786,10 @@ msgstr "クリックでショートカットを追加"
 
 #: action-layout-editor/nemo_action_layout_editor.py:941
 #, python-format
-msgid ""
-"This key combination is already in use by Nemo (%s). It cannot be changed."
+msgid "This key combination is already in use by Nemo (%s). It cannot be changed."
 msgstr ""
-"このキーの組み合わせはすでに Nemo (%s) によって使用されており、変更することは"
-"できません。"
+"このキーの組み合わせはすでに Nemo (%s) によって使用されており、変更することはできま"
+"せん。"
 
 #: action-layout-editor/nemo_action_layout_editor.py:968
 msgid "This key combination is already in use by another action:"
