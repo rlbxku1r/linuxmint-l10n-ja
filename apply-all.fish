@@ -43,6 +43,7 @@ set catalogs \
     cinnamon-session \
     cinnamon-settings-daemon \
     cinnamon \
+    clockenstein \
     fingwit \
     folder-color-switcher \
     hypnotix \
