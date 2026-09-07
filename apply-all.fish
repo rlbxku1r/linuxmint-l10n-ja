@@ -66,6 +66,7 @@ set catalogs \
     webapp-manager \
     xapp \
     xedit_xed \
+    xepub \
     xreader \
     xviewer
 
