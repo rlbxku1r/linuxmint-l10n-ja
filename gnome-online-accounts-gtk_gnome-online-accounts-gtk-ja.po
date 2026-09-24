@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2024-03-27 17:11+0000\n"
-"PO-Revision-Date: 2024-03-29 14:30+0000\n"
+"POT-Creation-Date: 2026-09-22 10:15+0100\n"
+"PO-Revision-Date: 2026-09-24 21:25+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2025-08-29 13:36+0000\n"
-"X-Generator: Launchpad (build 919009172d854f2b8e4e8262db447f12f11d25eb)\n"
-"Language: ja\n"
+"X-Launchpad-Export-Date: 2026-09-24 12:12+0000\n"
+"X-Generator: Poedit 3.6\n"
 
 #: po/msgids:4
 #, c-format
@@ -28,16 +28,15 @@ msgstr "%s アカウント"
 msgid "<b>%s</b> removed"
 msgstr "<b>%s</b> を削除しました"
 
-#: po/msgids:6 src/gnome-online-accounts-gtk.c:479
+#: po/msgids:6
 msgid "About"
 msgstr "このアプリケーションについて"
 
-#: po/msgids:7 src/online-accounts.ui:76
+#: po/msgids:7 src/online-accounts.ui:47
 msgid "Accounts"
 msgstr "アカウント"
 
-#: po/msgids:8 data/gnome-online-accounts-gtk.desktop.in.in:4
-#: src/online-accounts.ui:28
+#: po/msgids:8 data/gnome-online-accounts-gtk.desktop.in.in:3
 msgid "Connect to your data in the cloud"
 msgstr "クラウドの個人データに接続します"
 
@@ -45,33 +44,32 @@ msgstr "クラウドの個人データに接続します"
 msgid "Error removing account"
 msgstr "アカウントの削除中にエラーがありました"
 
-#: po/msgids:10 data/gnome-online-accounts-gtk.desktop.in.in:7
-msgid ""
-"google;facebook;twitter;yahoo;web;online;chat;calendar;mail;contact;owncloud;"
-"kerberos;imap;smtp;pocket;readitlater;account;"
+#: po/msgids:10 data/gnome-online-accounts-gtk.desktop.in.in:8
+msgid "google;facebook;twitter;yahoo;web;online;chat;calendar;mail;contact;owncloud;kerberos;imap;smtp;pocket;readitlater;account;"
 msgstr ""
-"google;facebook;twitter;yahoo;web;online;chat;calendar;mail;contact;owncloud;"
-"kerberos;imap;smtp;pocket;readitlater;account;ウェブ;オンライン;チャット;カレンダー;メール;連絡;アカウ"
-"ント;"
+"google;facebook;twitter;yahoo;web;online;chat;calendar;mail;contact;owncloud;kerberos;imap;smtp;pocket;readitlater;account;"
+"ウェブ;オンライン;チャット;カレンダー;メール;連絡;アカウント;"
 
-#: po/msgids:11 src/online-accounts.ui:149
+#: po/msgids:11 src/online-accounts.ui:121
 msgid "No internet connection - connect to set up new online accounts"
-msgstr "インターネット接続がありません - 新しいオンラインアカウントをセットアップするには、インターネットに接続してください"
+msgstr ""
+"インターネット接続がありません - 新しいオンラインアカウントをセット"
+"アップするには、インターネットに接続してください"
 
 #: po/msgids:12
 msgid "Online Account"
 msgstr "オンラインアカウント"
 
-#: po/msgids:13 data/gnome-online-accounts-gtk.desktop.in.in:3
-#: src/online-accounts.ui:19
+#: po/msgids:13 data/gnome-online-accounts-gtk.desktop.in.in:2
+#: src/online-accounts.ui:8
 msgid "Online Accounts"
 msgstr "オンラインアカウント"
 
-#: po/msgids:14
+#: po/msgids:14 src/online-accounts.ui:70
 msgid "Providers"
 msgstr "プロバイダー"
 
-#: po/msgids:15 src/gnome-online-accounts-gtk.c:480
+#: po/msgids:15
 msgid "Quit"
 msgstr "終了"
 
@@ -82,3 +80,9 @@ msgstr "アカウントを削除"
 #: po/msgids:17
 msgid "Undo"
 msgstr "元に戻す"
+
+#: src/online-accounts.ui:38
+msgid "No internet connection — connect to set up new online accounts"
+msgstr ""
+"インターネット接続がありません — 新しいオンラインアカウントをセット"
+"アップするには、インターネットに接続してください"
