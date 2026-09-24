@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2026-09-18 11:46+0100\n"
-"PO-Revision-Date: 2026-09-18 22:36+0900\n"
+"POT-Creation-Date: 2026-09-23 13:47+0100\n"
+"PO-Revision-Date: 2026-09-24 21:24+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "Language: ja\n"
@@ -16,14 +16,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2026-09-18 12:20+0000\n"
+"X-Launchpad-Export-Date: 2026-09-24 12:12+0000\n"
 "X-Generator: Poedit 3.6\n"
 
 #: data/org.x.clockenstein.Calendar.desktop.in:2 calendar/calendar_app.py:74
 #: calendar/event_dialog.py:178 calendar/event_dialog.py:185
 #: calendar/main_window.py:35 calendar/main_window.py:193 calendar/store.py:60
-#: calendar/store.py:72 calendar/backends/caldav.py:281
-#: calendar/backends/caldav.py:283
+#: calendar/store.py:72 calendar/backends/caldav.py:296
+#: calendar/backends/caldav.py:298
 msgid "Calendar"
 msgstr "カレンダー"
 
@@ -64,9 +64,9 @@ msgstr "新しいイベント"
 msgid "Event Details"
 msgstr "イベントの詳細"
 
-#: calendar/event_dialog.py:116 calendar/main_window.py:812
-#: calendar/main_window.py:930 calendar/main_window.py:966
-#: calendar/main_window.py:1032 clocks/clocks_app.py:361
+#: calendar/event_dialog.py:116 calendar/main_window.py:813
+#: calendar/main_window.py:951 calendar/main_window.py:987
+#: calendar/main_window.py:1069 clocks/clocks_app.py:361
 #: clocks/clocks_app.py:499
 msgid "Cancel"
 msgstr "キャンセル"
@@ -79,7 +79,7 @@ msgstr "閉じる"
 msgid "Delete"
 msgstr "削除"
 
-#: calendar/event_dialog.py:123 calendar/main_window.py:812
+#: calendar/event_dialog.py:123 calendar/main_window.py:813
 #: clocks/clocks_app.py:365
 msgid "Save"
 msgstr "保存"
@@ -180,11 +180,11 @@ msgstr "'%s' を削除しますか？"
 msgid "This event will be permanently deleted."
 msgstr "このイベントは完全に削除されます。"
 
-#: calendar/main_window.py:146 calendar/main_window.py:1310
+#: calendar/main_window.py:146 calendar/main_window.py:1351
 msgid "Synchronizing online calendars…"
 msgstr "オンラインカレンダーを同期しています…"
 
-#: calendar/main_window.py:148 calendar/main_window.py:1312
+#: calendar/main_window.py:148 calendar/main_window.py:1353
 msgid "Synchronization finished"
 msgstr "同期が完了しました"
 
@@ -246,7 +246,7 @@ msgstr "新しいイベント (Ctrl+N)"
 msgid "A calendar application for Linux desktops"
 msgstr "Linux デスクトップ向けのカレンダーアプリケーション"
 
-#: calendar/main_window.py:382 calendar/main_window.py:1325
+#: calendar/main_window.py:382 calendar/main_window.py:1366
 msgid "Some online calendars are disconnected (read-only)."
 msgstr "一部のオンラインカレンダーは切断されています (閲覧のみ可)。"
 
@@ -329,16 +329,16 @@ msgid "Already synchronized less than 5 minutes ago"
 msgstr "すでに同期済みで、それからまだ 5 分も経っていません"
 
 #: calendar/main_window.py:630 calendar/main_window.py:680
-#: calendar/main_window.py:925
+#: calendar/main_window.py:946
 msgid "Refresh this calendar"
 msgstr "このカレンダーを再読み込み"
 
-#: calendar/main_window.py:652 clocks/clocks_app.py:317
+#: calendar/main_window.py:651 clocks/clocks_app.py:317
 #: clocks/clocks_app.py:358
 msgid "Edit"
 msgstr "編集"
 
-#: calendar/main_window.py:660 calendar/main_window.py:849
+#: calendar/main_window.py:660 calendar/main_window.py:870
 msgid "Remove"
 msgstr "削除"
 
@@ -410,109 +410,113 @@ msgstr "新しいカレンダーを追加…"
 msgid "CalDAV (Nextcloud, Memotoo, etc.)"
 msgstr "CalDAV (Nextcloud, Memotoo など)"
 
-#: calendar/main_window.py:811
+#: calendar/main_window.py:812
 msgid "Edit Calendar"
 msgstr "カレンダーを編集"
 
-#: calendar/main_window.py:822 calendar/main_window.py:939
+#: calendar/main_window.py:821 calendar/main_window.py:960
 #: clocks/clocks_app.py:382
 msgid "Name"
 msgstr "名前"
 
-#: calendar/main_window.py:824 calendar/main_window.py:941
+#: calendar/main_window.py:827 calendar/main_window.py:962
 msgid "Color"
 msgstr "色"
 
-#: calendar/main_window.py:840 calendar/store.py:77
+#: calendar/main_window.py:861 calendar/store.py:77
 msgid "At least one local calendar is required"
 msgstr "少なくともひとつのローカルカレンダーが必要です"
 
-#: calendar/main_window.py:847
+#: calendar/main_window.py:868
 #, python-format
 msgid "Remove %s?"
 msgstr "%s を削除しますか？"
 
-#: calendar/main_window.py:850
+#: calendar/main_window.py:871
 msgid "All the events from this calendar will be permanently removed."
 msgstr "このカレンダーのイベントはすべて削除されます。"
 
-#: calendar/main_window.py:869 calendar/main_window.py:904
+#: calendar/main_window.py:890 calendar/main_window.py:925
 #, python-format
 msgid "Refresh requested for %s…"
 msgstr "%s の再読み込みを要求しました…"
 
-#: calendar/main_window.py:886
+#: calendar/main_window.py:907
 msgid "Remind me about events in this calendar"
 msgstr "このカレンダーのイベントについて通知します"
 
-#: calendar/main_window.py:903
+#: calendar/main_window.py:924
 msgid "Refresh requested"
 msgstr "再読み込みを要求しました"
 
-#: calendar/main_window.py:926
+#: calendar/main_window.py:947
 #, python-format
 msgid "Could not request refresh: %s"
 msgstr "再読み込みを要求できませんでした: %s"
 
-#: calendar/main_window.py:929
+#: calendar/main_window.py:950
 msgid "New Calendar"
 msgstr "新しいカレンダー"
 
-#: calendar/main_window.py:930
+#: calendar/main_window.py:951
 msgid "Create"
 msgstr "作成"
 
-#: calendar/main_window.py:960
+#: calendar/main_window.py:981
 msgid "No Google accounts were found in Online Accounts."
 msgstr "オンラインアカウントに Google アカウントが見つかりませんでした。"
 
-#: calendar/main_window.py:965
+#: calendar/main_window.py:986
 msgid "Google Account"
 msgstr "Google アカウント"
 
-#: calendar/main_window.py:967 calendar/main_window.py:1032
+#: calendar/main_window.py:988 calendar/main_window.py:1069
 msgid "Connect"
 msgstr "接続"
 
-#: calendar/main_window.py:972
+#: calendar/main_window.py:993
 msgid "Choose an account"
 msgstr "アカウントを選択"
 
-#: calendar/main_window.py:986 calendar/main_window.py:990
-#: calendar/main_window.py:1051
+#: calendar/main_window.py:1007 calendar/main_window.py:1011
+#: calendar/main_window.py:1088
 msgid "Connecting…"
 msgstr "接続しています…"
 
-#: calendar/main_window.py:1002 calendar/main_window.py:1060
+#: calendar/main_window.py:1023 calendar/main_window.py:1101
 msgid "Requesting initial synchronization…"
 msgstr "初回の同期を要求しています…"
 
-#: calendar/main_window.py:1019
+#: calendar/main_window.py:1040
 msgid "Could not connect the Google account"
 msgstr "Google アカウントに接続できませんでした"
 
-#: calendar/main_window.py:1041
+#: calendar/main_window.py:1056
+msgid "Could not connect to the CalDAV server"
+msgstr "CalDAV サーバーに接続できませんでした"
+
+#: calendar/main_window.py:1078
 msgid "Server URL"
 msgstr "サーバーの URL"
 
-#: calendar/main_window.py:1041
+#: calendar/main_window.py:1078
 msgid "Username"
 msgstr "ユーザー名"
 
-#: calendar/main_window.py:1041
+#: calendar/main_window.py:1078
 msgid "Password"
 msgstr "パスワード"
 
-#: calendar/main_window.py:1071
+#: calendar/main_window.py:1112
 #, python-format
 msgid "Disconnect %s?"
 msgstr "%s を切断しますか？"
 
-#: calendar/main_window.py:1074
+#: calendar/main_window.py:1115
 msgid "This online calendar will be disconnected and removed from the application."
 msgstr "このオンラインカレンダーは切断され、アプリケーションから削除されます。"
 
-#: calendar/main_window.py:1272
+#: calendar/main_window.py:1313
 msgid "Connecting to online calendars…"
 msgstr "オンラインカレンダーに接続しています…"
 
@@ -549,40 +553,40 @@ msgstr "個人"
 msgid "Unknown event %s"
 msgstr "不明なイベント %s です"
 
-#: calendar/backends/caldav.py:54
+#: calendar/backends/caldav.py:58
 msgid "A username and password are required"
 msgstr "ユーザー名とパスワードは必須です"
 
-#: calendar/backends/caldav.py:56
+#: calendar/backends/caldav.py:60
 msgid "Contacting CalDAV server…"
 msgstr "CalDAV サーバーに問い合わせています…"
 
-#: calendar/backends/caldav.py:91 calendar/backends/caldav.py:199
+#: calendar/backends/caldav.py:96 calendar/backends/caldav.py:204
 msgid "Password not found in the keyring"
 msgstr "キーリングにパスワードが見つかりませんでした"
 
-#: calendar/backends/caldav.py:161
+#: calendar/backends/caldav.py:166
 msgid "The event has no CalDAV resource URL"
 msgstr "イベントに CalDAV リソース URL がありません"
 
-#: calendar/backends/caldav.py:210
+#: calendar/backends/caldav.py:215
 msgid "This CalDAV account is offline. It is now read-only."
 msgstr "この CalDAV アカウントはオフラインです。閲覧のみができます。"
 
-#: calendar/backends/caldav.py:259
+#: calendar/backends/caldav.py:274
 #, python-format
 msgid "Calendar CalDAV password for %s"
 msgstr "カレンダー: %s の CalDAV パスワード"
 
-#: calendar/backends/caldav.py:261
+#: calendar/backends/caldav.py:276
 msgid "Could not save the password in the keyring"
 msgstr "キーリングにパスワードを保存できませんでした"
 
-#: calendar/backends/caldav.py:292
+#: calendar/backends/caldav.py:320
 msgid "A server URL is required"
 msgstr "サーバーの URL は必須です"
 
-#: calendar/backends/caldav.py:296
+#: calendar/backends/caldav.py:324
 msgid "CalDAV server URLs must use HTTP or HTTPS"
 msgstr "CalDAV サーバーの URL には HTTP/HTTPS を使用してください"
 
