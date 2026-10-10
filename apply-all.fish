@@ -60,6 +60,7 @@ set catalogs \
     python-xapp \
     slick-greeter \
     sticky \
+    superlight \
     thingy \
     timeshift \
     velocitty \
