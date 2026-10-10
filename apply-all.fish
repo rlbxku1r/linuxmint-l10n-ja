@@ -62,6 +62,7 @@ set catalogs \
     sticky \
     thingy \
     timeshift \
+    velocitty \
     warpinator \
     webapp-manager \
     xapp \
