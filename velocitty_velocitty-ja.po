@@ -7,21 +7,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2026-10-06 15:20+0100\n"
-"PO-Revision-Date: 2026-10-10 16:04+0900\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2026-10-12 11:06+0100\n"
+"PO-Revision-Date: 2026-10-15 04:23+0900\n"
+"Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2026-10-07 10:12+0000\n"
+"X-Launchpad-Export-Date: 2026-10-14 19:20+0000\n"
 "X-Generator: Poedit 3.6\n"
 
-#: data/org.x.velocitty.desktop.in:2 velocitty/application.py:227
-#: velocitty/shortcuts.py:26 velocitty/tab.py:55 velocitty/tab.py:58
-#: velocitty/tab.py:339 velocitty/window.py:49 velocitty/window.py:65
-#: velocitty/window.py:122 velocitty/window.py:168
+#: data/org.x.velocitty.desktop.in:2 velocitty/application.py:269
+#: velocitty/shortcuts.py:26 velocitty/tab.py:53 velocitty/tab.py:56
+#: velocitty/tab.py:349 velocitty/window.py:49 velocitty/window.py:65
+#: velocitty/window.py:125 velocitty/window.py:171
 msgid "Terminal"
 msgstr "端末"
 
@@ -38,12 +38,12 @@ msgid "terminal;command;prompt;shell;console;ssh;"
 msgstr "terminal;command;prompt;shell;console;ssh;ターミナル;端末;コマンド;プロンプト;シェル;コンソール;"
 
 #: data/org.x.velocitty.desktop.in:18 velocitty/shortcuts.py:15
-#: velocitty/tab.py:449 velocitty/window.py:92
+#: velocitty/tab.py:455 velocitty/window.py:92
 msgid "New Window"
 msgstr "新しいウィンドウ"
 
 #: data/org.x.velocitty.desktop.in:22 velocitty/shortcuts.py:14
-#: velocitty/tab.py:448 velocitty/window.py:67 velocitty/window.py:91
+#: velocitty/tab.py:454 velocitty/window.py:67 velocitty/window.py:91
 msgid "New Tab"
 msgstr "新しいタブ"
 
@@ -76,7 +76,7 @@ msgid "Open"
 msgstr "開く"
 
 #: velocitty/custom_tabs_page.py:32 velocitty/custom_tabs_page.py:131
-#: velocitty/shortcuts.py:29 velocitty/tab.py:457
+#: velocitty/shortcuts.py:29 velocitty/tab.py:463
 msgid "Select All"
 msgstr "すべて選択"
 
@@ -354,11 +354,11 @@ msgstr "キーボードショートカット"
 msgid "Quit"
 msgstr "終了"
 
-#: velocitty/shortcuts.py:27 velocitty/tab.py:452
+#: velocitty/shortcuts.py:27 velocitty/tab.py:458
 msgid "Copy"
 msgstr "コピー"
 
-#: velocitty/shortcuts.py:28 velocitty/tab.py:454
+#: velocitty/shortcuts.py:28 velocitty/tab.py:460
 msgid "Paste"
 msgstr "貼り付け"
 
@@ -370,15 +370,15 @@ msgstr "検索"
 msgid "Context Menu"
 msgstr "コンテキストメニュー"
 
-#: velocitty/shortcuts.py:32 velocitty/window.py:369
+#: velocitty/shortcuts.py:32 velocitty/window.py:417
 msgid "Zoom In"
 msgstr "拡大"
 
-#: velocitty/shortcuts.py:33 velocitty/window.py:367
+#: velocitty/shortcuts.py:33 velocitty/window.py:415
 msgid "Zoom Out"
 msgstr "縮小"
 
-#: velocitty/shortcuts.py:34 velocitty/window.py:371
+#: velocitty/shortcuts.py:34 velocitty/window.py:419
 msgid "Reset Zoom"
 msgstr "等倍"
 
@@ -442,11 +442,11 @@ msgstr "タブ 9 に切り替え"
 msgid "Switch to Tab 10"
 msgstr "タブ 10 に切り替え"
 
-#: velocitty/tab.py:453
+#: velocitty/tab.py:459
 msgid "Copy Last Output"
 msgstr "最後の出力をコピー"
 
-#: velocitty/tab.py:458
+#: velocitty/tab.py:464
 msgid "Find…"
 msgstr "検索…"
 
@@ -458,30 +458,34 @@ msgstr "全画面表示を終了"
 msgid "About"
 msgstr "このアプリケーションについて"
 
-#: velocitty/window.py:341
-msgid "Follow System Style"
-msgstr "システムのスタイルに従う"
+#: velocitty/window.py:229
+msgid "Close Tab?"
+msgstr "タブを閉じますか？"
 
-#: velocitty/window.py:342
-msgid "Light Style"
-msgstr "ライト"
-
-#: velocitty/window.py:343
-msgid "Dark Style"
-msgstr "ダーク"
-
-#: velocitty/window.py:538
-msgid "Close Window?"
-msgstr "ウィンドウを閉じますか？"
-
-#: velocitty/window.py:538
+#: velocitty/window.py:243
 msgid "Some processes are still running."
 msgstr "まだいくつかのプロセスが実行中です。"
 
-#: velocitty/window.py:539
+#: velocitty/window.py:244
 msgid "_Cancel"
 msgstr "キャンセル (_C)"
 
-#: velocitty/window.py:540
+#: velocitty/window.py:245
 msgid "_Close"
 msgstr "閉じる (_C)"
+
+#: velocitty/window.py:389
+msgid "Follow System Style"
+msgstr "システムのスタイルに従う"
+
+#: velocitty/window.py:390
+msgid "Light Style"
+msgstr "ライト"
+
+#: velocitty/window.py:391
+msgid "Dark Style"
+msgstr "ダーク"
+
+#: velocitty/window.py:595
+msgid "Close Window?"
+msgstr "ウィンドウを閉じますか？"
