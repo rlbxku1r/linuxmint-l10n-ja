@@ -68,6 +68,7 @@ set catalogs \
     warpinator \
     webapp-manager \
     xapp \
+    xdg-desktop-portal-xapp \
     xedit_xed \
     xepub \
     xreader \
