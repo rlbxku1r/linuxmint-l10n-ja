@@ -63,6 +63,7 @@ set catalogs \
     superlight \
     thingy \
     timeshift \
+    unfold \
     velocitty \
     warpinator \
     webapp-manager \
