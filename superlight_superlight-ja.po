@@ -7,21 +7,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2026-10-09 17:12+0100\n"
-"PO-Revision-Date: 2026-10-11 00:49+0900\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2026-10-26 13:29+0000\n"
+"PO-Revision-Date: 2026-10-27 21:09+0900\n"
+"Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2026-10-10 07:16+0000\n"
+"X-Launchpad-Export-Date: 2026-10-27 11:52+0000\n"
 "X-Generator: Poedit 3.6\n"
 
 #: data/org.x.superlight.desktop.in:2 superlight/application.py:22
-#: superlight/application.py:35 superlight/application.py:162
-#: superlight/application.py:172
+#: superlight/application.py:35 superlight/application.py:164
+#: superlight/application.py:174
 msgid "System Monitor"
 msgstr "システムモニター"
 
@@ -61,7 +61,7 @@ msgid "Apps"
 msgstr "アプリ"
 
 #: superlight/application.py:84 superlight/page_battery.py:18
-#: superlight/page_battery.py:260
+#: superlight/page_battery.py:273
 msgid "Battery"
 msgstr "バッテリー"
 
@@ -69,37 +69,37 @@ msgstr "バッテリー"
 msgid "System drive"
 msgstr "システムドライブ"
 
-#: superlight/common_graphs.py:42
+#: superlight/common_graphs.py:45
 msgid "< 1 kB/s"
 msgstr "< 1 kB/秒"
 
-#: superlight/common_graphs.py:44 superlight/__init__.py:48
+#: superlight/common_graphs.py:47 superlight/__init__.py:48
 #, python-format
 msgid "%s/s"
 msgstr "%s/秒"
 
-#: superlight/common_graphs.py:134
+#: superlight/common_graphs.py:138
 msgid "1 min"
 msgstr "1 分"
 
-#: superlight/common_graphs.py:134
+#: superlight/common_graphs.py:138
 #, python-format
 msgid "%d secs"
 msgstr "%d 秒"
 
-#: superlight/common_graphs.py:410 superlight/page_resources.py:146
-#: superlight/page_resources.py:147
+#: superlight/common_graphs.py:458 superlight/page_resources.py:148
+#: superlight/page_resources.py:149
 #, python-format
 msgid "%d °C"
 msgstr "%d °C"
 
-#: superlight/common_graphs.py:431
+#: superlight/common_graphs.py:479
 #, python-format
 msgid "Fan %d"
 msgstr "ファン %d"
 
-#: superlight/common_graphs.py:447 superlight/page_resources.py:155
-#: superlight/page_resources.py:156
+#: superlight/common_graphs.py:495 superlight/page_resources.py:157
+#: superlight/page_resources.py:158
 #, python-format
 msgid "%d RPM"
 msgstr "%d RPM"
@@ -108,7 +108,7 @@ msgstr "%d RPM"
 msgid "Use Default"
 msgstr "既定値を使用"
 
-#: superlight/common_proc.py:28
+#: superlight/common_proc.py:45 superlight/common_proc.py:50
 msgid "Unknown GPU"
 msgstr "不明な GPU"
 
@@ -198,7 +198,7 @@ msgid "Started"
 msgstr "開始日時"
 
 #: superlight/page_apps.py:21 superlight/page_processes.py:25
-#: superlight/page_resources.py:126 superlight/page_resources.py:141
+#: superlight/page_resources.py:127
 msgid "CPU"
 msgstr "CPU"
 
@@ -207,13 +207,13 @@ msgid "CPU Time"
 msgstr "CPU 時間"
 
 #: superlight/page_apps.py:23 superlight/page_processes.py:27
-#: superlight/page_resources.py:133 superlight/page_resources.py:134
+#: superlight/page_resources.py:134 superlight/page_resources.py:135
 msgid "Memory"
 msgstr "メモリ"
 
 #: superlight/page_apps.py:24 superlight/page_processes.py:31
-#: superlight/page_resources.py:136 superlight/page_resources.py:138
-#: superlight/page_resources.py:140 superlight/chunks/swap.py:11
+#: superlight/page_resources.py:137 superlight/page_resources.py:139
+#: superlight/page_resources.py:141 superlight/chunks/swap.py:11
 msgid "Swap"
 msgstr "スワップ"
 
@@ -234,8 +234,8 @@ msgid "Disk Write Total"
 msgstr "合計ディスク書込"
 
 #: superlight/page_apps.py:29 superlight/page_processes.py:36
-#: superlight/page_resources.py:129 superlight/page_resources.py:130
-#: superlight/page_resources.py:132 superlight/page_resources.py:141
+#: superlight/page_resources.py:130 superlight/page_resources.py:131
+#: superlight/page_resources.py:133
 msgid "GPU"
 msgstr "GPU"
 
@@ -465,92 +465,87 @@ msgstr "1 週間"
 msgid "Charge"
 msgstr "充電"
 
-#: superlight/page_battery.py:57 superlight/page_battery.py:191
+#: superlight/page_battery.py:57 superlight/page_battery.py:217
 msgid "Power"
 msgstr "電源"
 
-#: superlight/page_battery.py:68
+#: superlight/page_battery.py:69
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d 時間"
 
-#: superlight/page_battery.py:70
+#: superlight/page_battery.py:71
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d 分"
 
-#: superlight/page_battery.py:152
+#: superlight/page_battery.py:162
 #, python-format
 msgid "%d d"
 msgstr "%d 日"
 
-#: superlight/page_battery.py:154
+#: superlight/page_battery.py:164
 #, python-format
 msgid "%s h"
 msgstr "%s 時間"
 
-#: superlight/page_battery.py:155
+#: superlight/page_battery.py:165
 #, python-format
 msgid "%d min"
 msgstr "%d 分"
 
-#: superlight/page_battery.py:188
+#: superlight/page_battery.py:205
+msgid "Details"
+msgstr "詳細"
+
+#: superlight/page_battery.py:215
 msgid "Vendor"
 msgstr "製造元"
 
-#: superlight/page_battery.py:188
+#: superlight/page_battery.py:215
 msgid "Model"
 msgstr "型番"
 
-#: superlight/page_battery.py:188
+#: superlight/page_battery.py:215
 msgid "Technology"
 msgstr "技術"
 
-#: superlight/page_battery.py:189
+#: superlight/page_battery.py:216
 msgid "Energy"
 msgstr "電力"
 
-#: superlight/page_battery.py:189
+#: superlight/page_battery.py:216
 msgid "Energy when full"
 msgstr "満充電時の電力"
 
-#: superlight/page_battery.py:190
-msgid "Energy (design)"
-msgstr "電力 (公称値)"
+#: superlight/page_battery.py:217
+msgid "Health"
+msgstr "健康度"
 
-#: superlight/page_battery.py:190
-msgid "Capacity"
-msgstr "容量"
-
-#: superlight/page_battery.py:191
+#: superlight/page_battery.py:217
 msgid "Voltage"
 msgstr "電圧"
 
-#: superlight/page_battery.py:192
+#: superlight/page_battery.py:218
 msgid "Charge cycles"
 msgstr "充電周期"
 
-#: superlight/page_battery.py:192 superlight/page_resources.py:56
+#: superlight/page_battery.py:218 superlight/page_resources.py:57
 msgid "Temperature"
 msgstr "温度"
 
-#: superlight/page_battery.py:218
+#: superlight/page_battery.py:245
 msgid "No history is available for this device yet"
 msgstr "このデバイスの履歴はまだありません"
 
-#. Translators: Battery
-#: superlight/page_battery.py:293
-msgid "Unknown"
-msgstr "不明"
-
-#: superlight/page_battery.py:295
+#: superlight/page_battery.py:313
 #, python-format
 msgid "%(state)s, %(time)s remaining"
 msgstr "%(state)s, 残り %(time)s"
 
-#: superlight/page_battery.py:297
+#: superlight/page_battery.py:315
 #, python-format
 msgid "%(state)s, %(time)s until full"
 msgstr "%(state)s, 満充電まで %(time)s"
@@ -661,8 +656,8 @@ msgstr "どのプロセスがどれを開始したのかの親子関係を表示
 msgid "The selected process has already exited."
 msgstr "選択したプロセスはすでに終了しています。"
 
-#: superlight/page_resources.py:37 superlight/page_resources.py:54
-#: superlight/page_resources.py:60
+#: superlight/page_resources.py:37 superlight/page_resources.py:55
+#: superlight/page_resources.py:61
 msgid "Collecting data…"
 msgstr "データを収集しています…"
 
@@ -710,27 +705,27 @@ msgstr "書き込み中"
 msgid "Total Written"
 msgstr "合計書き込み"
 
-#: superlight/page_resources.py:51 superlight/page_resources.py:141
+#: superlight/page_resources.py:51
 msgid "Disk"
 msgstr "ディスク"
 
-#: superlight/page_resources.py:62
+#: superlight/page_resources.py:63
 msgid "Fan Speed"
 msgstr "ファンの速度"
 
-#: superlight/page_resources.py:119
+#: superlight/page_resources.py:120
 msgid "Offline"
 msgstr "オフライン"
 
-#: superlight/page_resources.py:132
+#: superlight/page_resources.py:133
 msgid "Usage unavailable from driver"
 msgstr "使用状況の取得不能"
 
-#: superlight/page_resources.py:140
+#: superlight/page_resources.py:141
 msgid "Not configured"
 msgstr "未構成"
 
-#: superlight/page_resources.py:144 superlight/page_resources.py:153
+#: superlight/page_resources.py:146 superlight/page_resources.py:155
 msgid "Unavailable"
 msgstr "取得不能"
 
