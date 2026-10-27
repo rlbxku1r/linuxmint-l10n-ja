@@ -19,8 +19,8 @@ msgstr ""
 "Project-Id-Version: cinnamon-control-center master\n"
 "Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
 "japanese\n"
-"POT-Creation-Date: 2024-11-26 13:02+0000\n"
-"PO-Revision-Date: 2026-04-19 20:44+0900\n"
+"POT-Creation-Date: 2026-10-27 10:16+0000\n"
+"PO-Revision-Date: 2026-10-27 21:17+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2025-08-29 13:36+0000\n"
+"X-Launchpad-Export-Date: 2026-10-27 11:52+0000\n"
 "X-Generator: Poedit 3.6\n"
 
 #. TRANSLATORS: this is where the user can click and import a profile
@@ -235,126 +235,63 @@ msgctxt "Device kind"
 msgid "Webcam"
 msgstr "ウェブカメラ"
 
-#. Add some common languages first
-#: panels/common/cc-common-language.c:533
-msgid "English"
-msgstr "英語"
-
-#: panels/common/cc-common-language.c:535
-msgid "British English"
-msgstr "イギリス英語"
-
-#: panels/common/cc-common-language.c:538
-msgid "German"
-msgstr "ドイツ語"
-
-#: panels/common/cc-common-language.c:541
-msgid "French"
-msgstr "フランス語"
-
-#: panels/common/cc-common-language.c:544
-msgid "Spanish"
-msgstr "スペイン語"
-
-#: panels/common/cc-common-language.c:546
-msgid "Chinese (simplified)"
-msgstr "中国語 (簡体字)"
-
-#: panels/common/cc-common-language.c:549
-msgid "Russian"
-msgstr "ロシア語"
-
-#: panels/common/cc-common-language.c:552
-msgid "Arabic"
-msgstr "アラビア語"
-
-#. Add some common regions
-#: panels/common/cc-common-language.c:580
-msgid "United States"
-msgstr "アメリカ合衆国"
-
-#: panels/common/cc-common-language.c:581
-msgid "Germany"
-msgstr "ドイツ"
-
-#: panels/common/cc-common-language.c:582
-msgid "France"
-msgstr "フランス"
-
-#: panels/common/cc-common-language.c:583
-msgid "Spain"
-msgstr "スペイン"
-
-#: panels/common/cc-common-language.c:584
-msgid "China"
-msgstr "中国"
-
-#: panels/common/cc-language-chooser.c:303
-msgid "Select a region"
-msgstr "地域を選択してください"
-
-#: panels/common/gdm-languages.c:781
-msgid "Unspecified"
-msgstr "未指定"
-
 #. Translators:  this is the feature where what you see on your
 #. * laptop's screen is the same as your external projector.
 #. * Here, "Mirrored" is being used as an adjective.  For example,
 #. * the Spanish translation could be "Pantallas en Espejo".
 #.
 #: panels/display/cc-display-labeler.c:369
-#: panels/display/cc-display-panel.c:747
+#: panels/display/cc-display-panel.c:780
 msgid "Mirrored Displays"
 msgstr "複製表示のディスプレイ"
 
-#: panels/display/cc-display-panel.c:1149
+#: panels/display/cc-display-panel.c:1186
 msgid "Confirm reset to defaults"
 msgstr "既定値に戻そうとしています"
 
-#: panels/display/cc-display-panel.c:1151
+#: panels/display/cc-display-panel.c:1188
 msgid "Cancel"
 msgstr "キャンセル"
 
-#: panels/display/cc-display-panel.c:1151
+#: panels/display/cc-display-panel.c:1188
 msgid "Continue"
 msgstr "続行"
 
-#: panels/display/cc-display-panel.c:1164
+#: panels/display/cc-display-panel.c:1201
 msgid ""
 "This will remove all existing display configurations and reset the current "
 "layout."
 msgstr "既存のディスプレイ設定をすべて削除し、現在のレイアウトを初期化します。"
 
-#: panels/display/cc-display-settings.c:107
+#: panels/display/cc-display-settings.c:106
 msgctxt "Display rotation"
 msgid "Landscape"
 msgstr "横方向"
 
-#: panels/display/cc-display-settings.c:110
+#: panels/display/cc-display-settings.c:109
 msgctxt "Display rotation"
 msgid "Portrait Right"
 msgstr "縦方向 (右)"
 
-#: panels/display/cc-display-settings.c:113
+#: panels/display/cc-display-settings.c:112
 msgctxt "Display rotation"
 msgid "Portrait Left"
 msgstr "縦方向 (左)"
 
-#: panels/display/cc-display-settings.c:116
+#: panels/display/cc-display-settings.c:115
 msgctxt "Display rotation"
 msgid "Landscape (flipped)"
 msgstr "横方向 (反転)"
 
-#: panels/display/cc-display-settings.c:190
-#, c-format
+#: panels/display/cc-display-settings.c:189
 msgid "%.2lf Hz"
 msgstr "%.2lf Hz"
 
-#: panels/display/cc-display-settings.c:471
+#: panels/display/cc-display-settings.c:461
 msgid "Monitor scale"
 msgstr "モニターの拡大率"
 
-#: panels/display/cc-display-settings.c:475
+#: panels/display/cc-display-settings.c:465
 #: panels/display/cc-display-settings.ui.h:4
 msgid "User interface scale"
 msgstr "UI の拡大率"
@@ -382,30 +319,30 @@ msgid "NetworkManager needs to be running."
 msgstr "NetworkManager が実行されている必要があります。"
 
 #. Translators: network device speed
-#: panels/network/net-device-ethernet.c:50 panels/network/net-device-wifi.c:549
-#: panels/network/connection-editor/ce-page-details.c:153
+#: panels/network/net-device-ethernet.c:50 panels/network/net-device-wifi.c:566
+#: panels/network/connection-editor/ce-page-details.c:161
 #, c-format
 msgid "%d Mb/s"
 msgstr "%d MB/秒"
 
 #: panels/network/net-device-ethernet.c:107
-#: panels/network/net-device-wifi.c:477
+#: panels/network/net-device-wifi.c:494
 msgid "never"
 msgstr "まったくなし"
 
 #: panels/network/net-device-ethernet.c:117
-#: panels/network/net-device-wifi.c:487
+#: panels/network/net-device-wifi.c:504
 msgid "today"
 msgstr "今日"
 
 #: panels/network/net-device-ethernet.c:119
-#: panels/network/net-device-wifi.c:489
+#: panels/network/net-device-wifi.c:506
 msgid "yesterday"
 msgstr "昨日"
 
 #: panels/network/net-device-ethernet.c:121
-#: panels/network/net-device-wifi.c:491
-#: panels/network/connection-editor/ce-page-details.c:104
+#: panels/network/net-device-wifi.c:508
+#: panels/network/connection-editor/ce-page-details.c:112
 #, c-format
 msgid "%i day ago"
 msgid_plural "%i days ago"
@@ -482,7 +419,7 @@ msgid "Wired"
 msgstr "有線"
 
 #: panels/network/net-device-ethernet.c:360
-#: panels/network/net-device-wifi.c:1751 panels/network/network-ethernet.ui.h:3
+#: panels/network/net-device-wifi.c:1847 panels/network/network-ethernet.ui.h:3
 #: panels/network/network-mobile.ui.h:9 panels/network/network-simple.ui.h:9
 #: panels/network/network-vpn.ui.h:7
 msgid "Options…"
@@ -493,67 +430,80 @@ msgid "Add new connection"
 msgstr "新しい接続を追加"
 
 #. TRANSLATORS: this WEP WiFi security
-#: panels/network/net-device-wifi.c:215 panels/network/net-device-wifi.c:393
+#: panels/network/net-device-wifi.c:224 panels/network/net-device-wifi.c:410
 #: panels/network/connection-editor/ce-page-details.c:50
 msgid "WEP"
 msgstr "WEP"
 
-#. TRANSLATORS: this WPA WiFi security
-#: panels/network/net-device-wifi.c:219 panels/network/net-device-wifi.c:398
+#. TRANSLATORS: Enhanced Open (OWE) WiFi security
+#: panels/network/net-device-wifi.c:228
 #: panels/network/connection-editor/ce-page-details.c:54
+#: panels/network/connection-editor/ce-page-security.c:376
+msgid "Enhanced Open"
+msgstr "Enhanced Open"
+
+#. TRANSLATORS: WPA3 (SAE) WiFi security
+#: panels/network/net-device-wifi.c:231
+#: panels/network/connection-editor/ce-page-details.c:57
+msgid "WPA3"
+msgstr "WPA3"
+
+#. TRANSLATORS: this WPA WiFi security
+#: panels/network/net-device-wifi.c:235 panels/network/net-device-wifi.c:415
+#: panels/network/connection-editor/ce-page-details.c:61
 #: panels/network/network-wifi.ui.h:20
 msgid "WPA"
 msgstr "WPA"
 
 #. TRANSLATORS: this WPA WiFi security
-#: panels/network/net-device-wifi.c:223
-#: panels/network/connection-editor/ce-page-details.c:58
+#: panels/network/net-device-wifi.c:239
+#: panels/network/connection-editor/ce-page-details.c:65
 msgid "WPA2"
 msgstr "WPA2"
 
 #. TRANSLATORS: this Enterprise WiFi security
-#: panels/network/net-device-wifi.c:228
-#: panels/network/connection-editor/ce-page-details.c:63
+#: panels/network/net-device-wifi.c:245
+#: panels/network/connection-editor/ce-page-details.c:71
 msgid "Enterprise"
 msgstr "エンタープライズ"
 
-#: panels/network/net-device-wifi.c:233 panels/network/net-device-wifi.c:383
-#: panels/network/connection-editor/ce-page-details.c:68
+#: panels/network/net-device-wifi.c:250 panels/network/net-device-wifi.c:400
+#: panels/network/connection-editor/ce-page-details.c:76
 msgctxt "Wifi security"
 msgid "None"
 msgstr "なし"
 
-#: panels/network/net-device-wifi.c:578
-#: panels/network/connection-editor/ce-page-details.c:179
+#: panels/network/net-device-wifi.c:595
+#: panels/network/connection-editor/ce-page-details.c:187
 msgctxt "Signal strength"
 msgid "None"
 msgstr "圏外"
 
-#: panels/network/net-device-wifi.c:580
-#: panels/network/connection-editor/ce-page-details.c:181
+#: panels/network/net-device-wifi.c:597
+#: panels/network/connection-editor/ce-page-details.c:189
 msgctxt "Signal strength"
 msgid "Weak"
 msgstr "弱い"
 
-#: panels/network/net-device-wifi.c:582
-#: panels/network/connection-editor/ce-page-details.c:183
+#: panels/network/net-device-wifi.c:599
+#: panels/network/connection-editor/ce-page-details.c:191
 msgctxt "Signal strength"
 msgid "Ok"
 msgstr "普通"
 
-#: panels/network/net-device-wifi.c:584
-#: panels/network/connection-editor/ce-page-details.c:185
+#: panels/network/net-device-wifi.c:601
+#: panels/network/connection-editor/ce-page-details.c:193
 msgctxt "Signal strength"
 msgid "Good"
 msgstr "良い"
 
-#: panels/network/net-device-wifi.c:586
-#: panels/network/connection-editor/ce-page-details.c:187
+#: panels/network/net-device-wifi.c:603
+#: panels/network/connection-editor/ce-page-details.c:195
 msgctxt "Signal strength"
 msgid "Excellent"
 msgstr "最高"
 
-#: panels/network/net-device-wifi.c:1260
+#: panels/network/net-device-wifi.c:1356
 msgid ""
 "If you have a connection to the Internet other than wireless, you can set up "
 "a wireless hotspot to share the connection with others."
@@ -561,65 +511,65 @@ msgstr ""
 "無線以外のインターネット接続がある場合は、 無線アクセスポイントを設定し、他の"
 "人とインターネット接続を共有することができます。"
 
-#: panels/network/net-device-wifi.c:1264
+#: panels/network/net-device-wifi.c:1360
 #, c-format
 msgid "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
 msgstr "無線アクセスポイントをオンにすると <b>%s</b> の接続が切断されます。"
 
-#: panels/network/net-device-wifi.c:1268
+#: panels/network/net-device-wifi.c:1364
 msgid ""
 "It is not possible to access the Internet through your wireless while the "
 "hotspot is active."
 msgstr ""
 "アクセスポイントが有効な場合、無線によるインターネット接続はできません。"
 
-#: panels/network/net-device-wifi.c:1350
+#: panels/network/net-device-wifi.c:1446
 msgid "Stop hotspot and disconnect any users?"
 msgstr "アクセスポイントを停止し、ユーザーを切断させますか？"
 
-#: panels/network/net-device-wifi.c:1352 panels/network/net-device-wifi.c:1592
+#: panels/network/net-device-wifi.c:1448 panels/network/net-device-wifi.c:1688
 #: panels/network/connection-editor/vpn-helpers.c:181
 #: panels/network/connection-editor/vpn-helpers.c:310
-#: panels/common/language-chooser.ui.h:2 panels/network/network-wifi.ui.h:1
+#: panels/network/network-wifi.ui.h:1
 #: panels/network/connection-editor/connection-editor.ui.h:1
 msgid "_Cancel"
 msgstr "キャンセル (_C)"
 
-#: panels/network/net-device-wifi.c:1353
+#: panels/network/net-device-wifi.c:1449
 msgid "_Stop Hotspot"
 msgstr "アクセスポイントを停止 (_S)"
 
-#: panels/network/net-device-wifi.c:1454
+#: panels/network/net-device-wifi.c:1550
 msgid "System policy prohibits use as a Hotspot"
 msgstr ""
 "システムのポリシーによって、アクセスポイントとしての使用が禁止されています"
 
-#: panels/network/net-device-wifi.c:1457
+#: panels/network/net-device-wifi.c:1553
 msgid "Wireless device does not support Hotspot mode"
 msgstr "無線デバイスが、アクセスポイントモードをサポートしていません"
 
-#: panels/network/net-device-wifi.c:1589
+#: panels/network/net-device-wifi.c:1685
 msgid ""
 "Network details for the selected networks, including passwords and any "
 "custom configuration will be lost."
 msgstr "選択したネットワークのパスワードや、その他の設定がすべて失われます。"
 
-#: panels/network/net-device-wifi.c:1593 panels/network/network-wifi.ui.h:43
+#: panels/network/net-device-wifi.c:1689 panels/network/network-wifi.ui.h:43
 #: panels/network/connection-editor/reset-page.ui.h:2
 msgid "_Forget"
 msgstr "破棄 (_F)"
 
-#: panels/network/net-device-wifi.c:1899
+#: panels/network/net-device-wifi.c:1997
 msgid "History"
 msgstr "履歴"
 
-#: panels/network/net-device-wifi.c:1903 panels/wacom/cc-wacom-page.c:467
+#: panels/network/net-device-wifi.c:2001 panels/wacom/cc-wacom-page.c:467
 #: panels/wacom/button-mapping.ui.h:2
 msgid "_Close"
 msgstr "閉じる (_C)"
 
 #. translators: This is the label for the "Forget wireless network" functionality
-#: panels/network/net-device-wifi.c:1911
+#: panels/network/net-device-wifi.c:2009
 msgctxt "Wi-Fi Network"
 msgid "_Forget"
 msgstr "破棄 (_F)"
@@ -930,15 +880,6 @@ msgstr "ファームウェア未検出"
 msgid "Cable unplugged"
 msgstr "ケーブル未接続"
 
-#: panels/region/cinnamon-region-panel-xkblt.c:208
-msgid "Layout"
-msgstr "レイアウト"
-
-#: panels/region/cinnamon-region-panel-xkbot.c:227
-#: panels/wacom/wacom-stylus-page.ui.h:1
-msgid "Default"
-msgstr "既定"
-
 #: panels/wacom/cc-wacom-button-row.c:248
 #, c-format
 msgid "Button %d"
@@ -984,7 +925,7 @@ msgid "New shortcut…"
 msgstr "新しいショートカット…"
 
 #: panels/network/connection-editor/ce-page-8021x-security.c:101
-#: panels/network/connection-editor/ce-page-security.c:459
+#: panels/network/connection-editor/ce-page-security.c:500
 #: panels/network/network-wifi.ui.h:6
 #: panels/network/connection-editor/details-page.ui.h:3
 msgid "Security"
@@ -999,19 +940,19 @@ msgstr "自動"
 msgid "Profile %d"
 msgstr "プロファイル %d"
 
-#: panels/network/connection-editor/ce-page-details.c:89
+#: panels/network/connection-editor/ce-page-details.c:97
 msgid "Never"
 msgstr "未使用"
 
-#: panels/network/connection-editor/ce-page-details.c:100
+#: panels/network/connection-editor/ce-page-details.c:108
 msgid "Today"
 msgstr "今日"
 
-#: panels/network/connection-editor/ce-page-details.c:102
+#: panels/network/connection-editor/ce-page-details.c:110
 msgid "Yesterday"
 msgstr "昨日"
 
-#: panels/network/connection-editor/ce-page-details.c:225
+#: panels/network/connection-editor/ce-page-details.c:233
 #: panels/network/network-wifi.ui.h:47
 msgid "Details"
 msgstr "詳細"
@@ -1122,35 +1063,39 @@ msgstr "IPv6"
 msgid "Reset"
 msgstr "初期化"
 
-#: panels/network/connection-editor/ce-page-security.c:248
+#: panels/network/connection-editor/ce-page-security.c:263
 msgctxt "Wi-Fi/Ethernet security"
 msgid "None"
 msgstr "なし"
 
-#: panels/network/connection-editor/ce-page-security.c:271
+#: panels/network/connection-editor/ce-page-security.c:286
 msgid "WEP 40/128-bit Key (Hex or ASCII)"
 msgstr "WEP 40/128-bit キー (16 進または ASCII)"
 
-#: panels/network/connection-editor/ce-page-security.c:281
+#: panels/network/connection-editor/ce-page-security.c:296
 msgid "WEP 128-bit Passphrase"
 msgstr "WEP 128-bit パスフレーズ"
 
-#: panels/network/connection-editor/ce-page-security.c:294
+#: panels/network/connection-editor/ce-page-security.c:309
 #: panels/network/wireless-security/wireless-security.c:463
 msgid "LEAP"
 msgstr "LEAP"
 
-#: panels/network/connection-editor/ce-page-security.c:307
+#: panels/network/connection-editor/ce-page-security.c:322
 msgid "Dynamic WEP (802.1x)"
 msgstr "ダイナミック WEP (802.1x)"
 
-#: panels/network/connection-editor/ce-page-security.c:321
+#: panels/network/connection-editor/ce-page-security.c:336
 msgid "WPA & WPA2 Personal"
 msgstr "WPA & WPA2 パーソナル"
 
-#: panels/network/connection-editor/ce-page-security.c:335
+#: panels/network/connection-editor/ce-page-security.c:350
 msgid "WPA & WPA2 Enterprise"
 msgstr "WPA & WPA2 エンタープライズ"
+
+#: panels/network/connection-editor/ce-page-security.c:363
+msgid "WPA3 Personal"
+msgstr "WPA3 パーソナル"
 
 #: panels/network/connection-editor/firewall-helpers.c:49
 #: panels/network/connection-editor/firewall-helpers.c:118
@@ -1517,11 +1462,11 @@ msgstr ""
 "'%s --help' を実行すると、利用できるコマンドラインのオプションをすべて表示し"
 "ます。\n"
 
-#: shell/control-center.c:222
+#: shell/control-center.c:218
 msgid "Help"
 msgstr "ヘルプ"
 
-#: shell/control-center.c:223
+#: shell/control-center.c:219
 msgid "Quit"
 msgstr "終了"
 
@@ -1590,14 +1535,6 @@ msgid ""
 "Image files can be dragged on this window to auto-complete the above fields."
 msgstr ""
 "このウィンドウにイメージファイルをドラッグすると、上の欄を自動補完できます。"
-
-#: panels/common/language-chooser.ui.h:1
-msgid "Select a language"
-msgstr "言語を選択してください"
-
-#: panels/common/language-chooser.ui.h:3
-msgid "_Select"
-msgstr "選択 (_S)"
 
 #: panels/display/cc-display-panel.ui.h:1
 msgid "Display Arrangement"
@@ -1800,6 +1737,7 @@ msgstr "セキュリティ (_E)"
 #: panels/network/wireless-security/eap-method-leap.ui.h:2
 #: panels/network/wireless-security/eap-method-simple.ui.h:2
 #: panels/network/wireless-security/ws-leap.ui.h:2
+#: panels/network/wireless-security/ws-sae.ui.h:1
 #: panels/network/wireless-security/ws-wpa-psk.ui.h:1
 msgid "_Password"
 msgstr "パスワード (_P)"
@@ -1975,102 +1913,6 @@ msgstr "セキュリティの種類"
 msgid "Password"
 msgstr "パスワード"
 
-#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:1
-msgid "Choose a Layout"
-msgstr "レイアウトを選択"
-
-#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:2
-msgid "Preview"
-msgstr "プレビュー"
-
-#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:3
-msgid "Select an input source to add"
-msgstr "追加する入力ソースを選択してください"
-
-#: panels/region/cinnamon-region-panel-options-dialog.ui.h:1
-msgid "Keyboard Layout Options"
-msgstr "キーボードレイアウトのオプション"
-
-#: panels/region/cinnamon-region-panel.ui.h:1
-msgid "Region and Language"
-msgstr "地域と言語"
-
-#: panels/region/cinnamon-region-panel.ui.h:2
-msgid "Add Layout"
-msgstr "レイアウトを追加"
-
-#: panels/region/cinnamon-region-panel.ui.h:3
-msgid "Remove Layout"
-msgstr "レイアウトを削除"
-
-#: panels/region/cinnamon-region-panel.ui.h:4
-msgid "Move Up"
-msgstr "上へ移動"
-
-#: panels/region/cinnamon-region-panel.ui.h:5
-msgid "Move Down"
-msgstr "下へ移動"
-
-#: panels/region/cinnamon-region-panel.ui.h:6
-msgid "Preview Layout"
-msgstr "レイアウトのプレビュー"
-
-#: panels/region/cinnamon-region-panel.ui.h:7
-msgid "Include less-common layouts in the selection list"
-msgstr "選択肢の一覧に、あまり一般的ではないレイアウトも含める"
-
-#: panels/region/cinnamon-region-panel.ui.h:8
-msgid "Use the same layout for all windows"
-msgstr "すべてのウィンドウで同じレイアウトを使用"
-
-#: panels/region/cinnamon-region-panel.ui.h:9
-msgid "Allow different layouts for individual windows"
-msgstr "ウィンドウごとに異なるレイアウトを使用"
-
-#: panels/region/cinnamon-region-panel.ui.h:10
-msgid "New windows use the default layout"
-msgstr "新しいウィンドウには、既定のレイアウトを使用"
-
-#: panels/region/cinnamon-region-panel.ui.h:11
-msgid "New windows use the previous window's layout"
-msgstr "新しいウィンドウには、以前のウィンドウのレイアウトを使用"
-
-#: panels/region/cinnamon-region-panel.ui.h:12
-msgid "Display options"
-msgstr "表示の設定"
-
-#: panels/region/cinnamon-region-panel.ui.h:13
-msgid "Use a country flag, if available,  to represent keyboard layouts"
-msgstr "キーボードレイアウトに対応する国旗があれば表示"
-
-#: panels/region/cinnamon-region-panel.ui.h:14
-msgid ""
-"Show the layout name instead of the group name when using text to represent "
-"a layout"
-msgstr "レイアウトを文字で表現するとき、グループ名ではなくレイアウト名を表示"
-
-#: panels/region/cinnamon-region-panel.ui.h:15
-msgid "Prefer upper-case when using text to represent a layout"
-msgstr "レイアウトを文字で表現するとき、大文字アルファベットを優先して使用"
-
-#: panels/region/cinnamon-region-panel.ui.h:16
-msgid "_Options..."
-msgstr "オプション (_O)..."
-
-#: panels/region/cinnamon-region-panel.ui.h:17
-msgid "View and edit keyboard layout options"
-msgstr "キーボードレイアウトのオプションを表示・編集します"
-
-#: panels/region/cinnamon-region-panel.ui.h:18
-msgid "Reset to De_faults"
-msgstr "既定値に戻す (_F)"
-
-#: panels/region/cinnamon-region-panel.ui.h:19
-msgid ""
-"Replace the current keyboard layout settings with the\n"
-"default settings"
-msgstr "現在のキーボードレイアウトの設定を、既定のものに置き換えます"
-
 #: panels/wacom/button-mapping.ui.h:1
 msgid "Map Buttons"
 msgstr "ボタンの割り当て"
@@ -2089,60 +1931,64 @@ msgstr ""
 "か、バックスペースを押して設定を解除します。"
 
 #: panels/wacom/cinnamon-wacom-properties.ui.h:1
-msgid "No tablet detected"
-msgstr "タブレットが検出されませんでした"
-
-#: panels/wacom/cinnamon-wacom-properties.ui.h:2
-msgid "Please plug in or turn on your Wacom tablet"
-msgstr "Wacom タブレットを接続するか、電源を入れてください"
-
-#: panels/wacom/cinnamon-wacom-properties.ui.h:3
-msgid "Bluetooth Settings"
-msgstr "Bluetooth の設定"
-
-#: panels/wacom/cinnamon-wacom-properties.ui.h:4
-msgid "Wacom Tablet"
-msgstr "Wacom タブレット"
-
-#: panels/wacom/cinnamon-wacom-properties.ui.h:5
-msgid "Tracking Mode"
-msgstr "追跡モード"
-
-#: panels/wacom/cinnamon-wacom-properties.ui.h:6
-msgid "Left-Handed Orientation"
-msgstr "左手用"
-
-#: panels/wacom/cinnamon-wacom-properties.ui.h:7
-msgid "Map to Monitor…"
-msgstr "モニターに割り当て…"
-
-#: panels/wacom/cinnamon-wacom-properties.ui.h:8
-msgid "Map Buttons…"
-msgstr "ボタンを割り当て…"
-
-#: panels/wacom/cinnamon-wacom-properties.ui.h:9
-msgid "Calibrate…"
-msgstr "較正…"
-
-#: panels/wacom/cinnamon-wacom-properties.ui.h:10
-msgid "Adjust mouse settings"
-msgstr "マウスの設定を調整"
-
-#: panels/wacom/cinnamon-wacom-properties.ui.h:11
-msgid "Adjust display resolution"
-msgstr "ディスプレイの解像度を調整"
-
-#: panels/wacom/cinnamon-wacom-properties.ui.h:12
-msgid "Decouple Display"
-msgstr "ディスプレイを分断"
-
-#: panels/wacom/cinnamon-wacom-properties.ui.h:13
 msgid "Tablet (absolute)"
 msgstr "タブレット (絶対座標)"
 
-#: panels/wacom/cinnamon-wacom-properties.ui.h:14
+#: panels/wacom/cinnamon-wacom-properties.ui.h:2
 msgid "Touchpad (relative)"
 msgstr "タッチパッド (相対座標)"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:3
+msgid "No tablet detected"
+msgstr "タブレットが検出されませんでした"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:4
+msgid "Please plug in or turn on your Wacom tablet"
+msgstr "Wacom タブレットを接続するか、電源を入れてください"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:5
+msgid "Bluetooth Settings"
+msgstr "Bluetooth の設定"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:6
+msgid "Wacom Tablet"
+msgstr "Wacom タブレット"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:7
+msgid "Tracking Mode"
+msgstr "追跡モード"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:8
+msgid "Left-Handed Orientation"
+msgstr "左手用"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:9
+msgid "Map to Monitor…"
+msgstr "モニターに割り当て…"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:10
+msgid "Map Buttons…"
+msgstr "ボタンを割り当て…"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:11
+msgid "Calibrate…"
+msgstr "較正…"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:12
+msgid "Adjust mouse settings"
+msgstr "マウスの設定を調整"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:13
+msgid "Adjust display resolution"
+msgstr "ディスプレイの解像度を調整"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:14
+msgid "Decouple Display"
+msgstr "ディスプレイを分断"
+
+#: panels/wacom/wacom-stylus-page.ui.h:1
+msgid "Default"
+msgstr "既定"
 
 #: panels/wacom/wacom-stylus-page.ui.h:2
 msgid "Middle Mouse Button Click"
@@ -2374,6 +2220,7 @@ msgstr "ユーザー名 (_U)"
 #: panels/network/wireless-security/eap-method-simple.ui.h:3
 #: panels/network/wireless-security/eap-method-tls.ui.h:7
 #: panels/network/wireless-security/ws-leap.ui.h:3
+#: panels/network/wireless-security/ws-sae.ui.h:2
 #: panels/network/wireless-security/ws-wpa-psk.ui.h:3
 msgid "Sho_w password"
 msgstr "パスワードを表示 (_W)"
