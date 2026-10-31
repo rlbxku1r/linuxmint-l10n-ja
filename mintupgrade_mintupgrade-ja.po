@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2025-09-13 17:09+0100\n"
-"PO-Revision-Date: 2025-12-13 17:46+0900\n"
+"PO-Revision-Date: 2026-11-01 06:03+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "Language: ja\n"
@@ -355,7 +355,7 @@ msgstr "下記の情報は、問題を解決する手がかりになるかもし
 #: usr/lib/linuxmint/mintupgrade/checks.py:695
 #: usr/lib/linuxmint/mintupgrade/checks.py:707
 msgid "Kept packages"
-msgstr "保持されるパッケージ"
+msgstr "維持されるパッケージ"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:696
 #: usr/lib/linuxmint/mintupgrade/checks.py:711
@@ -371,7 +371,7 @@ msgstr "追加されるパッケージ"
 #: usr/lib/linuxmint/mintupgrade/checks.py:706
 #, python-format
 msgid "Packages updated: %d, added: %d , kept: %d, deleted: %d"
-msgstr "パッケージの更新: %d、追加: %d、保持: %d、削除: %d"
+msgstr "パッケージの更新: %d、追加: %d、維持: %d、削除: %d"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:701
 msgid "Upgrading will perform the following changes."
@@ -381,7 +381,7 @@ msgstr "アップグレードすると、これらの変更が行われます。
 msgid ""
 "Note: Ideally, no packages should be kept. This might indicate an issue."
 msgstr ""
-"注: できればパッケージを保持させないでください。これは問題を示している可能性"
+"注: できればパッケージを維持させないでください。これは問題を示している可能性"
 "があります。"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:713
@@ -448,7 +448,7 @@ msgstr "アップグレード中に問題が検出されました。"
 #, python-format
 msgid "%d packages still need to be updated (%d kept, %d deleted)"
 msgstr ""
-"まだ %d 個のパッケージを更新する必要があります (%d 個を保持、%d 個を削除済み)"
+"まだ %d 個のパッケージを更新する必要があります (%d 個を維持、%d 個を削除済み)"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:927
 msgid "Final phase"
