@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2026-10-26 13:35+0000\n"
-"PO-Revision-Date: 2026-11-01 06:02+0900\n"
+"PO-Revision-Date: 2026-11-01 14:54+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "Language: ja\n"
@@ -420,11 +420,11 @@ msgstr "ソフトウェア (s2idle)"
 
 #: usr/lib/linuxmint/mintsysadm/page_sleep_modes.py:131
 msgid "Suspend-to-RAM (S3)"
-msgstr "メモリ (ACPI S3)"
+msgstr "RAM (ACPI S3)"
 
 #: usr/lib/linuxmint/mintsysadm/page_sleep_modes.py:132
 msgid "Shallow (S1)"
-msgstr "スタンバイ (ACPI S1)"
+msgstr "シャロウ (ACPI S1)"
 
 #: usr/lib/linuxmint/mintsysadm/page_sleep_modes.py:146
 msgid "Platform (the firmware powers off)"
