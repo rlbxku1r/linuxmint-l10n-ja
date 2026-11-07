@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2026-11-05 15:38+0000\n"
-"PO-Revision-Date: 2026-11-08 00:08+0900\n"
+"PO-Revision-Date: 2026-11-08 00:14+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "Language: ja\n"
@@ -61,7 +61,7 @@ msgstr "無色"
 
 #: velocitty/customize.py:49 velocitty/custom_tabs_page.py:87
 msgid "Startup Tab"
-msgstr "起動時のタブ"
+msgstr "起動時にタブを開く"
 
 #: velocitty/customize.py:50 velocitty/custom_tabs_page.py:85
 msgid "Opens when the terminal launches"
