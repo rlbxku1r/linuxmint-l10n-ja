@@ -7,21 +7,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2026-10-26 14:46+0000\n"
-"PO-Revision-Date: 2026-10-27 21:14+0900\n"
+"POT-Creation-Date: 2026-11-05 15:38+0000\n"
+"PO-Revision-Date: 2026-11-08 00:08+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2026-10-27 11:52+0000\n"
+"X-Launchpad-Export-Date: 2026-11-07 15:00+0000\n"
 "X-Generator: Poedit 3.6\n"
 
 #: data/org.x.velocitty.desktop.in:2 velocitty/application.py:274
-#: velocitty/shortcuts.py:26 velocitty/tab.py:53 velocitty/tab.py:56
-#: velocitty/tab.py:349 velocitty/window.py:49 velocitty/window.py:68
-#: velocitty/window.py:128 velocitty/window.py:174
+#: velocitty/shortcuts.py:26 velocitty/tab.py:61 velocitty/tab.py:64
+#: velocitty/tab.py:391 velocitty/window.py:49 velocitty/window.py:68
+#: velocitty/window.py:128 velocitty/window.py:175
 msgid "Terminal"
 msgstr "端末"
 
@@ -38,12 +38,12 @@ msgid "terminal;command;prompt;shell;console;ssh;"
 msgstr "terminal;command;prompt;shell;console;ssh;ターミナル;端末;コマンド;プロンプト;シェル;コンソール;"
 
 #: data/org.x.velocitty.desktop.in:18 velocitty/shortcuts.py:15
-#: velocitty/tab.py:455 velocitty/window.py:95
+#: velocitty/tab.py:495 velocitty/window.py:95
 msgid "New Window"
 msgstr "新しいウィンドウ"
 
 #: data/org.x.velocitty.desktop.in:22 velocitty/shortcuts.py:14
-#: velocitty/tab.py:454 velocitty/window.py:70 velocitty/window.py:94
+#: velocitty/tab.py:494 velocitty/window.py:70 velocitty/window.py:94
 msgid "New Tab"
 msgstr "新しいタブ"
 
@@ -76,7 +76,7 @@ msgid "Open"
 msgstr "開く"
 
 #: velocitty/custom_tabs_page.py:32 velocitty/custom_tabs_page.py:131
-#: velocitty/shortcuts.py:29 velocitty/tab.py:463
+#: velocitty/shortcuts.py:29 velocitty/tab.py:503
 msgid "Select All"
 msgstr "すべて選択"
 
@@ -149,184 +149,197 @@ msgstr "新しいタブで開く"
 msgid "In a Window"
 msgstr "新しいウィンドウで開く"
 
-#: velocitty/preferences.py:124 velocitty/shortcuts.py:36
-msgid "Tabs"
-msgstr "タブ"
-
-#: velocitty/preferences.py:125 velocitty/preferences.py:166
+#: velocitty/preferences.py:122 velocitty/preferences.py:128
+#: velocitty/preferences.py:171
 msgid "Shorten Paths"
 msgstr "パスの短縮表記"
 
-#: velocitty/preferences.py:126 velocitty/preferences.py:167
+#: velocitty/preferences.py:123 velocitty/preferences.py:129
+#: velocitty/preferences.py:172
 msgid "Don't Shorten"
 msgstr "短縮しない"
 
-#: velocitty/preferences.py:126 velocitty/preferences.py:167
+#: velocitty/preferences.py:123 velocitty/preferences.py:129
+#: velocitty/preferences.py:172
 msgid "Last Folder"
 msgstr "最後のフォルダーのみを表記"
 
-#: velocitty/preferences.py:126 velocitty/preferences.py:167
+#: velocitty/preferences.py:123 velocitty/preferences.py:129
+#: velocitty/preferences.py:172
 msgid "Last Two Folders"
 msgstr "最後 2 つのフォルダーのみを表記"
 
-#: velocitty/preferences.py:127 velocitty/preferences.py:168
+#: velocitty/preferences.py:124 velocitty/preferences.py:130
+#: velocitty/preferences.py:173
 msgid "Last Three Folders"
 msgstr "最後 3 つのフォルダーのみを表記"
 
-#: velocitty/preferences.py:128
+#: velocitty/preferences.py:127 velocitty/shortcuts.py:36
+msgid "Tabs"
+msgstr "タブ"
+
+#: velocitty/preferences.py:131
 msgid "Highlight Running Commands"
 msgstr "実行中のコマンドを強調表示"
 
-#: velocitty/preferences.py:129
+#: velocitty/preferences.py:132
 msgid "Color the tab and the headerbar while a command is running"
 msgstr "コマンドの実行中にタブとタイトルバーを着色します"
 
-#: velocitty/preferences.py:130
+#: velocitty/preferences.py:133
+msgid "Highlight Remote and Admin Sessions"
+msgstr "リモートと管理権限セッションを強調表示"
+
+#: velocitty/preferences.py:134
+msgid "Color the tab and the headerbar for remote and admin sessions"
+msgstr "リモートと管理権限セッションのタブとタイトルバーを着色します"
+
+#: velocitty/preferences.py:135
 msgid "Visual Bell"
 msgstr "ベルの視覚表現"
 
-#: velocitty/preferences.py:131
+#: velocitty/preferences.py:136
 msgid "Flash the headerbar when a program rings the bell"
 msgstr "プログラムがベルを鳴らしたとき、タイトルバーを点滅させます"
 
-#: velocitty/preferences.py:135 velocitty/preferences.py:136
+#: velocitty/preferences.py:140 velocitty/preferences.py:141
 msgid "Scrolling"
 msgstr "スクロール"
 
-#: velocitty/preferences.py:137
+#: velocitty/preferences.py:142
 msgid "Scrollbars"
 msgstr "スクロールバー"
 
-#: velocitty/preferences.py:138
+#: velocitty/preferences.py:143
 msgid "Use System Scrollbars"
 msgstr "システムのスクロールバーを使用"
 
-#: velocitty/preferences.py:138
+#: velocitty/preferences.py:143
 msgid "Always Visible"
 msgstr "常に表示"
 
-#: velocitty/preferences.py:138
+#: velocitty/preferences.py:143
 msgid "Hidden"
 msgstr "表示しない"
 
-#: velocitty/preferences.py:139
+#: velocitty/preferences.py:144
 msgid "Scroll to the bottom when you press a key"
 msgstr "キーを押したときに下へスクロール"
 
-#: velocitty/preferences.py:140
+#: velocitty/preferences.py:145
 msgid "Scroll to the bottom when new output is printed"
 msgstr "新しい出力の表示時に下へスクロール"
 
-#: velocitty/preferences.py:141
+#: velocitty/preferences.py:146
 msgid "Limit the number of printed lines"
 msgstr "表示する行数を制限"
 
-#: velocitty/preferences.py:143
+#: velocitty/preferences.py:148
 msgid "Lines"
 msgstr "行数"
 
-#: velocitty/preferences.py:148 velocitty/preferences.py:149
-#: velocitty/preferences.py:154
+#: velocitty/preferences.py:153 velocitty/preferences.py:154
+#: velocitty/preferences.py:159
 msgid "Shell"
 msgstr "シェル"
 
-#: velocitty/preferences.py:150
+#: velocitty/preferences.py:155
 msgid "System Default"
 msgstr "システムの既定"
 
-#: velocitty/preferences.py:156
+#: velocitty/preferences.py:161
 msgid "Startup Command"
 msgstr "起動時のコマンド"
 
-#: velocitty/preferences.py:157
+#: velocitty/preferences.py:162
 msgid "Command to run at start"
 msgstr "起動時に実行するコマンドです"
 
-#: velocitty/preferences.py:161
+#: velocitty/preferences.py:166
 msgid "Prompt"
 msgstr "プロンプト"
 
-#: velocitty/preferences.py:162
+#: velocitty/preferences.py:167
 msgid "Cursor Shape"
 msgstr "カーソルの形状"
 
-#: velocitty/preferences.py:163
+#: velocitty/preferences.py:168
 msgid "Block"
 msgstr "箱形"
 
-#: velocitty/preferences.py:163
+#: velocitty/preferences.py:168
 msgid "I-Beam"
 msgstr "縦線"
 
-#: velocitty/preferences.py:163
+#: velocitty/preferences.py:168
 msgid "Underline"
 msgstr "下線"
 
-#: velocitty/preferences.py:164
+#: velocitty/preferences.py:169
 msgid "Cursor Blinking"
 msgstr "カーソルの点滅"
 
-#: velocitty/preferences.py:165
+#: velocitty/preferences.py:170
 msgid "Follow System"
 msgstr "システムに従う"
 
-#: velocitty/preferences.py:165
+#: velocitty/preferences.py:170
 msgid "Enabled"
 msgstr "有効"
 
-#: velocitty/preferences.py:165
+#: velocitty/preferences.py:170
 msgid "Disabled"
 msgstr "無効"
 
-#: velocitty/preferences.py:169
+#: velocitty/preferences.py:174
 msgid "Only in new tabs"
 msgstr "新しく開いたタブから適用されます"
 
-#: velocitty/preferences.py:177
+#: velocitty/preferences.py:182
 msgid "Use System _Font"
 msgstr "システムのフォントを使用 (_F)"
 
-#: velocitty/preferences.py:190
+#: velocitty/preferences.py:195
 msgid "Font"
 msgstr "フォント"
 
-#: velocitty/preferences.py:197
+#: velocitty/preferences.py:202
 msgid "Select Font"
 msgstr "フォントを選択"
 
-#: velocitty/searchbar.py:28
+#: velocitty/searchbar.py:26
 msgid "Search"
 msgstr "検索"
 
-#: velocitty/searchbar.py:29
+#: velocitty/searchbar.py:27
 msgid "Previous Match"
 msgstr "前の一致"
 
-#: velocitty/searchbar.py:30
+#: velocitty/searchbar.py:28
 msgid "Next Match"
 msgstr "次の一致"
 
-#: velocitty/searchbar.py:40
+#: velocitty/searchbar.py:38
 msgid "Case Sensitive"
 msgstr "大文字と小文字を区別"
 
-#: velocitty/searchbar.py:41
+#: velocitty/searchbar.py:39
 msgid "Whole Word"
 msgstr "単語単位"
 
-#: velocitty/searchbar.py:42
+#: velocitty/searchbar.py:40
 msgid "Wrap Around"
 msgstr "折り返す"
 
-#: velocitty/searchbar.py:43
+#: velocitty/searchbar.py:41
 msgid "Regular Expression"
 msgstr "正規表現"
 
-#: velocitty/searchbar.py:45
+#: velocitty/searchbar.py:43
 msgid "Search Options"
 msgstr "検索のオプション"
 
-#: velocitty/searchbar.py:50
+#: velocitty/searchbar.py:48
 msgid "Close"
 msgstr "閉じる"
 
@@ -366,11 +379,11 @@ msgstr "キーボードショートカット"
 msgid "Quit"
 msgstr "終了"
 
-#: velocitty/shortcuts.py:27 velocitty/tab.py:458
+#: velocitty/shortcuts.py:27 velocitty/tab.py:498
 msgid "Copy"
 msgstr "コピー"
 
-#: velocitty/shortcuts.py:28 velocitty/tab.py:460
+#: velocitty/shortcuts.py:28 velocitty/tab.py:500
 msgid "Paste"
 msgstr "貼り付け"
 
@@ -382,15 +395,15 @@ msgstr "検索"
 msgid "Context Menu"
 msgstr "コンテキストメニュー"
 
-#: velocitty/shortcuts.py:32 velocitty/window.py:420
+#: velocitty/shortcuts.py:32 velocitty/window.py:432
 msgid "Zoom In"
 msgstr "拡大"
 
-#: velocitty/shortcuts.py:33 velocitty/window.py:418
+#: velocitty/shortcuts.py:33 velocitty/window.py:430
 msgid "Zoom Out"
 msgstr "縮小"
 
-#: velocitty/shortcuts.py:34 velocitty/window.py:422
+#: velocitty/shortcuts.py:34 velocitty/window.py:434
 msgid "Reset Zoom"
 msgstr "等倍"
 
@@ -454,11 +467,15 @@ msgstr "タブ 9 に切り替え"
 msgid "Switch to Tab 10"
 msgstr "タブ 10 に切り替え"
 
-#: velocitty/tab.py:459
+#: velocitty/tab.py:491
+msgid "Open Link"
+msgstr "リンクを開く"
+
+#: velocitty/tab.py:499
 msgid "Copy Last Output"
 msgstr "最後の出力をコピー"
 
-#: velocitty/tab.py:464
+#: velocitty/tab.py:504
 msgid "Find…"
 msgstr "検索…"
 
@@ -470,34 +487,34 @@ msgstr "全画面表示を終了"
 msgid "About"
 msgstr "このアプリケーションについて"
 
-#: velocitty/window.py:232
+#: velocitty/window.py:244
 msgid "Close Tab?"
 msgstr "タブを閉じますか？"
 
-#: velocitty/window.py:246
+#: velocitty/window.py:258
 msgid "Some processes are still running."
 msgstr "まだいくつかのプロセスが実行中です。"
 
-#: velocitty/window.py:247
+#: velocitty/window.py:259
 msgid "_Cancel"
 msgstr "キャンセル (_C)"
 
-#: velocitty/window.py:248
+#: velocitty/window.py:260
 msgid "_Close"
 msgstr "閉じる (_C)"
 
-#: velocitty/window.py:392
+#: velocitty/window.py:404
 msgid "Follow System Style"
 msgstr "システムのスタイルに従う"
 
-#: velocitty/window.py:393
+#: velocitty/window.py:405
 msgid "Light Style"
 msgstr "ライト"
 
-#: velocitty/window.py:394
+#: velocitty/window.py:406
 msgid "Dark Style"
 msgstr "ダーク"
 
-#: velocitty/window.py:598
+#: velocitty/window.py:610
 msgid "Close Window?"
 msgstr "ウィンドウを閉じますか？"
