@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2025-11-21 13:15+0000\n"
-"PO-Revision-Date: 2025-12-13 16:25+0900\n"
+"PO-Revision-Date: 2026-11-10 22:11+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "Language: ja\n"
@@ -125,7 +125,7 @@ msgstr "初期化しています、お待ちください..."
 
 #: resources/main-window.ui:1125
 msgid "Something went wrong"
-msgstr "問題が発生しました"
+msgstr "何らかの問題が発生しました"
 
 #: resources/main-window.ui:1200
 msgid "Invalid save location"

@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
 "japanese\n"
 "POT-Creation-Date: 2025-07-28 13:01+0200\n"
-"PO-Revision-Date: 2025-12-13 17:38+0900\n"
+"PO-Revision-Date: 2026-11-10 22:11+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
@@ -426,7 +426,7 @@ msgstr "再試行"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:3072
 msgid "Something went wrong. Click to try again."
-msgstr "何か問題が発生しました。クリックで再試行します。"
+msgstr "何らかの問題が発生しました。クリックで再試行します。"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:3098
 #, python-format
