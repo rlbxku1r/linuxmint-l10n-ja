@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2026-10-26 13:35+0000\n"
-"PO-Revision-Date: 2026-11-01 14:54+0900\n"
+"PO-Revision-Date: 2026-11-11 21:31+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "Language: ja\n"
@@ -698,11 +698,11 @@ msgstr "アカウントの詳細"
 
 #: usr/lib/linuxmint/mintsysadm/settings_user.py:100
 msgid "Take a photo..."
-msgstr "写真を撮る..."
+msgstr "写真を撮影..."
 
 #: usr/lib/linuxmint/mintsysadm/settings_user.py:202
 msgid "Take a Picture"
-msgstr "写真を撮る"
+msgstr "写真を撮影"
 
 #: usr/lib/linuxmint/mintsysadm/settings_user.py:205
 msgid "Capture"

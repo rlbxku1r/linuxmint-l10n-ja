@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=pix&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2023-12-12 10:17+0000\n"
-"PO-Revision-Date: 2026-04-19 20:44+0900\n"
+"PO-Revision-Date: 2026-11-11 21:31+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "Language: ja\n"
@@ -4324,7 +4324,7 @@ msgstr "画像が %s として保存されました"
 #: extensions/gstreamer_tools/actions.c:137
 #: extensions/gstreamer_tools/actions.c:148
 msgid "Could not take a screenshot"
-msgstr "スクリーンショットを撮れませんでした"
+msgstr "スクリーンショットを撮影できませんでした"
 
 #: extensions/gstreamer_tools/callbacks.c:32
 msgid "Screenshot"
@@ -4361,7 +4361,7 @@ msgstr "一時停止"
 
 #: extensions/gstreamer_tools/gth-media-viewer-page.c:1127
 msgid "Take a screenshot"
-msgstr "スクリーンショットを撮る"
+msgstr "スクリーンショットを撮影"
 
 #: extensions/gstreamer_tools/main.c:34
 msgid "Audio/Video Player"
