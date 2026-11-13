@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2026-11-13 11:43+0000\n"
-"PO-Revision-Date: 2026-11-13 21:24+0900\n"
+"POT-Creation-Date: 2026-11-13 12:19+0000\n"
+"PO-Revision-Date: 2026-11-14 00:59+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2026-11-13 12:08+0000\n"
+"X-Launchpad-Export-Date: 2026-11-13 15:48+0000\n"
 "X-Generator: Poedit 3.6\n"
 
 #: src/AppConsole.vala:630
@@ -83,7 +83,7 @@ msgstr ""
 msgid "Aborted."
 msgstr "中止しました。"
 
-#: src/Gtk/MainWindow.vala:404
+#: src/Gtk/MainWindow.vala:394
 msgid "About"
 msgstr "このアプリケーションについて"
 
@@ -146,10 +146,6 @@ msgstr ""
 "いては、以前のスナップショットから利用できる場合、それらがハードリンクされま"
 "す。"
 
-#: src/Gtk/ExcludeMessageWindow.vala:129
-msgid "All other files and folders are excluded."
-msgstr "他のすべてのファイルとフォルダーは除外されます。"
-
 #: src/Gtk/RestoreDeviceBox.vala:486
 msgid ""
 "An encrypted device is selected for root file system (/). The boot directory "
@@ -202,11 +198,11 @@ msgstr "アプリケーションを終了します"
 msgid "Application will exit."
 msgstr "アプリケーションを終了します。"
 
-#: src/Gtk/MainWindow.vala:568
+#: src/Gtk/MainWindow.vala:558
 msgid "Are you sure you want to delete this snapshot?"
 msgstr "このスナップショットを削除しますか？"
 
-#: src/Gtk/MainWindow.vala:342
+#: src/Gtk/MainWindow.vala:319
 msgid "Available"
 msgstr "利用可能"
 
@@ -292,7 +288,7 @@ msgstr "ブートローダーオプション"
 msgid "Bootloader Options (Advanced)"
 msgstr "高度なブートローダーオプション"
 
-#: src/Gtk/MainWindow.vala:169
+#: src/Gtk/MainWindow.vala:166
 msgid "Browse"
 msgstr "閲覧"
 
@@ -300,7 +296,7 @@ msgstr "閲覧"
 msgid "Browse Files"
 msgstr "ファイルを閲覧"
 
-#: src/Gtk/MainWindow.vala:170
+#: src/Gtk/MainWindow.vala:167
 msgid "Browse selected snapshot"
 msgstr "選択したスナップショットを閲覧します"
 
@@ -335,7 +331,7 @@ msgstr ""
 "と、システムを整合な状態に戻すため、別のスナップショットを復元する必要があり"
 "ます。それでもよろしければ「はい」をクリックしてください。"
 
-#: src/Gtk/MainWindow.vala:554
+#: src/Gtk/MainWindow.vala:544
 msgid "Cannot Delete Live Snapshot"
 msgstr "ライブスナップショットを削除できません"
 
@@ -456,7 +452,7 @@ msgstr ""
 "復元前のスナップショットを作成するための、システムのサブボリュームが見つかり"
 "ませんでした"
 
-#: src/Gtk/MainWindow.vala:139 src/Gtk/RsyncLogBox.vala:366
+#: src/Gtk/MainWindow.vala:136 src/Gtk/RsyncLogBox.vala:366
 #: src/Gtk/RsyncLogBox.vala:570
 #, c-format
 msgid "Create"
@@ -494,11 +490,11 @@ msgstr "スナップショットを作成します"
 msgid "Create snapshot if scheduled"
 msgstr "定期スナップショットを確認し、必要であれば作成します"
 
-#: src/Gtk/MainWindow.vala:140
+#: src/Gtk/MainWindow.vala:137
 msgid "Create snapshot of current system"
 msgstr "現在のシステムのスナップショットを作成します"
 
-#: src/Gtk/MainWindow.vala:1044
+#: src/Gtk/MainWindow.vala:1024
 msgid ""
 "Create snapshots manually or enable scheduled snapshots to protect your "
 "system"
@@ -595,7 +591,7 @@ msgid "Date Format"
 msgstr "日付の書式"
 
 #: src/Gtk/SnapshotListBox.vala:344 src/Gtk/DeleteWindow.vala:98
-#: src/Gtk/MainWindow.vala:159 src/Gtk/RsyncLogBox.vala:370
+#: src/Gtk/MainWindow.vala:156 src/Gtk/RsyncLogBox.vala:370
 #: src/Gtk/RsyncLogBox.vala:574 src/AppConsole.vala:384
 #, c-format
 msgid "Delete"
@@ -609,7 +605,7 @@ msgstr "スナップショットを削除"
 msgid "Delete all snapshots"
 msgstr "すべてのスナップショットを削除します"
 
-#: src/Gtk/MainWindow.vala:160
+#: src/Gtk/MainWindow.vala:157
 msgid "Delete selected snapshot"
 msgstr "選択したスナップショットを削除します"
 
@@ -718,7 +714,7 @@ msgstr "ディスク"
 msgid "Distribution"
 msgstr "ディストリビューション"
 
-#: src/Gtk/MainWindow.vala:1038
+#: src/Gtk/MainWindow.vala:1018
 msgid "Enable scheduled snapshots to protect your system"
 msgstr "システムを保護するために、定期スナップショットを有効にしてください"
 
@@ -790,10 +786,6 @@ msgstr "アプリケーションの設定を除外"
 msgid "Exclude Apps"
 msgstr "除外するアプリ"
 
-#: src/Gtk/ExcludeMessageWindow.vala:70
-msgid "Exclude List"
-msgstr "除外リスト"
-
 #: src/Gtk/ExcludeListSummaryWindow.vala:49
 msgid "Exclude List Summary"
 msgstr "除外リストの概要"
@@ -801,10 +793,6 @@ msgstr "除外リストの概要"
 #: src/Gtk/ExcludeBox.vala:230
 msgid "Exclude Pattern"
 msgstr "除外パターン"
-
-#: src/Gtk/ExcludeMessageWindow.vala:56
-msgid "Excluded Directories"
-msgstr "除外するディレクトリ"
 
 #: src/Core/Main.vala:1829
 msgid "Expected values: O, B, H, D, W, M"
@@ -958,10 +946,6 @@ msgstr "ファイル (スナップショット)"
 msgid "File (system)"
 msgstr "ファイル (システム)"
 
-#: src/Gtk/ExcludeMessageWindow.vala:97
-msgid "File Pattern"
-msgstr "ファイルのパターン"
-
 #: src/Gtk/BackupBox.vala:83
 msgid "File and directory counts:"
 msgstr "ファイルとディレクトリの数:"
@@ -986,10 +970,6 @@ msgstr "ディスク領域を節約するために、ファイルとディレク
 #: src/Gtk/RestoreBox.vala:119
 msgid "Files and directory counts:"
 msgstr "ファイルとディレクトリの数:"
-
-#: src/Gtk/ExcludeMessageWindow.vala:76
-msgid "Files matching the following patterns will be excluded"
-msgstr "これらのパターンに一致するファイルは除外されます"
 
 #: src/Utility/Device.vala:1986
 #, c-format
@@ -1063,14 +1043,6 @@ msgstr "グループ"
 msgid "Help"
 msgstr "ヘルプ"
 
-#: src/Gtk/ExcludeMessageWindow.vala:128
-msgid ""
-"Hidden files and folders are included by default since they contain user-"
-"specific configuration files."
-msgstr ""
-"隠しファイルとフォルダーにはユーザー固有の設定ファイルが含まれているため、既"
-"定では除外されていません。"
-
 #: src/Gtk/DeleteWindow.vala:181
 msgid "Hide"
 msgstr "隠す"
@@ -1086,10 +1058,6 @@ msgstr "このウィンドウを隠します (ファイルはバックグラウ�
 #: src/Gtk/UsersBox.vala:116
 msgid "Home"
 msgstr "ホーム"
-
-#: src/Gtk/ExcludeMessageWindow.vala:115
-msgid "Home Directory"
-msgstr "ホームディレクトリ"
 
 #: src/Gtk/SnapshotListBox.vala:300 src/Core/Tags.vala:39
 msgid "Hourly"
@@ -1143,7 +1111,7 @@ msgstr "不正なスナップショットです"
 msgid "Invalid command line arguments"
 msgstr "不正なコマンドライン引数です"
 
-#: src/Gtk/MainWindow.vala:828
+#: src/Gtk/MainWindow.vala:818
 msgid "Invalid snapshot"
 msgstr "不正なスナップショットです"
 
@@ -1256,7 +1224,7 @@ msgstr "最新の週次スナップショットは 1 週間以上前です"
 msgid "Last weekly snapshot not found"
 msgstr "最新の週次スナップショットが見つかりませんでした"
 
-#: src/Gtk/MainWindow.vala:1019
+#: src/Gtk/MainWindow.vala:999
 #, c-format
 msgid "Latest snapshot"
 msgstr "最新のスナップショット"
@@ -1278,7 +1246,7 @@ msgstr "デバイスの一覧を表示します"
 msgid "List snapshots"
 msgstr "スナップショットの一覧を表示します"
 
-#: src/Gtk/MainWindow.vala:970
+#: src/Gtk/MainWindow.vala:950
 msgid "Live USB Mode (Restore Only)"
 msgstr "ライブ USB モードです (復元のみが行えます)"
 
@@ -1287,7 +1255,7 @@ msgstr "ライブ USB モードです (復元のみが行えます)"
 msgid "Location"
 msgstr "場所"
 
-#: src/Gtk/MainWindow.vala:450
+#: src/Gtk/MainWindow.vala:440
 msgid "Main window closed by user"
 msgstr "ユーザーによってメインウィンドウが閉じられました"
 
@@ -1299,7 +1267,7 @@ msgstr "削除待ちに指定/解除"
 msgid "Maximum backups exceeded for backup level"
 msgstr "次のバックアップレベルのバックアップ数が上限に達しました"
 
-#: src/Gtk/MainWindow.vala:206
+#: src/Gtk/MainWindow.vala:183
 msgid "Menu"
 msgstr "メニュー"
 
@@ -1341,7 +1309,7 @@ msgstr "マウント"
 msgid "Moved system subvolume to snapshot directory"
 msgstr "システムのサブボリュームをスナップショットディレクトリに移動しました"
 
-#: src/Gtk/MainWindow.vala:804
+#: src/Gtk/MainWindow.vala:794
 msgid "Multiple snapshots selected"
 msgstr "複数のスナップショットが選択されています"
 
@@ -1363,15 +1331,15 @@ msgstr "いいえ"
 msgid "No Change"
 msgstr "変更なし"
 
-#: src/Gtk/DeleteWindow.vala:335 src/Gtk/MainWindow.vala:623
+#: src/Gtk/DeleteWindow.vala:335 src/Gtk/MainWindow.vala:613
 msgid "No Snapshots Selected"
 msgstr "スナップショットが選択されていません"
 
-#: src/Gtk/MainWindow.vala:1043
+#: src/Gtk/MainWindow.vala:1023
 msgid "No snapshots available"
 msgstr "利用可能なスナップショットがありません"
 
-#: src/Gtk/MainWindow.vala:987 src/AppConsole.vala:329
+#: src/Gtk/MainWindow.vala:967 src/AppConsole.vala:329
 #: src/Core/SnapshotRepo.vala:831
 msgid "No snapshots found"
 msgstr "スナップショットが見つかりません"
@@ -1380,7 +1348,7 @@ msgstr "スナップショットが見つかりません"
 msgid "No snapshots found on device"
 msgstr "次のデバイスにはスナップショットが見つかりません"
 
-#: src/Gtk/MainWindow.vala:544
+#: src/Gtk/MainWindow.vala:534
 msgid "No snapshots on device"
 msgstr "デバイスにスナップショットがありません"
 
@@ -1388,11 +1356,11 @@ msgstr "デバイスにスナップショットがありません"
 msgid "No snapshots on this device"
 msgstr "このデバイスにはスナップショットがありません"
 
-#: src/Gtk/MainWindow.vala:797
+#: src/Gtk/MainWindow.vala:787
 msgid "No snapshots selected"
 msgstr "スナップショットが選択されていません"
 
-#: src/Gtk/MainWindow.vala:1020 src/Gtk/MainWindow.vala:1022
+#: src/Gtk/MainWindow.vala:1000 src/Gtk/MainWindow.vala:1002
 msgid "None"
 msgstr "なし"
 
@@ -1453,7 +1421,7 @@ msgstr ""
 msgid "Older log files removed"
 msgstr "古いログファイルを削除しました"
 
-#: src/Gtk/MainWindow.vala:1021
+#: src/Gtk/MainWindow.vala:1001
 msgid "Oldest snapshot"
 msgstr "最古のスナップショット"
 
@@ -1469,7 +1437,7 @@ msgstr ""
 "@ および @home サブボリュームを備えた Ubuntu 指定のレイアウトのみが、現在サ"
 "ポートされています。"
 
-#: src/Gtk/MainWindow.vala:207
+#: src/Gtk/MainWindow.vala:184
 msgid "Open Menu"
 msgstr "メニューを開きます"
 
@@ -1523,29 +1491,29 @@ msgstr "パターン"
 msgid "Pause"
 msgstr "一時停止"
 
-#: src/Gtk/MainWindow.vala:396
+#: src/Gtk/MainWindow.vala:361
+msgid "Pause Snapshots"
+msgstr "スナップショットの作成を一時停止"
+
+#: src/Gtk/MainWindow.vala:370
+msgid "Pause Until Shutdown"
+msgstr "シャットダウンするまで一時停止"
+
+#: src/Gtk/MainWindow.vala:386
 msgid "Pause for 12h"
 msgstr "12 時間後まで一時停止"
 
-#: src/Gtk/MainWindow.vala:384
+#: src/Gtk/MainWindow.vala:374
 msgid "Pause for 30min"
 msgstr "30 分後まで一時停止"
 
-#: src/Gtk/MainWindow.vala:388
+#: src/Gtk/MainWindow.vala:378
 msgid "Pause for 4h"
 msgstr "4 時間後まで一時停止"
 
-#: src/Gtk/MainWindow.vala:392
+#: src/Gtk/MainWindow.vala:382
 msgid "Pause for 8h"
 msgstr "8 時間後まで一時停止"
-
-#: src/Gtk/MainWindow.vala:371
-msgid "Pause snapshots"
-msgstr "スナップショットの作成を一時停止"
-
-#: src/Gtk/MainWindow.vala:380
-msgid "Pause until shutdown"
-msgstr "シャットダウンするまで一時停止"
 
 #: src/Gtk/BackupBox.vala:137 src/Gtk/BackupBox.vala:278
 msgid "Paused"
@@ -1584,7 +1552,7 @@ msgstr ""
 msgid "Please save your work and close all applications."
 msgstr "未保存のデータを保存し、すべてのアプリケーションを終了させてください。"
 
-#: src/Gtk/MainWindow.vala:709
+#: src/Gtk/MainWindow.vala:699
 msgid "Please select a snapshot to view the log!"
 msgstr "ログを表示するスナップショットを選択してください！"
 
@@ -1596,7 +1564,7 @@ msgstr "GRUB デバイスを選択してください"
 msgid "Please wait a few minutes and try again."
 msgstr "しばらくしてからもう一度試してください。"
 
-#: src/Gtk/MainWindow.vala:766
+#: src/Gtk/MainWindow.vala:756
 msgid "Please wait for snapshots to be deleted."
 msgstr "スナップショットが削除されるまでお待ちください。"
 
@@ -1725,7 +1693,7 @@ msgid "Removing snapshots"
 msgstr "スナップショットを削除しています"
 
 #: src/Gtk/RestoreFinishBox.vala:71 src/Gtk/RestoreWindow.vala:125
-#: src/Gtk/MainWindow.vala:149 src/Gtk/RsyncLogBox.vala:377
+#: src/Gtk/MainWindow.vala:146 src/Gtk/RsyncLogBox.vala:377
 #: src/Gtk/RsyncLogBox.vala:566 src/AppConsole.vala:376
 msgid "Restore"
 msgstr "復元"
@@ -1750,7 +1718,7 @@ msgstr "スナップショットを復元"
 msgid "Restore completed"
 msgstr "復元が完了しました"
 
-#: src/Gtk/MainWindow.vala:150
+#: src/Gtk/MainWindow.vala:147
 msgid "Restore selected snapshot"
 msgstr "選択したスナップショットを復元します"
 
@@ -1800,7 +1768,7 @@ msgstr ""
 "フィルターで含められたファイルは、スナップショットが作成されるときにバック"
 "アップされ、スナップショットが復元されるときに置き換えられます。"
 
-#: src/Gtk/BackupWindow.vala:204 src/Gtk/MainWindow.vala:375
+#: src/Gtk/BackupWindow.vala:204 src/Gtk/MainWindow.vala:365
 msgid "Resume"
 msgstr "再開"
 
@@ -1863,7 +1831,7 @@ msgstr "スケジュール"
 msgid "Scheduled snapshot in progress..."
 msgstr "定期スナップショットの作成が進行されています..."
 
-#: src/Gtk/ScheduleBox.vala:283 src/Gtk/MainWindow.vala:1037
+#: src/Gtk/ScheduleBox.vala:283 src/Gtk/MainWindow.vala:1017
 #: src/Core/Main.vala:1312
 msgid "Scheduled snapshots are disabled"
 msgstr "定期スナップショットが無効になっています"
@@ -1899,7 +1867,7 @@ msgstr ""
 msgid "Select GRUB device"
 msgstr "GRUB デバイスを選択"
 
-#: src/Gtk/MainWindow.vala:708
+#: src/Gtk/MainWindow.vala:698
 msgid "Select Snapshot"
 msgstr "スナップショットを選択してください"
 
@@ -1928,7 +1896,7 @@ msgstr "対象のデバイスを選択"
 msgid "Select a partition on this disk"
 msgstr "このディスクのパーティションを選択してください"
 
-#: src/Gtk/MainWindow.vala:805
+#: src/Gtk/MainWindow.vala:795
 msgid "Select a single snapshot to restore"
 msgstr "復元するスナップショットをひとつだけ選択してください"
 
@@ -1940,11 +1908,11 @@ msgstr "ルートファイルシステム (/) には別のデバイスを選択�
 msgid "Select another device or free up some space"
 msgstr "別のデバイスを選択するか、ディスクに空きを作ってください"
 
-#: src/Gtk/MainWindow.vala:538 src/Gtk/MainWindow.vala:545
+#: src/Gtk/MainWindow.vala:528 src/Gtk/MainWindow.vala:535
 msgid "Select another device to delete snapshots"
 msgstr "スナップショットを削除する、別のデバイスを選択してください"
 
-#: src/Gtk/MainWindow.vala:472
+#: src/Gtk/MainWindow.vala:462
 msgid "Select another device?"
 msgstr "別のデバイスを選択しますか？"
 
@@ -1992,7 +1960,7 @@ msgstr "一覧から削除するアイテムを選択してください"
 msgid "Select the snapshot device"
 msgstr "スナップショットデバイスを選択してください"
 
-#: src/Gtk/MainWindow.vala:798
+#: src/Gtk/MainWindow.vala:788
 msgid "Select the snapshot to restore"
 msgstr "復元するスナップショットを選択してください"
 
@@ -2000,7 +1968,7 @@ msgstr "復元するスナップショットを選択してください"
 msgid "Select the snapshots to be deleted"
 msgstr "削除するスナップショットを選択してください"
 
-#: src/Gtk/MainWindow.vala:624
+#: src/Gtk/MainWindow.vala:614
 msgid "Select the snapshots to mark for deletion"
 msgstr "削除待ちに指定するスナップショットを選択してください"
 
@@ -2036,7 +2004,7 @@ msgstr "選択したスナップショットデバイスはシステムディス
 msgid "Selected snapshot is marked for deletion"
 msgstr "選択したスナップショットは削除待ちに指定されています"
 
-#: src/Gtk/MainWindow.vala:829
+#: src/Gtk/MainWindow.vala:819
 msgid "Selected snapshot is marked for deletion and cannot be restored"
 msgstr ""
 "選択したスナップショットは削除待ちに指定されており、復元することができません"
@@ -2062,20 +2030,15 @@ msgstr "セッションのログファイル"
 msgid "Set snapshot description"
 msgstr "スナップショットの説明を設定します"
 
-#: src/Gtk/SettingsWindow.vala:56 src/Gtk/MainWindow.vala:179
-#: src/Gtk/MainWindow.vala:180
+#: src/Gtk/SettingsWindow.vala:56 src/Gtk/MainWindow.vala:342
 msgid "Settings"
 msgstr "設定"
-
-#: src/Gtk/MainWindow.vala:190
-msgid "Settings wizard"
-msgstr "設定ウィザード"
 
 #: src/Gtk/FinishBox.vala:58
 msgid "Setup Complete"
 msgstr "セットアップ完了"
 
-#: src/Gtk/SetupWizardWindow.vala:64
+#: src/Gtk/SetupWizardWindow.vala:64 src/Gtk/MainWindow.vala:348
 msgid "Setup Wizard"
 msgstr "セットアップウィザード"
 
@@ -2125,7 +2088,7 @@ msgstr "GRUB2 の再インストールをスキップします"
 msgid "Snapshot"
 msgstr "スナップショット"
 
-#: src/Gtk/MainWindow.vala:555
+#: src/Gtk/MainWindow.vala:545
 #, c-format
 msgid ""
 "Snapshot '%s' is being used by the system and cannot be deleted. Restart the "
@@ -2144,7 +2107,7 @@ msgstr "スナップショットを作成しました"
 msgid "Snapshot Levels"
 msgstr "スナップショットの頻度"
 
-#: src/Gtk/MainWindow.vala:765
+#: src/Gtk/MainWindow.vala:755
 msgid "Snapshot deletion in progress..."
 msgstr "スナップショットの削除が進行されています..."
 
@@ -2182,7 +2145,7 @@ msgstr "スナップショットは、システムの再起動後にアクティ
 msgid "Snapshot(s) Deleted"
 msgstr "スナップショットが削除されました"
 
-#: src/Gtk/DeleteWindow.vala:89 src/Gtk/MainWindow.vala:306
+#: src/Gtk/DeleteWindow.vala:89 src/Gtk/MainWindow.vala:283
 msgid "Snapshots"
 msgstr "スナップショット"
 
@@ -2260,7 +2223,7 @@ msgstr ""
 "スナップショットは、選択したパーティションの /timeshift-btrfs に保存されま"
 "す。他の場所はサポートされていません。"
 
-#: src/Gtk/MainWindow.vala:982
+#: src/Gtk/MainWindow.vala:962
 msgid "Snapshots available for restore"
 msgstr "復元できるスナップショットがあります"
 
@@ -2279,7 +2242,7 @@ msgstr ""
 msgid "Snapshots cannot be created in Live CD mode"
 msgstr "ライブ CD モードでは、スナップショットを作成することができません"
 
-#: src/Gtk/MainWindow.vala:1029
+#: src/Gtk/MainWindow.vala:1009
 msgid "Snapshots will be created at selected intervals"
 msgstr "スナップショットは選択した間隔で作成されます"
 
@@ -2369,7 +2332,7 @@ msgstr "構文"
 msgid "System"
 msgstr "システム"
 
-#: src/Gtk/MainWindow.vala:926
+#: src/Gtk/MainWindow.vala:906
 msgid "System Restore Utility"
 msgstr "システムの復元ユーティリティ"
 
@@ -2446,7 +2409,7 @@ msgstr ""
 "このソフトウェアは完全に無保証です。このソフトウェアを使用することで何らかの"
 "損害が生じたとしても、作者は一切責任を負いません。"
 
-#: src/Gtk/MainWindow.vala:1017 src/Gtk/MainWindow.vala:1028
+#: src/Gtk/MainWindow.vala:997 src/Gtk/MainWindow.vala:1008
 msgid "Timeshift is active"
 msgstr "Timeshift はアクティブです"
 
@@ -2580,9 +2543,9 @@ msgstr "作成の Rsync ログを表示"
 msgid "View Rsync Log for Restore"
 msgstr "復元の Rsync ログを表示"
 
-#: src/Gtk/MainWindow.vala:366
-msgid "View logs"
-msgstr "ログを表示"
+#: src/Gtk/MainWindow.vala:356
+msgid "View TimeShift Logs"
+msgstr "TimeShift のログを表示"
 
 #: src/Gtk/RestoreSummaryBox.vala:53 src/Core/Main.vala:2375
 msgid "Warning"
@@ -2607,10 +2570,6 @@ msgstr "週次スナップショットが有効になっています"
 #: src/Gtk/DeleteFinishBox.vala:63 src/Gtk/BackupFinishBox.vala:63
 msgid "With Errors"
 msgstr "(エラーがあります)"
-
-#: src/Gtk/MainWindow.vala:189
-msgid "Wizard"
-msgstr "ウィザード"
 
 #: src/Utility/Device.vala:1470 src/Utility/Device.vala:1516
 msgid "Wrong password"
