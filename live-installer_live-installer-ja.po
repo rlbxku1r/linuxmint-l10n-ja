@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
 "japanese\n"
 "POT-Creation-Date: 2026-11-09 19:08+0000\n"
-"PO-Revision-Date: 2026-11-12 23:44+0900\n"
+"PO-Revision-Date: 2026-11-13 13:22+0900\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
@@ -388,8 +388,8 @@ msgid ""
 "The defaults on this page suit most computers. If you are unsure, leave them "
 "as they are."
 msgstr ""
-"このページの既定値は、ほとんどのコンピューターにとって適切な構成となっていま"
-"す。よく分からなければ、そのままにしておいてください。"
+"このページの既定値は、ほとんどの場合において適切な構成となっています。よく分"
+"からなければ、そのままにしておいてください。"
 
 #: usr/lib/live-installer/main.py:453
 msgid "Encrypt the system partition"
@@ -598,8 +598,8 @@ msgid ""
 "This computer seems to be a laptop. A large swapfile of %(size)s is "
 "recommended for hibernation."
 msgstr ""
-"このコンピューターはノート PC のようです。ハイバネーションを活用するため、大"
-"きめな %(size)s のスワップファイルをおすすめします。"
+"ノートパソコンをお使いのようです。ハイバネーションを活用するため、大きめな "
+"%(size)s のスワップファイルをおすすめします。"
 
 #: usr/lib/live-installer/main.py:964
 #, python-format
@@ -607,8 +607,8 @@ msgid ""
 "This computer seems to be a laptop, but there is not enough disk space for "
 "hibernation. A swapfile of %(size)s is recommended."
 msgstr ""
-"このコンピューターはノート PC のようですが、ハイバネーション用の十分なディス"
-"ク領域がありません。%(size)s のスワップファイルをおすすめします。"
+"ノートパソコンをお使いのようですが、ハイバネーション用の十分なディスク領域が"
+"ありません。%(size)s のスワップファイルをおすすめします。"
 
 #: usr/lib/live-installer/main.py:966
 #, python-format
@@ -616,8 +616,8 @@ msgid ""
 "This computer doesn't seem to be a laptop, so you probably don't need "
 "hibernation. A small swapfile of %(size)s is recommended."
 msgstr ""
-"このコンピューターはノート PC ではないようなので、ハイバネーションも必要ない"
-"と思われます。小さめな %(size)s のスワップファイルをおすすめします。"
+"デスクトップパソコンをお使いのようなので、ハイバネーションも必要ないと思われ"
+"ます。小さめな %(size)s のスワップファイルをおすすめします。"
 
 #: usr/lib/live-installer/main.py:1136
 msgid "Unmount required"
